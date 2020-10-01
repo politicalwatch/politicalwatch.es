@@ -1,4 +1,11 @@
 export default {
-  home: 'Homepage',
-  about_title: 'About'
+  home: {
+    title: 'Homepage'
+  },
+  about: {
+    title: 'About'
+  },
+  transparency: {
+    title: 'Transparency'
+  }
 }

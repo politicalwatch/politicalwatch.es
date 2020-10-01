@@ -14,8 +14,13 @@
 
     <ul>
       <li>
-        <nuxt-link :to="localePath('/about')">
-          {{ $t('about_title') }}
+        <nuxt-link :to="localeRoute('/about')">
+          {{ $t('about.title') }}
+        </nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="localePath('/about/transparency')">
+          {{ $t('transparency.title') }}
         </nuxt-link>
       </li>
     </ul>
