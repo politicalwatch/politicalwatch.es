@@ -1,14 +1,17 @@
 export default {
   home: {
-    title: 'Homepage'
+    title: 'Home'
   },
   about: {
-    title: 'About'
+    title: 'About us'
   },
-  transparency: {
-    title: 'Transparency'
+  what: {
+    title: 'What we do'
+  },
+  join: {
+    title: 'Join'
   },
   blog: {
-    title: 'News'
+    title: 'Blog'
   }
 }

@@ -14,6 +14,26 @@ export default {
     }
 
     return { page }
+  },
+  head () {
+    return {
+      title: this.page.title,
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
+      meta: [
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.page.title
+        },
+        {
+          property: 'og:title',
+          hid: 'og:title',
+          content: this.page.title
+        }
+      ]
+    }
   }
 }
 </script>

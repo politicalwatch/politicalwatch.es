@@ -21,8 +21,7 @@
 <script>
 export default {
   name: 'Blog',
-  async asyncData (context) {
-    const { $content } = context
+  async asyncData ({ $content }) {
     const posts = await $content('es/blog').fetch()
 
     return {
@@ -31,6 +30,24 @@ export default {
         path: post.path.replace('/es', '')
       }))
     }
+  },
+  head: {
+    title: 'Blog',
+    htmlAttrs: {
+      lang: 'es'
+    },
+    meta: [
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Blog'
+      },
+      {
+        property: 'og:title',
+        hid: 'og:title',
+        content: 'Blog'
+      }
+    ]
   }
 }
 </script>

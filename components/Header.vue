@@ -14,13 +14,18 @@
 
     <ul>
       <li>
-        <nuxt-link :to="localeRoute('/nosotros')">
+        <nuxt-link :to="localeRoute('/nosotras')">
           {{ $t('about.title') }}
         </nuxt-link>
       </li>
       <li>
-        <nuxt-link :to="localePath('/nosotros/transparencia')">
-          {{ $t('transparency.title') }}
+        <nuxt-link :to="localePath('/que-hacemos')">
+          {{ $t('what.title') }}
+        </nuxt-link>
+      </li>
+      <li>
+        <nuxt-link :to="localePath('/participa')">
+          {{ $t('join.title') }}
         </nuxt-link>
       </li>
       <li>
