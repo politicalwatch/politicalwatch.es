@@ -12,8 +12,6 @@ export default {
     if (!page) {
       return error({ statusCode: 404, message: 'Page not found' })
     }
-    // eslint-disable-next-line no-console
-    console.log(page)
 
     return { page }
   }

@@ -7,5 +7,8 @@ export default {
   },
   transparency: {
     title: 'Transparencia'
+  },
+  blog: {
+    title: 'Noticias'
   }
 }
