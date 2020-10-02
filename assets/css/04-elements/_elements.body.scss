@@ -1,0 +1,10 @@
+body {
+  @include tbody1;
+
+  color: $brand;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}

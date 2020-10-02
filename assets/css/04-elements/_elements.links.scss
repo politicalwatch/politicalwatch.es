@@ -1,0 +1,9 @@
+a {
+  @include basic-transition(color);
+
+  color: $primary;
+
+  @include on-event {
+    color: $brand;
+  }
+}

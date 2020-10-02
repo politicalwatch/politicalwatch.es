@@ -1,0 +1,11 @@
+@function rem($size) {
+  $rem-size: $size / 16px;
+
+  @return #{$rem-size}rem;
+}
+
+@function gap($times: 1) {
+  $rem-size: ($gap * $times) / 16px;
+
+  @return #{$rem-size}rem;
+}

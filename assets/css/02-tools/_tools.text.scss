@@ -1,0 +1,75 @@
+@mixin th1 {
+  background-color: $brand;
+  color: $white;
+  display: table;
+  font-family: $font-secondary;
+  font-size: rem(24px);
+  font-weight: 800;
+  line-height: 1.33;
+  padding: gap(1) gap(2);
+  text-transform: uppercase;
+
+  @media (min-width: $md) {
+    font-size: rem(40px);
+    line-height: 1.2;
+  }
+}
+
+@mixin th2 {
+  background-color: $brand;
+  color: $white;
+  display: table;
+  font-family: $font-secondary;
+  font-size: rem(20px);
+  font-weight: 800;
+  line-height: 1.6;
+  padding: gap(1) gap(2);
+  text-transform: uppercase;
+
+  @media (min-width: $md) {
+    font-size: rem(32px);
+    line-height: 1.25;
+  }
+}
+
+@mixin th3 {
+  font-family: $font-secondary;
+  font-size: rem(18px);
+  font-weight: 900;
+  line-height: 1.33;
+
+  @media (min-width: $md) {
+    font-size: rem(24px);
+  }
+}
+
+@mixin th4 {
+  font-family: $font-secondary;
+  font-size: rem(16px);
+  font-weight: 900;
+  line-height: 1.5;
+
+  @media (min-width: $md) {
+    font-size: rem(18px);
+    line-height: 1.78;
+  }
+}
+
+@mixin subtitle {
+  font-family: $font-secondary;
+  font-size: rem(20px);
+  font-weight: 300;
+  line-height: 1.2;
+
+  @media (min-width: $md) {
+    font-size: rem(24px);
+    font-weight: 300;
+    line-height: 1.33;
+  }
+}
+
+@mixin tbody1 {
+  font-family: $font-primary;
+  font-size: rem(18px);
+  line-height: 1.78;
+}
