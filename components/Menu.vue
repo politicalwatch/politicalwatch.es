@@ -1,5 +1,5 @@
 <template>
-  <nav class="c-menu">
+  <nav class="c-menu" :class="{ 'is-active' : active }">
     <ul class="c-menu__list">
       <li class="c-menu__item">
         <nuxt-link :to="localeRoute('/nosotras')">
@@ -27,7 +27,7 @@
         class="c-menu__item c-menu__item--lang"
       >
         <nuxt-link :to="switchLocalePath(locale.code)">
-          {{ locale.name }}
+          <icon-lang /> {{ locale.code }}
         </nuxt-link>
       </li>
     </ul>
@@ -35,10 +35,18 @@
 </template>
 
 <script>
+import iconLang from '~/assets/images/icon-lang.svg?inline'
+
 export default {
+  components: {
+    iconLang
+  },
+  props: {
+    active: Boolean
+  },
   computed: {
     availableLocales () {
-      return this.$i18n.locales
+      return this.$i18n.locales.filter(l => l.code !== this.$i18n.locale)
     }
   }
 }
