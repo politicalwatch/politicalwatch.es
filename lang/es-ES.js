@@ -1,4 +1,7 @@
 export default {
+  global: {
+    menuToggle: 'Menú'
+  },
   home: {
     title: 'Inicio'
   },

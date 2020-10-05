@@ -1,0 +1,104 @@
+.c-header {
+  @include container;
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: gap(4);
+  padding-top: gap(4);
+
+  &__logo {
+    display: block;
+    max-width: 200px;
+
+    @media (min-width: $xs) {
+      max-width: none;
+    }
+
+    svg {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  &__menu-toggle {
+    appearance: none;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    display: block;
+    flex: 0 0 gap(4);
+    height: gap(4);
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    width: gap(4);
+
+    @media (min-width: $md) {
+      display: none;
+    }
+
+    .text {
+      display: none;
+    }
+
+    .bar {
+      background: $brand;
+      display: block;
+      height: 6px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: 0.25s ease-in-out;
+      width: 100%;
+
+      &:nth-child(2) {
+        top: calc(50% - 3px);
+      }
+
+      &:nth-child(3) {
+        top: calc(100% - 6px);
+      }
+    }
+
+    &.is-active {
+      z-index: 10;
+
+      .bar {
+        background: $brand;
+
+        &:nth-child(1) {
+          top: 50%;
+          transform: rotate(135deg);
+        }
+
+        &:nth-child(2) {
+          opacity: 0;
+        }
+
+        &:nth-child(3) {
+          top: 50%;
+          transform: rotate(-135deg);
+        }
+      }
+    }
+  }
+
+  .c-menu {
+    align-items: center;
+    background-color: $primary;
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    justify-content: flex-start;
+    opacity: 0;
+    padding-top: 6.3rem;
+    position: fixed;
+    right: -100%;
+    top: 0;
+    transition: right 0.3s linear 0s;
+    visibility: hidden;
+    width: 100vw;
+    z-index: -1;
+  }
+}
