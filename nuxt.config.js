@@ -69,6 +69,7 @@ export default {
       }
     ],
     defaultLocale: 'es',
+    detectBrowserLanguage: false,
     vueI18n: {
       fallbackLocale: 'es',
       messages: {
