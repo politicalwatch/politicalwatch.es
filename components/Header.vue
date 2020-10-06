@@ -23,6 +23,11 @@ export default {
     return {
       isMenuActive: false
     }
+  },
+  created () {
+    this.$nuxt.$on('routeChanged', () => {
+      this.isMenuActive = false
+    })
   }
 }
 </script>

@@ -1,11 +1,12 @@
 <template>
-  <section>
+  <section class="o-container">
     <nuxt-content :document="page" />
   </section>
 </template>
 
 <script>
 export default {
+  name: 'Home',
   async asyncData ({ $content, params, app, error }) {
     const path = `/${app.i18n.locale}/${params.pathMatch || 'index'}`
     const [page] = await $content({ deep: true }).where({ path }).fetch()

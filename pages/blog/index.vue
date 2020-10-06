@@ -1,21 +1,16 @@
 <template>
-  <div class="blog container mx-auto">
-    <section class="grid grid-cols-3 gap-4 pt-12">
-      <article
-        v-for="(post, $index) in posts"
-        :key="`post-${$index}`"
-        class="post max-w-sm rounded overflow-hidden shadow-lg flex flex-col"
-      >
-        <div class="px-6 py-4 flex-2">
-          <h3>
-            <nuxt-link :to="localePath(post.path)">
-              {{ post.title }}
-            </nuxt-link>
-          </h3>
-        </div>
-      </article>
-    </section>
-  </div>
+  <section class="o-container">
+    <article
+      v-for="(post, $index) in posts"
+      :key="`post-${$index}`"
+    >
+      <h3>
+        <nuxt-link :to="localePath(post.path)">
+          {{ post.title }}
+        </nuxt-link>
+      </h3>
+    </article>
+  </section>
 </template>
 
 <script>

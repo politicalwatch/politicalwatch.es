@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="o-container">
     <nuxt-content :document="post" />
   </section>
 </template>

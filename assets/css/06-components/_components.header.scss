@@ -85,6 +85,8 @@
   }
 
   .c-menu {
+    @include basic-transition(left);
+
     background-color: $white;
     box-shadow: 10px 0 4px 0 rgba(0, 0, 0, 0.05);
     display: flex;
@@ -93,9 +95,18 @@
     padding: gap(16) gap(4) gap(4) gap(4);
     position: fixed;
     top: 0;
-    transition: left 0.3s linear;
     width: 66vw;
     z-index: 9;
+
+    @media (min-width: $md) {
+      box-shadow: none;
+      height: auto;
+      left: auto;
+      padding: 0;
+      position: unset;
+      top: auto;
+      width: auto;
+    }
 
     &.is-active {
       left: 0;
@@ -105,6 +116,10 @@
       list-style: none;
       margin: 0;
       padding: 0;
+
+      @media (min-width: $md) {
+        display: flex;
+      }
     }
 
     &__item {
@@ -115,8 +130,13 @@
       margin-bottom: gap(3);
       text-transform: uppercase;
 
+      @media (min-width: $md) {
+        margin: 0;
+      }
+
       a {
         color: $brand;
+        padding: 0 gap(2);
         text-decoration: none;
       }
 
@@ -124,9 +144,14 @@
         padding-top: gap(3);
         position: relative;
 
+        @media (min-width: $md) {
+          padding-top: 0;
+        }
+
         a {
           align-items: center;
           display: flex;
+          padding-left: gap(4);
         }
 
         svg {
@@ -142,6 +167,14 @@
           position: absolute;
           top: 0;
           width: gap(2);
+
+          @media (min-width: $md) {
+            height: gap(2);
+            left: gap(1);
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+          }
         }
       }
     }
