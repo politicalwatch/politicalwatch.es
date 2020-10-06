@@ -85,15 +85,15 @@
   }
 
   .c-menu {
-    @include basic-transition(left);
+    @include basic-transition(right);
 
     background-color: $white;
-    box-shadow: 10px 0 4px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: -10px 0 4px 0 rgba(0, 0, 0, 0.05);
     display: flex;
     height: 100vh;
-    left: -100%;
     padding: gap(16) gap(4) gap(4) gap(4);
     position: fixed;
+    right: -100%;
     top: 0;
     width: 66vw;
     z-index: 9;
@@ -101,15 +101,15 @@
     @media (min-width: $md) {
       box-shadow: none;
       height: auto;
-      left: auto;
       padding: 0;
       position: unset;
+      right: auto;
       top: auto;
       width: auto;
     }
 
     &.is-active {
-      left: 0;
+      right: 0;
     }
 
     &__list {
@@ -141,7 +141,7 @@
       }
 
       &--lang {
-        padding-top: gap(3);
+        padding: gap(3) 0 0 0;
         position: relative;
 
         @media (min-width: $md) {
@@ -151,7 +151,10 @@
         a {
           align-items: center;
           display: flex;
-          padding-left: gap(4);
+
+          @media (min-width: $md) {
+            padding: 0 gap(2) 0 gap(4);
+          }
         }
 
         svg {
@@ -163,7 +166,7 @@
           content: '';
           display: block;
           height: 1px;
-          left: 0;
+          left: gap(2);
           position: absolute;
           top: 0;
           width: gap(2);

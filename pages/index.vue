@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  layout: 'absolute',
   name: 'Home',
   async asyncData ({ $content, params, app, error }) {
     const path = `/${app.i18n.locale}/${params.pathMatch || 'index'}`
