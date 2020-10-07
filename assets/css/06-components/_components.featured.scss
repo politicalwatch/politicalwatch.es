@@ -1,0 +1,109 @@
+.c-featured {
+  @include container;
+
+  &__title {
+    @include th2;
+  }
+
+  &__item {
+    margin-bottom: gap(8);
+
+    @media (min-width: $md) {
+      position: relative;
+      padding-left: gap(11);
+      padding-top: gap(5);
+      margin-bottom: gap(12);
+    }
+
+    &-title {
+      font-family: $font-secondary;
+      font-size: rem(40px);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: left;
+      margin: 0 0 gap(3) 0;
+
+      @media (min-width: $md) {
+        font-size: rem(64px);
+        max-width: 50%;
+        margin: 0  0 gap(5) 0;
+      }
+    }
+
+    &-subtitle {
+      @include th3;
+
+      background-color: $white;
+      padding: 0 gap(2) gap(2) gap(2);
+      text-transform: uppercase;
+      margin: 0 0 0 gap(-2);
+      width: calc(100vw - #{gap(4)});
+      position: absolute;
+      z-index: 1;
+
+      @media (min-width: $md) {
+        width: auto;
+        display: inline-block;
+        padding: gap(1) gap(2) gap(1) 0;
+        margin: gap(3) 0;
+        position: relative;
+      }
+    }
+
+    &-image {
+      display: block;
+      margin: 0 0 gap(3) gap(-4);
+      max-width: 100vw;
+      width: 100vw;
+
+      @media (min-width: $md) {
+        max-width: 100%;
+        width: auto;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        max-height: 100%;
+      }
+    }
+
+    &-desc {
+      margin-bottom: gap(3);
+      color: $medium;
+
+      @media (min-width: $md) {
+        max-width: 50%;
+      }
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(472px, 1fr));
+  }
+
+  &__other {
+    border-top: 5px solid $brand;
+    padding-top: gap(4);
+    margin-bottom: gap(8);
+
+    @media (min-width: $md) {
+      border-top: 0;
+      box-shadow: inset 5px 0 0 0 $brand;
+      padding: 0 gap(11);
+    }
+
+    &-title {
+      font-family: $font-secondary;
+      font-size: rem(24px);
+      font-weight: bold;
+      line-height: 1.33;
+      margin: 0 0 gap(4) 0;
+    }
+
+    &-desc {
+      color: $medium;
+      margin-bottom: gap(4);
+    }
+  }
+}

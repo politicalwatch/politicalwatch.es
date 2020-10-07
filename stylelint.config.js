@@ -6,6 +6,7 @@ module.exports = {
   // add your custom config here
   // https://stylelint.io/user-guide/configuration
   rules: {
-    'max-nesting-depth': null
+    'max-nesting-depth': null,
+    'order/properties-alphabetical-order': null
   }
 }
