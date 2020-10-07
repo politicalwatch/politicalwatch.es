@@ -80,8 +80,10 @@
   }
 
   &__wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(472px, 1fr));
+    @media (min-width: $md) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
   &__other {
