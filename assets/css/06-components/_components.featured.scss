@@ -1,6 +1,8 @@
 .c-featured {
   @include container;
 
+  margin-bottom: gap(12);
+
   &__title {
     @include th2;
   }

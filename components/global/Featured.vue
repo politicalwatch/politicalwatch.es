@@ -19,12 +19,12 @@
       <div class="c-featured__item-desc">
         {{ featured.description }}
       </div>
-      <a :href="featured.button_link" class="c-button c-featured__item-more">{{ featured.button }}</a>
+      <a :href="featured.link" class="c-button c-featured__item-more">{{ featured.button }}</a>
     </article>
     <div v-if="others" class="c-featured__wrapper">
       <article
-        v-for="item in others"
-        :key="item"
+        v-for="(item, i) in others"
+        :key="i"
         class="c-featured__other"
       >
         <h3 class="c-featured__other-title">
@@ -33,7 +33,7 @@
         <div class="c-featured__other-desc">
           {{ item.description }}
         </div>
-        <a :href="item.button_link" class="c-button c-featured__other-more">{{ item.button }}</a>
+        <a :href="item.link" class="c-button c-featured__other-more">{{ item.button }}</a>
       </article>
     </div>
   </section>
