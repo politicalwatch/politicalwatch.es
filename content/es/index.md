@@ -20,12 +20,12 @@ sections:
   - title: 'Democracia'
     image: /images/democracy.svg
     subtitle: 'Vigilancia ciudadana para una sociedad mejor'
-    button: 'Saber más'
+    button: 'Cuéntame más'
     link: '#link'
   - title: 'Coherencia'
     image: /images/coherence.svg
     subtitle: 'Políticas a la altura de los retos de nuestra era'
-    button: 'Saber más'
+    button: 'Cuéntame más'
     link: '#link'
 ---
 <hero></hero>

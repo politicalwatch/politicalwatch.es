@@ -1,0 +1,17 @@
+.c-link {
+  @include basic-transition(background-position, 0.05s);
+
+  font-family: $font-secondary;
+  font-size: rem(16px);
+  font-weight: 800;
+  line-height: 1.5;
+  color: $brand;
+  text-transform: uppercase;
+  padding-right: gap(3.5);
+  text-decoration: none;
+  background: url('~assets/images/icon-arrow.svg') right gap(0.5) center no-repeat;
+
+  &:hover {
+    background-position: right center;
+  }
+}
