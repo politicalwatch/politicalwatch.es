@@ -59,9 +59,3 @@ blogLatest: 2
 </banner>
 
 <blog-latest></blog-latest>
-
-<md-content>
-
-# Bienvenida a Political Watch
-
-</md-content>
