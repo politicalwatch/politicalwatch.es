@@ -21,4 +21,28 @@
   &__desc {
     margin-bottom: gap(4);
   }
+
+  &--blank {
+    color: $brand;
+
+    .c-banner {
+      &__wrapper {
+        position: relative;
+        padding-bottom: gap(6);
+
+        @media (min-width: $md) {
+          padding-bottom: gap(8);
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: calc(100% - #{gap(8)});
+          border-top: 5px solid $brand;
+          left: gap(4);
+        }
+      }
+    }
+  }
 }

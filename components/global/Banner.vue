@@ -1,6 +1,6 @@
 <template>
-  <section class="c-banner" :style="`background-image: url(${bg})`">
-    <div class="o-container">
+  <section class="c-banner" :style="`background-image: url(${bg})`" :class="{ 'c-banner--blank' : !bg }">
+    <div class="o-container c-banner__wrapper">
       <h3 class="c-banner__title">
         {{ title }}
       </h3>
