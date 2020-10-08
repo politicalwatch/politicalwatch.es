@@ -27,6 +27,7 @@ export default {
     newsletter: {
       title: 'No te pierdas nada',
       subtitle: 'Suscríbete',
+      placeholder: 'Escribe tu correo',
       send: 'Enviar'
     }
   }

@@ -1,0 +1,9 @@
+.c-footer {
+  background-color: $brand;
+  color: $white;
+  padding: gap(4) 0;
+
+  @media (min-width: $md) {
+    padding: gap(8) 0;
+  }
+}
