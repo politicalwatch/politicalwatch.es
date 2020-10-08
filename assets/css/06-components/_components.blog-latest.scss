@@ -1,0 +1,57 @@
+.c-blog-latest {
+  @include container;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-gap: gap(4);
+    margin-left: gap(-4);
+    width: 100vw;
+
+    @media (min-width: $sm) {
+      margin-left: 0;
+      width: auto;
+    }
+  }
+
+  &__post {
+    margin-bottom: gap(3);
+
+    @media (min-width: $md) {
+      padding-right: gap(12);
+    }
+
+    &-image {
+      display: block;
+      margin: 0;
+      width: 100%;
+    }
+
+    &-title {
+      font-family: $font-secondary;
+      font-size: rem(24px);
+      font-weight: bold;
+      line-height: 1.33;
+      background-color: $white;
+      padding: gap(4) gap(2) gap(3) gap(4);
+      position: relative;
+      margin: gap(-10) 0 gap(2) 0;
+      left: -1px;
+      max-width: calc(100% - #{gap(2)});
+
+      a {
+        color: $brand;
+        text-decoration: none;
+      }
+    }
+
+    &-desc {
+      color: $medium;
+      margin-bottom: gap(3);
+    }
+
+    &-wrapper {
+      padding: 0 gap(4);
+    }
+  }
+}

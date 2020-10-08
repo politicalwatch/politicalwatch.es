@@ -27,6 +27,7 @@ sections:
     subtitle: 'Políticas a la altura de los retos de nuestra era'
     button: 'Cuéntame más'
     link: '#link'
+blogLatest: 2
 ---
 <hero></hero>
 
@@ -49,6 +50,15 @@ sections:
   button="Saber más"
   link="#enlace">
 </banner>
+
+<banner
+  title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  description="Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo."
+  button="Saber más"
+  link="#enlace">
+</banner>
+
+<blog-latest></blog-latest>
 
 <md-content>
 

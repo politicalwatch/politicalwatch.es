@@ -17,7 +17,7 @@
 export default {
   name: 'Blog',
   async asyncData ({ $content }) {
-    const posts = await $content('es/blog').fetch()
+    const posts = await $content('es/blog').sortBy('updatedAt', 'desc').fetch()
 
     return {
       posts: posts.map(post => ({

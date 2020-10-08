@@ -1,10 +1,10 @@
 ---
-title: Hola Mundo
+title: Vitae elementum arcu integer eu
 img: '/images/blog-post.jpg'
 description: 'Hendrerit nulla odio consequat natoque sed eleifend convallis non. Nisl viverra tincidunt id vitae urna sapien lacinia.'
 ---
 
-# Hola Mundo, esto es el primer post
+# Vitae elementum arcu integer eu
 
 ---
 __Advertisement :)__
