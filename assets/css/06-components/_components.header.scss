@@ -146,6 +146,10 @@
         color: $brand;
         padding: 0 gap(2);
         text-decoration: none;
+
+        &:hover {
+          color: $primary;
+        }
       }
 
       &--lang {
