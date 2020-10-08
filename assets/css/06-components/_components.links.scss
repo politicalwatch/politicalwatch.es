@@ -1,5 +1,5 @@
 .c-link {
-  @include basic-transition(background-position, 0.05s);
+  @include basic-transition(background-position, 0.1s, $easing: linear);
 
   font-family: $font-secondary;
   font-size: rem(16px);
