@@ -11,11 +11,13 @@
         :key="`post-${$index}`"
         class="c-blog-latest__post"
       >
-        <img
-          :src="post.img"
-          :alt="post.title"
-          class="c-blog-latest__post-image"
-        >
+        <nuxt-link :to="localePath(post.path)">
+          <img
+            :src="post.img"
+            :alt="post.title"
+            class="c-blog-latest__post-image"
+          >
+        </nuxt-link>
         <h3 class="c-blog-latest__post-title">
           <nuxt-link :to="localePath(post.path)">
             {{ post.title }}

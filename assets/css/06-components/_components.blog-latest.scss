@@ -48,6 +48,10 @@
       a {
         color: $brand;
         text-decoration: none;
+
+        &:hover {
+          color: $primary;
+        }
       }
     }
 
