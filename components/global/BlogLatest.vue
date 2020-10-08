@@ -1,8 +1,8 @@
 <template>
   <section class="c-blog-latest">
     <section-header
-      title="Blog"
-      button="Ir al blog"
+      :title="$t('blog.title')"
+      :button="$t('blog.goto')"
       link="/blog"
     />
     <div class="c-blog-latest__wrapper">
@@ -26,7 +26,7 @@
             {{ post.description }}
           </div>
           <nuxt-link class="c-button c-button--outline" :to="localePath(post.path)">
-            Leer más
+            {{ $t('blog.readmore') }}
           </nuxt-link>
         </div>
       </article>
