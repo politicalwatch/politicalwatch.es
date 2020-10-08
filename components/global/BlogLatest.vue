@@ -1,5 +1,10 @@
 <template>
   <section class="c-blog-latest">
+    <section-header
+      title="Blog"
+      button="Ir al blog"
+      link="/blog"
+    />
     <div class="c-blog-latest__wrapper">
       <article
         v-for="(post, $index) in latestPosts"
