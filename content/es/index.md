@@ -42,6 +42,14 @@ sections:
   :sections="sections">
 </sections>
 
+<banner
+  bg="/images/bgbanner.jpg"
+  title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  description="Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo."
+  button="Saber más"
+  link="#enlace">
+</banner>
+
 <md-content>
 
 # Bienvenida a Political Watch
