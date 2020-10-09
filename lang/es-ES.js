@@ -1,6 +1,9 @@
 export default {
   global: {
-    menuToggle: 'Menú'
+    menuToggle: 'Menú',
+    legalNotice: 'Aviso legal',
+    privacyPolicy: 'Política de privacidad',
+    developedBy: 'Diseño y desarrollo'
   },
   home: {
     title: 'Inicio'
