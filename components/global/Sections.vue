@@ -1,6 +1,10 @@
 <template>
   <section class="c-sections">
-    <page-header :title="title" :subtitle="subtitle" />
+    <page-header
+      v-if="title || subtitle"
+      :title="title"
+      :subtitle="subtitle"
+    />
     <div class="c-sections__wrapper">
       <article
         v-for="(section, i) in sections"

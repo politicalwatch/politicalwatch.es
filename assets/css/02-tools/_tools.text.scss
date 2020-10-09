@@ -37,6 +37,7 @@
   font-size: rem(18px);
   font-weight: 900;
   line-height: 1.33;
+  color: $brand;
 
   @media (min-width: $md) {
     font-size: rem(24px);
@@ -48,6 +49,7 @@
   font-size: rem(16px);
   font-weight: 900;
   line-height: 1.5;
+  color: $brand;
 
   @media (min-width: $md) {
     font-size: rem(18px);
@@ -60,6 +62,7 @@
   font-size: rem(20px);
   font-weight: 300;
   line-height: 1.6;
+  color: $brand;
 
   @media (min-width: $md) {
     font-size: rem(24px);
@@ -72,4 +75,5 @@
   font-family: $font-primary;
   font-size: rem(18px);
   line-height: 1.78;
+  color: $medium;
 }

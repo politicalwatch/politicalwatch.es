@@ -1,20 +1,37 @@
 <template>
-  <section class="o-container">
+  <main class="c-page" :class="`is-${page.slug}`">
+    <div class="o-container">
+      <page-header
+        :title="page.title"
+        :subtitle="page.subtitle"
+        type="h1"
+      />
+    </div>
     <nuxt-content :document="page" />
-  </section>
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'Page',
+  name: 'Home',
   async asyncData ({ $content, params, app, error }) {
+    let posts = []
     const path = `/${app.i18n.locale}/${params.pathMatch || 'index'}`
     const [page] = await $content({ deep: true }).where({ path }).fetch()
     if (!page) {
       return error({ statusCode: 404, message: 'Page not found' })
     }
 
-    return { page }
+    if (page.blogLatest) {
+      posts = await $content('es/blog').sortBy('updatedAt', 'desc').limit(page.blogLatest).fetch()
+
+      posts = posts.map(post => ({
+        ...post,
+        path: post.path.replace('/es', '')
+      }))
+    }
+
+    return { page, posts }
   },
   head () {
     return {

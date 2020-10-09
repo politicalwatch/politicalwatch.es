@@ -1,5 +1,7 @@
 <template>
-  <nuxt-content :document="page" />
+  <main class="c-page is-home">
+    <nuxt-content :document="page" />
+  </main>
 </template>
 
 <script>

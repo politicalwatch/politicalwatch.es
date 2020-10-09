@@ -1,6 +1,8 @@
 <template>
   <section class="c-content">
-    <slot />
+    <div class="c-content__wrapper">
+      <slot />
+    </div>
   </section>
 </template>
 
