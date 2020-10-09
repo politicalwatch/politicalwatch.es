@@ -22,7 +22,7 @@ export default {
   blocks: {
     hero: {
       title: 'Datos para <span>el cambio social</span>',
-      subtitle: 'El think and do tank <span>de la Fundación Salvador Soler</span>'
+      subtitle: 'El think-and-do tank <span>de la Fundación Salvador Soler</span>'
     },
     newsletter: {
       title: 'No te pierdas nada',
