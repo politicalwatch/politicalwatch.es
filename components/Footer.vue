@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="c-footer__copyright o-container">
-      <p>Politicalwatch © 2020 - <a href="#">Aviso legal</a> - <a href="#">Política de privacidad</a></p>
+      <p>Political Watch © {{ (new Date()).getFullYear()   }} - <a href="#">Aviso legal</a> - <a href="#">Política de privacidad</a></p>
       <p>Diseño y desarrollo - <a target="_blank" href="http://ungrynerd.com">UNGRYNERD</a></p>
     </div>
   </footer>
