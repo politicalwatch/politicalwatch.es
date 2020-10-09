@@ -2,8 +2,74 @@
   background-color: $brand;
   color: $white;
   padding: gap(4) 0;
+  font-size: rem(14px);
+  line-height: 1.71;
 
   @media (min-width: $md) {
     padding: gap(8) 0;
+  }
+
+  a {
+    color: $white;
+    font-weight: bold;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-flow: column;
+
+    @media (min-width: $md) {
+      flex-flow: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  }
+
+  &__address {
+    margin: gap(4) 0;
+
+    @media (min-width: $md) {
+      margin: 0;
+    }
+
+    p {
+      margin: gap(1) 0;
+    }
+  }
+
+  &__social {
+    margin-left: gap(-1);
+
+    a {
+      @include basic-transition(opacity);
+
+      display: inline-block;
+      padding: 0 gap(1);
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  &__copyright {
+    position: relative;
+    top: gap(2);
+
+    @media (min-width: $md) {
+      top: gap(7);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    p {
+      margin: gap(1) 0;
+    }
   }
 }
