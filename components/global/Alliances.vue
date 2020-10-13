@@ -9,6 +9,7 @@
           v-for="(alliance, i) in alliances"
           :key="i"
           :href="alliance.link"
+          target="_blank"
           class="c-alliances__item"
         >
           <img :src="alliance.image" :alt="alliance.title">
