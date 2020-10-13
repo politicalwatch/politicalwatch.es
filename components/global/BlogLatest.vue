@@ -1,5 +1,5 @@
 <template>
-  <section class="c-blog-latest">
+  <section class="c-blog-latest o-container">
     <section-header
       :title="$t('blog.title')"
       :button="$t('blog.goto')"

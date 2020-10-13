@@ -1,6 +1,4 @@
 .c-blog-latest {
-  @include container;
-
   margin-bottom: gap(4);
 
   @media (min-width: $md) {
@@ -8,20 +6,20 @@
   }
 
   &__wrapper {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
-    grid-gap: gap(4);
     margin-left: gap(-4);
     width: 100vw;
 
     @media (min-width: $sm) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      grid-gap: gap(4);
       margin-left: 0;
       width: auto;
     }
   }
 
   &__post {
-    margin-bottom: gap(3);
+    margin-bottom: gap(4);
 
     @media (min-width: $md) {
       padding-right: gap(12);
