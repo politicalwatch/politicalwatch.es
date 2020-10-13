@@ -94,7 +94,7 @@
   }
 
   &__other {
-    border-top: 5px solid $brand;
+    border-top: $border-width solid $brand;
     padding-top: gap(4);
     margin-bottom: gap(8);
 

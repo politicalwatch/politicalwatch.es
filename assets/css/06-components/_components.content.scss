@@ -4,6 +4,48 @@
   &__wrapper {
     max-width: $container-small-px;
   }
+
+  blockquote {
+    display: block;
+    margin-left: -$grid-gap;
+    padding-left: $grid-gap;
+    border-left: $border-width solid $primary;
+    font-family: $font-secondary;
+    font-size: rem(24px);
+    font-weight: 300;
+    line-height: 1.33;
+
+    @media (min-width: $md) {
+      margin: gap(4) auto;
+    }
+
+    h5,
+    h6 {
+      margin: 0;
+      font-size: rem(18px);
+      line-height: 1.78;
+      text-align: left;
+      color: $brand;
+    }
+
+    h6 {
+      font-weight: normal;
+    }
+  }
+
+  hr {
+    margin: gap(4) auto;
+    border: 0;
+    border-bottom: $border-width solid $brand;
+
+    @media (min-width: $md) {
+      margin: gap(8) auto;
+    }
+  }
+
+  a {
+    font-weight: bold;
+  }
 }
 
 .nuxt-content {
@@ -40,11 +82,58 @@
   > p img {
     display: block;
     margin: gap(2) auto;
-    max-width: $container-px - $gap * 8;
+    max-width: $container-px - $grid-gap * 2;
     width: 100%;
 
     @media (min-width: $md) {
       margin: gap(4) auto;
     }
+  }
+
+  > blockquote {
+    display: block;
+    margin: gap(2) auto;
+    max-width: $container-px;
+    width: 100%;
+    padding: 0 $grid-gap;
+    border-left: $border-width solid $primary;
+    font-family: $font-secondary;
+    font-size: rem(24px);
+    font-weight: 300;
+    line-height: 1.33;
+
+    @media (min-width: $md) {
+      margin: gap(4) auto;
+    }
+
+    h5,
+    h6 {
+      margin: 0;
+      font-size: rem(18px);
+      line-height: 1.78;
+      text-align: left;
+      color: $brand;
+    }
+
+    h6 {
+      font-weight: normal;
+    }
+  }
+
+  > hr {
+    display: block;
+    margin: gap(4) auto;
+    max-width: $container-px - $grid-gap * 2;
+    width: 100%;
+    border: 0;
+    border-bottom: $border-width solid $brand;
+
+    @media (min-width: $md) {
+      margin: gap(8) auto;
+    }
+  }
+
+  > * > a {
+    font-weight: bold;
   }
 }

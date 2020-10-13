@@ -39,7 +39,7 @@
           position: absolute;
           bottom: 0;
           width: calc(100% - #{gap(8)});
-          border-top: 5px solid $brand;
+          border-top: $border-width solid $brand;
           left: gap(4);
         }
       }
