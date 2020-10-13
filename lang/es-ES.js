@@ -40,13 +40,13 @@ export default {
         title: 'Democracia',
         subtitle: 'Vigilancia ciudadana para una sociedad mejor',
         button: 'Cuéntame más',
-        link: '#link'
+        link: '/que-hacemos/democracia'
       },
       coherence: {
         title: 'Coherencia',
         subtitle: 'Políticas a la altura de los retos de nuestra era',
         button: 'Cuéntame más',
-        link: '#link'
+        link: '/que-hacemos/coherencia'
       }
     },
     team: {

@@ -5,11 +5,14 @@
 
   h2 {
     @include th2;
+
+    margin: gap(6) 0 gap(4) 0;
   }
 
   h3 {
     @include th3;
 
+    margin: gap(6) 0 gap(4) 0;
     text-transform: uppercase;
   }
 }
