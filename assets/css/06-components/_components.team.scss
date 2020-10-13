@@ -1,0 +1,89 @@
+.c-team {
+  &__title {
+    @include th2;
+
+    margin: 0 0 gap(4) 0;
+
+    @media (min-width: $md) {
+      margin-bottom: gap(8);
+    }
+  }
+
+  &__wrapper {
+    @media (min-width: $xs) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      grid-gap: gap(8) gap(4);
+    }
+  }
+
+  &__member {
+    margin-bottom: gap(4);
+    width: 100%;
+    color: $brand;
+    position: relative;
+
+    @media (min-width: $xs) {
+      margin-bottom: 0;
+    }
+
+    &-avatar {
+      display: block;
+    }
+
+    &-wrapper {
+      position: absolute;
+      transform: translateY(-100%);
+      display: inline-block;
+      background: $white;
+      padding: gap(2) gap(2) 0 0;
+      width: 75%;
+    }
+
+    &-name {
+      font-size: rem(18px);
+      font-weight: bold;
+      line-height: 1.78;
+      margin: 0;
+    }
+
+    &-position {
+      font-size: rem(14px);
+      line-height: 1.71;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    &-email {
+      font-weight: bold;
+      font-size: rem(14px);
+      line-height: 1.71;
+      margin: 0;
+    }
+
+    &-social {
+      list-style: none;
+      margin: gap(2) 0 0 0;
+      padding: 0;
+      display: flex;
+
+      li {
+        margin-right: gap(2);
+
+        svg {
+          path {
+            @include basic-transition(fill);
+          }
+        }
+
+        &:hover {
+          svg {
+            path {
+              fill: $brand;
+            }
+          }
+        }
+      }
+    }
+  }
+}

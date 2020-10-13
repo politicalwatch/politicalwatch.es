@@ -49,7 +49,7 @@
 }
 
 .nuxt-content {
-  ul {
+  > ul {
     list-style: none;
     padding: 0;
     margin: gap(2) 0 gap(2) gap(2);

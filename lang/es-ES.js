@@ -48,6 +48,9 @@ export default {
         button: 'Cuéntame más',
         link: '#link'
       }
+    },
+    team: {
+      title: 'Equipo'
     }
   }
 }
