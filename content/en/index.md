@@ -1,4 +1,7 @@
 ---
 title: Home
+blogLatest: 2
 ---
-# Welcome to Political Watch
+<hero></hero>
+
+<blog-latest></blog-latest>
