@@ -1,46 +1,6 @@
 ---
 title: '¿Qué hacemos?'
-team:
-  - name: 'Pablo Martín'
-    avatar: '/images/team/pablo-martin.jpg'
-    position: 'Director Tecnológico'
-    email: 'pablo.martin@politicalwatch.es'
-    web: '#'
-    twitter: '#'
-    github: '#'
-    linkedin: '#'
-  - name: 'Pablo Martín'
-    avatar: '/images/team/pablo-martin.jpg'
-    position: 'Director Tecnológico'
-    email: 'pablo.martin@politicalwatch.es'
-    web: '#'
-    twitter: '#'
-    github: '#'
-    linkedin: '#'
-  - name: 'Pablo Martín'
-    avatar: '/images/team/pablo-martin.jpg'
-    position: 'Director Tecnológico'
-    email: 'pablo.martin@politicalwatch.es'
-    web: '#'
-    twitter: '#'
-    github: '#'
-    linkedin: '#'
-  - name: 'Pablo Martín'
-    avatar: '/images/team/pablo-martin.jpg'
-    position: 'Director Tecnológico'
-    email: 'pablo.martin@politicalwatch.es'
-    web: '#'
-    twitter: '#'
-    github: '#'
-    linkedin: '#'
-  - name: 'Pablo Martín'
-    avatar: '/images/team/pablo-martin.jpg'
-    position: 'Director Tecnológico'
-    email: 'pablo.martin@politicalwatch.es'
-    web: '#'
-    twitter: '#'
-    github: '#'
-    linkedin: '#'
+team: 20
 alliances:
   - image: '/images/alliances/logooecd_en.png'
     link: 'http://www.oecd.org/pcd/thepcsdpartnership.htm'
@@ -91,6 +51,6 @@ CIECODE es el think tank de la Fundación Salvador Soler. Tenemos nuestra sede e
 
 ---
 
-<team :team="team"></team>
+<team></team>
 
 <alliances :alliances="alliances"></alliances>

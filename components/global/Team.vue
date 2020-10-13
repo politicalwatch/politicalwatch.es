@@ -54,10 +54,9 @@ export default {
     github,
     linkedin
   },
-  props: {
-    team: {
-      type: Array,
-      default: () => []
+  computed: {
+    team () {
+      return this.$parent.teamMembers
     }
   }
 }
