@@ -51,6 +51,9 @@ export default {
     },
     team: {
       title: 'Equipo'
+    },
+    alliances: {
+      title: 'Alianzas'
     }
   }
 }

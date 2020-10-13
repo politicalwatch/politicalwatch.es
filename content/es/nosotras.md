@@ -41,6 +41,40 @@ team:
     twitter: '#'
     github: '#'
     linkedin: '#'
+alliances:
+  - image: '/images/alliances/logooecd_en.png'
+    link: 'http://www.oecd.org/pcd/thepcsdpartnership.htm'
+    title: 'The PCSD Partnership - OCDE'
+  - image: '/images/alliances/logo-gpsdd-dark.svg'
+    link: 'http://www.data4sdgs.org/'
+    title: 'Polétika | Política + Ética'
+  - image: '/images/alliances/poletika.jpg'
+    link: 'http://www.poletika.org/'
+    title: 'Polétika | Política + Ética'
+  - image: '/images/alliances/reedes_logo3.jpg'
+    link: 'http://reedes.org/'
+    title: 'REEDES'
+  - image: '/images/alliances/CPA_logo_small1.jpg'
+    link: 'https://www.proacceso.org/'
+    title: 'Coalición Proacceso'
+  - image: '/images/alliances/opening-parliament.png'
+    link: 'https://www.openingparliament.org/'
+    title: 'OpeningParliament.org'
+  - image: '/images/alliances/marcaUPV_home61.png'
+    link: 'http://www.upv.es/contenidos/CATGO/'
+    title: 'Cátedra Govern Obert de la Universitat Politècnica de València'
+  - image: '/images/alliances/oda.png'
+    link: 'https://www.derechoalimentacion.org/'
+    title: 'Observatorio del Derecho a la Alimentación de España'
+  - image: '/images/alliances/cgd.png'
+    link: 'https://www.cgdev.org/'
+    title: 'Center for Global Development'
+  - image: '/images/alliances/upcomillas.png'
+    link: 'https://www.comillas.edu/es/'
+    title: 'Universidad Pontificia de Comillas'
+  - image: '/images/alliances/smartly.png'
+    link: 'https://www.insmartly.com/'
+    title: 'Smartly | Emprendedorismo Social en ODS'
 ---
 
 ![Minion](/images/lorempixel.jpg)
@@ -58,3 +92,5 @@ CIECODE es el think tank de la Fundación Salvador Soler. Tenemos nuestra sede e
 ---
 
 <team :team="team"></team>
+
+<alliances :alliances="alliances"></alliances>
