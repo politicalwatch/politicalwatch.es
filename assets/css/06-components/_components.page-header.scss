@@ -1,5 +1,11 @@
 .c-page-header {
   margin-bottom: gap(8);
+  background-position: right top;
+  background-repeat: no-repeat;
+
+  @media (max-width: $md) {
+    background-image: none !important;
+  }
 
   &__title {
     @include th1;

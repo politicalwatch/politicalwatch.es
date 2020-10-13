@@ -4,6 +4,7 @@
       <page-header
         :title="page.title"
         :subtitle="page.subtitle"
+        :image="page.image"
         type="h1"
       />
     </div>
