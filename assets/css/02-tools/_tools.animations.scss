@@ -24,7 +24,7 @@
 @keyframes topToBottom {
   0% {
     opacity: 0;
-    transform: translateY(-30px);
+    transform: translateY(gap(-1));
   }
 
   5% {
@@ -39,6 +39,6 @@
 
   50% {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(gap(1));
   }
 }

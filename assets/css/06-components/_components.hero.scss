@@ -28,14 +28,14 @@
   &__title {
     @include th3;
 
-    margin: 0 0 gap(20) 0;
+    margin: 0 0 gap(12) 0;
     text-transform: uppercase;
     position: relative;
     width: 100%;
 
     @media (min-width: $md) {
       font-size: rem(32px);
-      margin-bottom: gap(24);
+      margin-bottom: gap(16);
     }
 
     span {
