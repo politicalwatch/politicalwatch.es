@@ -35,4 +35,16 @@
       }
     }
   }
+
+  > img,
+  > p img {
+    display: block;
+    margin: gap(2) auto;
+    max-width: $container-px - $gap * 8;
+    width: 100%;
+
+    @media (min-width: $md) {
+      margin: gap(4) auto;
+    }
+  }
 }
