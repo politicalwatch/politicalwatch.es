@@ -41,7 +41,7 @@
     span {
       color: $primary;
       display: block;
-      font-size: rem(40px);
+      font-size: rem(35px);
       line-height: 1.2;
       animation: topToBottom 6s linear infinite 0s;
       opacity: 0;
@@ -49,7 +49,7 @@
       position: absolute;
 
       @media (min-width: $md) {
-        font-size: rem(56px);
+        font-size: rem(50px);
         line-height: 1;
       }
 
