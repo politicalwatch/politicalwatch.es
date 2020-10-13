@@ -17,7 +17,9 @@
           <h4 class="c-team__member-position">
             {{ member.position }}
           </h4>
-          <p class="c-team__member-email"><a :href="`mailto:${member.email}`">{{ member.email }}</a></p>
+          <p class="c-team__member-email">
+            <a :href="`mailto:${member.email}`">{{ member.email }}</a>
+          </p>
         </div>
         <ul class="c-team__member-social">
           <li v-if="member.web">
