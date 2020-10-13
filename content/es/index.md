@@ -16,17 +16,6 @@ othersItems:
     description: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.'
     button: 'Saber más'
     link: '#link'
-sections:
-  - title: 'Democracia'
-    image: /images/democracy.svg
-    subtitle: 'Vigilancia ciudadana para una sociedad mejor'
-    button: 'Cuéntame más'
-    link: '#link'
-  - title: 'Coherencia'
-    image: /images/coherence.svg
-    subtitle: 'Políticas a la altura de los retos de nuestra era'
-    button: 'Cuéntame más'
-    link: '#link'
 blogLatest: 2
 ---
 <hero></hero>
@@ -37,11 +26,7 @@ blogLatest: 2
   :others="othersItems">
 </featured>
 
-<sections
-  title="Qué hacemos"
-  subtitle="Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo."
-  :sections="sections">
-</sections>
+<lines-of-work></lines-of-work>
 
 <banner
   bg="/images/bgbanner.jpg"

@@ -2,19 +2,9 @@
 title: '¿Qué hacemos?'
 subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.'
 image: /images/democracy.svg
-sections:
-  - title: 'Democracia'
-    image: /images/democracy.svg
-    subtitle: 'Vigilancia ciudadana para una sociedad mejor'
-    button: 'Cuéntame más'
-    link: '#link'
-  - title: 'Coherencia'
-    image: /images/coherence.svg
-    subtitle: 'Políticas a la altura de los retos de nuestra era'
-    button: 'Cuéntame más'
-    link: '#link'
 ---
-<sections :sections="sections"></sections>
+
+<lines-of-work hide-title></lines-of-work>
 
 <md-content>
 
