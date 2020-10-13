@@ -20,19 +20,21 @@
     }
   }
 
-  &__content {
-    max-width: rem(530px);
+  &__content {    max-width: rem(560px);
+    flex: 1;
   }
 
   &__title {
     @include th3;
 
-    margin: 0 0 gap(3) 0;
+    margin: 0 0 gap(20) 0;
     text-transform: uppercase;
+    position: relative;
+    width: 100%;
 
     @media (min-width: $md) {
       font-size: rem(32px);
-      margin-bottom: gap(4);
+      margin-bottom: gap(24);
     }
 
     span {
@@ -40,10 +42,18 @@
       display: block;
       font-size: rem(40px);
       line-height: 1.2;
+      animation: topToBottom 6s linear infinite 0s;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
 
       @media (min-width: $md) {
         font-size: rem(56px);
         line-height: 1;
+      }
+
+      &:nth-child(2) {
+        animation-delay: 3s;
       }
     }
   }

@@ -24,7 +24,7 @@ export default {
   },
   blocks: {
     hero: {
-      title: 'Datos para <span>el cambio social</span>',
+      title: 'Datos para <span>el cambio social</span><span>La innovación política</span>',
       subtitle: 'El think-and-do tank <span>de la Fundación Salvador Soler</span>'
     },
     newsletter: {
