@@ -1,62 +1,28 @@
 ---
-title: '¿Qué hacemos?'
-subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.'
+title: 'Qué hacemos'
+subtitle: 'n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.'
 ---
 
 <lines-of-work hide-title></lines-of-work>
 
 <md-content>
 
-## ¿Cómo lo hacemos?
+### Investigación para el cambio social
 
-Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. [Risus consectetur tortor vestibulum](#) maecenas id quis quisque volutpat. Sit adipiscing nulla nulla turpis in sodales curabitur. Congue amet, fermentum facilisi in. Ac congue gravida aliquam facilisis feugiat dolor quam sed.
+El conocimiento y el pensamiento crítico son claves para impulsar la innovación y los cambios estructurales. Desde Political Watch creemos que la lucha contra la pobreza y la construcción de un mundo más justo y sostenible requieren de ideas nuevas que cuestionen los marcos preestablecidos. Por eso llevamos a cabo investigaciones transdisciplinares que, desde el rigor, ponen el foco en el desarrollo sostenible.
 
-* Una ciudadanía activa, consciente, informada y exigente.
-* Una clase política y un sector público responsables, informados y vigilados.
-* Un sector privado responsable, informado y vigilado.
-* Unos medios de comunicación sensibilizados e informados.
+### Tecnologías cívicas
 
-#### Titular h4
+La tecnología puede ser una herramienta clave en la evolución hacia una democracia más abierta y colaborativa. Un sistema donde las instituciones y la ciudadanía cuenten con mejores canales de comunicación y cooperación. Por ello desarrollamos herramientas digitales basadas en la colaboración y el software libre, promoviendo los valores del gobierno abierto.
 
-![Minion](/images/lorempixel.jpg)
+### Fortalecimiento de las capacidades
 
-CIECODE es el think tank de la Fundación Salvador Soler. Tenemos nuestra sede en Madrid, España. Nuestra misión es generar, en los países en los que trabajamos, [unas condiciones favorables para el diseño](#), adopción e implementación de políticas públicas y prácticas privadas que promuevan una sociedad más justa, equitativa y sostenible.
+Creemos que es momento de replantearse la forma en la que nuestros países diseñan e implementan sus políticas públicas. Para avanzar hacia un mundo más justo y sostenible necesitamos generar cambios estructurales en la forma de gobernar. Por ello colaboramos con administraciones públicas desarrollando junto a ellas nuevas metodologías y herramientas para el diseño y la implementación de políticas públicas coherentes.
 
-Entendemos que dichas condiciones favorables requieren de los siguientes componentes básicos:
+## Plan estratégico
 
-----
+Para guiar nuestro trabajo y orientarlo a la consecución de nuestros objetivos principales, desde 2019 elaboramos planes estratégicos bianuales, construidos de manera participativa entre todos los miembros del equipo. Puedes acceder al Plan Estratégico 2019-2021.
 
-CIECODE es el think tank de la Fundación Salvador Soler. Tenemos nuestra sede en Madrid, España. Nuestra misión es generar, en los países en los que trabajamos, unas condiciones favorables para el diseño, adopción e implementación de políticas públicas y prácticas privadas que promuevan una sociedad más justa, equitativa y sostenible.
-
-</md-content>
-
-![Minion](/images/lorempixel.jpg)
+[Descargar el Plan](#)
 
 <md-content>
-
-## ¿Cómo lo hacemos?
-
-Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. Risus consectetur tortor vestibulum maecenas id quis quisque volutpat. Sit adipiscing nulla nulla turpis in sodales curabitur. Congue amet, fermentum facilisi in. Ac congue gravida aliquam facilisis feugiat dolor quam sed.
-
-> "No apostar de manera decidida por la equidad y el desarrollo sostenible ha dejado de ser una opción. Necesitamos una ciudadanía informada, activa y exigente y una clase política vigilada y responsable."
-> ##### Pablo Martín
-> ###### Director Tecnológico
-
-Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. Risus consectetur tortor vestibulum maecenas id quis quisque volutpat. Sit adipiscing nulla nulla turpis in sodales curabitur. Congue amet, fermentum facilisi in. Ac congue gravida aliquam facilisis feugiat dolor quam sed.
-
-</md-content>
-
-> "No apostar de manera decidida por la equidad y el desarrollo sostenible ha dejado de ser una opción. Necesitamos una ciudadanía informada, activa y exigente y una clase política vigilada y responsable."
-> ##### Pablo Martín
-> ###### Director Tecnológico
-
-
-<md-content>
-
-### ¿Cómo lo hacemos?
-
-Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. Risus consectetur tortor vestibulum maecenas id quis quisque volutpat. Sit adipiscing nulla nulla turpis in sodales curabitur. Congue amet, fermentum facilisi in. Ac congue gravida aliquam facilisis feugiat dolor quam sed.
-
-</md-content>
-
-----
