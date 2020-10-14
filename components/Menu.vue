@@ -3,22 +3,22 @@
     <ul class="c-menu__list">
       <li class="c-menu__item">
         <nuxt-link :to="localeRoute('/nosotras')">
-          {{ $t('about.title') }}
+          {{ $t('pages.about.title') }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
         <nuxt-link :to="localePath('/que-hacemos')">
-          {{ $t('what.title') }}
+          {{ $t('pages.what.title') }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
         <nuxt-link :to="localePath('/participa')">
-          {{ $t('join.title') }}
+          {{ $t('pages.join.title') }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
         <nuxt-link to="/blog">
-          {{ $t('blog.title') }}
+          {{ $t('pages.blog.title') }}
         </nuxt-link>
       </li>
       <li

@@ -1,8 +1,8 @@
 <template>
   <section class="c-blog-latest o-container">
     <section-header
-      :title="$t('blog.title')"
-      :button="$t('blog.goto')"
+      :title="$t('blocks.blog.title')"
+      :button="$t('blocks.blog.goto')"
       link="/blog"
     />
     <div class="c-blog-latest__wrapper">
@@ -28,7 +28,7 @@
             {{ post.description }}
           </div>
           <nuxt-link class="c-button c-button--outline" :to="localePath(post.path)">
-            {{ $t('blog.readmore') }}
+            {{ $t('blocks.blog.button') }}
           </nuxt-link>
         </div>
       </article>

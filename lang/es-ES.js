@@ -1,26 +1,30 @@
 export default {
   global: {
     menuToggle: 'Menú',
-    legalNotice: 'Aviso legal',
-    privacyPolicy: 'Política de privacidad',
     developedBy: 'Diseño y desarrollo'
   },
-  home: {
-    title: 'Inicio'
-  },
-  about: {
-    title: 'Sobre nosotras'
-  },
-  what: {
-    title: 'Qué hacemos'
-  },
-  join: {
-    title: 'Participa'
-  },
-  blog: {
-    title: 'Blog',
-    goto: 'Ir al blog',
-    readmore: 'Leer más'
+  pages: {
+    home: {
+      title: 'Inicio'
+    },
+    about: {
+      title: 'Sobre nosotras'
+    },
+    what: {
+      title: 'Qué hacemos'
+    },
+    join: {
+      title: 'Participa'
+    },
+    blog: {
+      title: 'Blog'
+    },
+    legal: {
+      title: 'Aviso legal'
+    },
+    privacy: {
+      title: 'Política de privacidad'
+    }
   },
   blocks: {
     hero: {
@@ -32,6 +36,11 @@ export default {
       subtitle: 'Suscríbete',
       placeholder: 'Escribe tu correo',
       send: 'Enviar'
+    },
+    blog: {
+      title: 'Blog',
+      goto: 'Ir al blog',
+      button: 'Leer más'
     },
     linesOfWork: {
       title: 'Qué hacemos',
