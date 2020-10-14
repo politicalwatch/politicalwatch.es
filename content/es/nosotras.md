@@ -51,6 +51,10 @@ Contribuimos:
 * Promoviendo la vigilancia ciudadana, la participación y la rendición de cuentas.
 * Generando contenidos y espacios para estimular un debate público de calidad.
 
+> "No apostar de manera decidida por la equidad y el desarrollo sostenible ha dejado de ser una opción. Necesitamos una ciudadanía informada, activa y exigente y una clase política vigilada y responsable."
+> ##### Javier Pérez
+> ###### Director
+
 Political Watch pertenece a la [Fundación Salvador Soler](http://unmundosalvadorsoler.org), una entidad sin ánimo de lucro, declarada de utilidad pública e inscrita en el Registro de Fundaciones del Ministerio de Cultura desde el año 2010 (número de registro 962).
 
 ## Transparencia
