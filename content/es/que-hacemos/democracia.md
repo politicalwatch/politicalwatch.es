@@ -2,6 +2,7 @@
 title: 'Democracia'
 subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.'
 image: /images/democracy.svg
+projects: 10
 ---
 
 <md-content>
@@ -24,3 +25,5 @@ Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. [Ris
 </md-content>
 
 ---
+
+<projects></projects>

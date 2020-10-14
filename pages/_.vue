@@ -18,6 +18,7 @@ export default {
   async asyncData ({ $content, params, app, error }) {
     let posts = []
     let teamMembers = []
+    let projects = []
     const path = `/${app.i18n.locale}/${params.pathMatch || 'index'}`
     const [page] = await $content({ deep: true }).where({ path }).fetch()
     if (!page) {
@@ -36,8 +37,11 @@ export default {
     if (page.team) {
       teamMembers = await $content(`${app.i18n.locale}/equipo`).sortBy('updatedAt', 'desc').limit(page.team).fetch()
     }
+    if (page.projects) {
+      projects = await $content(`${app.i18n.locale}/proyectos`).sortBy('updatedAt', 'desc').limit(page.projects).fetch()
+    }
 
-    return { page, posts, teamMembers }
+    return { page, posts, teamMembers, projects }
   },
   head () {
     return {

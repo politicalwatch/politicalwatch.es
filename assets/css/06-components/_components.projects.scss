@@ -1,0 +1,54 @@
+.c-projects {
+  &__wrapper {
+    @media (min-width: $sm) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__project {
+    position: relative;
+
+    &-image {
+      display: block;
+    }
+
+    &-wrapper {
+      position: absolute;
+      bottom: gap(6);
+      left: gap(6);
+      max-width: 70%;
+
+      @media (min-width: $md) {
+        max-width: 42%;
+        bottom: gap(8);
+        left: gap(14);
+      }
+    }
+
+    &-title {
+      @include th4;
+
+      text-transform: uppercase;
+      background-color: $white;
+      padding: gap(1) gap(2);
+      display: inline-block;
+      margin: 0 0 gap(1) 0;
+
+      @media (min-width: $md) {
+        font-size: rem(16px);
+        line-height: 1.5;
+      }
+    }
+
+    &-subtitle {
+      font-size: rem(14px);
+      line-height: 1.71;
+      color: $brand;
+      background-color: $white;
+      padding: gap(1) gap(2);
+      display: inline-block;
+      margin-bottom: gap(1);
+    }
+  }
+}
