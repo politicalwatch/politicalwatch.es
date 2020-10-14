@@ -3,11 +3,6 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: gap(3);
-
-  @media (min-width: $md) {
-    margin-bottom: gap(8);
-  }
 
   &__title {
     @include th2;

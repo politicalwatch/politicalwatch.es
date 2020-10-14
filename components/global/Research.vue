@@ -1,5 +1,5 @@
 <template>
-  <section class="c-research o-container">
+  <section class="c-research o-container o-section">
     <section-header
       :title="$t('blocks.research.title')"
       :button="$t('blocks.research.goto')"

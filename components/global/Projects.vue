@@ -1,5 +1,5 @@
 <template>
-  <section class="c-projects">
+  <section class="c-projects o-section">
     <div class="o-container">
       <page-header
         :title="$t('blocks.projects.title')"

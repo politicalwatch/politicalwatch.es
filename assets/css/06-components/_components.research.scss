@@ -1,10 +1,4 @@
 .c-research {
-  margin-bottom: gap(4);
-
-  @media (min-width: $md) {
-    margin-bottom: gap(8);
-  }
-
   &__wrapper {
     @media (min-width: $xs) {
       display: grid;

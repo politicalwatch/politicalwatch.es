@@ -1,5 +1,5 @@
 <template>
-  <header class="c-section-header">
+  <header class="c-section-header o-section">
     <h2 class="c-section-header__title">
       {{ title }}
     </h2>

@@ -1,5 +1,5 @@
 <template>
-  <section class="c-alliances o-container">
+  <section class="c-alliances o-container o-section">
     <h2 class="c-alliances__title">
       {{ $t('blocks.alliances.title') }}
     </h2>
