@@ -1,7 +1,7 @@
 <template>
   <section class="c-research o-container o-section">
     <section-header
-      :title="$t('blocks.research.title')"
+      :title="title || $t('blocks.research.title')"
       :button="$t('blocks.research.goto')"
       link="/investigaciones"
     />
@@ -33,7 +33,7 @@
             target="_blank"
             class="c-button c-button--outline c-research__item-link"
           >
-            {{ $t('blocks.research.button') }}
+            {{ $t('blocks.research.button') }} <download />
           </a>
         </div>
       </article>
@@ -42,9 +42,19 @@
 </template>
 
 <script>
+import download from '~/assets/images/icon-download.svg?inline'
 
 export default {
   name: 'Research',
+  components: {
+    download
+  },
+  props: {
+    title: {
+      type: String,
+      default: ''
+    }
+  },
   computed: {
     research () {
       return this.$parent.research
