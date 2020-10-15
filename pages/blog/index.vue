@@ -1,15 +1,17 @@
 <template>
-  <section class="o-container">
-    <article
-      v-for="(post, $index) in posts"
-      :key="`post-${$index}`"
-    >
-      <h3>
-        <nuxt-link :to="localePath(post.path)">
-          {{ post.title }}
-        </nuxt-link>
-      </h3>
-    </article>
+  <section class="c-blog o-container o-section">
+    <page-header
+      :title="$t('blocks.blog.title')"
+      type="h1"
+    />
+    <div class="c-blog__wrapper">
+      <blog-list-post
+        v-for="(post, i) in posts"
+        :key="i"
+        :post="post"
+        no-button
+      />
+    </div>
   </section>
 </template>
 

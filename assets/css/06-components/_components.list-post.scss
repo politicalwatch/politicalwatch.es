@@ -1,0 +1,41 @@
+.c-list-post {
+  margin-bottom: gap(4);
+
+  &__image {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  &__title {
+    font-family: $font-secondary;
+    font-size: rem(24px);
+    font-weight: bold;
+    line-height: 1.33;
+    background-color: $white;
+    padding: gap(4) gap(2) 0 0;
+    position: relative;
+    margin: gap(-10) 0 gap(2) 0;
+    left: -1px;
+    max-width: calc(100% - #{gap(2)});
+
+    a {
+      color: $brand;
+      text-decoration: none;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &__desc {
+    font-size: rem(16px);
+    line-height: 1.5;
+    margin-bottom: gap(3);
+  }
+
+  &__wrapper {
+    padding: 0 gap(4) 0 0;
+  }
+}
