@@ -1,8 +1,8 @@
 <template>
   <header class="c-section-header o-section">
-    <h2 class="c-section-header__title">
+    <component :is="type" class="c-section-header__title">
       {{ title }}
-    </h2>
+    </component>
     <nuxt-link v-if="link && button" class="c-link" :to="localePath(link)">
       {{ button }}
     </nuxt-link>
@@ -24,6 +24,11 @@ export default {
     link: {
       type: String,
       default: ''
+    },
+    type: {
+      type: String,
+      default: 'h2',
+      validator: type => ['h1', 'h2'].includes(type)
     }
   }
 }

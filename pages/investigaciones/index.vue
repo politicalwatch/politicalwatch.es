@@ -1,5 +1,5 @@
 <template>
-  <research />
+  <research title-type="h1" />
 </template>
 
 <script>
