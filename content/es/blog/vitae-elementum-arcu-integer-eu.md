@@ -1,73 +1,44 @@
 ---
-title: Vitae elementum arcu integer eu
-img: '/images/blog-post.jpg'
+title: 'TiPi se hace mayor: cuando una tecnología cívica alcanza la madurez'
+image: '/images/blog-post.jpg'
 description: 'Hendrerit nulla odio consequat natoque sed eleifend convallis non. Nisl viverra tincidunt id vitae urna sapien lacinia.'
+author: pablo-martin
+related:
+  - vitae-elementum-arcu-integer-eu
+  - vitae-elementum-arcu-integer-eu-2
+  - hola-mundo
 ---
 
-# Vitae elementum arcu integer eu
+Además, y conforme fuimos desacoplando componentes en TiPi, vimos cómo los accesos a datos se realizaban desde diferentes partes de la plataforma. Para ello, hemos desarrollado un módulo [link text](http://dev.nodeca.com) en Python llamado tipi-data que servirá de punto común para conectar con la base de datos y que contenga de manera centralizada los modelos de información parlamentaria y las operaciones disponibles sobre los datos.
 
----
-__Advertisement :)__
+Además, y conforme fuimos desacoplando componentes en TiPi, vimos cómo los accesos a datos se realizaban desde diferentes partes de la plataforma. Para ello, hemos desarrollado un módulo en Python llamado tipi-data que servirá de punto común para conectar con la base de datos y que contenga de manera centralizada los modelos de información parlamentaria y las operaciones disponibles sobre los datos.
+
 
 - __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
   resize in browser.
 - __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
   i18n with plurals support and easy syntax.
 
-You will like those projects!
+Además, y conforme fuimos desacoplando componentes en TiPi, vimos cómo los accesos a datos se realizaban desde diferentes partes de la plataforma. Para ello, hemos desarrollado un módulo en Python llamado tipi-data que servirá de punto común para conectar con la base de datos y que contenga de manera centralizada los modelos de información parlamentaria y las operaciones disponibles sobre los datos.
 
 ---
 
-# h1 Heading 8-)
+# h1 Heading (not use this!)
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
 
-
-## Horizontal Rules
-
-___
-
----
-
-***
-
-
-## Typographic replacements
-
-Enable typographer option to see result.
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-
-test.. test... test..... test?..... test!....
-
-!!!!!! ???? ,,  -- ---
-
-"Smartypants, double quotes" and 'single quotes'
-
-
 ## Emphasis
 
-**This is bold text**
-
-__This is bold text__
-
-*This is italic text*
-
-_This is italic text_
-
-~~Strikethrough~~
+Además, y **This is bold text** conforme fuimos desacoplando componentes en TiPi, vimos cómo  los accesos a datos se realizaban desde diferentes partes *This is italic text* de la plataforma. Para ello, hemos desarrollado un módulo en Python llamado tipi-data que servirá de punto común para conectar con la base de datos y que contenga de manera centralizada los modelos de información parlamentaria y las operaciones ~~Strikethrough~~ disponibles sobre los datos.
 
 
 ## Blockquotes
 
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
-
+> Además, y conforme fuimos desacoplando componentes en TiPi, vimos cómo los accesos a datos se realizaban desde diferentes partes de la plataforma. Para ello, hemos desarrollado un módulo en Python llamado
 
 ## Lists
 
@@ -86,16 +57,6 @@ Ordered
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
 
 ## Code
 
@@ -132,35 +93,3 @@ console.log(foo(5));
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-

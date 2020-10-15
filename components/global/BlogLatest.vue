@@ -13,7 +13,7 @@
       >
         <nuxt-link :to="localePath(post.path)">
           <img
-            :src="post.img"
+            :src="post.image"
             :alt="post.title"
             class="c-blog-latest__post-image"
           >

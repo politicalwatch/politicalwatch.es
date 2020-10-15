@@ -15,4 +15,10 @@
     margin: gap(6) 0 gap(4) 0;
     text-transform: uppercase;
   }
+
+  h4 {
+    @include th4;
+
+    margin: gap(6) 0 gap(4) 0;
+  }
 }

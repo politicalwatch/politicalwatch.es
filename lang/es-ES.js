@@ -1,7 +1,8 @@
 export default {
   global: {
     menuToggle: 'Menú',
-    developedBy: 'Diseño y desarrollo'
+    developedBy: 'Diseño y desarrollo',
+    shareLabel: 'Compartir'
   },
   pages: {
     home: {

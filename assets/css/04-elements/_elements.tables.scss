@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+  font-size: rem(14px);
+  border-collapse: collapse;
+
+  thead {
+    th {
+      border: solid 1px $white;
+      background-color: $brand;
+      padding: gap(1) gap(2);
+      color: $white;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+
+  td {
+    border: solid 1px $white;
+    background-color: $light;
+    padding: gap(1) gap(2);
+    color: $medium;
+    font-weight: normal;
+  }
+}
