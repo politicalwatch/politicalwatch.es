@@ -40,7 +40,8 @@ export default {
 
     if (page.team) {
       teamMembers = await $content(`${app.i18n.locale}/equipo`)
-        .sortBy('updatedAt', 'desc')
+        .sortBy('order', 'desc')
+        .sortBy('name', 'asc')
         .limit(page.team)
         .fetch()
     }
