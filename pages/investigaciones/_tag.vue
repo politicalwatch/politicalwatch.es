@@ -14,7 +14,7 @@ export default {
   },
   head () {
     return {
-      title: 'this.post.title',
+      title: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' '),
       htmlAttrs: {
         lang: this.$i18n.locale
       },
@@ -22,12 +22,12 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'this.post.title'
+          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
         },
         {
           property: 'og:title',
           hid: 'og:title',
-          content: 'this.post.title'
+          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
         }
       ]
     }
