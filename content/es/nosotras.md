@@ -1,5 +1,5 @@
 ---
-title: '¿Qué hacemos?'
+title: 'Sobre nosotras'
 team: 20
 alliances:
   - image: '/images/alliances/logooecd_en.png'
@@ -37,19 +37,33 @@ alliances:
     title: 'Smartly | Emprendedorismo Social en ODS'
 ---
 
-![Minion](/images/lorempixel.jpg)
-
 <md-content>
 
-### Titular h3
+Political Watch es una organización independiente que, a través del desarrollo de tecnologías cívicas, acciones de incidencia e investigación, lucha por una sociedad más justa, democrática y sostenible.
 
-Porttitor cursus et diam mi. Interdum tempus erat mauris massa est egestas. [Risus consectetur tortor vestibulum](#) maecenas id quis quisque volutpat. Sit adipiscing nulla nulla turpis in sodales curabitur. Congue amet, fermentum facilisi in. Ac congue gravida aliquam facilisis feugiat dolor quam sed.
+Creemos:
+* En el potencial de una ciudadanía activa, consciente y exigente.
+* En la necesidad de someter al poder a la vigilancia ciudadana.
+* En el valor de unos medios de comunicación capaces e independientes.
 
-CIECODE es el think tank de la Fundación Salvador Soler. Tenemos nuestra sede en Madrid, España. Nuestra misión es generar, en los países en los que trabajamos, unas condiciones favorables para el diseño, adopción e implementación de políticas públicas y prácticas privadas que promuevan una sociedad más justa, equitativa y sostenible.
+Contribuimos:
+* Facilitando información mediante el desarrollo de tecnologías cívicas [enlace al apartado de la web que lo explica].
+* Promoviendo la vigilancia ciudadana, la participación y la rendición de cuentas.
+* Generando contenidos y espacios para estimular un debate público de calidad.
+
+> "No apostar de manera decidida por la equidad y el desarrollo sostenible ha dejado de ser una opción. Necesitamos una ciudadanía informada, activa y exigente y una clase política vigilada y responsable."
+> ##### Javier Pérez
+> ###### Director
+
+Political Watch pertenece a la [Fundación Salvador Soler](http://unmundosalvadorsoler.org), una entidad sin ánimo de lucro, declarada de utilidad pública e inscrita en el Registro de Fundaciones del Ministerio de Cultura desde el año 2010 (número de registro 962).
+
+## Transparencia
+
+No queremos exigir lo que no cumplimos. Por eso nos comprometemos a ser totalmente transparentes y hacer públicas nuestras cuentas. Para que puedas conocer nuestras fuentes de financiación, con quién trabajamos y cómo nos gastamos el presupuesto.
+
+[Consulta nuestas cuentas](nosotras/transparencia)
 
 </md-content>
-
----
 
 <team></team>
 
