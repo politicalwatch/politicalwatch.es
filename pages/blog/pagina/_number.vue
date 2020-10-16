@@ -17,10 +17,10 @@
     </section>
     <nav class="c-pagination o-section o-container">
       <nuxt-link :to="linkPrev" class="c-button c-button--outline">
-        Anterior
+        {{ $t('global.previousLabel') }}
       </nuxt-link>
       <nuxt-link v-if="hasNext" :to="`/blog/pagina/${nextPage}`" class="c-button c-button--outline">
-        Siguiente
+        {{ $t('global.nextLabel') }}
       </nuxt-link>
     </nav>
   </div>

@@ -2,7 +2,10 @@ export default {
   global: {
     menuToggle: 'Menú',
     developedBy: 'Diseño y desarrollo',
-    shareLabel: 'Compartir'
+    shareLabel: 'Compartir',
+    filtersLabel: 'Filtrar',
+    nextLabel: 'Siguiente',
+    previousLabel: 'Anterior'
   },
   pages: {
     home: {

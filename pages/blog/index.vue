@@ -38,7 +38,7 @@
     </section>
     <nav v-if="hasNext" class="c-pagination o-section o-container">
       <nuxt-link to="/blog/pagina/1" class="c-button c-button--outline">
-        Siguiente
+        {{ $t('global.nextLabel') }}
       </nuxt-link>
     </nav>
   </div>
