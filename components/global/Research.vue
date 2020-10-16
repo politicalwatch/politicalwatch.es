@@ -4,6 +4,7 @@
       :title="title || $t('blocks.research.title')"
       :button="$t('blocks.research.goto')"
       link="/investigaciones"
+      :filters="filters"
       :type="titleType"
     />
     <div class="c-research__wrapper">
@@ -59,6 +60,10 @@ export default {
       type: String,
       default: 'h2',
       validator: type => ['h1', 'h2'].includes(type)
+    },
+    filters: {
+      type: Array,
+      default: () => []
     }
   },
   computed: {

@@ -1,0 +1,38 @@
+.c-dropdown {
+  border: solid 2px $brand;
+  padding: 0 gap(2);
+  overflow: hidden;
+  position: relative;
+
+  select {
+    appearance: none;
+    border: 0;
+    background-color: transparent;
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: rem(14px);
+    font-weight: bold;
+    color: $brand;
+    margin: 0;
+    padding: 0;
+    height: 24px;
+    width: 100%;
+    padding-right: gap(4);
+    outline: none;
+  }
+
+  &::after {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    display: block;
+    right: gap(2);
+    top: 50%;
+    transform: translateY(-50%);
+    width: gap(2);
+    height: gap(2);
+    background: url('~assets/images/icon-filter.svg') no-repeat center center;
+  }
+}

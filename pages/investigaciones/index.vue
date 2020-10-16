@@ -1,5 +1,5 @@
 <template>
-  <research title-type="h1" />
+  <research title-type="h1" :filters="tags" />
 </template>
 
 <script>
@@ -7,8 +7,8 @@ export default {
   async asyncData ({ $content, app }) {
     const research = await $content(`/${app.i18n.locale}/investigaciones`)
       .fetch()
-
-    return { research }
+    const tags = new Set(research.map(item => item.tags).flat())
+    return { research, tags: [...tags] }
   },
   head () {
     return {
