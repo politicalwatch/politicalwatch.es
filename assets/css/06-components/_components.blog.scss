@@ -1,4 +1,42 @@
 .c-blog {
+  &__featured {
+    @media (min-width: $md) {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: gap(8);
+      border-bottom: $border-width solid $brand;
+    }
+  }
+
+  &__main {
+    @media (min-width: $md) {
+      flex: 0 0 55%;
+      max-width: 55%;
+    }
+
+    .c-list-post {
+      &__title {
+        @media (min-width: $md) {
+          font-size: rem(40px);
+        }
+      }
+    }
+  }
+
+  &__side {
+    @media (min-width: $md) {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+
+    .c-list-post {
+      @media (min-width: $md) {
+        padding-top: gap(4);
+        border-top: $border-width solid $brand;
+      }
+    }
+  }
+
   &__wrapper {
     margin-left: gap(-4);
     width: 100vw;

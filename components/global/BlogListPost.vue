@@ -1,6 +1,6 @@
 <template>
-  <article class="c-list-post">
-    <nuxt-link :to="localePath(post.path)">
+  <article class="c-list-post" :class="{ 'c-list-post--noimage' : noImage }">
+    <nuxt-link v-if="!noImage" :to="localePath(post.path)">
       <img
         :src="post.image"
         :alt="post.title"
@@ -13,6 +13,9 @@
       </nuxt-link>
     </h3>
     <div class="c-list-post__wrapper">
+      <div v-if="author" class="c-list-post__author">
+        <strong>{{ author }}</strong> / {{ post.createdAt | formatDate }}
+      </div>
       <div class="c-list-post__desc">
         {{ post.description }}
       </div>
@@ -38,6 +41,14 @@ export default {
     noButton: {
       type: Boolean,
       default: false
+    },
+    noImage: {
+      type: Boolean,
+      default: false
+    },
+    author: {
+      type: String,
+      default: ''
     }
   }
 }
