@@ -5,30 +5,9 @@
         :title="$t('blocks.blog.title')"
         type="h1"
       />
-      <div class="c-blog__featured o-section">
-        <div class="c-blog__main">
-          <blog-list-post
-            v-for="(post, i) in featuredPosts"
-            :key="i"
-            :post="post"
-            :author="post.author"
-            no-button
-          />
-        </div>
-        <div class="c-blog__side">
-          <blog-list-post
-            v-for="(post, i) in sidePosts"
-            :key="i"
-            :post="post"
-            :author="post.author"
-            no-button
-            no-image
-          />
-        </div>
-      </div>
       <div class="c-blog__wrapper">
         <blog-list-post
-          v-for="(post, i) in morePosts"
+          v-for="(post, i) in posts"
           :key="i"
           :post="post"
           :author="post.author"
@@ -36,8 +15,11 @@
         />
       </div>
     </section>
-    <nav v-if="hasNext" class="c-pagination o-section o-container">
-      <nuxt-link to="/blog/pagina/1" class="c-button c-button--outline">
+    <nav class="c-pagination o-section o-container">
+      <nuxt-link :to="linkPrev" class="c-button c-button--outline">
+        Anterior
+      </nuxt-link>
+      <nuxt-link v-if="hasNext" :to="`/blog/pagina/${nextPage}`" class="c-button c-button--outline">
         Siguiente
       </nuxt-link>
     </nav>
@@ -47,11 +29,12 @@
 <script>
 export default {
   name: 'Blog',
-  async asyncData ({ $content }) {
+  async asyncData ({ $content, params }) {
     const all = await $content('es/blog').fetch()
     const posts = await $content('es/blog')
       .sortBy('updatedAt', 'desc')
       .limit(9)
+      .skip(params.number * 9)
       .fetch()
     const authors = await $content('es/equipo')
       .only(['name', 'slug'])
@@ -69,18 +52,14 @@ export default {
         }
       }),
       totalPosts: all.length,
-      hasNext: all.length > 9
+      hasNext: all.length > (parseInt(params.number) + 1) * 9,
+      nextPage: parseInt(params.number) + 1,
+      prevPage: parseInt(params.number) - 1
     }
   },
   computed: {
-    featuredPosts () {
-      return this.posts.slice(0, 1)
-    },
-    sidePosts () {
-      return this.posts.slice(1, 3)
-    },
-    morePosts () {
-      return this.posts.slice(3)
+    linkPrev () {
+      return this.prevPage > 0 ? `/blog/pagina/${this.prevPage}` : '/blog'
     }
   },
   head: {
