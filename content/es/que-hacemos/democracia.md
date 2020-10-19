@@ -1,7 +1,7 @@
 ---
 title: 'Democracia'
 subtitle: 'Vigilancia ciudadana para una sociedad mejor'
-image: /images/democracy.svg
+image: /images/democracy-big.svg
 projects: 10
 research: 3
 ---

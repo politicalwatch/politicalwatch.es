@@ -1,11 +1,17 @@
 <template>
-  <header class="c-page-header" :style="background">
+  <header class="c-page-header">
     <component :is="type" class="c-page-header__title" :class="`c-page-header__title--${type}`">
       {{ title }}
     </component>
     <div v-if="subtitle" class="c-page-header__subtitle">
       {{ subtitle }}
     </div>
+    <img
+      v-if="image"
+      :src="image"
+      :alt="title"
+      class="c-page-header__image"
+    >
   </header>
 </template>
 
@@ -29,11 +35,6 @@ export default {
       type: String,
       default: 'h2',
       validator: type => ['h1', 'h2'].includes(type)
-    }
-  },
-  computed: {
-    background () {
-      return this.image && `background-image: url(${this.image})`
     }
   }
 }
