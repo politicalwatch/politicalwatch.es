@@ -28,6 +28,7 @@ export default {
 
     if (page.blogLatest) {
       posts = await $content('es/blog')
+        .where({ lineOfWork: page.lineOfWork })
         .sortBy('updatedAt', 'desc')
         .limit(page.blogLatest)
         .fetch()

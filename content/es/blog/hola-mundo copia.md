@@ -7,6 +7,7 @@ related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2
   - hola-mundo
+lineOfWork: democracy
 ---
 
 Además, y conforme fuimos desacoplando componentes en TiPi, vimos cómo los accesos a datos se realizaban desde diferentes partes de la plataforma. Para ello, hemos desarrollado un módulo [link text](http://dev.nodeca.com) en Python llamado tipi-data que servirá de punto común para conectar con la base de datos y que contenga de manera centralizada los modelos de información parlamentaria y las operaciones disponibles sobre los datos.
