@@ -1,5 +1,5 @@
 <template>
-  <research :title="`${$t('blocks.research.title')}: ${tag}` | urldecode" title-type="h1" />
+  <research :title="`${$t('blocks.research.title')}`" :tag="tag | urldecode" title-type="h1" />
 </template>
 
 <script>

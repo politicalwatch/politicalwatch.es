@@ -1,8 +1,13 @@
 <template>
   <header class="c-section-header o-section">
-    <component :is="type" class="c-section-header__title">
-      {{ title }}
-    </component>
+    <div>
+      <component :is="type" class="c-section-header__title">
+        {{ title }}
+      </component>
+      <h3 v-if="tag" class="c-section-header__tag">
+        {{ tag }}
+      </h3>
+    </div>
     <nuxt-link
       v-if="link && button && !filters.length"
       class="c-link"
@@ -16,11 +21,11 @@
           {{ $t('global.filtersLabel') }}
         </option>
         <option
-          v-for="tag in filters"
-          :key="tag"
-          :value="tag"
+          v-for="item in filters"
+          :key="item"
+          :value="item"
         >
-          {{ tag | urldecode }}
+          {{ item | urldecode }}
         </option>
       </select>
     </div>
@@ -32,6 +37,10 @@ export default {
   name: 'SectionHeader',
   props: {
     title: {
+      type: String,
+      default: ''
+    },
+    tag: {
       type: String,
       default: ''
     },

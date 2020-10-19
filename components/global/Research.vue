@@ -6,6 +6,7 @@
       link="/investigaciones"
       :filters="filters"
       :type="titleType"
+      :tag="tag"
     />
     <div class="c-research__wrapper">
       <article
@@ -16,12 +17,12 @@
         <div class="c-research__item-wrapper">
           <p class="c-research__item-tags">
             <nuxt-link
-              v-for="tag in item.tags"
-              :key="tag"
-              :to="`/investigaciones/${tag}`"
+              v-for="itemTag in item.tags"
+              :key="itemTag"
+              :to="`/investigaciones/${itemTag}`"
               class="c-research__item-tag"
             >
-              {{ tag | urldecode }}
+              {{ itemTag | urldecode }}
             </nuxt-link>
           </p>
           <h3 class="c-research__item-title">
@@ -53,6 +54,10 @@ export default {
   },
   props: {
     title: {
+      type: String,
+      default: ''
+    },
+    tag: {
       type: String,
       default: ''
     },
