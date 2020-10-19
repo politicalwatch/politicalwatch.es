@@ -1,7 +1,7 @@
 ---
 title: 'Coherencia'
 subtitle: 'Políticas a la altura de los retos de nuestra era'
-image: /images/coherence.svg
+image: /images/coherence-big.svg
 projects: 10
 research: 3
 ---
