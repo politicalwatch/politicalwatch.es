@@ -27,11 +27,21 @@
 
       <div class="c-post__share">
         {{ $t('global.shareLabel') }}
-        <a href="" target="_blank"><twitter /></a>
-        <a href="" target="_blank"><whatsapp /></a>
-        <a href="" target="_blank"><facebook /></a>
-        <a href="" target="_blank"><telegram /></a>
-        <a href="" target="_blank"><linkedin /></a>
+        <a :href="`https://twitter.com/intent/tweet?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+          <twitter />
+        </a>
+        <a :href="`https://api.whatsapp.com/send?text=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+          <whatsapp />
+        </a>
+        <a :href="`https://www.facebook.com/sharer/sharer.php?u=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+          <facebook />
+        </a>
+        <a :href="`https://t.me/share/url?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+          <telegram />
+        </a>
+        <a :href="`https://www.linkedin.com/shareArticle?mini=true&url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+          <linkedin />
+        </a>
       </div>
     </div>
     <nuxt-content :document="post" class="c-post__content" />
