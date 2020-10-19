@@ -47,6 +47,7 @@ export default {
     }
     if (page.projects) {
       projects = await $content(`${app.i18n.locale}/proyectos`)
+        .where({ lineOfWork: page.lineOfWork })
         .sortBy('updatedAt', 'desc')
         .limit(page.projects)
         .fetch()
