@@ -3,9 +3,9 @@ title: 'Democracia'
 subtitle: 'Vigilancia ciudadana para una sociedad mejor'
 image: /images/democracy-big.svg
 projects: 10
-blogLatest: 3
-lineOfWork: democracy
 research: 3
+blogLatest: 2
+lineOfWork: democracy
 ---
 
 <md-content>
@@ -36,10 +36,8 @@ Frente a las prácticas de lobby tradicional, la incidencia pública plantea una
 
 </md-content>
 
----
-
-<blogLatest></blogLatest>
-
 <projects></projects>
 
 <research></research>
+
+<blogLatest></blogLatest>
