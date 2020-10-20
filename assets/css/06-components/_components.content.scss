@@ -5,6 +5,39 @@
     max-width: $container-small-px;
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: gap(2) 0 gap(2) gap(2);
+
+    @media (min-width: $md) {
+      margin: gap(4) 0 gap(4) gap(2);
+    }
+
+    li {
+      position: relative;
+      margin-bottom: gap(1);
+
+      @media (min-width: $md) {
+        margin-bottom: gap(2);
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: gap(-2);
+        top: gap(1);
+        height: gap(2);
+        width: 5px;
+        background-color: $primary;
+      }
+    }
+
+    ul {
+      list-style: none;
+    }
+  }
+
   blockquote {
     display: block;
     margin-left: -$grid-gap;
