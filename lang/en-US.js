@@ -1,53 +1,82 @@
 export default {
   global: {
-    menuToggle: 'Menú',
-    legalNotice: 'Legal notice',
-    privacyPolicy: 'Privacy policy',
-    developedBy: 'Design and development'
+    menuToggle: 'Menu',
+    developedBy: 'Design and development',
+    shareLabel: 'Share',
+    filtersLabel: 'Filter',
+    nextLabel: 'Next',
+    previousLabel: 'Previous'
   },
-  home: {
-    title: 'Home'
-  },
-  about: {
-    title: 'About us'
-  },
-  what: {
-    title: 'What we do'
-  },
-  join: {
-    title: 'Join'
-  },
-  blog: {
-    title: 'Blog',
-    goto: 'Go to blog',
-    readmore: 'Read more'
+  pages: {
+    home: {
+      title: 'Home'
+    },
+    about: {
+      title: 'About us'
+    },
+    what: {
+      title: 'We do'
+    },
+    join: {
+      title: 'Join'
+    },
+    blog: {
+      title: 'Blog'
+    },
+    legal: {
+      title: 'Legal notice'
+    },
+    privacy: {
+      title: 'Privacy policy'
+    }
   },
   blocks: {
     hero: {
-      title: 'Data for <span>social change</span>',
+      title: 'Data for <span>social change</span><span>political innovation</span>',
       subtitle: 'The think-and-do tank <span>of the Salvador Soler Foundation</span>'
     },
     newsletter: {
-      title: 'Don\'t miss anything',
+      title: 'don\'t miss anything',
       subtitle: 'Subscribe',
       placeholder: 'Write your email',
       send: 'Send'
     },
+    blog: {
+      title: 'Blog',
+      goto: 'Go to blog',
+      button: 'Read more'
+    },
     linesOfWork: {
-      title: 'Qué hacemos',
-      subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.',
+      title: 'We do',
+      subtitle: 'Political Watch is a platform...',
       democracy: {
-        title: 'Democracia',
-        subtitle: 'Vigilancia ciudadana para una sociedad mejor',
-        button: 'Cuéntame más',
-        link: '#link'
+        title: 'Democracy',
+        subtitle: 'Citizen surveillance for a better society',
+        button: 'Tell me more',
+        link: '/en/que-hacemos/democracia'
       },
       coherence: {
-        title: 'Coherencia',
-        subtitle: 'Políticas a la altura de los retos de nuestra era',
-        button: 'Cuéntame más',
-        link: '#link'
+        title: 'Coherence',
+        subtitle: 'Policies at the height of the challenges of our era',
+        button: 'Tell me more',
+        link: '/en/que-hacemos/coherencia'
       }
+    },
+    team: {
+      title: 'Team'
+    },
+    alliances: {
+      title: 'Partners'
+    },
+    projects: {
+      title: 'Projects',
+      subtitle: 'Political Watch is a platform...',
+      button: 'Show project'
+    },
+    research: {
+      title: 'Research',
+      goto: 'Find all',
+      button: 'Download'
     }
   }
 }
