@@ -4,6 +4,8 @@ subtitle: 'Políticas a la altura de los retos de nuestra era'
 image: /images/coherence-big.svg
 projects: 10
 research: 3
+blogLatest: 2
+lineOfWork: coherence
 ---
 
 <md-content>
@@ -42,8 +44,8 @@ En el ámbito del comercio internacional y la inversión extranjera, desde Polit
 
 </md-content>
 
----
-
 <projects></projects>
 
 <research></research>
+
+<blogLatest></blogLatest>

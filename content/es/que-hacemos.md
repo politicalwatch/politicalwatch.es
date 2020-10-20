@@ -11,6 +11,8 @@ subtitle: 'n publishing and graphic design, Lorem ipsum is a placeholder text co
 
 El conocimiento y el pensamiento crítico son claves para impulsar la innovación y los cambios estructurales. Desde Political Watch creemos que la lucha contra la pobreza y la construcción de un mundo más justo y sostenible requieren de ideas nuevas que cuestionen los marcos preestablecidos. Por eso llevamos a cabo investigaciones transdisciplinares que, desde el rigor, ponen el foco en el desarrollo sostenible.
 
+[Accede a nuestro repositorio de investigaciones](investigaciones)
+
 ### Tecnologías cívicas
 
 La tecnología puede ser una herramienta clave en la evolución hacia una democracia más abierta y colaborativa. Un sistema donde las instituciones y la ciudadanía cuenten con mejores canales de comunicación y cooperación. Por ello desarrollamos herramientas digitales basadas en la colaboración y el software libre, promoviendo los valores del gobierno abierto.

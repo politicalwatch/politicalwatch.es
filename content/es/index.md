@@ -28,6 +28,7 @@ blogLatest: 2
 
 <lines-of-work></lines-of-work>
 
+<!---
 <banner
   bg="/images/bgbanner.jpg"
   title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -42,5 +43,6 @@ blogLatest: 2
   button="Saber más"
   link="#enlace">
 </banner>
+-->
 
 <blog-latest></blog-latest>
