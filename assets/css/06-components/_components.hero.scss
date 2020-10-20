@@ -41,12 +41,16 @@
     span {
       color: $primary;
       display: block;
-      font-size: rem(35px);
+      font-size: rem(28px);
       line-height: 1.2;
       animation: topToBottom 6s linear infinite 0s;
       opacity: 0;
       overflow: hidden;
       position: absolute;
+
+      @media (min-width: 360px) {
+        font-size: rem(35px);
+      }
 
       @media (min-width: $md) {
         font-size: rem(50px);
