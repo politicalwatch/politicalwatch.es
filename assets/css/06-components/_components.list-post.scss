@@ -13,12 +13,16 @@
     font-weight: bold;
     line-height: 1.33;
     background-color: $white;
-    padding: gap(4) gap(2) 0 0;
+    padding: gap(4) gap(2) 0 gap(2);
     position: relative;
     margin: gap(-10) 0 gap(2) 0;
     min-height: gap(10);
     left: -1px;
     max-width: calc(100% - #{gap(2)});
+
+    @media (min-width: $md) {
+      padding-left: 0;
+    }
 
     a {
       color: $brand;
@@ -44,7 +48,11 @@
   }
 
   &__wrapper {
-    padding: 0 gap(4) 0 0;
+    padding: 0 gap(4) 0 gap(2);
+
+    @media (min-width: $md) {
+      padding-left: 0;
+    }
   }
 
   &--noimage {
