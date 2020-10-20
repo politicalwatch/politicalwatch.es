@@ -1,8 +1,6 @@
 .c-sections {
   @include container;
 
-  margin-bottom: gap(12);
-
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));

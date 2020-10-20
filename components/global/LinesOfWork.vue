@@ -1,5 +1,5 @@
 <template>
-  <section class="c-sections">
+  <section class="c-sections o-section">
     <page-header
       v-if="!hideTitle"
       :title="$t('blocks.linesOfWork.title')"
