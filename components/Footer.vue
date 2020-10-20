@@ -9,7 +9,7 @@
           Avda. Cardenal Herrera Oria <br>
           63, 3º Izda - 28034, Madrid
         </p>
-        <p>+34 91 731 48 73</p>
+        <p><a href="tel:34917314873">+34 91 731 48 73</a></p>
         <p><a href="mailto:info@politicalwatch.com">info@politicalwatch.com</a></p>
       </div>
       <div class="c-footer__social">
