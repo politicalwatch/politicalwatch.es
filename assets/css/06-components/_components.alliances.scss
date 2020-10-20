@@ -17,6 +17,10 @@
     display: flex;
     align-items: center;
     margin-bottom: gap(4);
+
+    @media (min-width: $sm) {
+      flex-wrap: wrap;
+    }
   }
 
   &__item {
@@ -24,6 +28,10 @@
     flex: 0 0 160px;
     max-width: 160px;
     margin-right: gap(4);
+
+    @media (min-width: $sm) {
+      margin-bottom: gap(4);
+    }
   }
 }
 
