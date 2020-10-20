@@ -50,7 +50,8 @@ export default {
   async asyncData ({ $content }) {
     const all = await $content('es/blog').fetch()
     const posts = await $content('es/blog')
-      .sortBy('updatedAt', 'desc')
+      .sortBy('order', 'desc')
+      .sortBy('createdAt', 'desc')
       .limit(9)
       .fetch()
     const authors = await $content('es/equipo')
