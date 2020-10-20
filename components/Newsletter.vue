@@ -10,13 +10,24 @@
         </h3>
       </div>
       <form
-        action=""
+        action="https://ciecode.us19.list-manage.com/subscribe/post"
         class="c-newsletter__form"
         method="post"
         target="_blank"
       >
         <input
+          type="hidden"
+          name="u"
+          value="47ab67b8539c57ebb22f927b0"
+        >
+        <input
+          type="hidden"
+          name="id"
+          value="c933744c08"
+        >
+        <input
           type="email"
+          name="MERGE0"
           :placeholder="$t('blocks.newsletter.placeholder')"
           required
         >
