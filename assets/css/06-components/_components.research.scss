@@ -10,6 +10,10 @@
   &__item {
     margin-bottom: gap(4);
 
+    @media (min-width: $md) {
+      margin-bottom: 0;
+    }
+
     &-title {
       font-family: $font-secondary;
       font-size: rem(18px);
