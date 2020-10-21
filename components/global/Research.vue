@@ -32,7 +32,7 @@
             {{ item.description }}
           </div>
           <a
-            :href="item.file"
+            :href="item.link"
             target="_blank"
             class="c-button c-button--outline c-research__item-link"
           >
