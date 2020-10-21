@@ -55,6 +55,7 @@ export default {
     }
     if (page.research) {
       research = await $content(`${app.i18n.locale}/investigaciones`)
+        .where({ lineOfWork: page.lineOfWork })
         .sortBy('updatedAt', 'desc')
         .limit(page.research)
         .fetch()
