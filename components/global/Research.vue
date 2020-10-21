@@ -36,7 +36,9 @@
             target="_blank"
             class="c-button c-button--outline c-research__item-link"
           >
-            {{ $t('blocks.research.button') }} <download />
+            {{ getAnchorText(item.link) }}
+
+            <download v-if="item.link.includes('.pdf')" />
           </a>
         </div>
       </article>
@@ -74,6 +76,14 @@ export default {
   computed: {
     research () {
       return this.$parent.research
+    }
+  },
+  methods: {
+    getAnchorText (link) {
+      if (link.includes('.pdf')) {
+        return `${this.$t('blocks.research.button')}`
+      }
+      return this.$t('blocks.research.buttonLink')
     }
   }
 }

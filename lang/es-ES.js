@@ -76,7 +76,8 @@ export default {
     research: {
       title: 'Investigaciones',
       goto: 'Consultar todas',
-      button: 'Descargar'
+      button: 'Descargar',
+      buttonLink: 'Visitar'
     }
   }
 }
