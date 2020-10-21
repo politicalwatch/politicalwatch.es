@@ -5,6 +5,9 @@
         :src="post.image"
         :alt="post.title"
         class="c-list-post__image"
+        width="448"
+        height="320"
+        loading="lazy"
       >
     </nuxt-link>
     <h3 class="c-list-post__title">

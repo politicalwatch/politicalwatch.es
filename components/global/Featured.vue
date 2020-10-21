@@ -15,6 +15,7 @@
         :src="featured.image"
         :alt="featured.title"
         class="c-featured__item-image"
+        loading="lazy"
       >
       <div class="c-featured__item-desc">
         {{ featured.description }}
