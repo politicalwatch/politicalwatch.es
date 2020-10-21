@@ -5,5 +5,5 @@ link: /files/1.pdf
 tags:
   - congreso-de-los-diputados
   - tag1
-  - democracia
+lineOfWork: democracy
 ---

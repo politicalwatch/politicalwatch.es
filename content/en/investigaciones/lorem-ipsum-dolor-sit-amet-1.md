@@ -5,5 +5,5 @@ link: /files/1.pdf
 tags:
   - Hey
   - Ho
-  - democracy
+lineOfWork: democracy
 ---
