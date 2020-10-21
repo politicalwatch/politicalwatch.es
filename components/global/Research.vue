@@ -19,7 +19,7 @@
             <nuxt-link
               v-for="itemTag in item.tags"
               :key="itemTag"
-              :to="`/investigaciones/${itemTag}`"
+              :to="localePath(`/investigaciones/${itemTag}`)"
               class="c-research__item-tag"
             >
               {{ itemTag | urldecode }}
