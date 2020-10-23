@@ -80,7 +80,7 @@ export default {
   },
   methods: {
     getAnchorText (link) {
-      if (link.includes('.pdf')) {
+      if (link.includes('.pdf') || link.includes('.xls') || link.includes('.xlsx')) {
         return `${this.$t('blocks.research.button')}`
       }
       return this.$t('blocks.research.buttonLink')
