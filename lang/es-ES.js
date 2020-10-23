@@ -48,7 +48,7 @@ export default {
     },
     linesOfWork: {
       title: 'Qué hacemos',
-      subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.',
+      subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
       democracy: {
         title: 'Democracia',
         subtitle: 'Vigilancia ciudadana para una sociedad mejor',
@@ -70,7 +70,7 @@ export default {
     },
     projects: {
       title: 'Proyectos',
-      subtitle: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.',
+      subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
       button: 'Ver proyecto'
     },
     research: {

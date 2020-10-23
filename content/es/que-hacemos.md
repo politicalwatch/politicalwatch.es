@@ -1,6 +1,6 @@
 ---
 title: 'Qué hacemos'
-subtitle: 'n publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.'
+subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.'
 ---
 
 <lines-of-work hide-title></lines-of-work>
@@ -11,7 +11,7 @@ subtitle: 'n publishing and graphic design, Lorem ipsum is a placeholder text co
 
 El conocimiento y el pensamiento crítico son claves para impulsar la innovación y los cambios estructurales. Desde Political Watch creemos que la lucha contra la pobreza y la construcción de un mundo más justo y sostenible requieren de ideas nuevas que cuestionen los marcos preestablecidos. Por eso llevamos a cabo investigaciones transdisciplinares que, desde el rigor, ponen el foco en el desarrollo sostenible.
 
-<a href="/investigaciones" class="c-button c-button--outline">Accede a nuestro repositorio de investigaciones</a>
+[Accede a nuestro respositorionde investigaciones](/investigaciones){class="c-button c-button--outline"}
 
 ### Tecnologías cívicas
 
@@ -25,6 +25,6 @@ Creemos que es momento de replantearse la forma en la que nuestros países dise�
 
 Para guiar nuestro trabajo y orientarlo a la consecución de nuestros objetivos principales, desde 2019 elaboramos planes estratégicos bianuales, construidos de manera participativa entre todos los miembros del equipo. Puedes acceder al Plan Estratégico 2019-2021.
 
-<a href="/files/plan.pdf" class="c-button c-button--outline">Descarga nuestro Plan</a>
+[Descarga nuestro Plan](/documentos/pw-plan-estrategico.pdf){class="c-button c-button--outline", target=_blank}
 
 <md-content>

@@ -38,7 +38,7 @@
           >
             {{ getAnchorText(item.link) }}
 
-            <download v-if="item.link.includes('.pdf')" />
+            <download v-if="!item.link.includes('http')" />
           </a>
         </div>
       </article>
