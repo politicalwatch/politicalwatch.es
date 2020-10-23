@@ -100,7 +100,10 @@ export default {
   },
 
   content: {
-    liveEdit: false
+    liveEdit: false,
+    markdown: {
+      remarkPlugins: ['remark-attr']
+    }
   },
 
   publicRuntimeConfig: {
