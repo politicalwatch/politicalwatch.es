@@ -28,6 +28,16 @@ export default {
           property: 'og:title',
           hid: 'og:title',
           content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
         }
       ]
     }

@@ -12,7 +12,27 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: '' },
+      {
+        property: 'og:title',
+        hid: 'og:title',
+        content: '%s | Political Watch'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${process.env.BASE_URL}/politicalwatch.jpg`
+      },
+      {
+        property: 'twitter:title',
+        hid: 'twitter:title',
+        content: '%s | Political Watch'
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: `${process.env.BASE_URL}/politicalwatch.jpg`
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' }

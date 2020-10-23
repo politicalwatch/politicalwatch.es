@@ -85,6 +85,16 @@ export default {
           property: 'og:title',
           hid: 'og:title',
           content: this.page.title
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.page.title
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: this.page.title
         }
       ]
     }

@@ -89,7 +89,22 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: this.post.media
+          content: `${this.$config.baseURL}${this.post.image}`
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.post.title
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: this.post.title
+        },
+        {
+          hid: 'twitter:image',
+          property: 'twitter:image',
+          content: `${this.$config.baseURL}${this.post.image}`
         }
       ]
     }

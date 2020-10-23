@@ -63,7 +63,7 @@ export default {
     }
   },
   head: {
-    title: 'Blog',
+    title: this.$t('blocks.blog.title'),
     htmlAttrs: {
       lang: 'es'
     },
@@ -71,12 +71,22 @@ export default {
       {
         hid: 'og:description',
         property: 'og:description',
-        content: 'Blog'
+        content: this.$t('blocks.blog.title')
       },
       {
         property: 'og:title',
         hid: 'og:title',
-        content: 'Blog'
+        content: this.$t('blocks.blog.title')
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content: this.$t('blocks.blog.title')
+      },
+      {
+        property: 'twitter:title',
+        hid: 'twitter:title',
+        content: this.$t('blocks.blog.title')
       }
     ]
   }
