@@ -79,7 +79,7 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.post.title
+          content: this.post.description || this.post.title
         },
         {
           property: 'og:title',
@@ -94,7 +94,7 @@ export default {
         {
           hid: 'twitter:description',
           property: 'twitter:description',
-          content: this.post.title
+          content: this.post.description || this.post.title
         },
         {
           property: 'twitter:title',
