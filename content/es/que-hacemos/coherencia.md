@@ -38,9 +38,9 @@ Un sistema comercial multilateral ordenado, equilibrado y justo es un “bien p�
 
 En el ámbito del comercio internacional y la inversión extranjera, desde Political Watch llevamos a cabo proyectos para:
 
-* conocer las implicaciones que la política comercial tiene sobre las expectativas de desarrollo sostenible de terceros países.
-* analizar la inclusión del enfoque de desarrollo sostenible en los tratados internacionales comerciales y de inversión.
-* vigilar el impacto sobre los derechos humanos de inversiones de empresas españolas en países en desarrollo.
+* Conocer las implicaciones que la política comercial tiene sobre las expectativas de desarrollo sostenible de terceros países.
+* Analizar la inclusión del enfoque de desarrollo sostenible en los tratados internacionales comerciales y de inversión.
+* Vigilar el impacto sobre los derechos humanos de inversiones de empresas españolas en países en desarrollo.
 
 </md-content>
 
