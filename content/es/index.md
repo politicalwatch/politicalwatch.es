@@ -6,7 +6,7 @@ featuredItem:
   description: 'En el proyecto #ColeSeguro vamos a ofrecer información fiable y contrastada sobre las políticas que se están llevando a cabo para garantizar el derecho a la educación durante la pandemia, el dinero disponible para ejecutarlas y su traducción en medidas concretas en los colegios de España.'
   button: 'Saber más'
   link: 'http://coleseguro.es'
-  image: /images/featured.jpg
+  image: /images/featured.png
 othersItems:
   - title: 'Vitae elementum arcu integer eu'
     description: 'Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.'
