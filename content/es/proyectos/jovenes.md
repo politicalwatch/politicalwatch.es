@@ -1,7 +1,7 @@
 ---
-title: 'TiPi Ciudadano'
+title: 'Jóvenes Vigilantes'
 subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
-link: 'https://tipiciudadano.es'
-image: '/images/projects/tipi.jpg'
+link: 'http://example.com'
+image: '/images/projects/jovenes.jpg'
 lineOfWork: democracy
 ---

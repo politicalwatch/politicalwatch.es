@@ -1,7 +1,7 @@
 ---
-title: 'TiPi Ciudadano'
+title: '#ColeSeguro'
 subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
-link: 'https://tipiciudadano.es'
-image: '/images/projects/tipi.jpg'
+link: 'http://coleseguro.es'
+image: '/images/projects/coleseguro.jpg'
 lineOfWork: democracy
 ---
