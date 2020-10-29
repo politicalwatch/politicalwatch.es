@@ -47,9 +47,9 @@
 
     <nuxt-content :document="post" class="c-post__content o-section" />
 
-    <div class="c-blog">
+    <div v-if="related.length" class="c-blog">
       <section-header :title="$t('blocks.blog.related')" />
-      <div v-if="related" class="c-blog__wrapper">
+      <div class="c-blog__wrapper">
         <blog-list-post
           v-for="(post, i) in related"
           :key="i"
@@ -102,7 +102,7 @@ export default {
   },
   head () {
     return {
-      title: `${this.page.title} | Political Watch`,
+      title: `${this.post.title} | Political Watch`,
       description: this.post.description || this.post.title,
       htmlAttrs: {
         lang: 'es'
@@ -116,7 +116,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: `${this.page.title} | Political Watch`
+          content: `${this.post.title} | Political Watch`
         },
         {
           hid: 'og:image',
