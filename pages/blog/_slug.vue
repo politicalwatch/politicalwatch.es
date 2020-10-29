@@ -44,7 +44,21 @@
         </a>
       </div>
     </div>
-    <nuxt-content :document="post" class="c-post__content" />
+
+    <nuxt-content :document="post" class="c-post__content o-section" />
+
+    <div class="c-blog">
+      <section-header :title="$t('blocks.blog.related')" />
+      <div v-if="related" class="c-blog__wrapper">
+        <blog-list-post
+          v-for="(post, i) in related"
+          :key="i"
+          :post="post"
+          :author="post.author"
+          no-button
+        />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -66,8 +80,25 @@ export default {
   async asyncData ({ $content, params }) {
     const post = await $content('es/blog', params.slug).fetch()
     const author = await $content('es/equipo', post.author).fetch()
+    const related = await $content('es/blog').where({ slug: { $in: post.related } }).fetch()
+    const authors = await $content('es/equipo')
+      .only(['name', 'slug'])
+      .fetch()
 
-    return { post, author }
+    return {
+      post,
+      author,
+      related: related.map((post) => {
+        const authorName = authors.find((author) => {
+          return author.slug === post.author
+        })
+        return {
+          ...post,
+          author: authorName.name,
+          path: post.path.replace('/es', '')
+        }
+      })
+    }
   },
   head () {
     return {

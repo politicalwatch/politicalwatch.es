@@ -47,7 +47,8 @@ export default {
     blog: {
       title: 'Blog',
       goto: 'Ir al blog',
-      button: 'Leer más'
+      button: 'Leer más',
+      related: 'Relacionados'
     },
     linesOfWork: {
       title: 'Qué hacemos',
