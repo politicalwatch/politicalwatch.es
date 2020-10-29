@@ -9,6 +9,9 @@ export default {
   name: 'Home',
   async asyncData ({ $content, params, app, error }) {
     let posts = []
+    let teamMembers = []
+    let projects = []
+    let research = []
     const path = `/${app.i18n.locale}/${params.pathMatch || 'index'}`
     const [page] = await $content({ deep: true }).where({ path }).fetch()
     if (!page) {
@@ -16,7 +19,12 @@ export default {
     }
 
     if (page.blogLatest) {
-      posts = await $content('es/blog').sortBy('updatedAt', 'desc').limit(page.blogLatest).fetch()
+      posts = await $content('es/blog')
+        .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'desc')
+        .sortBy('createdAt', 'desc')
+        .limit(page.blogLatest)
+        .fetch()
 
       posts = posts.map(post => ({
         ...post,
@@ -24,7 +32,37 @@ export default {
       }))
     }
 
-    return { page, posts }
+    if (page.team) {
+      teamMembers = await $content(`${app.i18n.locale}/equipo`)
+        .sortBy('order', 'desc')
+        .sortBy('name', 'asc')
+        .limit(page.team)
+        .fetch()
+    }
+    if (page.projects) {
+      projects = await $content(`${app.i18n.locale}/proyectos`)
+        .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'desc')
+        .sortBy('updatedAt', 'desc')
+        .limit(page.projects)
+        .fetch()
+    }
+    if (page.research) {
+      research = await $content(`${app.i18n.locale}/investigaciones`)
+        .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'desc')
+        .sortBy('updatedAt', 'desc')
+        .limit(page.research)
+        .fetch()
+    }
+
+    return {
+      page,
+      posts,
+      teamMembers,
+      projects,
+      research
+    }
   },
   head () {
     return {

@@ -29,7 +29,8 @@ export default {
     if (page.blogLatest) {
       posts = await $content('es/blog')
         .where({ lineOfWork: page.lineOfWork })
-        .sortBy('updatedAt', 'desc')
+        .sortBy('order', 'desc')
+        .sortBy('createdAt', 'desc')
         .limit(page.blogLatest)
         .fetch()
 
@@ -49,6 +50,7 @@ export default {
     if (page.projects) {
       projects = await $content(`${app.i18n.locale}/proyectos`)
         .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'desc')
         .sortBy('updatedAt', 'desc')
         .limit(page.projects)
         .fetch()
@@ -56,6 +58,7 @@ export default {
     if (page.research) {
       research = await $content(`${app.i18n.locale}/investigaciones`)
         .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'desc')
         .sortBy('updatedAt', 'desc')
         .limit(page.research)
         .fetch()
