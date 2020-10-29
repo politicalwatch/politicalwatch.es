@@ -3,6 +3,7 @@ title: 'Reconstrucción transparente: Patxi López responde a la petición de la
 image:  '/images/posts/patxi.jpeg'
 description: 'El pasado 1 de junio más de 40 organizaciones de la sociedad civil enviamos una carta a Patxi López, presidente de la Comisión para la Reconstrucción Social y Económica.'
 author: javier.perez
+createdAt: 2020-06-09
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

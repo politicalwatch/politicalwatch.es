@@ -3,6 +3,7 @@ title: 'PROPUESTAS CIUDADANAS CLARAS Y ACCESIBLES EN EL CONGRESO DE LOS DIPUTADO
 image:  '/images/posts/stats_propuestas.png'
 description: 'La ciudadanía ya tiene claro que la COVID-19 ha traído grandes cambios en la forma de relacionarnos y de entender el mundo. Uno de estos…'
 author: belen-aguero
+createdAt: 2020-06-25
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

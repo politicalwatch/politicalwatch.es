@@ -2,7 +2,8 @@
 title: 'candi-DATOS: Nueva aplicación de vigilancia electoral'
 image:  '/images/posts/candi-datos.png'
 description: '¿Hasta dónde podemos tener información sobre los compromisos de los candidatos?'
-author: irene-martin 
+author: irene-martin
+createdAt: 2019-03-14
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

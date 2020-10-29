@@ -2,7 +2,8 @@
 title: 'Parlamento 2030 seleccionada por la OCDE como herramienta hacia el Gobierno Abierto'
 image:  '/images/posts/p2030-splash.png'
 description: 'Nuestra herramienta Parlamento 2030 ha sido seleccionada por la OCDE como una de las herramientas innovadoras de Gobierno Abierto más relevantes en la actualidad.'
-author: pablo-martin 
+author: irene-martin
+createdAt: 2019-06-28
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

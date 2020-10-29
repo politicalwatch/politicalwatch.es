@@ -2,7 +2,8 @@
 title: 'Open Manifesto Project: nuestra apuesta por la accesibilidad electoral'
 image:  '/images/posts/omp.png'
 description: 'Desde #PoliticalWatch llevamos 7 años analizando la política institucional en España, siguiendo de cerca las propuestas electorales de…'
-author: pablo-martin 
+author: pablo-martin
+createdAt: 2019-01-30
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

@@ -3,6 +3,7 @@ title: 'Impactos (im)?previstos: efectos de las políticas domésticas en el ext
 image: '/images/posts/fabrica.jpeg'
 description: '¿Cómo afectan las políticas y el consumo de los países en el exterior? ¿Cómo medimos estos efectos?'
 author: javier.perez
+createdAt: 2020-08-07
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

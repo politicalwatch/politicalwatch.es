@@ -3,6 +3,7 @@ title: 'Breve análisis sobre el abordaje de la calidad democrática por los par
 image:  '/images/posts/breve_analisis.jpeg'
 description: 'Hoy CIECODE presenta los resultados de su última investigación'
 author: irene-martin
+createdAt: 2020-03-23
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

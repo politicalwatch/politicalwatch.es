@@ -3,6 +3,7 @@ title: '¡Larga vida a Polétika!'
 image:  '/images/posts/poletika.jpeg'
 description: 'Ayer publicamos junto con el resto de organizaciones, redes y plataformas de Polétika'
 author: javier.perez
+createdAt: 2019-02-06
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2

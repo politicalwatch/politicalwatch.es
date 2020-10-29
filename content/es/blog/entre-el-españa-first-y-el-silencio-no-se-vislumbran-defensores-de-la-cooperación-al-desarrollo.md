@@ -3,6 +3,7 @@ title: 'Entre el ‘España first’ y el silencio: no se vislumbran defensores 
 image: '/images/posts/voluntarios.png'
 description: 'Sólo han pasado dos meses de pandemia, dos meses muy intensos en los cuales el Gobierno español ha puesto en marcha un complejo entramado de leyes y medidas sociales y económicas destinadas a amortiguar el golpe del coronavirus en la vida de ciudadanía y Estado y a intentar mitigar sus consecuencias.'
 author: javier.perez
+createdAt: 2020-05-12
 related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2
