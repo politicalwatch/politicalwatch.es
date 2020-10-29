@@ -26,7 +26,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
+          content: `${this.$t('pages.research.title')} | Political Watch`
         },
         {
           hid: 'twitter:description',
@@ -36,7 +36,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
+          content: `${this.$t('pages.research.title')} | Political Watch`
         }
       ]
     }

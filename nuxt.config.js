@@ -16,7 +16,7 @@ export default {
       {
         property: 'og:title',
         hid: 'og:title',
-        content: '%s | Political Watch'
+        content: 'Political Watch'
       },
       {
         hid: 'og:image',
@@ -26,7 +26,7 @@ export default {
       {
         property: 'twitter:title',
         hid: 'twitter:title',
-        content: '%s | Political Watch'
+        content: 'Political Watch'
       },
       {
         hid: 'twitter:image',

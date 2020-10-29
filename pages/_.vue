@@ -87,7 +87,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.page.title
+          content: `${this.page.title} | Political Watch`
         },
         {
           hid: 'twitter:description',
@@ -97,7 +97,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.page.title
+          content: `${this.page.title} | Political Watch`
         }
       ]
     }

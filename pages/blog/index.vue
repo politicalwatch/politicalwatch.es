@@ -100,7 +100,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+          content: `${this.$t('pages.blog.title')} | Political Watch`
         },
         {
           hid: 'twitter:description',
@@ -110,7 +110,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+          content: `${this.$t('pages.blog.title')} | Political Watch`
         }
       ]
     }

@@ -102,7 +102,7 @@ export default {
   },
   head () {
     return {
-      title: this.post.title,
+      title: `${this.page.title} | Political Watch`,
       description: this.post.description || this.post.title,
       htmlAttrs: {
         lang: 'es'
@@ -116,7 +116,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.post.title
+          content: `${this.page.title} | Political Watch`
         },
         {
           hid: 'og:image',
@@ -131,7 +131,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.post.title
+          content: `${this.post.title} | Political Watch`
         },
         {
           hid: 'twitter:image',

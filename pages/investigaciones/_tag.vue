@@ -28,7 +28,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: `${this.$t('pages.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: `${this.$t('pages.research.title')}: ${this.tag} | Political Watch`.replace(/-/g, ' ')
         },
         {
           hid: 'twitter:description',
@@ -38,7 +38,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: `${this.$t('pages.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: `${this.$t('pages.research.title')}: ${this.tag} | Political Watch`.replace(/-/g, ' ')
         }
       ]
     }

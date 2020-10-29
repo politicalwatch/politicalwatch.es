@@ -79,7 +79,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.$t('pages.blog.title')
+          content: `${this.$t('pages.blog.title')}: página ${this.currentPage} | Political Watch`
         },
         {
           hid: 'twitter:description',
@@ -89,7 +89,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.$t('pages.blog.title')
+          content: `${this.$t('pages.blog.title')}: página ${this.currentPage} | Political Watch`
         }
       ]
     }
