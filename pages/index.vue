@@ -84,12 +84,12 @@ export default {
         {
           hid: 'twitter:description',
           property: 'twitter:description',
-          content: this.page.title
+          content: this.page.subtitle
         },
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.page.title
+          content: this.page.subtitle
         }
       ]
     }

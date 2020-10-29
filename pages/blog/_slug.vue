@@ -72,6 +72,7 @@ export default {
   head () {
     return {
       title: this.post.title,
+      description: this.post.description || this.post.title,
       htmlAttrs: {
         lang: 'es'
       },

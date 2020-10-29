@@ -1,5 +1,5 @@
 <template>
-  <research :title="`${$t('blocks.research.title')}`" :tag="tag | urldecode" title-type="h1" />
+  <research :title="`${$t('pages.research.title')}`" :tag="tag | urldecode" title-type="h1" />
 </template>
 
 <script>
@@ -14,7 +14,8 @@ export default {
   },
   head () {
     return {
-      title: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' '),
+      title: `${this.$t('pages.research.title')}: ${this.tag}`.replace(/-/g, ' '),
+      description: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title'),
       htmlAttrs: {
         lang: this.$i18n.locale
       },
@@ -22,22 +23,22 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
         },
         {
           property: 'og:title',
           hid: 'og:title',
-          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: `${this.$t('pages.research.title')}: ${this.tag}`.replace(/-/g, ' ')
         },
         {
           hid: 'twitter:description',
           property: 'twitter:description',
-          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
         },
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: `${this.$t('blocks.research.title')}: ${this.tag}`.replace(/-/g, ' ')
+          content: `${this.$t('pages.research.title')}: ${this.tag}`.replace(/-/g, ' ')
         }
       ]
     }
