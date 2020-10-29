@@ -27,6 +27,16 @@ export default {
           property: 'og:title',
           hid: 'og:title',
           content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
         }
       ]
     }

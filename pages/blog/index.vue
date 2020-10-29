@@ -101,6 +101,16 @@ export default {
           property: 'og:title',
           hid: 'og:title',
           content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
         }
       ]
     }
