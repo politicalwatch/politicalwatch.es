@@ -62,8 +62,14 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-webfontloader',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: process.env.BASE_URL,
+    gzip: true
+  },
 
   webfontloader: {
     google: {
