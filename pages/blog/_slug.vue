@@ -27,19 +27,19 @@
 
       <div class="c-post__share">
         {{ $t('global.shareLabel') }}
-        <a :href="`https://twitter.com/intent/tweet?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://twitter.com/intent/tweet?url=${$config.baseURL}${post.path}`" target="_blank">
           <twitter />
         </a>
-        <a :href="`https://api.whatsapp.com/send?text=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://api.whatsapp.com/send?text=${$config.baseURL}${post.path}`" target="_blank">
           <whatsapp />
         </a>
-        <a :href="`https://www.facebook.com/sharer/sharer.php?u=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://www.facebook.com/sharer/sharer.php?u=${$config.baseURL}${post.path}`" target="_blank">
           <facebook />
         </a>
-        <a :href="`https://t.me/share/url?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://t.me/share/url?url=${$config.baseURL}${post.path}`" target="_blank">
           <telegram />
         </a>
-        <a :href="`https://www.linkedin.com/shareArticle?mini=true&url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://www.linkedin.com/shareArticle?mini=true&url=${$config.baseURL}${post.path}`" target="_blank">
           <linkedin />
         </a>
       </div>
@@ -86,7 +86,10 @@ export default {
       .fetch()
 
     return {
-      post,
+      post: {
+        ...post,
+        path: post.path.replace('/es', '')
+      },
       author,
       related: related.map((post) => {
         const authorName = authors.find((author) => {
