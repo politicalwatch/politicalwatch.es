@@ -2,7 +2,7 @@
   <div>
     <section class="c-blog o-container o-section">
       <page-header
-        :title="$t('blocks.blog.title')"
+        :title="$t('pages.blog.title')"
         type="h1"
       />
       <div class="c-blog__wrapper">
@@ -54,7 +54,8 @@ export default {
       totalPosts: all.length,
       hasNext: all.length > (parseInt(params.number) + 1) * 9,
       nextPage: parseInt(params.number) + 1,
-      prevPage: parseInt(params.number) - 1
+      prevPage: parseInt(params.number) - 1,
+      currentPage: params.number
     }
   },
   computed: {
@@ -62,33 +63,36 @@ export default {
       return this.prevPage > 0 ? `/blog/pagina/${this.prevPage}` : '/blog'
     }
   },
-  head: {
-    title: this.$t('blocks.blog.title'),
-    htmlAttrs: {
-      lang: 'es'
-    },
-    meta: [
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content: this.$t('blocks.blog.title')
+  head () {
+    return {
+      title: `${this.$t('pages.blog.title')}: página ${this.currentPage}`,
+      description: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title'),
+      htmlAttrs: {
+        lang: 'es'
       },
-      {
-        property: 'og:title',
-        hid: 'og:title',
-        content: this.$t('blocks.blog.title')
-      },
-      {
-        hid: 'twitter:description',
-        property: 'twitter:description',
-        content: this.$t('blocks.blog.title')
-      },
-      {
-        property: 'twitter:title',
-        hid: 'twitter:title',
-        content: this.$t('blocks.blog.title')
-      }
-    ]
+      meta: [
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          property: 'og:title',
+          hid: 'og:title',
+          content: this.$t('pages.blog.title')
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: this.$t('pages.blog.title')
+        }
+      ]
+    }
   }
 }
 </script>
