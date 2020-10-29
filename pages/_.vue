@@ -42,7 +42,7 @@ export default {
 
     if (page.team) {
       teamMembers = await $content(`${app.i18n.locale}/equipo`)
-        .sortBy('order', 'desc')
+        .sortBy('order', 'asc')
         .sortBy('name', 'asc')
         .limit(page.team)
         .fetch()
@@ -50,7 +50,7 @@ export default {
     if (page.projects) {
       projects = await $content(`${app.i18n.locale}/proyectos`)
         .where({ lineOfWork: page.lineOfWork })
-        .sortBy('order', 'desc')
+        .sortBy('order', 'asc')
         .sortBy('updatedAt', 'desc')
         .limit(page.projects)
         .fetch()
@@ -58,7 +58,7 @@ export default {
     if (page.research) {
       research = await $content(`${app.i18n.locale}/investigaciones`)
         .where({ lineOfWork: page.lineOfWork })
-        .sortBy('order', 'desc')
+        .sortBy('order', 'asc')
         .sortBy('updatedAt', 'desc')
         .limit(page.research)
         .fetch()
