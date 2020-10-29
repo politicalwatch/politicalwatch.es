@@ -8,7 +8,6 @@ related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2
   - hola-mundo
-lineOfWork: democracy
 ---
 
 

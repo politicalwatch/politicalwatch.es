@@ -8,6 +8,7 @@ related:
   - vitae-elementum-arcu-integer-eu
   - vitae-elementum-arcu-integer-eu-2
   - hola-mundo
+lineOfWork: coherence
 ---
 
 Desde la aprobación de la Agenda 2030 en septiembre de 2015, muchos países alrededor del mundo se han puesto manos a la obra para adaptar y orientar sus políticas públicas en torno a los 17 objetivos que plantea la Agenda y sus correspondientes metas. Pero esta labor no ha sido del todo fácil, y seguramente lo será aún menos tras esta pandemia. Los grandes retos que plantea la Agenda vienen de la mano de su propia naturaleza, principalmente de su carácter interconectado e interdependiente y de su enfoque de sostenibilidad y protección al medio ambiente; ambas cuestiones chocan de manera directa con la forma en la que se han venido construyendo las políticas domésticas y exteriores hasta ahora, un modelo productivo extractivista, colonialista y enfocado en el beneficio económico de unos pocos, sin mencionar la falta de consideración por los efectos que las políticas domésticas de un país puedan tener sobre otros.
