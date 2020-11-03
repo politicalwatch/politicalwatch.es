@@ -32,7 +32,8 @@ export default {
   async asyncData ({ $content, params }) {
     const all = await $content('es/blog').fetch()
     const posts = await $content('es/blog')
-      .sortBy('updatedAt', 'desc')
+      .sortBy('order', 'desc')
+      .sortBy('createdAt', 'desc')
       .limit(9)
       .skip(params.number * 9)
       .fetch()
