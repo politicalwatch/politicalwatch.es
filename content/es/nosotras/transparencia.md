@@ -6,6 +6,14 @@ title: Transparencia
 
 No queremos exigir lo que no cumplimos. Por eso nos comprometemos a ser totalmente transparentes y hacer públicas nuestras cuentas. Para que puedas conocer nuestras fuentes de financiación, con quién trabajamos y cómo nos gastamos el presupuesto.
 
+### Origen de nuestros ingresos
+
+![Gráfica que muestra el origen de nuestros ingresos](/images/transparency/2019-incomes-origin-es.svg)
+
+### Donantes y financiadores
+
+![Gráfica que muestra nuestros donantes y financiadores](/images/transparency/2019-donors.svg)
+
 ### 2019 - Ingresos
 
 </md-content>
