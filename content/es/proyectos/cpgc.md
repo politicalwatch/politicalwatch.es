@@ -1,7 +1,7 @@
 ---
 title: 'Coherencia de Políticas para la Generalitat Cataluña'
-subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
-link: 'http://example.com'
+subtitle: 'Asesoría a la Dirección General de Cooperación al Desarrollo y a la Agencia Catalana de Cooperación al Desarrollo en la elaboración de una hoja de Ruta de Coherencia de Políticas'
+link: '#'
 image: '/images/projects/cpgc.jpg'
 lineOfWork: coherence
 order: 1

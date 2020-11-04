@@ -36,7 +36,10 @@ Frente a las prácticas de lobby tradicional, la incidencia pública plantea una
 
 </md-content>
 
-<projects></projects>
+<projects
+  title="Proyectos"
+  subtitle="Plataformas ciudadanas, herramientas de monitoreo parlamentario y campañas de incidencia pública. Todo ello basado en tecnologías cívicas.">
+</projects>
 
 <research></research>
 

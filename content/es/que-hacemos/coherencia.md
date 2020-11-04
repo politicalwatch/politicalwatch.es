@@ -44,7 +44,10 @@ En el ámbito del comercio internacional y la inversión extranjera, desde Polit
 
 </md-content>
 
-<projects></projects>
+<projects
+  title="Proyectos"
+  subtitle="Consultorías, asesorías e investigaciones centradas en el análisis de los procesos de construcción y diseño de políticas públicas con un enfoque de género, derechos humanos y desarrollo sostenible.">
+</projects>
 
 <research></research>
 

@@ -1,6 +1,6 @@
 ---
 title: 'Poletika'
-subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
+subtitle: 'Plataforma de organizaciones de la sociedad civil centrada en la vigilancia y presión a la clase política para promover una sociedad más justa y menos desigual'
 link: 'http://poletika.org'
 image: '/images/projects/poletika.jpg'
 lineOfWork: democracy

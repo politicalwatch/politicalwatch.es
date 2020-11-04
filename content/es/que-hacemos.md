@@ -1,6 +1,6 @@
 ---
 title: 'Qué hacemos'
-subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.'
+subtitle: 'En Political Watch trabajamos para promover una sociedad más justa y más sostenible, y lo hacemos desde dos líneas de trabajo principales: Democracia y Coherencia.'
 ---
 
 <lines-of-work hide-title></lines-of-work>
