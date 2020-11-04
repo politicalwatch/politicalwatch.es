@@ -5,9 +5,9 @@ description: '¿Hasta dónde podemos tener información sobre los compromisos de
 author: irene-martin
 createdAt: 2019-03-14
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - larga-vida-a-polétika
+  - las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
 lineOfWork: democracy
 ---
 La tecnología forma parte de nuestra vida cotidiana, un brazo más del que hacemos uso a lo largo de nuestro día a día. Uno de los usos principales de ésta es la obtención de información. Esto aplica a cualquier esfera de nuestra vida como, en este caso, la información acerca de los partidos políticos y candidatos a las Elecciones Generales.

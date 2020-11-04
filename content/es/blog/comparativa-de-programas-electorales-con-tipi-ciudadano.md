@@ -5,9 +5,8 @@ description: 'El Scanner, la nueva utilidad de TiPi que permite realizar el etiq
 author: pablo-martin
 createdAt: 2019-04-26
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - open-manifesto-project 
+  - mejorando-la-accesibilidad-de-los-programas-electorales
 lineOfWork: democracy
 ---
 

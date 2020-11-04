@@ -5,9 +5,8 @@ description: 'TIPI (Transparencia, Información, Participación e Incidencia) ha
 author: pablo-martin
 createdAt: 2019-01-22
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
+  - tipi-se-hace-mayor
 lineOfWork: democracy
 ---
 

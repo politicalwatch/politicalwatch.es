@@ -5,9 +5,9 @@ description: 'El día de hoy hemos firmado un convenio de colaboración con el M
 author: javier.perez
 createdAt: 2019-07-30
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - parlamento2030-ocde-ogov
+  - monitoreo-y-seguimiento-de-los-ods-de-la-mano-de-parlamento-2030
+lineOfWork: democracy
 ---
 
 

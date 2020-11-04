@@ -5,9 +5,7 @@ description: 'Influence Index, es una herramienta tecnológica que ofrece inform
 author: belen-aguero
 createdAt: 2020-08-24
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - parlamento2030-ocde-ogov 
 lineOfWork: democracy
 ---
 

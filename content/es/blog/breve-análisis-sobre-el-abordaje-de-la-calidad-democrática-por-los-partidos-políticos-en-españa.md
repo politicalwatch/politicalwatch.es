@@ -5,9 +5,8 @@ description: 'Hoy CIECODE presenta los resultados de su última investigación'
 author: irene-martin
 createdAt: 2020-03-23
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
+  - las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales
 lineOfWork: democracy
 ---
 

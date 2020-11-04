@@ -5,9 +5,8 @@ description: 'Desde que comenzamos los trabajos en Open Manifesto Project tenía
 author: pablo-martin
 createdAt: 2019-10-03
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - open-manifesto-project
+  - comparativa-de-programas-electorales-con-tipi-ciudadano
 lineOfWork: democracy
 ---
 
