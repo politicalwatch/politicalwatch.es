@@ -1,5 +1,6 @@
 ---
 title: Inicio
+subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
   title: '#ColeSeguro'
   subtitle: '¿Se está garantizando el derecho a la educación?'

@@ -2,11 +2,11 @@
 title: 'Más ágiles y más resilientes'
 image:  '/images/posts/mesaredonda.jpeg'
 description: 'TIPI (Transparencia, Información, Participación e Incidencia) ha sido en los últimos tres años la principal línea de innovación en el trabajo de CIECODE, así como su proyecto de incidencia política más ambicioso.'
-author: pablo-martin 
+author: pablo-martin
+createdAt: 2019-01-22
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
+  - tipi-se-hace-mayor
 lineOfWork: democracy
 ---
 

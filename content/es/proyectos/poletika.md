@@ -1,7 +1,8 @@
 ---
 title: 'Poletika'
-subtitle: 'Herramienta de seguimiento de actividad parlamentaria relacionada con la Agenda 2030.'
-link: 'https://parlamento2030.com'
+subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
+link: 'http://poletika.org'
 image: '/images/projects/poletika.jpg'
 lineOfWork: democracy
+order: 6
 ---

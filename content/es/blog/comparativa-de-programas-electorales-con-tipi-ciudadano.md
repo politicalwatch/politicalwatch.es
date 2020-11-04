@@ -3,10 +3,10 @@ title: ' Comparativa de Programas Electorales con TiPi Ciudadano'
 image: '/images/posts/barras.png'
 description: 'El Scanner, la nueva utilidad de TiPi que permite realizar el etiquetado automático de cualquier texto según las 21 temáticas a las que damos seguimiento, nos abre nuevas posibilidades de análisis de documentos de acuerdo a su vinculación con las temáticas sociales.'
 author: pablo-martin
+createdAt: 2019-04-26
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - open-manifesto-project 
+  - mejorando-la-accesibilidad-de-los-programas-electorales
 lineOfWork: democracy
 ---
 

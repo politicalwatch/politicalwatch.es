@@ -5,6 +5,8 @@
     display: block;
     margin: 0;
     width: 100%;
+    min-height: 240px;
+    object-fit: cover;
   }
 
   &__title {

@@ -4,9 +4,9 @@ image:  '/images/posts/tipi_logo.jpeg'
 description: 'Desde CIECODE seguimos empeñados en garantizar que cualquier persona que quiera mantenerse informada sobre el debate político de los temas importantes para sus derechos y libertades...'
 author: belen-aguero
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
+  - tipi-se-hace-mayor
+createdAt: 2020-01-22
 lineOfWork: democracy
 ---
 

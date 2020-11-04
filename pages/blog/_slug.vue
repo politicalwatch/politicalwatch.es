@@ -27,24 +27,38 @@
 
       <div class="c-post__share">
         {{ $t('global.shareLabel') }}
-        <a :href="`https://twitter.com/intent/tweet?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://twitter.com/intent/tweet?url=${$config.baseURL}${post.path}`" target="_blank">
           <twitter />
         </a>
-        <a :href="`https://api.whatsapp.com/send?text=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://api.whatsapp.com/send?text=${$config.baseURL}${post.path}`" target="_blank">
           <whatsapp />
         </a>
-        <a :href="`https://www.facebook.com/sharer/sharer.php?u=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://www.facebook.com/sharer/sharer.php?u=${$config.baseURL}${post.path}`" target="_blank">
           <facebook />
         </a>
-        <a :href="`https://t.me/share/url?url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://t.me/share/url?url=${$config.baseURL}${post.path}`" target="_blank">
           <telegram />
         </a>
-        <a :href="`https://www.linkedin.com/shareArticle?mini=true&url=${$config.baseURL}${localePath(post.path)}`" target="_blank">
+        <a :href="`https://www.linkedin.com/shareArticle?mini=true&url=${$config.baseURL}${post.path}`" target="_blank">
           <linkedin />
         </a>
       </div>
     </div>
-    <nuxt-content :document="post" class="c-post__content" />
+
+    <nuxt-content :document="post" class="c-post__content o-section" />
+
+    <div v-if="related.length" class="c-blog">
+      <section-header :title="$t('blocks.blog.related')" />
+      <div class="c-blog__wrapper">
+        <blog-list-post
+          v-for="(post, i) in related"
+          :key="i"
+          :post="post"
+          :author="post.author"
+          no-button
+        />
+      </div>
+    </div>
   </section>
 </template>
 
@@ -66,12 +80,33 @@ export default {
   async asyncData ({ $content, params }) {
     const post = await $content('es/blog', params.slug).fetch()
     const author = await $content('es/equipo', post.author).fetch()
+    const related = await $content('es/blog').where({ slug: { $in: post.related } }).fetch()
+    const authors = await $content('es/equipo')
+      .only(['name', 'slug'])
+      .fetch()
 
-    return { post, author }
+    return {
+      post: {
+        ...post,
+        path: post.path.replace('/es', '')
+      },
+      author,
+      related: related.map((post) => {
+        const authorName = authors.find((author) => {
+          return author.slug === post.author
+        })
+        return {
+          ...post,
+          author: authorName.name,
+          path: post.path.replace('/es', '')
+        }
+      })
+    }
   },
   head () {
     return {
-      title: this.post.title,
+      title: `${this.post.title} | Political Watch`,
+      description: this.post.description || this.post.title,
       htmlAttrs: {
         lang: 'es'
       },
@@ -84,7 +119,7 @@ export default {
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.post.title
+          content: `${this.post.title} | Political Watch`
         },
         {
           hid: 'og:image',
@@ -99,7 +134,7 @@ export default {
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.post.title
+          content: `${this.post.title} | Political Watch`
         },
         {
           hid: 'twitter:image',

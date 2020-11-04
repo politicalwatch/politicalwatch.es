@@ -29,7 +29,8 @@ export default {
     if (page.blogLatest) {
       posts = await $content('es/blog')
         .where({ lineOfWork: page.lineOfWork })
-        .sortBy('updatedAt', 'desc')
+        .sortBy('order', 'desc')
+        .sortBy('createdAt', 'desc')
         .limit(page.blogLatest)
         .fetch()
 
@@ -41,7 +42,7 @@ export default {
 
     if (page.team) {
       teamMembers = await $content(`${app.i18n.locale}/equipo`)
-        .sortBy('order', 'desc')
+        .sortBy('order', 'asc')
         .sortBy('name', 'asc')
         .limit(page.team)
         .fetch()
@@ -49,6 +50,7 @@ export default {
     if (page.projects) {
       projects = await $content(`${app.i18n.locale}/proyectos`)
         .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'asc')
         .sortBy('updatedAt', 'desc')
         .limit(page.projects)
         .fetch()
@@ -56,6 +58,7 @@ export default {
     if (page.research) {
       research = await $content(`${app.i18n.locale}/investigaciones`)
         .where({ lineOfWork: page.lineOfWork })
+        .sortBy('order', 'asc')
         .sortBy('updatedAt', 'desc')
         .limit(page.research)
         .fetch()
@@ -79,22 +82,22 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.page.subtitle || this.page.title
+          content: this.page.subtitle
         },
         {
           property: 'og:title',
           hid: 'og:title',
-          content: this.page.title
+          content: `${this.page.title} | Political Watch`
         },
         {
           hid: 'twitter:description',
           property: 'twitter:description',
-          content: this.page.subtitle || this.page.title
+          content: this.page.subtitle
         },
         {
           property: 'twitter:title',
           hid: 'twitter:title',
-          content: this.page.title
+          content: `${this.page.title} | Political Watch`
         }
       ]
     }

@@ -12,11 +12,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'keywords', name: 'keywords', content: 'transparencia, rendición de cuentas, desarrollo sostenible, innovación social, política, coherencia de políticas, agenda 2030, ods, empresa y derechos humanos' },
       {
         property: 'og:title',
         hid: 'og:title',
-        content: '%s | Political Watch'
+        content: 'Political Watch'
       },
       {
         hid: 'og:image',
@@ -26,7 +26,7 @@ export default {
       {
         property: 'twitter:title',
         hid: 'twitter:title',
-        content: '%s | Political Watch'
+        content: 'Political Watch'
       },
       {
         hid: 'twitter:image',
@@ -62,8 +62,14 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-webfontloader',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: process.env.BASE_URL,
+    gzip: true
+  },
 
   webfontloader: {
     google: {

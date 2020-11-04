@@ -2,11 +2,11 @@
 title: ' Monitoreo y seguimiento de los ODS de la mano de Parlamento 2030'
 image:  '/images/posts/logop2030.png'
 description: 'Desde su aprobación en 2015 por la Asamblea General de la ONU, la Agenda 2030 con sus 17 Objetivos de Desarrollo Sostenible (ODS) y 169 metas se ha convertido en las gafas con las que todos podemos, y deberíamos, mirar hacia el futuro.'
-author: pablo-martin 
+author: pablo-martin
+createdAt: 2020-01-20
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - parlamento2030-ocde-ogov
+  - qararuna-sociedad-civil-jordania
 lineOfWork: democracy
 ---
 

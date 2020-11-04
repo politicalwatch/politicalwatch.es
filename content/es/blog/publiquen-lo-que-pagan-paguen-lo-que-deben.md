@@ -1,13 +1,12 @@
 ---
-title: 'PUBLIQUEN LO QUE PAGAN, PAGUEN LO QUE DEBEN'
+title: 'Publiquen lo que pagan, paguen lo que deben'
 image:  '/images/posts/paraiso.png'
 description: 'Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al…'
 author: irene-martin
+createdAt: 2019-11-28
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
-lineofwork: democracy
+  - impactos-im-previstos-efectos-de-las-políticas-domésticas-en-el-exterior
+lineofwork: coherence
 ---
 
 Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al impuesto de sociedades país por país ([Country by Country Report](http://www.oecd.org/tax/beps/beps-actions/action13/)) en aplicación de la normativa establecida en los llamados acuerdo ["BEPS”](https://www.oecd.org/ctp/10-preguntas-sobre-beps.pdf)( base erosion and profit shifting) de la ocde. este ejercicio de transparencia fiscal es una [reclamación histórica](https://www.taxjustice.net/country-country-reporting/) de la sociedad civil y fue una de las peticiones de ciecode para avanzar hacia la justicia fiscal en el [Libro Blanco de la política española](https://www.ciecode.es/assets/documents/Libro_Blanco_Desarrollo_CIECODE.pdf) de desarrollo publicado en 2012.

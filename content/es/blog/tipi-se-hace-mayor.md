@@ -3,10 +3,10 @@ title: 'TiPi se hace mayor'
 image:  '/images/posts/tipi.jpeg'
 description: 'Cuando una tecnología cívica alcanza la madurez'
 author: pablo-martin
+createdAt: 2020-09-03
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+    - más-ágiles-y-más-resilientes
+    - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
 lineOfWork: democracy
 ---
 

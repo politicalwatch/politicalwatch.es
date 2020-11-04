@@ -3,10 +3,11 @@ title: 'Las prioridades políticas de los Programas Electorales de cara a las El
 image:  '/images/posts/congreso.jpeg'
 description: 'La tecnología de TiPi Ciudadano sigue avanzando, la nueva modalidad de Scanner, que permite realizar el etiquetado automático de cualquier…'
 author: irene-martin 
+createdAt: 2019-04-08
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa 
+  - comparativa-de-programas-electorales-con-tipi-ciudadano
+  - candi-datos-nueva-aplicación-de-vigilancia-electoral
 lineOfWork: democracy
 ---
 

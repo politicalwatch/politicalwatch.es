@@ -2,7 +2,7 @@
   <div>
     <section class="c-blog o-container o-section">
       <page-header
-        :title="$t('blocks.blog.title')"
+        :title="$t('pages.blog.title')"
         type="h1"
       />
       <div class="c-blog__featured o-section">
@@ -84,23 +84,36 @@ export default {
       return this.posts.slice(3)
     }
   },
-  head: {
-    title: 'Blog',
-    htmlAttrs: {
-      lang: 'es'
-    },
-    meta: [
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content: 'Blog'
+  head () {
+    return {
+      title: this.$t('pages.blog.title'),
+      description: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title'),
+      htmlAttrs: {
+        lang: 'es'
       },
-      {
-        property: 'og:title',
-        hid: 'og:title',
-        content: 'Blog'
-      }
-    ]
+      meta: [
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          property: 'og:title',
+          hid: 'og:title',
+          content: `${this.$t('pages.blog.title')} | Political Watch`
+        },
+        {
+          hid: 'twitter:description',
+          property: 'twitter:description',
+          content: this.$te('pages.blog.description') ? this.$t('pages.blog.description') : this.$t('pages.blog.title')
+        },
+        {
+          property: 'twitter:title',
+          hid: 'twitter:title',
+          content: `${this.$t('pages.blog.title')} | Political Watch`
+        }
+      ]
+    }
   }
 }
 </script>

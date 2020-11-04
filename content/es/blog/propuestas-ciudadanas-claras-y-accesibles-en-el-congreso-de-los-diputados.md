@@ -1,12 +1,13 @@
 ---
-title: 'PROPUESTAS CIUDADANAS CLARAS Y ACCESIBLES EN EL CONGRESO DE LOS DIPUTADOS'
+title: 'Propuestas ciudadanas claras y accesibles en el Congreso de los Diputados'
 image:  '/images/posts/stats_propuestas.png'
 description: 'La ciudadanía ya tiene claro que la COVID-19 ha traído grandes cambios en la forma de relacionarnos y de entender el mundo. Uno de estos…'
 author: belen-aguero
+createdAt: 2020-06-25
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - querida-transparencia-hoy-toca-celebrar
+  - reconstrucción-transparente-patxi-lópez-responde-a-la-petición-de-la-sociedad-civil
+  - aitor-esteban-soy-pesimista-ante-la-comisión-del-covid-19
 lineOfWork: democracy
 ---
 

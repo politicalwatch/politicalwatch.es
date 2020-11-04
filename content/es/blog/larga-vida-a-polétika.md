@@ -3,10 +3,11 @@ title: '¡Larga vida a Polétika!'
 image:  '/images/posts/poletika.jpeg'
 description: 'Ayer publicamos junto con el resto de organizaciones, redes y plataformas de Polétika'
 author: javier.perez
+createdAt: 2019-02-06
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - candi-datos-nueva-aplicación-de-vigilancia-electoral 
+  - las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales
+  - comparativa-de-programas-electorales-con-tipi-ciudadano
 lineOfWork: democracy
 ---
 

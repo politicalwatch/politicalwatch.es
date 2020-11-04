@@ -3,10 +3,10 @@ title: '¿Think and do tank y educación?'
 image:  '/images/posts/clase.jpeg'
 description: 'El pasado lunes 11 de febrero arrancó el itinerario de “Comunicación, investigación e incidencia para el cambio social” dentro del Máster de Cooperación al Desarrollo de la Universidad Pontificia de Comillas.'
 author: javier.perez
+createdAt: 2019-02-19
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - political-watch-amplía-sus-horizontes-en-2019
+  - qararuna-sociedad-civil-jordania
 lineofwork: democracy
 ---
 

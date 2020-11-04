@@ -3,10 +3,10 @@ title: 'CIECODE firma un convenio de colaboración con el MAUC'
 image:  '/images/posts/ciecodemauc.png'
 description: 'El día de hoy hemos firmado un convenio de colaboración con el MAUC (Ministerio de Asuntos Exteriores, Unión Europea y Cooperación) con el objetivo de fomentar el cumplimiento y el monitoreo de la Agenda 2030 y sus 17 Objetivos de Desarrollo Sostenible (ODS) en España.'
 author: javier.perez
+createdAt: 2019-07-30
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - parlamento2030-ocde-ogov
+  - monitoreo-y-seguimiento-de-los-ods-de-la-mano-de-parlamento-2030
 lineOfWork: democracy
 ---
 

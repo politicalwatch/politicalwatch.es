@@ -1,5 +1,7 @@
 table {
   width: 100%;
+  max-width: $container-px - $grid-gap * 2;
+  margin: 0 auto;
   font-size: rem(14px);
   border-collapse: collapse;
 
