@@ -1,13 +1,11 @@
 ---
-title: 'PUBLIQUEN LO QUE PAGAN, PAGUEN LO QUE DEBEN'
+title: 'Publiquen lo que pagan, paguen lo que deben'
 image:  '/images/posts/paraiso.png'
 description: 'Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al…'
 author: irene-martin
 createdAt: 2019-11-28
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - impactos-im-previstos-efectos-de-las-políticas-domésticas-en-el-exterior
 lineofwork: coherence
 ---
 

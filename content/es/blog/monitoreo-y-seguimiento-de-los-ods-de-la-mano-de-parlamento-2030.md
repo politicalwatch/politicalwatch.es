@@ -5,9 +5,8 @@ description: 'Desde su aprobación en 2015 por la Asamblea General de la ONU, la
 author: pablo-martin
 createdAt: 2020-01-20
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - parlamento2030-ocde-ogov
+  - qararuna-sociedad-civil-jordania
 lineOfWork: democracy
 ---
 

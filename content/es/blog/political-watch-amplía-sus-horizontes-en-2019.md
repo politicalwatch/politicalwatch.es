@@ -5,9 +5,8 @@ description: 'CIECODE ha trabajado desde sus inicios en el fortalecimiento de la
 author: javier.perez
 createdAt: 2019-02-28
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - qararuna-sociedad-civil-jordania
+  - open-manifesto-project
 lineOfWork: democracy
 ---
 

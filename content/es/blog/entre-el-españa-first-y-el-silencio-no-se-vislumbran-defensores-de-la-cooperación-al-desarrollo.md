@@ -5,9 +5,7 @@ description: 'Sólo han pasado dos meses de pandemia, dos meses muy intensos en 
 author: javier.perez
 createdAt: 2020-05-12
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - impactos-im-previstos-efectos-de-las-políticas-domésticas-en-el-exterior
 lineOfWork: coherence
 ---
 

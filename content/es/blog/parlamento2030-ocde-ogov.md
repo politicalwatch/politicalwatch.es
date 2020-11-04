@@ -5,9 +5,8 @@ description: 'Nuestra herramienta Parlamento 2030 ha sido seleccionada por la OC
 author: irene-martin
 createdAt: 2019-06-28
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - qararuna-sociedad-civil-jordania 
+  - monitoreo-y-seguimiento-de-los-ods-de-la-mano-de-parlamento-2030
 lineOfWork: democracy
 ---
 

@@ -5,9 +5,9 @@ description: 'Desde #PoliticalWatch llevamos 7 años analizando la política ins
 author: pablo-martin
 createdAt: 2019-01-30
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - mejorando-la-accesibilidad-de-los-programas-electorales
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
+  - comparativa-de-programas-electorales-con-tipi-ciudadano
 lineOfWork: democracy
 ---
 

@@ -5,9 +5,9 @@ description: 'El portavoz del PNV dice que su grupo era “reticente ante una co
 author: javier.perez
 createdAt: 2020-05-14
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - reconstrucción-transparente-patxi-lópez-responde-a-la-petición-de-la-sociedad-civil
+  - propuestas-ciudadanas-claras-y-accesibles-en-el-congreso-de-los-diputados
+  - querida-transparencia-hoy-toca-celebrar
 lineOfWork: democracy
 ---
 **Political Watch* El portavoz del PNV dice que su grupo era “reticente ante una comisión tan amplia” y que al final les tocará jugar “sobre lo que decidan los grandes partidos”. “La falta de transparencia puede afectar a la comisión parlamentaria. Me cabrea la ausencia de mecanismos de control y seguimiento sobre lo que pactemos”

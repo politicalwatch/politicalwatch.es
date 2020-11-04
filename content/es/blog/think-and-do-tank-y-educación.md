@@ -5,9 +5,8 @@ description: 'El pasado lunes 11 de febrero arrancó el itinerario de “Comunic
 author: javier.perez
 createdAt: 2019-02-19
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - political-watch-amplía-sus-horizontes-en-2019
+  - qararuna-sociedad-civil-jordania
 lineofwork: democracy
 ---
 

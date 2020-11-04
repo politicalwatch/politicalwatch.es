@@ -5,9 +5,9 @@ description: 'CIECODE ha sido invitado a colaborar con el proyecto Qararuna en J
 author: irene-martin
 createdAt: 2019-09-12
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - political-watch-amplía-sus-horizontes-en-2019
+  - larga-vida-a-polétika
+  - parlamento2030-ocde-ogov
 lineofwork: democracy
 ---
 

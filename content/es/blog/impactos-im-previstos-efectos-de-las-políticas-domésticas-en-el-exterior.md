@@ -5,9 +5,8 @@ description: '¿Cómo afectan las políticas y el consumo de los países en el e
 author: javier.perez
 createdAt: 2020-08-07
 related:
-  - vitae-elementum-arcu-integer-eu
-  - vitae-elementum-arcu-integer-eu-2
-  - hola-mundo
+  - entre-el-españa-first-y-el-silencio-no-se-vislumbran-defensores-de-la-cooperación-al-desarrollo 
+  - publiquen-lo-que-pagan-paguen-lo-que-deben
 lineOfWork: coherence
 ---
 
