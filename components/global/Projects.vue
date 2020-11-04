@@ -2,8 +2,8 @@
   <section class="c-projects o-section">
     <div class="o-container">
       <page-header
-        :title="$t('blocks.projects.title')"
-        :subtitle="$t('blocks.projects.subtitle')"
+        :title="getTitle"
+        :subtitle="getSubtitle"
       />
     </div>
     <div class="c-projects__wrapper">
@@ -41,9 +41,25 @@
 
 export default {
   name: 'Projects',
+  props: {
+    title: {
+      type: String,
+      default: ''
+    },
+    subtitle: {
+      type: String,
+      default: ''
+    }
+  },
   computed: {
     projects () {
       return this.$parent.projects
+    },
+    getTitle () {
+      return this.title || this.$t('blocks.projects.title')
+    },
+    getSubtitle () {
+      return this.subtitle || this.$t('blocks.projects.subtitle')
     }
   }
 }
