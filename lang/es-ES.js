@@ -52,7 +52,7 @@ export default {
     },
     linesOfWork: {
       title: 'Qué hacemos',
-      subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
+      subtitle: '',
       democracy: {
         title: 'Democracia',
         subtitle: 'Vigilancia ciudadana para una sociedad mejor',
@@ -74,7 +74,7 @@ export default {
     },
     projects: {
       title: 'Proyectos',
-      subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.',
+      subtitle: '',
       button: 'Ver proyecto'
     },
     research: {

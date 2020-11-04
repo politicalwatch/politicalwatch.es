@@ -1,6 +1,6 @@
 ---
 title: Participa
-subtitle: In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.
+subtitle: Conoce las distintas maneras de colaborar con Political Watch y apoyarnos para lograr una sociedad más justa y más sostenible
 ---
 
 <md-content>

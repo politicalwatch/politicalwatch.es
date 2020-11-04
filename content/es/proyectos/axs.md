@@ -1,6 +1,6 @@
 ---
 title: 'AxS de SACYR'
-subtitle: 'In publishing and graphic design, Lorem ipsum is a placeholder text'
+subtitle: 'Actualización del estudio "Desarrollo, ¿para quién?: El caso Sacyr en Mozambique"'
 link: 'https://www.alianzaporlasolidaridad.org/casos/tierrra-caso-sacyr-mozambique'
 image: '/images/projects/axs.jpg'
 lineOfWork: coherence
