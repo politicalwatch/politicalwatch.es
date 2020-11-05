@@ -46,7 +46,7 @@ alliances:
 * En el valor de unos medios de comunicación capaces e independientes.
 
 ### Contribuimos:
-* Facilitando información mediante el desarrollo de tecnologías cívicas [enlace al apartado de la web que lo explica].
+* Facilitando información mediante el desarrollo de tecnologías cívicas.
 * Promoviendo la vigilancia ciudadana, la participación y la rendición de cuentas.
 * Generando contenidos y espacios para estimular un debate público de calidad.
 
