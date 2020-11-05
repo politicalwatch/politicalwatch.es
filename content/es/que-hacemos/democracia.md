@@ -24,7 +24,7 @@ Trabajamos en la promoción de un Estado abierto y transparente, que brinde un a
 
 Ningún estado es abierto sin una ciudadanía activa y reivindicativa de sus derechos. Trabajamos para concienciar y empoderar a la ciudadanía para que cumpla su rol esencial en la vigilancia de la clase política, para exigir rendición de cuentas y el cumplimiento de los compromisos contraídos.
 
-###La rendición de cuentas como impulso a la democracia
+### La rendición de cuentas como impulso a la democracia
 
 Creemos que la rendición de cuentas por parte de la clase política es una parte esencial de la democracia, ya que permite a la ciudadanía conocer y evaluar la labor de sus representantes. Por esta razón vigilamos a los políticos y en alianza con otras organizaciones de la sociedad civil, impulsamos campañas para demandar a la clase política una comunicación permanente, transparente y honesta con la ciudadanía.
 
