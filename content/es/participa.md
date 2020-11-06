@@ -24,8 +24,11 @@ Las personas voluntarias han realizado contribuciones inestimables al trabajo re
 
 ## Dona y colabora
 
-Si te gusta el trabajo que hacemos plantéate colaborar con alguno de nuestros proyectos. Tu contribución nos ayuda a seguir apostando por proyectos innovadores que promuevan la transparencia, la lucha contra la pobreza y la rendición de cuentas desde la independencia y la coherencia. Colabora y benefíciate de la desgravación fiscal. [Contáctanos](mailto:info@politicalwatch.es){target=_blank} para resolver cualquier duda.
+Si te gusta el trabajo que hacemos, plantéate colaborar con alguno de nuestros proyectos. Tu contribución nos ayuda a seguir apostando por proyectos innovadores que promuevan la transparencia, la lucha contra la pobreza y la rendición de cuentas desde la independencia y la coherencia. Colabora y benefíciate de la desgravación fiscal.
 
-![Donar a través de Bizum](/images/bizum.png)
+```
+IBAN: ES12 2038 1119 0460 0068 1175
+```
 
+No olvides especificar el concepto **Donación** y, en el caso de que quieras, concretar, el proyecto de Political Watch para el que te gustaría que fuese tu contribución. [Contáctanos](mailto:info@politicalwatch.es){target=_blank} para resolver cualquier duda.
 </md-content>
