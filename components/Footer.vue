@@ -13,10 +13,8 @@
         <p><a href="mailto:info@politicalwatch.com">info@politicalwatch.com</a></p>
       </div>
       <div class="c-footer__social">
-        <a href="#" target="_blank"><facebook /></a>
-        <a href="#" target="_blank"><twitter /></a>
-        <a href="#" target="_blank"><instagram /></a>
-        <a href="#" target="_blank"><youtube /></a>
+        <a href="https://www.facebook.com/PoliticalWatch.es/" target="_blank"><facebook /></a>
+        <a href="https://twitter.com/_PoliticalWatch" target="_blank"><twitter /></a>
       </div>
     </div>
     <div class="c-footer__copyright o-container">
@@ -30,17 +28,13 @@
 import logo from '~/assets/images/logo-footer.svg?inline'
 import twitter from '~/assets/images/icon-twitter.svg?inline'
 import facebook from '~/assets/images/icon-facebook.svg?inline'
-import youtube from '~/assets/images/icon-youtube.svg?inline'
-import instagram from '~/assets/images/icon-instagram.svg?inline'
 
 export default {
   name: 'Footer',
   components: {
     logo,
     twitter,
-    facebook,
-    youtube,
-    instagram
+    facebook
   }
 }
 </script>
