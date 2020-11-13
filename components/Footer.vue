@@ -13,10 +13,10 @@
         <p><a href="mailto:info@politicalwatch.com">info@politicalwatch.com</a></p>
       </div>
       <div class="c-footer__social">
-        <a href="https://github.com/politicalwatch/" target="_blank"><github /></a>
         <a href="https://twitter.com/_PoliticalWatch" target="_blank"><twitter /></a>
-        <a href="https://www.linkedin.com/company/centro-de-investigaci%C3%B3n-y-estudios-sobre-comercio-y-desarrollo-ciecode-/" target="_blank"><linkedin /></a>
         <a href="https://www.facebook.com/PoliticalWatch.es/" target="_blank"><facebook /></a>
+        <a href="https://github.com/politicalwatch/" target="_blank"><github /></a>
+        <a href="https://www.linkedin.com/company/centro-de-investigaci%C3%B3n-y-estudios-sobre-comercio-y-desarrollo-ciecode-/" target="_blank"><linkedin /></a>
       </div>
     </div>
     <div class="c-footer__copyright o-container">
