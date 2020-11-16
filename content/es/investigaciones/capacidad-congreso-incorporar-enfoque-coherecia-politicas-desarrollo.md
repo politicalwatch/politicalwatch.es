@@ -4,7 +4,7 @@ description: 'Artículo a partir del análisis del Proyecto Avizor'
 link: /documentos/Capacidad-Congreso-Diputados-para-impulsar-Coherencia-de-Politicas-CIECODE.pdf
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---

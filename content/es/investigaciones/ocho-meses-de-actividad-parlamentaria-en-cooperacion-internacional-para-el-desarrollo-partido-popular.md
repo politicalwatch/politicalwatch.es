@@ -3,6 +3,6 @@ title: 'Ocho meses de actividad parlamentaria en Cooperación Internacional para
 description: 'Partido Popular'
 link: /documentos/8-meses-de-actividad-parlamentaria-en-Cooperacion-al-Desarrollo-Partido-Popular.pdf
 tags:
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
 ---

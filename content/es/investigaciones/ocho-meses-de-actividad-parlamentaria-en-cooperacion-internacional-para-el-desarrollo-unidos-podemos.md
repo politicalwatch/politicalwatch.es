@@ -3,6 +3,6 @@ title: 'Ocho meses de actividad parlamentaria en Cooperación Internacional para
 description: 'Unidos Podemos'
 link: /documentos/8-meses-de-actividad-parlamentaria-en-Cooperacion-al-Desarrollo-Unidos-Podemos.pdf
 tags:
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
 ---

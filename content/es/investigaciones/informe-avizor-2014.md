@@ -5,7 +5,7 @@ link: /documentos/Informe_Avizor_2014.pdf
 lineOfWork: democracy
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---
