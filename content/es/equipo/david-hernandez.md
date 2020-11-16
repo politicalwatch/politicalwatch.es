@@ -1,7 +1,7 @@
 ---
 name: 'David Hernández'
 avatar: '/images/team/david-hernandez.jpg'
-position: 'Progranmador'
+position: 'Programador'
 email: 'david.hernandez@politicalwatch.es'
 web: 'http://davidhernandez.info/'
 twitter: 'https://twitter.com/david_baltha'
