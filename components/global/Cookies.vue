@@ -28,10 +28,12 @@ export default {
       isOpen: false
     }
   },
-  created () {
-    // if (!this.getGDPR() === true) {
-    //   this.isOpen = true
-    // }
+  mounted () {
+    if (process.browser) {
+      if (this.getGDPR() === null) {
+        this.isOpen = true
+      }
+    }
   },
   methods: {
     deny () {

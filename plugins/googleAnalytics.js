@@ -2,13 +2,13 @@ import Vue from 'vue'
 import VueGtag from 'vue-gtag'
 
 export default ({ app }) => {
-  // const getGDPR = localStorage.getItem('GDPR:accepted')
+  const getGDPR = localStorage.getItem('GDPR:accepted')
 
   Vue.use(VueGtag, {
     config: { id: 'UA-127864699-4' },
-    bootstrap: true,
+    bootstrap: getGDPR,
     appName: 'PoliticalWatch',
-    enabled: true,
+    enabled: getGDPR,
     pageTrackerScreenviewEnabled: true
   }, app.router)
 }
