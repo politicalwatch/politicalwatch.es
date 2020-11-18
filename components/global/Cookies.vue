@@ -29,9 +29,9 @@ export default {
     }
   },
   created () {
-    if (!this.getGDPR() === true) {
-      this.isOpen = true
-    }
+    // if (!this.getGDPR() === true) {
+    //   this.isOpen = true
+    // }
   },
   methods: {
     deny () {
