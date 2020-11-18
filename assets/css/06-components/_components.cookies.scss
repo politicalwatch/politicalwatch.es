@@ -1,0 +1,14 @@
+.c-cookies {
+  position: fixed;
+  background: $white;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: gap(3);
+  z-index: 2;
+  border-top: $border-width solid $primary;
+
+  p {
+    margin-top: 0;
+  }
+}
