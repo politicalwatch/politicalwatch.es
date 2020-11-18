@@ -4,7 +4,7 @@ description: 'Más de 2300 iniciativas parlamentarias con la actividad del Congr
 link: /documentos/BBDD_Avizor.xlsx
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---

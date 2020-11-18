@@ -4,7 +4,7 @@ description: 'Impacto de la actividad parlamentaria en la lucha contra la pobrez
 link: /documentos/Impacto-de-la-actividad-parlamentaria-en-la-lucha-contra-la-pobreza-Fundacion-Alternativas.pdf
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---

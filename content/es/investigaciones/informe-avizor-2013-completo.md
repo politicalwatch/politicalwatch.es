@@ -4,7 +4,7 @@ description: 'Un año de seguimiento de la actividad parlamentaria en materia de
 link: /documentos/Informe_Avizor_completo.pdf
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---

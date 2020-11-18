@@ -3,6 +3,6 @@ title: 'Ocho meses de actividad parlamentaria en Cooperación Internacional para
 description: 'Resumen Ejecutivo'
 link: /documentos/8-meses-de-actividad-parlamentaria-en-Cooperacion-al-Desarrollo-Resumen-ejecutivo.pdf
 tags:
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
 ---

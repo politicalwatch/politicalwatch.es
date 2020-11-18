@@ -3,6 +3,6 @@ title: 'Ocho meses de actividad parlamentaria en Cooperación Internacional para
 description: 'PSOE'
 link: /documentos/8-meses-de-actividad-parlamentaria-en-Cooperacion-al-Desarrollo-PSOE.pdf
 tags:
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
 ---

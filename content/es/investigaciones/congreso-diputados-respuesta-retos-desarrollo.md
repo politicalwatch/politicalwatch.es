@@ -5,7 +5,7 @@ link: /documentos/5_cuadernos_junio2013.pdf
 lineOfWork: democracy
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---

@@ -4,7 +4,7 @@ description: 'Tablas y gráficos de la actividad en el Congreso de los Diputados
 link: /documentos/ANEXOS_Informe_Avizor_2014.pdf
 tags:
     - coherencia-de-politicas
-    - political-watch
+    - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
 ---
