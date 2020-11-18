@@ -4,5 +4,6 @@
     <Nuxt />
     <Newsletter />
     <Footer />
+    <Cookies />
   </div>
 </template>

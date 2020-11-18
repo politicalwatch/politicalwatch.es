@@ -1,32 +1,29 @@
 <template>
-  <div>
-    <footer class="c-footer">
-      <div class="c-footer__wrapper o-container">
-        <nuxt-link :to="localePath('index')" class="c-footer__logo">
-          <logo />
-        </nuxt-link>
-        <div class="c-footer__address">
-          <p>
-            Avda. Cardenal Herrera Oria <br>
-            63, 3º Izda - 28034, Madrid
-          </p>
-          <p><a href="tel:34917314873">+34 91 731 48 73</a></p>
-          <p><a href="mailto:info@politicalwatch.com">info@politicalwatch.com</a></p>
-        </div>
-        <div class="c-footer__social">
-          <a href="https://twitter.com/_PoliticalWatch" target="_blank"><twitter /></a>
-          <a href="https://www.facebook.com/PoliticalWatch.es/" target="_blank"><facebook /></a>
-          <a href="https://github.com/politicalwatch/" target="_blank"><github /></a>
-          <a href="https://www.linkedin.com/company/centro-de-investigaci%C3%B3n-y-estudios-sobre-comercio-y-desarrollo-ciecode-/" target="_blank"><linkedin /></a>
-        </div>
+  <footer class="c-footer">
+    <div class="c-footer__wrapper o-container">
+      <nuxt-link :to="localePath('index')" class="c-footer__logo">
+        <logo />
+      </nuxt-link>
+      <div class="c-footer__address">
+        <p>
+          Avda. Cardenal Herrera Oria <br>
+          63, 3º Izda - 28034, Madrid
+        </p>
+        <p><a href="tel:34917314873">+34 91 731 48 73</a></p>
+        <p><a href="mailto:info@politicalwatch.com">info@politicalwatch.com</a></p>
       </div>
-      <div class="c-footer__copyright o-container">
-        <p>Political Watch © {{ (new Date()).getFullYear() }} - <a href="/aviso-legal">{{ $t('pages.legal.title') }}</a></p>
-        <p>{{ $t('global.developedBy') }} - <a target="_blank" href="http://ungrynerd.com">UNGRYNERD</a></p>
+      <div class="c-footer__social">
+        <a href="https://twitter.com/_PoliticalWatch" target="_blank"><twitter /></a>
+        <a href="https://www.facebook.com/PoliticalWatch.es/" target="_blank"><facebook /></a>
+        <a href="https://github.com/politicalwatch/" target="_blank"><github /></a>
+        <a href="https://www.linkedin.com/company/centro-de-investigaci%C3%B3n-y-estudios-sobre-comercio-y-desarrollo-ciecode-/" target="_blank"><linkedin /></a>
       </div>
-    </footer>
-    <cookies />
-  </div>
+    </div>
+    <div class="c-footer__copyright o-container">
+      <p>Political Watch © {{ (new Date()).getFullYear() }} - <a href="/aviso-legal">{{ $t('pages.legal.title') }}</a></p>
+      <p>{{ $t('global.developedBy') }} - <a target="_blank" href="http://ungrynerd.com">UNGRYNERD</a></p>
+    </div>
+  </footer>
 </template>
 
 <script>
