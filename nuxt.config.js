@@ -43,7 +43,13 @@ export default {
   css: ['~/assets/css/main.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['~plugins/filters.js'],
+  plugins: [
+    '~plugins/filters.js',
+    {
+      src: '~plugins/googleAnalytics.js',
+      mode: 'client'
+    }
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -63,14 +69,8 @@ export default {
     '@nuxt/content',
     'nuxt-webfontloader',
     'nuxt-i18n',
-    '@nuxtjs/gtm',
     '@nuxtjs/sitemap'
   ],
-
-  gtm: {
-    id: 'UA-127864699-4',
-    enabled: true
-  },
 
   sitemap: {
     hostname: process.env.BASE_URL,
