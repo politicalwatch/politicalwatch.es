@@ -63,8 +63,14 @@ export default {
     '@nuxt/content',
     'nuxt-webfontloader',
     'nuxt-i18n',
+    '@nuxtjs/gtm',
     '@nuxtjs/sitemap'
   ],
+
+  gtm: {
+    id: 'UA-127864699-4',
+    enabled: true
+  },
 
   sitemap: {
     hostname: process.env.BASE_URL,
