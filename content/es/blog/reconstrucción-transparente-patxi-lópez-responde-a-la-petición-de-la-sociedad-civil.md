@@ -28,4 +28,4 @@ Carta
 
 Por nuestra parte, continuaremos vigilando el cumplimiento de los avances anunciados y ofreciendo a la ciudadanía la información y análisis de lo que se trate, debata, proponga y decida en el seno de la Comisión de Reconstrucción.
 
-Si quieres estar al día puedes acceder a la web del [proyecto ](https://www.ciecode.es/political-watch/covid-19/)o suscribirte a nuestra [newsletter](https://bit.ly/3cSCP4k).
+Si quieres estar al día puedes suscribirte a nuestra [newsletter](https://bit.ly/3cSCP4k).

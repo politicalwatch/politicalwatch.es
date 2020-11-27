@@ -22,7 +22,7 @@ Con este análisis hemos intentado responder a las siguientes preguntas:
 
 * ¿Han habido avances en cuanto a la calidad democrática en las últimas Legislaturas? ¿Cuál ha sido el rol de los y las diputadas de cada partido?
 
-Algunas de las principales reflexiones y resultados generados a partir de esta investigación se presentan a continuación (podéis acceder al documento completo en abierto [aquí](https://ciecode.es/investigacion/webreport/analisis-calidad-democratica-espana-2020/)).
+Algunas de las principales reflexiones y resultados generados a partir de esta investigación se presentan a continuación (podéis acceder al documento completo en abierto [aquí](https://politicalwatch.es/documentos/Breve-Analisis-Calidad-Democratica-Espana-2020.pdf).
 
 ### **El estado de la calidad democrática en el mundo**
 
