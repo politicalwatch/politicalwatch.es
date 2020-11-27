@@ -11,9 +11,9 @@ lineOfWork: democracy
 ---
 
 
-CIECODE ** **ha trabajado desde sus inicios en el fortalecimiento de la sociedad civil a través del desarrollo de plataformas como  [Political Watch](http://politicalwatch.es) ** que promueven la participación ciudadana y su vigilancia del poder político mediante herramientas de acceso a la información como es ** [TiPi Ciudadano](https://tipiciudadano.es/)**.
+CIECODE ha trabajado desde sus inicios en el fortalecimiento de la sociedad civil a través del desarrollo de plataformas como **[Political Watch](http://politicalwatch.es)** que promueven la participación ciudadana y su vigilancia del poder político mediante herramientas de acceso a la información como es **[TiPi Ciudadano](https://tipiciudadano.es/)**.
 
-A principios de este año hemos recibido la noticia de que CIECODE** **ha sido seleccionado como *beneficiario* de las ayudas de ** [The Open Society Foundations](https://www.opensocietyfoundations.org/)** para afianzar a lo largo de 2019 nuestras actividades en España en pro de la **participación ciudadana**, la **calidad democrática** y la construcción de una **sociedad más transparente**.
+A principios de este año hemos recibido la noticia de que CIECODE ha sido seleccionado como *beneficiario* de las ayudas de **[The Open Society Foundations](https://www.opensocietyfoundations.org/)** para afianzar a lo largo de 2019 nuestras actividades en España en pro de la **participación ciudadana**, la **calidad democrática** y la construcción de una **sociedad más transparente**.
 
 Gracias a este apoyo, CIECODE impulsará la realización de las siguientes actividades a lo largo de este año:
 

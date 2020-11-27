@@ -9,9 +9,6 @@ related:
 lineOfWork: coherence
 ---
 
-
-[Voluntarios](images/posts/voluntarios.png)*Foto: Miguel Lizana (AECID)
-
 Sólo han pasado dos meses de pandemia, dos meses muy intensos en los cuales el Gobierno español ha puesto en marcha un complejo entramado de leyes y medidas sociales y económicas destinadas a amortiguar el golpe del coronavirus en la vida de ciudadanía y Estado y a intentar mitigar sus consecuencias. En estos escasos dos meses hemos visto cómo las manifestaciones de colectividad, cooperación y solidaridad han brotado a lo largo y ancho del territorio español. Pero ambos, la hiperactividad política y la solidaridad colectiva, se han enfocado casi exclusivamente en lo doméstico. Se ha pasado por alto que se trata de una crisis netamente global, que vivimos en una sociedad y en una economía hiperconectada y que, como siempre, los que se llevarán la peor parte de la pandemia serán aquellos que ya eran vulnerables y débiles antes incluso de que ésta diera comienzo.
 
 En esta hiperactividad política, se ha echado en falta, como ya lo reflejábamos en un [post previo](https://medium.com/@CIECODE/no-dejar-a-nadie-atr%C3%A1s-en-tiempos-de-coronavirus-d%C3%B3nde-se-sit%C3%BAa-espa%C3%B1a-en-la-respuesta-global-a-a04d379c9aa1), directrices y mensajes claros en defensa de la política de cooperación por parte del Ejecutivo. Sin embargo, en este artículo nos gustaría poner el foco en el Congreso de los Diputados, intentando poner algo de luz sobre la labor de esta institución en materia de cooperación en estos primeros meses de legislatura, marcados por el inicio de la pandemia.

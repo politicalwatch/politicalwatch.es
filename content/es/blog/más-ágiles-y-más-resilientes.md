@@ -42,13 +42,13 @@ Desde un punto de vista tecnológico, la arquitectura original contaba con los s
 
 Ahora hemos modificado bastantes piezas de esta estructura, quedando de la siguiente forma:
 
-* [**TIPI Engine](https://github.com/politicalwatch/tipi-engine)**, que sigue realizando las mismas funciones principales pero con una gran mejora a la hora de obtener las iniciativas, de etiquetarlas y, además, de ejecutar procesos de limpieza y transformación de datos.
+* **[TIPI Engine](https://github.com/politicalwatch/tipi-engine)**, que sigue realizando las mismas funciones principales pero con una gran mejora a la hora de obtener las iniciativas, de etiquetarlas y, además, de ejecutar procesos de limpieza y transformación de datos.
 
-* [**TIPI Alerts](https://github.com/politicalwatch/tipi-alerts)**, que se ha extraído del TIPi Engine y que se explicará en el apartado siguiente.
+* **[TIPI Alerts](https://github.com/politicalwatch/tipi-alerts)**, que se ha extraído del TIPi Engine y que se explicará en el apartado siguiente.
 
-* [**TIPI Backend](https://github.com/politicalwatch/tipi-backend)**, en el que hemos desarrollado desde cero una API bastante completa y tremendamente documentada (usando Swagger) y que será el núcleo fundamental de nuestra web. Una API pública para nosotros y la misma API abierta a la ciudadanía con una intención 100% reutilizadora sobre nuestros datos (API de [TIPI Ciudadano](http://api.tipiciudadano.es) y [Parlamento2030](http://api.parlamento2030.es)). Todo ha sido desarrollado en Python, haciendo uso del framework Flask y del paquete Flask-RESTPlus.
+* [**TIPI Backend**](https://github.com/politicalwatch/tipi-backend), en el que hemos desarrollado desde cero una API bastante completa y tremendamente documentada (usando Swagger) y que será el núcleo fundamental de nuestra web. Una API pública para nosotros y la misma API abierta a la ciudadanía con una intención 100% reutilizadora sobre nuestros datos (API de [TIPI Ciudadano](http://api.tipiciudadano.es) y [Parlamento2030](http://api.parlamento2030.es)). Todo ha sido desarrollado en Python, haciendo uso del framework Flask y del paquete Flask-RESTPlus.
 
-* [**TIPI Frontend](https://github.com/politicalwatch/tipi-frontend)**, que se convierte en una web liviana, desacoplada del servidor y que sólo se comunica con él para la obtención de los datos a través de llamadas a su API. Todo esta parte ha sido desarrollada con VueJS.
+* **[TIPI Frontend](https://github.com/politicalwatch/tipi-frontend)**, que se convierte en una web liviana, desacoplada del servidor y que sólo se comunica con él para la obtención de los datos a través de llamadas a su API. Todo esta parte ha sido desarrollada con VueJS.
 
 * **Base de datos no relacional MongoDB**, que se conserva por su facilidad de uso y por su velocidad sobre todo a la hora de leer datos (gran parte de las operaciones que se realizan sobre ella son de lectura).
 

@@ -10,13 +10,13 @@ related:
   - querida-transparencia-hoy-toca-celebrar
 lineOfWork: democracy
 ---
-**Political Watch* El portavoz del PNV dice que su grupo era “reticente ante una comisión tan amplia” y que al final les tocará jugar “sobre lo que decidan los grandes partidos”. “La falta de transparencia puede afectar a la comisión parlamentaria. Me cabrea la ausencia de mecanismos de control y seguimiento sobre lo que pactemos”
+El portavoz del PNV dice que su grupo era “reticente ante una comisión tan amplia” y que al final les tocará jugar “sobre lo que decidan los grandes partidos”. “La falta de transparencia puede afectar a la comisión parlamentaria. Me cabrea la ausencia de mecanismos de control y seguimiento sobre lo que pactemos”
 
 ![comision]*Comisión para la Reconstrución Social y Económica*
 
 [comision]: /images/posts/aitor-esteban.jpeg
 
-*Political Watch.-** El portavoz del PNV en el Congreso de los Diputados, Aitor Esteban, se declara “pesimista” ante la primera sesión de la denominada Comisión para la Reconstrucción Social y Económica” que aprobó ayer miércoles 13 de mayo su plan de trabajo, y en la que los partidos buscarán un pacto para salir de la crisis del coronavirus. “Otros dirán que son optimistas en torno a la comisión, pero estarán mintiendo”, confiesa Esteban a Political Watch, la plataforma de Vigilancia Ciudadana.
+**Political Watch*.-** El portavoz del PNV en el Congreso de los Diputados, Aitor Esteban, se declara “pesimista” ante la primera sesión de la denominada Comisión para la Reconstrucción Social y Económica” que aprobó ayer miércoles 13 de mayo su plan de trabajo, y en la que los partidos buscarán un pacto para salir de la crisis del coronavirus. “Otros dirán que son optimistas en torno a la comisión, pero estarán mintiendo”, confiesa Esteban a Political Watch, la plataforma de Vigilancia Ciudadana.
 
 “No soy muy optimista, sinceramente”, añade Aitor Esteban. “El clima del Congreso está bastante mal por lo que se ha visto en las últimas semanas. A ver qué sucede esta semana, pero creo que ni siquiera los grupos políticos se pondrán de acuerdo en los desafíos que tendrá que afrontar la comisión”.
 
