@@ -9,7 +9,7 @@ related:
 lineofwork: coherence
 ---
 
-Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al impuesto de sociedades país por país ([Country by Country Report](http://www.oecd.org/tax/beps/beps-actions/action13/)) en aplicación de la normativa establecida en los llamados acuerdo ["BEPS”](https://www.oecd.org/ctp/10-preguntas-sobre-beps.pdf)( base erosion and profit shifting) de la ocde. este ejercicio de transparencia fiscal es una [reclamación histórica](https://www.taxjustice.net/country-country-reporting/) de la sociedad civil y fue una de las peticiones de ciecode para avanzar hacia la justicia fiscal en el [Libro Blanco de la política española](https://www.ciecode.es/assets/documents/Libro_Blanco_Desarrollo_CIECODE.pdf) de desarrollo publicado en 2012.
+Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al impuesto de sociedades país por país ([Country by Country Report](http://www.oecd.org/tax/beps/beps-actions/action13/)) en aplicación de la normativa establecida en los llamados acuerdo ["BEPS”](https://www.oecd.org/ctp/10-preguntas-sobre-beps.pdf)( base erosion and profit shifting) de la ocde. este ejercicio de transparencia fiscal es una [reclamación histórica](https://www.taxjustice.net/country-country-reporting/) de la sociedad civil y fue una de las peticiones de ciecode para avanzar hacia la justicia fiscal en el [Libro Blanco de la política española](https://politicalwatch.es/documentos/Libro_Blanco_Desarrollo_CIECODE.pdf) de desarrollo publicado en 2012.
 [](https://cdn-images-1.medium.codddm/max/10432/1*jbi-rr0ggd-vnpnfr6dijg.png)
 ![paraiso](/images/posts/paraiso.png)
 

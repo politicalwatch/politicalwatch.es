@@ -29,4 +29,4 @@ Es por ello, que las organizaciones firmantes de la carta a Patxi López manifes
 
 Pero de todo ello ya habrá tiempo de hablar mañana. Hoy toca felicitar al Congreso como institución, y a las personas que a título individual han hecho suya esta causa, por los avances logrados que, aún con todas sus debilidades y deficiencias, suponen un hito de apertura y transparencia en los últimos 40 años de historia parlamentaria en España.
 
-[*Political Watch](https://www.ciecode.es/political-watch/)* *desarrolla tecnologías cívicas que facilitan el acceso a la información, la vigilancia ciudadana y la rendición de cuentas para promover el diseño de políticas públicas más justas y sostenibles.*
+*Political Watch desarrolla tecnologías cívicas que facilitan el acceso a la información, la vigilancia ciudadana y la rendición de cuentas para promover el diseño de políticas públicas más justas y sostenibles.*
