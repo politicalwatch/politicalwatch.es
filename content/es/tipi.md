@@ -17,6 +17,10 @@ El objetivo último de TIPI es promover políticas públicas orientadas a la luc
 
 <tipi-how></tipi-how>
 
+Si quieres saber mas de la parte tecnica, puedes leer mas en los siguientes enlaces:
+- GitHub
+- Pagina tecnica
+
 ## Dónde
 
 <tipi-where></tipi-where>
