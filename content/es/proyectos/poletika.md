@@ -4,5 +4,5 @@ subtitle: 'Plataforma de organizaciones de la sociedad civil centrada en la vigi
 link: 'http://poletika.org'
 image: '/images/projects/poletika.jpg'
 lineOfWork: democracy
-order: 6
+order: 8
 ---

@@ -4,5 +4,5 @@ subtitle: 'Herramienta de seguimiento de actividad parlamentaria española relac
 link: 'https://parlamento2030.es'
 image: '/images/projects/p2030.jpg'
 lineOfWork: democracy
-order: 5
+order: 7
 ---

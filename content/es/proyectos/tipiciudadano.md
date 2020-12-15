@@ -4,5 +4,5 @@ subtitle: 'Herramienta on-line de transparencia, acceso a información y rendici
 link: 'https://tipiciudadano.es'
 image: '/images/projects/tipi.jpg'
 lineOfWork: democracy
-order: 7
+order: 9
 ---
