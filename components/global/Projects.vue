@@ -1,5 +1,5 @@
 <template>
-  <section class="c-projects o-section">
+  <section class="c-projects o-section" id="projects">
     <div class="o-container">
       <page-header
         :title="getTitle"
