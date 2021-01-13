@@ -5,6 +5,7 @@
   right: 0;
   left: 0;
   background-color: rgb(255, 255, 255);
+  padding: 20px;
 
   &__header {
     width: 100%;
@@ -93,7 +94,6 @@
 
   &__results {
     display: flex;
-    margin: 0 50px;
     max-width: inherit;
   }
 
