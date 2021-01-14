@@ -1,5 +1,5 @@
 .c-search {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
@@ -25,7 +25,7 @@
 
     &-input {
       color: $brand;
-      font-size: 7em;
+      font-size: 5em;
       width: 80%;
       padding: 0 10px;
       background: transparent;
@@ -38,8 +38,8 @@
 
     &-button {
       border: 0;
-      width: 120px;
-      height: 120px;
+      width: 100px;
+      height: 100px;
       background: none;
       cursor: pointer;
 
@@ -106,13 +106,29 @@
       @include th3;
     }
 
-    p {
+    a {
       margin-left: 20px;
       font-weight: bold;
-    }
+      color: $medium;
+      text-decoration: none;
 
-    li:hover {
-      color: $primary;
+      &:hover {
+        color: $primary;
+      }
     }
+  }
+
+  &__tag {
+    background-color: $light;
+    font-family: Rubik, sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.33;
+    font-weight: 700;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+    color: #354661;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin: 0 1px 1px 0;
   }
 }

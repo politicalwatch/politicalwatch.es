@@ -67,6 +67,9 @@ export default {
       if (process.browser) {
         this.searchShown = !this.searchShown
       }
+      if (this.searchShown) {
+        this.$emit('search')
+      }
     }
   }
 }

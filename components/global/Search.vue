@@ -16,8 +16,9 @@
       <div v-if="tipiResults.length > 0" class="c-search__result">
         <h3>En Tipi</h3>
         <ul>
-          <li v-for="item in tipiResults" :key="item">
-            <p><a target="_blank" :href="item.url">{{ item.title }}</a></p>
+          <li v-for="item in tipiResults" :key="item.url">
+            <a target="_blank" :href="item.url">{{ item.title }}</a>
+            <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
         <a target="_blank" :href="tipiMore" class="c-link">Ver más</a>
@@ -25,8 +26,9 @@
       <div v-if="p2030Results.length > 0" class="c-search__result">
         <h3>En Parlamento2030</h3>
         <ul>
-          <li v-for="item in p2030Results" :key="item">
-            <p><a target="_blank" :href="item.url">{{ item.title }}</a></p>
+          <li v-for="item in p2030Results" :key="item.url">
+            <a target="_blank" :href="item.url">{{ item.title }}</a>
+            <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
         <a target="_blank" :href="p2030More" class="c-link">Ver más</a>
@@ -34,8 +36,9 @@
       <div v-if="ompResults.length > 0" class="c-search__result">
         <h3>En OpenManifestoProject</h3>
         <ul>
-          <li v-for="item in ompResults" :key="item">
-            <p>{{ item }}</p>
+          <li v-for="item in ompResults" :key="item.url">
+            <a target="_blank" :href="item.url">{{ item.title }}</a>
+            <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
         <a target="_blank" :href="ompMore" class="c-link">Ver más</a>
@@ -63,13 +66,20 @@ export default {
       ompMore: ''
     }
   },
+  mounted () {
+    document.addEventListener('keydown', (e) => {
+      if (e.keyCode === 27) {
+        this.close()
+      }
+    })
+  },
   methods: {
     close () {
       this.$emit('closed')
     },
     trimTitle (title) {
-      if (title.length > 100) {
-        title = title.substring(0, 97) + '...'
+      if (title.length > 80) {
+        title = title.substring(0, 77) + '...'
       }
       return title
     },
@@ -85,7 +95,8 @@ export default {
       this.fetch(url, (initiative) => {
         const result = {
           title: this.trimTitle(initiative.title),
-          url: 'https://tipiciudadano.es/initiatives/' + initiative.id
+          url: 'https://tipiciudadano.es/initiatives/' + initiative.id,
+          tags: initiative.topics.slice(0, 3)
         }
         this.tipiResults.push(result)
       })
@@ -102,7 +113,8 @@ export default {
       this.fetch(url, (initiative) => {
         const result = {
           title: this.trimTitle(initiative.title),
-          url: 'https://parlamento2030.es/initiatives/' + initiative.id
+          url: 'https://parlamento2030.es/initiatives/' + initiative.id,
+          tags: initiative.topics.slice(0, 3).map(tag => tag.substring(0, 6).trim())
         }
         this.p2030Results.push(result)
       })
@@ -135,8 +147,12 @@ export default {
         .then((data) => {
           let count = 0
           while (count < 5) {
-            const item = this.trimTitle(data[count].body)
-            this.ompResults.push(item)
+            const result = {
+              title: this.trimTitle(data[count].body),
+              url: '',
+              tags: data[count].topics.slice(0, 3)
+            }
+            this.ompResults.push(result)
             count++
           }
         })

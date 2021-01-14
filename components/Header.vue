@@ -13,7 +13,7 @@
       <span class="bar" />
       <span class="text">{{ $t('global.menuToggle') }}</span>
     </button>
-    <Menu :active="isMenuActive" />
+    <Menu :active="isMenuActive" @search="isMenuActive = !isMenuActive" />
   </header>
 </template>
 
