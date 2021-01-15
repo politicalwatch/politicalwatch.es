@@ -1,18 +1,15 @@
 .c-search {
   position: fixed;
   top: 0;
-  bottom: 0;
   right: 0;
   left: 0;
   background-color: rgb(255, 255, 255);
   padding: 20px;
   z-index: 10;
-
-  @media (max-width: $xs) {
-    position: fixed;
-    height: 100%;
-    bottom: inherit;
-  }
+  height: 100%;
+  bottom: inherit;
+  display: flex;
+  flex-direction: column;
 
   &__header {
     width: 100%;
@@ -34,6 +31,10 @@
   &__form {
     width: 80%;
     margin: 0 auto;
+    border-bottom-color: $gray;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    position: relative;
 
     @media (max-width: $xs) {
       width: 100%;
@@ -42,10 +43,11 @@
     &-input {
       color: $brand;
       font-size: 5em;
-      width: 80%;
-      padding: 0 10px;
       background: transparent;
       border: 0;
+      width: 100%;
+      padding: 10px;
+      padding-right: 100px;
 
       @media (max-width: $xs) {
         font-size: 2em;
@@ -62,6 +64,9 @@
       height: 100px;
       background: none;
       cursor: pointer;
+      position: absolute;
+      top: 10px;
+      right: 0;
 
       @media (max-width: $xs) {
         width: 40px;
@@ -125,23 +130,26 @@
   &__results {
     display: flex;
     max-width: inherit;
+    overflow-y: scroll;
+    margin-right: -40px;
+    padding-right: 40px;
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
       display: block;
       padding: 0;
-      overflow-y: scroll;
-      max-height: 80%;
+      padding-right: 40px;
     }
   }
 
   &__result {
     align-items: stretch;
-    min-width: 33%;
+    min-width: 50%;
     padding: 0 20px;
 
-    @media (max-width: $xs) {
+    @media (max-width: $sm) {
       padding: 0;
       font-size: 1rem;
+      width: 100%;
     }
 
     h3 {

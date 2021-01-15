@@ -7,37 +7,27 @@
       <span class="c-search__button-close" @click="close" />
     </div>
     <div class="c-search__form">
-      <input class="c-search__form-input" type="search" placeholder="Buscar..." @change="search">
+      <input ref="search" class="c-search__form-input" type="search" placeholder="Buscar..." @change="search">
       <button class="c-search__form-button">
         <iconSearch />
       </button>
     </div>
     <div class="c-search__results c-content">
       <div v-if="tipiResults.length > 0" class="c-search__result">
-        <h3>En Tipi</h3>
+        <h3>Actividad en el congreso</h3>
         <ul>
           <li v-for="item in tipiResults" :key="item.url">
-            <a target="_blank" :href="item.url">{{ item.title }}</a>
+            <a target="_blank" :title="item.full" :href="item.url">{{ item.title }}</a>
             <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
         <a target="_blank" :href="tipiMore" class="c-link">Ver más</a>
       </div>
-      <div v-if="p2030Results.length > 0" class="c-search__result">
-        <h3>En Parlamento2030</h3>
-        <ul>
-          <li v-for="item in p2030Results" :key="item.url">
-            <a target="_blank" :href="item.url">{{ item.title }}</a>
-            <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
-          </li>
-        </ul>
-        <a target="_blank" :href="p2030More" class="c-link">Ver más</a>
-      </div>
       <div v-if="ompResults.length > 0" class="c-search__result">
-        <h3>En OpenManifestoProject</h3>
+        <h3>Propuestas electorales</h3>
         <ul>
           <li v-for="item in ompResults" :key="item.url">
-            <a target="_blank" :href="item.url">{{ item.title }}</a>
+            <a target="_blank" :title="item.full" :href="item.url">{{ item.title }}</a>
             <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
@@ -59,10 +49,8 @@ export default {
   data () {
     return {
       tipiResults: [],
-      p2030Results: [],
       ompResults: [],
       tipiMore: '',
-      p2030More: '',
       ompMore: ''
     }
   },
@@ -72,14 +60,16 @@ export default {
         this.close()
       }
     })
+    this.$refs.search.focus()
   },
   methods: {
     close () {
+      window.scrollTo(0, 0)
       this.$emit('closed')
     },
     trimTitle (title) {
-      if (title.length > 80) {
-        title = title.substring(0, 77) + '...'
+      if (title.length > 150) {
+        title = title.substring(0, 147) + '...'
       }
       return title
     },
@@ -95,28 +85,11 @@ export default {
       this.fetch(url, (initiative) => {
         const result = {
           title: this.trimTitle(initiative.title),
+          full: initiative.title,
           url: 'https://tipiciudadano.es/initiatives/' + initiative.id,
           tags: initiative.topics.slice(0, 3)
         }
         this.tipiResults.push(result)
-      })
-    },
-    p2030Search (term) {
-      this.p2030Results = []
-      this.p2030More = ''
-      if (term === '') {
-        return
-      }
-
-      const url = 'https://api.parlamento2030.es/initiatives/?page=1&title=' + term
-      this.p2030More = 'https://tipiciudadano.es/results/title=' + term
-      this.fetch(url, (initiative) => {
-        const result = {
-          title: this.trimTitle(initiative.title),
-          url: 'https://parlamento2030.es/initiatives/' + initiative.id,
-          tags: initiative.topics.slice(0, 3).map(tag => tag.substring(0, 6).trim())
-        }
-        this.p2030Results.push(result)
       })
     },
     fetch (url, callback) {
@@ -149,6 +122,7 @@ export default {
           while (count < 5) {
             const result = {
               title: this.trimTitle(data[count].body),
+              full: data[count].body,
               url: '',
               tags: data[count].topics.slice(0, 3)
             }
@@ -160,7 +134,6 @@ export default {
     search (event) {
       const term = event.target.value
       this.tipiSearch(term)
-      this.p2030Search(term)
       this.ompSearch(term)
     }
   }
