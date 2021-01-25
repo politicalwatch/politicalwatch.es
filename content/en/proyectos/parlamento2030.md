@@ -1,7 +1,8 @@
 ---
 title: 'Parlamento 2030'
-subtitle: 'Herramienta de seguimiento de actividad parlamentaria relacionada con la Agenda 2030.'
+subtitle: 'Tool of parliamentary activity tracing related with the 2030 Agenda.'
 link: 'https://parlamento2030.com'
 image: '/images/projects/parlamento2030.jpg'
-lineOfWork: coherence
+lineOfWork: democracy
+order: 7
 ---
