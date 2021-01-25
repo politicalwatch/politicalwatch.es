@@ -2,8 +2,6 @@
 title: Transparency
 ---
 
-# Transparency
-
 <md-content>
 
 We don't want to demand what we don't do. For that reason, we compromise to be totally transparent and make our accounts public. So you can learn our funding sources, who do we work with and how do we spend our budget.
