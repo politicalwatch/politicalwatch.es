@@ -48,7 +48,7 @@ export default {
     },
     linesOfWork: {
       title: 'We do',
-      subtitle: 'Political Watch is a platform...',
+      subtitle: '',
       democracy: {
         title: 'Democracy',
         subtitle: 'Citizen surveillance for a better society',
