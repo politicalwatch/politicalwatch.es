@@ -77,6 +77,11 @@ export default {
       title: 'Research',
       goto: 'Find all',
       button: 'Download'
+    },
+    cookies: {
+      message: 'We use Google Analytics to know the impact of our projects and investigations in the digital ecosystem, with the aim to continue improving and adapting in an increasingly changing world. With this form we ask you your consent to use it.',
+      accept: 'Accept',
+      reject: 'Reject'
     }
   }
 }

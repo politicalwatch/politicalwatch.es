@@ -82,6 +82,11 @@ export default {
       goto: 'Consultar todas',
       button: 'Descargar',
       buttonLink: 'Visitar'
+    },
+    cookies: {
+      message: 'Usamos Google Analytics para conocer el impacto de nuestros proyecto e investigaciones en el ecosistema digital, con el objetivo de seguir mejorando y adaptándonos a un mundo cada vez más cambiante. Con este formulario te solicitamos tu consentimiento de uso.',
+      accept: 'Aceptar',
+      reject: 'Rechazar'
     }
   }
 }
