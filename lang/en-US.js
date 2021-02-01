@@ -53,13 +53,13 @@ export default {
         title: 'Democracy',
         subtitle: 'Citizen surveillance for a better society',
         button: 'Tell me more',
-        link: '/en/que-hacemos/democracia'
+        link: '/en/democracia'
       },
       coherence: {
         title: 'Coherence',
         subtitle: 'Policies at the height of the challenges of our era',
         button: 'Tell me more',
-        link: '/en/que-hacemos/coherencia'
+        link: '/en/coherencia'
       }
     },
     team: {
