@@ -3,10 +3,10 @@ title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
   title: '#ColeSeguro'
-  subtitle: '¿Se está garantizando el derecho a la educación?'
-  description: 'En el proyecto #ColeSeguro vamos a ofrecer información fiable y contrastada sobre las políticas que se están llevando a cabo para garantizar el derecho a la educación durante la pandemia, el dinero disponible para ejecutarlas y su traducción en medidas concretas en los colegios de España.'
-  button: 'Saber más'
-  link: 'http://coleseguro.es'
+  subtitle: 'Derecho a la educación en tiempos de COVID'
+  description: 'La COVID-19 ha planteado grandes retos en el derecho a la educación. A pesar de que los diferentes planes de retorno a las aulas, el curso 2020/2021 arrancó con grandes interrogantes sobre la forma en la que se iba a garantizar el derecho a la educación en condiciones de seguridad. Este informe analiza esta cuestión centrándose en la inversión pública en educación, la situación de los centros educativos y la percepción ciudadana sobre las medidas adoptadas.'
+  button: 'Ver resultados'
+  link: 'http://coleseguro.es/resultados'
   image: /images/featured.png
 othersItems:
   - title: 'Vitae elementum arcu integer eu'
