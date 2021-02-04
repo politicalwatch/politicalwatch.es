@@ -57,7 +57,7 @@ export default {
       },
       coherence: {
         title: 'Coherence',
-        subtitle: 'Policies at the height of the challenges of our era',
+        subtitle: 'Policies that live up to the challenges of our era',
         button: 'Tell me more',
         link: '/en/coherencia'
       }

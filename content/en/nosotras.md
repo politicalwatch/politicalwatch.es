@@ -1,6 +1,6 @@
 ---
 title: 'About us'
-subtitle: 'Political Watch is an independent organization that, through the development of civic technologies, incidence actions and research, fights for a fairer more democratic and more sustainable society.'
+subtitle: 'Political Watch is an independent organisation that, through the development of civic technologies, advocacy and research, fights for a more fair, democratic and sustainable society.'
 team: 20
 alliances:
   - image: '/images/alliances/logooecd_en.png'
@@ -40,26 +40,26 @@ alliances:
 
 <md-content>
 
-### We believe:
-* In the potential of an active, aware and demanding citizenship.
-* In the need to subject the power to the citizenship surveillance.
-* In the value of capable and independent media.
+### We believe in:
+* The potential of an active, conscious and demanding citizenship.
+* The need to subject power to citizen surveillance.
+* The value of a capable and independent media.
 
-### We contribute:
-* Supplying information through development of civic technologies.
-* Promoting citizenship surveillance, the participation and the accountability.
-* Generating content and spaces to stimulate a quality public debate.
+### We contribute by:
+* Providing open access to information through the development of civic technologies.
+* Promoting citizen surveillance and participation and public accountability.
+* Generating content and spaces to stimulate an informed public debate.
 
-Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvadorsoler.org), a nonprofit entity, declared of public utility and inscribed in the Foundations Registry of the Ministerio de Cultura since year 2010 (registry number 962).
+Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvadorsoler.org), a nonprofit entity, declared of public utility and inscribed in the Foundations Registry of the Ministerio de Cultura since 2010 (registry number 962).
 
-> "Not betting decisively for an equity and sustainable development is no longer an option. We need a informed, active and demanding citizens and a political class watched and responsible."
+> "Not committing decisively to working for an equitable and sustainable development is no longer an option. We need an active, conscious and demanding citizenship and a political class which is subject to citizen surveillance."
 >
 > ##### Javier Pérez
 > ###### Director
 
 ## Transparency
 
-We don't want to demand what we do not do. For that reason we commit to be totally transparent and to make our accounts public. So yo can see our financing sources, who do we work with and how do we invest or budget.
+We don't want to demand what we don't do. For that reason we commit to be totally transparent and to make our accounts public. So you can see our financing sources, who do we work with and how do we invest or budget.
 
 <a href="en/nosotras/transparencia" class="c-button c-button--outline">Check our accounts</a>
 
@@ -68,3 +68,4 @@ We don't want to demand what we do not do. For that reason we commit to be total
 <team></team>
 
 <alliances :alliances="alliances"></alliances>
+
