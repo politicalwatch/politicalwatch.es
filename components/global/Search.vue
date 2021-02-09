@@ -123,7 +123,7 @@ export default {
             const result = {
               title: this.trimTitle(data[count].body),
               full: data[count].body,
-              url: '',
+              url: 'https://buscador.openmanifestoproject.org/proposal/' + data[count].id,
               tags: data[count].topics.slice(0, 3)
             }
             this.ompResults.push(result)
