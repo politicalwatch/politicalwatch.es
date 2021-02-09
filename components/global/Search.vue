@@ -12,6 +12,7 @@
         <iconSearch />
       </button>
     </div>
+    <p class="c-search__help">Busca en los programas electorales y en la actividad del Congreso de los Diputados</p>
     <div class="c-search__results c-content">
       <div v-if="searched == true" class="c-search__result">
         <h3>Actividad en el congreso</h3>

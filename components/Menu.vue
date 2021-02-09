@@ -22,7 +22,7 @@
         </nuxt-link>
       </li>
       <li class="c-menu__item c-menu__item-search">
-        <a href="#" @click="openSearch"><iconSearch /></a>
+        <a class="toggle-tooltip" aria-label="Buscador político" href="#" @click="openSearch"><iconSearch /></a>
       </li>
       <!-- <li -->
       <!--   v&#45;for="locale in availableLocales" -->
