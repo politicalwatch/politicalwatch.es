@@ -42,7 +42,7 @@
 
     &-input {
       color: $brand;
-      font-size: 5em;
+      font-size: 4.5em;
       background: transparent;
       border: 0;
       width: 100%;
@@ -55,6 +55,10 @@
 
       &::placeholder {
         color: $gray;
+      }
+
+      &:focus {
+        outline: none;
       }
     }
 
@@ -168,6 +172,10 @@
       &:hover {
         color: $primary;
       }
+    }
+
+    .c-link {
+      color: $brand;
     }
   }
 
