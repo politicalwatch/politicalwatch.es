@@ -87,6 +87,16 @@ export default {
       message: 'Usamos Google Analytics para conocer el impacto de nuestros proyecto e investigaciones en el ecosistema digital, con el objetivo de seguir mejorando y adaptándonos a un mundo cada vez más cambiante. Con este formulario te solicitamos tu consentimiento de uso.',
       accept: 'Aceptar',
       reject: 'Rechazar'
+    },
+    search: {
+      placeholder: 'Buscar...',
+      help: 'Busca en los programas electorales y en la actividad del Congreso de los Diputados',
+      see_more: 'Ver más',
+      activity_link: 'Buscar actividad parlamentaria',
+      proposals_link: 'Buscar propuestas electorales',
+      title_contress: 'Actividad en el congreso',
+      title_proposals: 'Propuestas electorales',
+      tooltip: 'Buscador político'
     }
   }
 }

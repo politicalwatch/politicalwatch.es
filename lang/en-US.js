@@ -82,6 +82,16 @@ export default {
       message: 'We use Google Analytics to know the impact of our projects and investigations in the digital ecosystem, with the aim to continue improving and adapting in an increasingly changing world. With this form we ask you your consent to use it.',
       accept: 'Accept',
       reject: 'Reject'
+    },
+    search: {
+      placeholder: 'Search...',
+      help: 'Search in the electoral programs and the parliamentary activity',
+      see_more: 'See more',
+      activity_link: 'Search parliamentary activity',
+      proposals_link: 'Search electoral proposals',
+      title_contress: 'Activity in the parliament',
+      title_proposals: 'Electoral proposals',
+      tooltip: 'Political search'
     }
   }
 }
