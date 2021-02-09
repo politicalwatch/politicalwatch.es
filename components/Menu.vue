@@ -21,6 +21,9 @@
           {{ $t('pages.blog.title') }}
         </nuxt-link>
       </li>
+      <li class="c-menu__item c-menu__item-search">
+        <a href="#" @click="openSearch"><iconSearch /></a>
+      </li>
       <!-- <li -->
       <!--   v&#45;for="locale in availableLocales" -->
       <!--   :key="locale.code" -->
@@ -35,11 +38,13 @@
 </template>
 
 <script>
+import iconSearch from '~/assets/images/icon-search.svg?inline'
 // import iconLang from '~/assets/images/icon-lang.svg?inline'
 
 export default {
   components: {
     // iconLang
+    iconSearch
   },
   props: {
     active: Boolean
@@ -47,6 +52,11 @@ export default {
   computed: {
     availableLocales () {
       return this.$i18n.locales.filter(l => l.code !== this.$i18n.locale)
+    }
+  },
+  methods: {
+    openSearch () {
+      this.$emit('search')
     }
   }
 }
