@@ -3,9 +3,9 @@ title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
   title: 'OJITO'
-  subtitle: 'Observatorio joven de incumplimiento político'
-  description: 'El objetivo de este proyecto liderado por jóvenes es promover una cultura de rendición de cuentas de los decisores públicos a través de la monitorización de la actividad de los grupos parlamentarios y el Gobierno en torno a una serie de temáticas seleccionadas y el desarrollo de una campaña de incidencia pública.'
-  button: 'Accede ahora'
+  subtitle: 'Youth observatory of political non-fulfilment'
+  description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
+  button: 'Access now'
   link: 'http://ojito.politicalwatch.es'
   image: /images/featured-ojito.png
 othersItems:
