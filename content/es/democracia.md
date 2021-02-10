@@ -18,7 +18,7 @@ Así, trabajamos por la construcción de un modelo democrático inclusivo, justo
 
 ### La importancia de la transparencia: información y datos, públicos y accesibles
 
-Trabajamos en la promoción de un Estado abierto y transparente, que brinde un acceso fácil  y completo a la información y los datos públicos sobre el trabajo que realiza. Para ello desarrollamos herramientas tecnológicas que acerquen el Estado a la ciudadanía, a la vez que nos aliamos con otras organizaciones y colectivos en la demanda de mayor transparencia y accesibilidad.
+Trabajamos en la promoción de un Estado abierto y transparente, que brinde un acceso fácil y completo a la información y los datos públicos sobre el trabajo que realiza. Para ello desarrollamos herramientas tecnológicas que acerquen el Estado a la ciudadanía, a la vez que nos aliamos con otras organizaciones y colectivos en la demanda de mayor transparencia y accesibilidad.
 
 ### No hay democracia sin una ciudadanía activa y vigilante
 

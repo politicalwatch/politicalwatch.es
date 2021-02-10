@@ -22,28 +22,28 @@
         </nuxt-link>
       </li>
       <li class="c-menu__item c-menu__item-search">
-        <a class="toggle-tooltip" aria-label="Buscador político" href="#" @click="openSearch"><iconSearch /></a>
+        <a class="toggle-tooltip" :aria-label="$t('blocks.search.tooltip')" href="#" @click="openSearch"><iconSearch /></a>
       </li>
-      <!-- <li -->
-      <!--   v&#45;for="locale in availableLocales" -->
-      <!--   :key="locale.code" -->
-      <!--   class="c&#45;menu__item c&#45;menu__item&#45;&#45;lang" -->
-      <!-- > -->
-      <!--   <nuxt&#45;link :to="switchLocalePath(locale.code)"> -->
-      <!--     <icon&#45;lang /> {{ locale.code }} -->
-      <!--   </nuxt&#45;link> -->
-      <!-- </li> -->
+      <li
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        class="c-menu__item c-menu__item--lang"
+      >
+        <nuxt-link :to="switchLocalePath(locale.code)">
+          <icon-lang /> {{ locale.code }}
+        </nuxt-link>
+      </li>
     </ul>
   </nav>
 </template>
 
 <script>
+import iconLang from '~/assets/images/icon-lang.svg?inline'
 import iconSearch from '~/assets/images/icon-search.svg?inline'
-// import iconLang from '~/assets/images/icon-lang.svg?inline'
 
 export default {
   components: {
-    // iconLang
+    iconLang,
     iconSearch
   },
   props: {

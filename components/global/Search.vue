@@ -7,34 +7,34 @@
       <span class="c-search__button-close" @click="close" />
     </div>
     <div class="c-search__form">
-      <input ref="search" class="c-search__form-input" type="search" placeholder="Buscar..." @change="search">
+      <input ref="search" class="c-search__form-input" type="search" :placeholder="$t('blocks.search.placeholder')" @change="search">
       <button class="c-search__form-button">
         <iconSearch />
       </button>
     </div>
-    <p class="c-search__help">Busca en los programas electorales y en la actividad del Congreso de los Diputados</p>
+    <p class="c-search__help">{{ $t('blocks.search.help') }}</p>
     <div class="c-search__results c-content">
       <div v-if="searched == true" class="c-search__result">
-        <h3>Actividad en el congreso</h3>
+        <h3>{{ $t('blocks.search.title_congress') }}</h3>
         <ul v-if="tipiResults.length > 0">
           <li v-for="item in tipiResults" :key="item.url">
             <a target="_blank" :title="item.full" :href="item.url">{{ item.title }}</a>
             <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
-        <a v-if="tipiResults.length > 0" target="_blank" :href="tipiMore" class="c-link">Ver más</a>
-        <a v-if="tipiResults.length == 0" target="_blank" href="https://tipiciudadano.es" class="c-link">Buscar actividad parlamentaria</a>
+        <a v-if="tipiResults.length > 0" target="_blank" :href="tipiMore" class="c-link">{{ $t('blocks.search.see_more') }}</a>
+        <a v-if="tipiResults.length == 0" target="_blank" href="https://tipiciudadano.es" class="c-link">{{ $t('blocks.search.activity_link') }}</a>
       </div>
       <div v-if="searched == true" class="c-search__result">
-        <h3>Propuestas electorales</h3>
+        <h3>{{ $t('blocks.search.title_proposals') }}</h3>
         <ul v-if="ompResults.length > 0">
           <li v-for="item in ompResults" :key="item.url">
             <a target="_blank" :title="item.full" :href="item.url">{{ item.title }}</a>
             <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
-        <a v-if="ompResults.length > 0" target="_blank" :href="ompMore" class="c-link">Ver más</a>
-        <a v-if="ompResults.length == 0" target="_blank" href="https://buscador.openmanifestoproject.org" class="c-link">Buscar propuestas electorales</a>
+        <a v-if="ompResults.length > 0" target="_blank" :href="ompMore" class="c-link">{{ $t('blocks.search.see_more') }}</a>
+        <a v-if="ompResults.length == 0" target="_blank" href="https://buscador.openmanifestoproject.org" class="c-link">{{ $t('blocks.search.proposals_link') }}</a>
       </div>
     </div>
   </div>

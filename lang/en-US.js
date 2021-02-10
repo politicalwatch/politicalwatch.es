@@ -48,18 +48,18 @@ export default {
     },
     linesOfWork: {
       title: 'We do',
-      subtitle: 'Political Watch is a platform...',
+      subtitle: '',
       democracy: {
         title: 'Democracy',
         subtitle: 'Citizen surveillance for a better society',
         button: 'Tell me more',
-        link: '/en/que-hacemos/democracia'
+        link: '/en/democracia'
       },
       coherence: {
         title: 'Coherence',
-        subtitle: 'Policies at the height of the challenges of our era',
+        subtitle: 'Policies that live up to the challenges of our era',
         button: 'Tell me more',
-        link: '/en/que-hacemos/coherencia'
+        link: '/en/coherencia'
       }
     },
     team: {
@@ -77,6 +77,21 @@ export default {
       title: 'Research',
       goto: 'Find all',
       button: 'Download'
+    },
+    cookies: {
+      message: 'We use Google Analytics to know the impact of our projects and investigations in the digital ecosystem, with the aim to continue improving and adapting in an increasingly changing world. With this form we ask you your consent to use it.',
+      accept: 'Accept',
+      reject: 'Reject'
+    },
+    search: {
+      placeholder: 'Search...',
+      help: 'Search in the electoral programs and the parliamentary activity',
+      see_more: 'See more',
+      activity_link: 'Search parliamentary activity',
+      proposals_link: 'Search electoral proposals',
+      title_contress: 'Activity in the parliament',
+      title_proposals: 'Electoral proposals',
+      tooltip: 'Political search'
     }
   }
 }
