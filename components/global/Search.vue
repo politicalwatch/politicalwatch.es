@@ -1,9 +1,9 @@
 <template>
   <div class="c-search">
     <div class="c-search__header">
-      <nuxt-link :to="localePath('index')" class="c-search__logo">
+      <a href="#" class="c-search__logo" @click="close">
         <logo />
-      </nuxt-link>
+      </a>
       <span class="c-search__button-close" @click="close" />
     </div>
     <div class="c-search__form">
