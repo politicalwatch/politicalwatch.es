@@ -90,7 +90,7 @@ export default {
     },
     search: {
       placeholder: 'Buscar...',
-      help: 'Busca en los programas electorales y en la actividad del Congreso de los Diputados',
+      help: 'Introduce un partido o una palabra clave y bucea en los programas electorales y la actividad del Congreso de los Diputados',
       see_more: 'Ver más',
       activity_link: 'Buscar actividad parlamentaria',
       proposals_link: 'Buscar propuestas electorales',

@@ -198,7 +198,9 @@
   }
 
   &__help {
-    font-size: 1.5em;
+    width: 80%;
+    margin: 10px auto 0;
+    font-size: 2vw;
     text-align: center;
     color: $brand;
   }

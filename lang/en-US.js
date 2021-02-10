@@ -85,7 +85,7 @@ export default {
     },
     search: {
       placeholder: 'Search...',
-      help: 'Search in the electoral programs and the parliamentary activity',
+      help: 'Introduce a party or keyword and dive into the electoral programs and the parliamentary activity',
       see_more: 'See more',
       activity_link: 'Search parliamentary activity',
       proposals_link: 'Search electoral proposals',
