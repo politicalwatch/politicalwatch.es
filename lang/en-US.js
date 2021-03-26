@@ -89,7 +89,7 @@ export default {
       see_more: 'See more',
       activity_link: 'Search parliamentary activity',
       proposals_link: 'Search electoral proposals',
-      title_contress: 'Activity in the parliament',
+      title_congress: 'Activity in the parliament',
       title_proposals: 'Electoral proposals',
       tooltip: 'Political search'
     }

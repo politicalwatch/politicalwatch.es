@@ -94,7 +94,7 @@ export default {
       see_more: 'Ver más',
       activity_link: 'Buscar actividad parlamentaria',
       proposals_link: 'Buscar propuestas electorales',
-      title_contress: 'Actividad en el congreso',
+      title_congress: 'Actividad en el congreso',
       title_proposals: 'Propuestas electorales',
       tooltip: 'Buscador político'
     }
