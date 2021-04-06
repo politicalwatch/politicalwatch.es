@@ -11,7 +11,7 @@ Fundación Salvador Soler
 Avenida Cardenal Herrera Oria 63, 3º Izq. 28034. Madrid.
 Teléfono: 691 691 810
 Fax: 91 735 44 28
-Email: coordinacion@campustecnologicodelicai.com
+Email: coordinacion@unmundosalvadorsoler.org
 ```
 
 ### 1. Aceptación de las condiciones de uso
@@ -28,11 +28,9 @@ FSS se reserva el derecho a modificar las presentes Condiciones Generales en cua
 
 Todos los derechos de propiedad industrial e intelectual que aparecen en este sitio web, así como de sus contenidos (textos, logos, imágenes, sonidos, audio, video, software.....) son propiedad exclusiva de FSS, o su uso ha sido autorizado por sus titulares. El artículo 34 de la Ley 17/2001, de 17 de diciembre, de Marcas, así como otras legislaciones nacionales que pudieran ser aplicables, garantiza el derecho exclusivo de utilizar los antedichos signos distintivos en el tráfico económico. Por consiguiente, queda prohibida su utilización por parte de terceros que carezcan de autorización.
 
-El usuario puede visualizar todos los elementos, imprimirlos, copiarlos y almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico siempre y cuando sea, única y exclusivamente, para su uso personal y privado, quedando, por tanto, terminantemente prohibida su utilización con fines comerciales, su distribución, así como su modificación, alteración o descompilación.
+El usuario puede visualizar todos los elementos, imprimirlos, copiarlos y almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico siempre y cuando sea, única y exclusivamente, para su uso personal y privado, quedando, por tanto, terminantemente prohibida su utilización con fines comerciales (salvo consentimiento explícito), su distribución, así como su modificación, alteración o descompilación.
 
 Los usuarios deberán abstenerse de obtener, e incluso de intentar obtener informaciones, mensajes, gráficos, dibujos, archivos de sonido y/o imagen, fotografías, grabaciones, software y, en general, cualquier clase de material accesibles a través de la Página o de los Servicios (en adelante, los “contenidos”) empleando para ello medios o procedimientos distintos de los que, según los casos, se hayan puesto a su disposición a este efecto o que se hayan indicado a este efecto en la Página o, en general, de los que se empleen habitualmente en Internet a este efecto siempre que no entrañen un riesgo de daño o utilización de la Página, de los Servicios y/o de los Contenidos.
-
-FSS no concede ninguna licencia o autorización de uso de ninguna clase sobre sus derechos de propiedad intelectual y/o industrial o sobre cualquier otra propiedad o derecho relacionado con la Página, los Servicios o los Contenidos.
 
 ### 3. Prohibición de difusión de los contenidos e información suministrada
 
