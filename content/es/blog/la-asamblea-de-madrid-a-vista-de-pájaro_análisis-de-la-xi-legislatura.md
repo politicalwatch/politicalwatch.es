@@ -5,9 +5,9 @@ description: 'Se aproximan las nuevas elecciones en la Comunidad de Madrid, y an
 author: belen-aguero
 createdAt: 2021-04-07
 related:
-  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
-  - comparativa-de-programas-electorales-con-tipi-ciudadano
   - tipi-se-hace-mayor
+  - comparativa-de-programas-electorales-con-tipi-ciudadano
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
 lineOfWork: democracy
 ---
 
