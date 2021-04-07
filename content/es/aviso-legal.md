@@ -96,8 +96,8 @@ FSS tampoco controla previamente, aprueba, vigila ni hace propios los productos 
 FSS no garantiza ni asume ningún tipo de responsabilidad por los daños y perjuicios de toda clase que puedan deberse a:
 
 * El funcionamiento, disponibilidad, accesibilidad o continuidad de los sitios enlazados.
-* El mantenimiento de los servicios, información, datos, archivos, productos y cualquier clase de material existente en los sitios enlazados;
-* La prestación o transmisión de los servicios, información, datos, archivos, productos y cualquier clase de material existente en los sitios enlazados;
+* El mantenimiento de los servicios, información, datos, archivos, productos y cualquier clase de material existente en los sitios enlazados.
+* La prestación o transmisión de los servicios, información, datos, archivos, productos y cualquier clase de material existente en los sitios enlazados.
 * La calidad, licitud, fiabilidad y utilidad de los servicios, información, datos, archivos, productos y cualquier clase de material existente en los sitios enlazados, en los mismos términos y con el mismo alcance dispuesto en la condición general 9.2 respecto de los contenidos y de los servicios prestados por terceros a través de la página.
 
 ### 9. Exclusión de garantías y responsabilidad por la utilización que los usuarios puedan hacer del PORTAL, los servicios y contenidos
