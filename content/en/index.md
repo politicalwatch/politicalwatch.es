@@ -9,10 +9,10 @@ featuredItem:
   link: 'http://ojito.politicalwatch.es'
   image: /images/featured-ojito.png
 othersItems:
-  - title: '#ColeSeguro'
-    description: 'The COVID-19 has raised big challenges in the right to education. Despite the different back to school plans, the 2020/2021 school year started with big questions about the way the right to education could be guaranteed in safety conditions. This report analyzes this question focusing in public investment in education, the state of affairs in the educational centers and the citizenship perception about the measures taken.'
-    button: 'Check the results'
-    link: 'https://coleseguro.es/resultados/'
+  - title: 'Implementing policy coherence approach at the Diputación de Barcelona'
+    description: 'We are assisting the Diputación de Barcelona and two of their municipalities in their efforts to implement the Policy Coherence approach through an innovative policy making process.'
+    button: 'Watch the video'
+    link: 'https://www.youtube.com/watch?v=LbwnSaqMThE'
   - title: 'Escáner 2030'
     description: 'This online tool allows you to detect and visualize the presence of the different United Nations Sustainable Development Goals (SDGs) in any text.'
     button: 'Scan a document'

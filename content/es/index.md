@@ -9,10 +9,10 @@ featuredItem:
   link: 'http://ojito.politicalwatch.es'
   image: /images/featured-ojito.png
 othersItems:
-  - title: '#ColeSeguro'
-    description: 'Este informe analiza la educación en tiempos de COVID centrándose en la inversión pública en educación, la situación de los centros educativos y la percepción ciudadana sobre las medidas adoptadas para asegurar una educación segura y de calidad.'
-    button: 'Ver resultados'
-    link: 'https://coleseguro.es/resultados/'
+  - title: 'Coherencia de políticas para la Diputación de Barcelona'
+    description: 'Estamos acompañando a la Diputación de Barcelona y a dos de sus municipios en un innovador proceso de integración del enfoque de Coherencia de Políticas para el Desarrollo Sostenible en sus procesos de planificación política.'
+    button: 'Ver el vídeo'
+    link: 'https://www.youtube.com/watch?v=LbwnSaqMThE'
   - title: 'Escáner 2030'
     description: 'Esta herramienta online te permite detectar y visualizar la presencia de los diferentes Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas en cualquier texto.'
     button: 'Escanea un texto'
