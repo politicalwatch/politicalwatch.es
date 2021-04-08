@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="c-footer__copyright o-container">
-      <p>Political Watch © {{ (new Date()).getFullYear() }} - <a href="/aviso-legal">{{ $t('pages.legal.title') }}</a></p>
+      <p>Political Watch © {{ (new Date()).getFullYear() }} - <a href="/aviso-legal">{{ $t('pages.legal.title') }}</a> - <a href="/politica-de-privacidad">{{ $t('pages.privacy.title') }}</a> - <a href="/politica-de-cookies">{{ $t('pages.cookies.title') }}</a></p>
       <p>{{ $t('global.developedBy') }} - <a target="_blank" href="http://ungrynerd.com">UNGRYNERD</a></p>
     </div>
   </footer>

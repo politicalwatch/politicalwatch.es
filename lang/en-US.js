@@ -28,6 +28,9 @@ export default {
     },
     privacy: {
       title: 'Privacy policy'
+    },
+    cookies: {
+      title: 'Cookies policy'
     }
   },
   blocks: {

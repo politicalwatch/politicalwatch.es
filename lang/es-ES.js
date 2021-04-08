@@ -29,8 +29,8 @@ export default {
     privacy: {
       title: 'Política de privacidad'
     },
-    research: {
-      title: 'Investigaciones'
+    cookies: {
+      title: 'Política de cookies'
     }
   },
   blocks: {
