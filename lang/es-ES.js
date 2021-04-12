@@ -23,6 +23,9 @@ export default {
     blog: {
       title: 'Blog'
     },
+    research: {
+      title: 'Investigaciones'
+    },
     legal: {
       title: 'Aviso legal'
     },
