@@ -66,4 +66,21 @@
       }
     }
   }
+
+  &--light {
+    background-color: $light;
+    background-image: linear-gradient(to top, rgba(241, 241, 241, 0), #f1f1f1);
+  }
+
+  .c-hero + & {
+    margin-top: gap(-10);
+    padding-top: gap(10);
+    margin-bottom: gap(10);
+
+    @media (min-width: $md) {
+      padding-top: gap(16);
+      margin-top: gap(-16);
+      margin-bottom: gap(16);
+    }
+  }
 }
