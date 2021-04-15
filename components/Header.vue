@@ -1,6 +1,6 @@
 <template>
   <header class="c-header o-section">
-    <search v-if="searchShown" @closed="toggleSearch"/>
+    <search v-if="searchShown" @closed="toggleSearch" />
     <nuxt-link :to="localePath('index')" class="c-header__logo">
       <logo />
     </nuxt-link>

@@ -12,7 +12,9 @@
         <iconSearch />
       </button>
     </div>
-    <p class="c-search__help">{{ $t('blocks.search.help') }}</p>
+    <p class="c-search__help">
+      {{ $t('blocks.search.help') }}
+    </p>
     <div class="c-search__results c-content">
       <div v-if="searched == true" class="c-search__result">
         <h3>{{ $t('blocks.search.title_congress') }}</h3>
