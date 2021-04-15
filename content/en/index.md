@@ -21,6 +21,8 @@ blogLatest: 2
 ---
 <hero></hero>
 
+<newsletter light></newsletter>
+
 <featured
   title="At hands"
   :featured="featuredItem"
