@@ -1,5 +1,5 @@
 <template>
-  <section class="c-newsletter">
+  <section class="c-newsletter" :class="{ 'c-newsletter--light' : light }">
     <div class="c-newsletter__wrapper o-container">
       <div class="c-newslleter__titles">
         <h2 class="c-newsletter__title">
@@ -41,6 +41,9 @@
 
 <script>
 export default {
-  name: 'Newsletter'
+  name: 'Newsletter',
+  props: {
+    light: Boolean
+  }
 }
 </script>
