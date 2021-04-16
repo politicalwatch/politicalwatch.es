@@ -8,7 +8,7 @@ blogLatest: 2
 lineOfWork: democracy
 ---
 
-<md-content>
+<md-content with-projects-toc>
 
 El mundo es hoy más democrático que nunca. Sin embargo, a nivel global se erosionan las democracias en cuanto a su funcionamiento y a su calidad. Los retrocesos en libertades civiles, se suman a un profundo desencanto por parte de la ciudadanía que ve cómo se suceden las crisis económicas, los casos de corrupción, suben las tasas de desempleo y aumentan las desigualdades. Todo ello coincide con la reaparición de movimientos nacionalistas y xenófobos, la polarización en los discursos políticos, las fake news, y porqué no, una pandemia global.
 

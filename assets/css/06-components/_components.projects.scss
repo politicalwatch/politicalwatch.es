@@ -62,4 +62,42 @@
       margin-bottom: gap(1);
     }
   }
+
+  .c-content &-toc {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: 0;
+    max-width: 250px;
+
+    &__wrapper {
+      position: sticky;
+      top: 0;
+    }
+
+    &__title {
+      margin-top: 0;
+    }
+
+    &__item {
+      &::before {
+        background-color: $brand;
+        height: 100%;
+        top: 0;
+      }
+    }
+
+    &__link {
+      font-family: $font-secondary;
+      font-size: rem(16px);
+      color: $brand;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 900;
+      line-height: 1.5;
+      display: block;
+      padding-right: gap(4);
+      background: url('~assets/images/icon-arrow.svg') right gap(0.5) top gap(0.5) no-repeat;
+    }
+  }
 }

@@ -1,6 +1,8 @@
 .c-content {
   @include container;
 
+  position: relative;
+
   &__wrapper {
     max-width: $container-small-px;
   }
