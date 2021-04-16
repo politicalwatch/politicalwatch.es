@@ -8,7 +8,7 @@ blogLatest: 2
 lineOfWork: democracy
 ---
 
-<md-content>
+<md-content with-projects-toc>
 
 The world is today more democratic than ever. However, at a global level democracies erode in their performance and quality. The regression in civil liberties, are added to the citizens deep disenchantment that see how economic crisis, the corruption cases, the rise of unemployment rates and the increment of inequality. All of this concur with the reappearance of xenophobic and nationalist movements, the polarization of politic speeches, the fake news and why not, a global pandemic.
 
