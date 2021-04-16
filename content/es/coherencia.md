@@ -8,7 +8,7 @@ blogLatest: 2
 lineOfWork: coherence
 ---
 
-<md-content>
+<md-content with-projects-toc>
 
 Los grandes retos de nuestra era son complejos y multidimensionales. Sus variables están tan interconectadas que cualquier solución real y duradera será holística y transversal o no será.
 
