@@ -2,7 +2,7 @@
 title: 'Impactos (im)?previstos: efectos de las políticas domésticas en el exterior'
 image: '/images/posts/fabrica.jpeg'
 description: '¿Cómo afectan las políticas y el consumo de los países en el exterior? ¿Cómo medimos estos efectos?'
-author: javier.perez
+author: javier-perez
 createdAt: 2020-08-07
 related:
   - entre-el-españa-first-y-el-silencio-no-se-vislumbran-defensores-de-la-cooperación-al-desarrollo 

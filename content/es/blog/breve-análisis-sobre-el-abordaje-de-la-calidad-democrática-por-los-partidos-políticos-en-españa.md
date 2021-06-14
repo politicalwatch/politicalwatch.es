@@ -1,10 +1,11 @@
 ---
 title: 'Breve análisis sobre el abordaje de la calidad democrática por los partidos políticos en España'
 image:  '/images/posts/breve_analisis.jpeg'
-description: 'Hoy CIECODE presenta los resultados de su última investigación'
+description: '¿Qué consideramos calidad democrática? En este artículo encontrarás algunos detalles de nuestra última investigación.'
 author: irene-martin
-createdAt: 2020-03-23
+createdAt: 2020-03-25
 related:
+  - analisis-calidad-democratica-espana
   - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
   - las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales
 lineOfWork: democracy

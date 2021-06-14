@@ -1,10 +1,15 @@
 ---
-title: Análisis sobre la calidad democrática en España
-subtitle: ¿Qué consideramos calidad democrática?
-image: '/images/longforms/pawel.jpeg'
-
+title: 'Análisis sobre la calidad democrática en España'
+image: '/images/posts/analisis-calidad-democratica-espana/pawel.jpg'
+description: 'Qué consideramos calidad democrática y la situación actual tanto en el mundo con en España son algunas de las cuestiones que intentamos exponer en esta investigación.'
+author: irene-martin
+createdAt: 2020-03-24
+related:
+  - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
+  - vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital
+  - las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales
+lineOfWork: democracy
 ---
-
 
 ### ¿Qué consideramos calidad democrática?
 Definir la calidad democrática resulta una tarea compleja, tanto que aún no hay consenso acerca de su contenido, sus dimensiones o cómo puede medirse. En este caso, se utiliza el término de “calidad democrática” para referirnos al grado de democratización o de desempeño respecto a categorías fundamentales para un régimen democrático. Este último enfoque es el que caracteriza a algunos de los estándares internacionales que miden la calidad democrática y las libertades cívicas, como en el caso del de [Freedom House](https://freedomhouse.org/), el de [The Economist](https://www.eiu.com/topic/democracy-index) o el del [Instituto de Democracia y Asistencia Electoral (IDEA)](https://www.idea.int/es/nuestro-trabajo/que-hacemos/el-estado-de-la-democracia-en-el-mundo). En estos estándares, la calidad democrática se aborda como una cualidad gradual y multidimensional que puede estar presente en diferentes grados, desde democracias consolidadas, hasta en regímenes más híbridos o autocráticos.
@@ -43,7 +48,7 @@ Las pasadas elecciones europeas se celebraron en un momento trascendental para E
 
 A partir de la revisión de nueve programas electorales para las elecciones europeas, se extraen las siguientes conclusiones:
 
-![Gráfico europeas](/images/longforms/diagrama1.svg)
+![Gráfico europeas](/images/posts/analisis-calidad-democratica-espana/diagrama1.svg)
 
 - A pesar de la relevancia del ámbito comunitario para las temáticas analizadas, destaca la generalizada escasez de propuestas electorales en los programas europeos sobre temas relacionados con la calidad democrática. Concretamente, comprenden tan sólo el 7% (93 propuestas) del total de las propuestas de los programas electorales de Ciudadanos, Partido Popular, PSOE, Unidas Podemos, Ahora Repúblicas, CEUS, Junts per Cat y Vox.
 - Del análisis podemos extraer que los partidos progresistas, como Unidas Podemos y Esquerra Republicana de Cataluña (ERC), presentan una mayor preocupación y voluntad de mejora respecto a la calidad democrática en sus programas a nivel europeo. Concretamente, estos dos partidos presentan los programas electorales con mayor ambición en este ámbito, frente a partidos como Vox, Junts Per Cataluña, el Partido Popular o el PSOE. Dentro de sus propuestas, ambos partidos apuestan por la prohibición a nivel europeo de las devoluciones en caliente de personas migrantes, la apuesta por garantizar la libertad de expresión, por reforzar los mecanismos de transparencia, fundamentalmente fiscal, y por aumentar la participación ciudadana a través de nuevos espacios y mecanismos.
@@ -71,7 +76,7 @@ En los programas electorales elaborados para las elecciones generales de 2019 en
 
 En conclusión, del análisis de las propuestas electorales de los principales partidos políticos de ámbito estatal, podemos predecir que ésta será una legislatura con avances en materia de transparencia y de lucha contra la corrupción, además de con reformas en la legislación electoral. Por el contrario, el avance sobre los mecanismos de participación o sobre cuestiones relacionadas con la libertad de expresión va a depender de las aritméticas parlamentarias y de la capacidad de los partidos para alcanzar pactos.
 
-![Diagrama generales](/images/longforms/diagrama2.svg)
+![Diagrama generales](/images/posts/analisis-calidad-democratica-espana/diagrama2.svg)
 
 ### Coherencia entre programas electorales
 
@@ -99,7 +104,7 @@ En general, se trata de una legislatura en la que los avances relacionados con l
 
 Respecto a la actividad legislativa, fue escasa en lo cuantitativo y pobre en cuanto a la ambición y la calidad de los avances propuestos. Si tenemos en cuenta sólo la actividad legislativa, encontramos un total de 30 iniciativas relevantes relacionadas con la calidad democrática y los derechos digitales (y en 43 enmiendas a éstas). Dentro de estas, podemos destacar varias conclusiones:
 
-![Diagrama actividad parlamentaria](/images/longforms/actividad_parlamentaria.png)
+![Diagrama actividad parlamentaria](/images/posts/analisis-calidad-democratica-espana/actividad_parlamentaria.png)
 
 - En primer lugar, la falta de ambición de cuestiones relacionadas con la calidad democrática y los derechos digitales. Respecto a las temáticas más abordadas, la defensa de las libertades civiles, concretamente la libertad de expresión, cobra el mayor protagonismo, centrado fundamentalmente en la reforma de la Ley de Seguridad Ciudadana y la Proposición de Ley Orgánica de reforma del Código Penal para la protección de la libertad de expresión[13]. Sin embargo, se pone de manifiesto la falta de voluntad política para impulsar estos avances, puesto que todas las iniciativas fueron o bien rechazadas o caducaron. Probablemente, la falta de resultados es también atribuible al abrupto fin de la legislatura.
 - Otro de los temas con mayor relevancia en la actividad parlamentaria de esta legislatura fueron los avances en torno a la transparencia. En este caso, destaca la Proposición de reforma del Reglamento del Congreso de los Diputados para la creación del Registro de los Grupos de Interés o Lobbies que ha impulsado el Grupo Mixto[14]. Otro de los avances en transparencia, esta vez relacionada con el sector privado, es el Proyecto de Ley por el cual se modifica el Código de Comercio y la Ley 22/2015, de 20 de julio, de Auditoría de Cuentas, en materia de información no financiera y diversidad (procedente del Real Decreto-Ley 18/2017, de 24 de noviembre) gracias al que se eleva el nivel de exigencia en cuanto a transparencia y reporting de datos sobre información no financiera de las empresas privadas. Por otra parte, otro de los aspectos positivos respecto a los avances en la legislación del ecosistema digital, es la aprobación de la Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales que regula temas como la protección de los menores en Internet, el derecho de rectificación y al olvido en búsquedas en la red, el derecho a la actualización de informaciones en medios de comunicación digitales o el derecho al testamento digital[15].
@@ -107,7 +112,7 @@ Respecto a la actividad legislativa, fue escasa en lo cuantitativo y pobre en cu
 - El Grupo Confederal de Podemos impulsó varias medidas relevantes como la Proposición no de Ley relativa a eliminación de las Puertas Giratorias.[17], la cual fue rechazada con el voto en contra del Grupo Popular y la abstención del Grupo Socialista y el Grupo de Ciudadanos. Otras de sus iniciativas relevantes fueron la Proposición no de Ley relativa a garantizar el derecho de protesta[18], que finalmente caducó.
 - El resto de partidos, en una proporción mucho menor, también presentaron algunas iniciativas relevantes. En el caso del Grupo Socialista, impulsaron y lograron aprobar algunas iniciativas importantes como la Proposición no de Ley en Comisión relativa al refuerzo de las capacidades dedicadas a la lucha contra las acciones de desinformación [19] y la Proposición no de Ley en Comisión sobre Comisión sobre protección de los derechos digitales de la ciudadanía[20]. Otra de las iniciativas del Grupo Socialista es la Proposición no de Ley ante el Pleno sobre el cumplimiento de las recomendaciones del Informe del Grupo del Consejo de Europa de Estados contra la Corrupción (GRECO)[21] que a pesar de haberse presentado ante el Pleno en 2016, finalmente caducó.
 
-![Diagrama actividad legislativa](images/longforms/Actividad-Legislativa-XII.png)
+![Diagrama actividad legislativa](/images/posts/analisis-calidad-democratica-espana/Actividad-Legislativa-XII.png)
 
 Más allá de ser una legislatura breve, se aprecia la dificultad existente para llegar a consensos y establecer un diálogo político constructivo y fructífero en temas de tal relevancia como la transparencia o la corrupción. Prueba de ello es que de las 30 iniciativas legislativas relevantes para estas materias sólo se aprobaron 2 (el 7%).
 
@@ -115,11 +120,11 @@ Más allá de ser una legislatura breve, se aprecia la dificultad existente para
 
 La XIII Legislatura, con el Gobierno de Pedro Sánchez en funciones tras la moción de censura a Mariano Rajoy, ha sido la de más corta duración de la historia de la democracia española y produjo muy escasa actividad parlamentaria en prácticamente todos los ámbitos, incluidos la calidad democrática y los derechos digitales. Respecto a la actividad parlamentaria, hay un total de 70 actos parlamentarios relacionados con infraestructuras digitales, seguridad ciudadana, corrupción, alertadores y memoria histórica, pero cerca de la mitad de ellos son preguntas parlamentarias, lo cual es indicativo de la escasa trascendencia política de la actividad parlamentaria durante dicho periodo.
 
-![Diagrama actividad parlamentaria calidad democrática](/images/longforms/parla-calidad-democr.png)
+![Diagrama actividad parlamentaria calidad democrática](/images/posts/analisis-calidad-democratica-espana/parla-calidad-democr.png)
 
 - El grupo parlamentario más activo en los temas relacionados con la calidad democrática en esta breve legislatura es el Grupo Popular, que protagonizó casi el 30% de la actividad parlamentaria, fundamentalmente a través de su actividad de control al Gobierno.
 
-![Actos parlamentarios por grupos sobre calidad democrática](/images/longforms/actos-calidad.svg)
+![Actos parlamentarios por grupos sobre calidad democrática](/images/posts/analisis-calidad-democratica-espana/actos-calidad.svg)
 
 - Respecto a la actividad legislativa, hubo 14 Proposiciones de Ley relacionadas con las libertades y derechos civiles, la corrupción, la transparencia y la seguridad. De entre ellas, lo más destacable son las dos Proposiciones de Ley de protección a denunciantes de corrupción (según la nomenclatura empleada por Vox) o alertadores (bajo la denominación del Grupo Mixto). El Grupo Mixto presentó una iniciativa redactada por Xnet, la organización ciudadana que trabaja por la renovación democrática, como propuesta de transposición de la Directiva europea aprobada en el Parlamento Europeo en abril de 2019. Esta propuesta está validada por organizaciones de reconocido prestigio, como [Whistleblowers International Network (WIN) o el European Center for Whistleblower Rights](https://whistleblowingnetwork.org/). Finalmente, ninguna de las dos Proposiciones llegaron a debatirse por la nueva disolución de la Cortes y la convocatoria de nuevas elecciones.
 -  Aparte de estas dos Proposiciones de Ley, se presentaron otras iniciativas legislativas interesantes en materia de calidad democrática, como la Proposición de Ley Orgánica de prevención de los intereses privados en el sector público, de protección del Estado frente a la corrupción y contra las puertas giratorias del Grupo Confederal Unidas Podemos que proponía incluir penas de cárcel para los casos más graves. Sin embargo, dada la gran fragmentación de la Cámara y la brevedad de la legislatura, toda la actividad legislativa quedó caducada con la disolución de las Cortes y no se llegó aprobar ninguna ley relevante en este ámbito.
@@ -166,6 +171,6 @@ En relación a la transparencia y a la lucha contra la corrupción, siendo dos d
 20. CONGRESO DE LOS DIPUTADOS DE ESPAÑA. Proposición no de Ley sobre protección de los derechos digitales de la ciudadanía (Ref. 161/001720), 2017.
 21. CONGRESO DE LOS DIPUTADOS DE ESPAÑA. Boletín Oficial de las Cortes Generales 20 diciembre 2016, 2016.
 
+#### Créditos
 
-
-
+<a href="https://unsplash.com/photos/KVOtJAxULK4" target="_blank">Imagen de cabecera de Paweł Czerwiński</a>

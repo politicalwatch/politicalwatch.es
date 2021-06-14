@@ -2,7 +2,7 @@
 title: 'Political Watch amplía sus horizontes en 2019'
 image:  '/images/posts/footing.jpeg'
 description: 'CIECODE ha trabajado desde sus inicios en el fortalecimiento de la sociedad civil a través del desarrollo de plataformas como Political Watch'
-author: javier.perez
+author: javier-perez
 createdAt: 2019-02-28
 related:
   - qararuna-sociedad-civil-jordania
