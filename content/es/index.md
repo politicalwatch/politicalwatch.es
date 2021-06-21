@@ -2,17 +2,17 @@
 title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
-  title: 'OJITO'
-  subtitle: 'Observatorio joven de incumplimiento político'
-  description: 'El objetivo de este proyecto liderado por jóvenes es promover una cultura de rendición de cuentas de los decisores públicos a través de la monitorización de la actividad de los grupos parlamentarios y el Gobierno en torno a una serie de temáticas seleccionadas y el desarrollo de una campaña de incidencia pública.'
-  button: 'Accede ahora'
-  link: 'http://ojito.politicalwatch.es'
-  image: /images/featured-ojito.png
+  title: 'Media Bias Chart'
+  subtitle: 'Estreno del Media Bias Chart en España con metodología de Ad Fontes'
+  description: 'Political Watch presenta un estudio en el que analiza el papel que los 30 principales medios de comunicación escrita de España tienen en el abordaje de la actualidad mediática y política y su contribución a la polarización en la que la sociedad está inmersa en temas tan relevantes y sensibles como la "Ley trans".'
+  button: 'Consúltalo ahora'
+  link: '/blog/political-watch-publica-primer-media-bias-chart-espana-2021'
+  image: /images/posts/media-bias-chart-espana-2021/featured.png
 othersItems:
-  - title: 'Coherencia de políticas para la Diputación de Barcelona'
-    description: 'Estamos acompañando a la Diputación de Barcelona y a dos de sus municipios en un innovador proceso de integración del enfoque de Coherencia de Políticas para el Desarrollo Sostenible en sus procesos de planificación política.'
-    button: 'Ver el vídeo'
-    link: 'https://www.youtube.com/watch?v=LbwnSaqMThE'
+  - title: 'OJITO'
+    description: 'El objetivo de este proyecto liderado por jóvenes es promover una cultura de rendición de cuentas de los decisores públicos a través de la monitorización de la actividad de los grupos parlamentarios y el Gobierno en torno a una serie de temáticas seleccionadas y el desarrollo de una campaña de incidencia pública.'
+    button: 'Accede ahora'
+    link: 'http://ojito.politicalwatch.es'
   - title: 'Escáner 2030'
     description: 'Esta herramienta online te permite detectar y visualizar la presencia de los diferentes Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas en cualquier texto.'
     button: 'Escanea un texto'
