@@ -3,7 +3,7 @@ title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
   title: 'Media Bias Chart'
-  subtitle: 'Estreno del Media Bias Chart en España con metodología de Ad Fontes'
+  subtitle: 'Lanzamos en España el Media Bias Chart con metodología de Ad Fontes'
   description: 'Political Watch presenta un estudio en el que analiza el papel que los 30 principales medios de comunicación escrita de España tienen en el abordaje de la actualidad mediática y política y su contribución a la polarización en la que la sociedad está inmersa en temas tan relevantes y sensibles como la "Ley trans".'
   button: 'Consúltalo ahora'
   link: '/blog/political-watch-publica-primer-media-bias-chart-espana-2021'
