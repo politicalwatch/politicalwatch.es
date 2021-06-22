@@ -2,17 +2,17 @@
 title: Home
 subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
 featuredItem:
-  title: 'OJITO'
-  subtitle: 'Youth observatory of political non-fulfilment'
-  description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
-  button: 'Access now'
-  link: 'http://ojito.politicalwatch.es'
-  image: /images/featured-ojito.png
+  title: 'Media Bias Chart'
+  subtitle: 'Release in Spain following Ad Fontes methodology'
+  description: 'Political Watch presents a study that analyses the role of the 30 main Spanish newspapers when reporting on current affairs in the media and political spotlight, and their contribution to polarization in relevant issues as the "Trans law"'
+  button: 'Check it out now'
+  link: '/blog/political-watch-publica-primer-media-bias-chart-espana-2021'
+  image: /images/posts/media-bias-chart-espana-2021/featured.png
 othersItems:
-  - title: 'Implementing policy coherence approach at the Diputación de Barcelona'
-    description: 'We are assisting the Diputación de Barcelona and two of their municipalities in their efforts to implement the Policy Coherence approach through an innovative policy making process.'
-    button: 'Watch the video'
-    link: 'https://www.youtube.com/watch?v=LbwnSaqMThE'
+  - title: 'OJITO'
+    description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
+    button: 'Access now'
+    link: 'http://ojito.politicalwatch.es'
   - title: 'Escáner 2030'
     description: 'This online tool allows you to detect and visualize the presence of the different United Nations Sustainable Development Goals (SDGs) in any text.'
     button: 'Scan a document'
