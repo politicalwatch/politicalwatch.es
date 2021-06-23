@@ -46,7 +46,7 @@ El análisis de **450 artículos de 30 medios de comunicación** distintos ha ar
 
 Tras el análisis del total de los artículos, los 30 medios de comunicación se sitúan de la siguiente manera en los ejes fiabilidad-sesgo político analizados:
 
-![Media Bias Chart](/images/posts/media-bias-chart-espana-2021/media-bias-chart-translated.jpg)
+<img src="/images/posts/media-bias-chart-espana-2021/MBC-Political-Watch-Licensed_Hi_Res.jpg" loading="lazy" alt="Media Bias Chart de los 30 medios más leídos de España">
 
 * Respecto a la comparativa entre el análisis de temas generalistas y temas relacionados con los colectivos que reciben más violencias, y en contra de lo que podría esperarse, los resultados generales muestran que **el nivel de sesgo político es mayor en la cobertura de las temáticas generalistas que en la cobertura de las más controvertidas**. Al mismo tiempo, en prácticamente todos los medios, incluso en los que se encuentran en los extremos del espectro político, se han hallado algunos artículos fiables, lo cual no evita que dichos medios puedan considerarse una fuente de polarización.
 * Bajando a un nivel de concreción mayor, se observa que **los medios situados a la derecha del espectro aumentan su sesgo político en mayor medida en la cobertura de temas generales** que cuando cubren temáticas más controvertidas. Una posible explicación a este resultado es que, **al abordar temas generalistas – como salud o economía –, estos medios tienen que forzar su posición política para reforzar a sus audiencias**, simpatizantes del espectro de derechas. Sin embargo, cuando reportan sobre temáticas controvertidas, no les es necesario ampliar su sesgo porque ya son temas en los que sus audiencias están claramente posicionadas.
