@@ -33,9 +33,9 @@ El análisis de **450 artículos de 30 medios de comunicación** distintos ha ar
 
 <img src="/images/posts/media-bias-chart-espana-2021/mbc-interactivo.png" alt="The Media Bias Chart Interactive Preview" style="width: 450px; display: inline;" />
 
-<a href="https://imbc-pw-oa.d1wz0b4vz2fuhe.amplifyapp.com/?qs=d77ec9f44e" class="c-button c-button--outline">Accede al Media Bias Chart de artículos de temática general</a>
+<a href="https://political-watch-oa.d1llfzwprjpx3u.amplifyapp.com/" class="c-button c-button--outline">Accede al Media Bias Chart de artículos de temática general</a>
 
-<a href="https://imbc-pw-ct.d1e4f86auii3m4.amplifyapp.com/?qs=d77ec9f44e" class="c-button c-button--outline">Accede al Media Bias Chart de artículos sobre temas controvertidos</a>
+<a href="https://political-watch-ct.dkynli7z86w7y.amplifyapp.com/" class="c-button c-button--outline">Accede al Media Bias Chart de artículos sobre temas controvertidos</a>
 
 * Dos tercios de los medios de comunicación analizados se sitúan en un nivel de fiabilidad aceptable, lo cual indica que, en términos generales, **los principales medios de comunicación escrita en España son robustos a nivel de la fiabilidad del contenido de las noticias que reportan**. El tercio restante – 9 de los 30 medios de comunicación analizados – obtienen puntuaciones de fiabilidad por debajo de 40, que les sitúa en el rango medio o medio-bajo de la escala.
 * Interesantemente, mientras que sólo 2 medios tienen puntuaciones medias por debajo de 32, **hay hasta 19 medios – dos tercios del total - con al menos un artículo de la muestra puntuado por debajo de ese valor – nivel que da señal de carencias significativas de fiabilidad – **. Ello viene a significar que la mayoría de los medios tiene un amplio margen de mejora en este aspecto y que el lector debe mantenerse siempre alerta acerca de la fiabilidad de las noticias que consume.
