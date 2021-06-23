@@ -69,7 +69,7 @@ export default {
           name: 'Isabel Kreisler',
           image: '/images/advisors/isabel-kreisler.jpg',
           web: '',
-          twitter: ''
+          twitter: 'https://twitter.com/IsabelKreisler'
         },
         {
           name: 'Diego Álvarez',
