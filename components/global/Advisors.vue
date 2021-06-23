@@ -86,7 +86,7 @@ export default {
         {
           name: 'Pablo Aragón',
           image: '/images/advisors/pablo-aragon.jpg',
-          web: '',
+          web: 'https://elaragon.net/',
           twitter: 'https://twitter.com/elaragon'
         }
       ]
