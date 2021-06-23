@@ -72,6 +72,9 @@ export default {
     team: {
       title: 'Equipo'
     },
+    advisors: {
+      title: 'Asesoras/es'
+    },
     alliances: {
       title: 'Alianzas'
     },

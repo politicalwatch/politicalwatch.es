@@ -8,7 +8,7 @@ alliances:
     title: 'The PCSD Partnership - OCDE'
   - image: '/images/alliances/logo-gpsdd-dark.svg'
     link: 'http://www.data4sdgs.org/'
-    title: 'Polétika | Política + Ética'
+    title: 'Global Partnership for Sustainable Development Data'
   - image: '/images/alliances/poletika.jpg'
     link: 'http://www.poletika.org/'
     title: 'Polétika | Política + Ética'
@@ -66,5 +66,7 @@ No queremos exigir lo que no cumplimos. Por eso nos comprometemos a ser totalmen
 </md-content>
 
 <team></team>
+
+<advisors></advisors>
 
 <alliances :alliances="alliances"></alliances>

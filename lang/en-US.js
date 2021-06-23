@@ -71,6 +71,9 @@ export default {
     team: {
       title: 'Team'
     },
+    advisors: {
+      title: 'Advisors'
+    },
     alliances: {
       title: 'Partners'
     },
