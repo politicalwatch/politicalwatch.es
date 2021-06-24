@@ -44,7 +44,7 @@ export default {
         {
           name: 'Renata Ávila',
           image: '/images/advisors/renata-avila.jpeg',
-          web: '',
+          web: 'https://es.wikipedia.org/wiki/Renata_%C3%81vila_Pinto',
           twitter: 'https://twitter.com/avilarenata'
         },
         {
@@ -52,6 +52,30 @@ export default {
           image: '/images/advisors/gonzalo-fanjul.jpg',
           web: '',
           twitter: 'https://twitter.com/GonzaloFanjul'
+        },
+        {
+          name: 'Simona Levi',
+          image: '/images/advisors/simona-levi.jpg',
+          web: 'https://es.wikipedia.org/wiki/Simona_Levi',
+          twitter: ''
+        },
+        {
+          name: 'Diego Álvarez',
+          image: '/images/advisors/diego-alvarez.jpg',
+          web: 'https://www.tiki-toki.com/timeline/entry/665072/Trayectoria-personal-y-profesional-Diego-lvarez-diegoalsan/',
+          twitter: ''
+        },
+        {
+          name: 'Karma Peiró',
+          image: '/images/advisors/karma-peiro.jpg',
+          web: 'https://www.karmapeiro.com/',
+          twitter: 'https://twitter.com/kpeiro'
+        },
+        {
+          name: 'Pablo Aragón',
+          image: '/images/advisors/pablo-aragon.jpg',
+          web: 'https://elaragon.net/',
+          twitter: 'https://twitter.com/elaragon'
         },
         // {
         //   name: 'Irene Milleiro',
@@ -70,24 +94,6 @@ export default {
           image: '/images/advisors/isabel-kreisler.jpg',
           web: '',
           twitter: 'https://twitter.com/IsabelKreisler'
-        },
-        {
-          name: 'Diego Álvarez',
-          image: '/images/advisors/diego-alvarez.png',
-          web: 'https://www.tiki-toki.com/timeline/entry/665072/Trayectoria-personal-y-profesional-Diego-lvarez-diegoalsan/',
-          twitter: ''
-        },
-        {
-          name: 'Karma Peiró',
-          image: '/images/advisors/karma-peiro.jpg',
-          web: 'https://www.karmapeiro.com/',
-          twitter: 'https://twitter.com/kpeiro'
-        },
-        {
-          name: 'Pablo Aragón',
-          image: '/images/advisors/pablo-aragon.jpg',
-          web: 'https://elaragon.net/',
-          twitter: 'https://twitter.com/elaragon'
         }
       ]
     }
