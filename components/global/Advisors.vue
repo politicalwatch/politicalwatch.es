@@ -94,6 +94,12 @@ export default {
           image: '/images/advisors/isabel-kreisler.jpg',
           web: '',
           twitter: 'https://twitter.com/IsabelKreisler'
+        },
+        {
+          name: 'Sergio Salgado',
+          image: '/images/advisors/sergio-salgado.jpg',
+          web: '',
+          twitter: 'https://twitter.com/X_Net_'
         }
       ]
     }
