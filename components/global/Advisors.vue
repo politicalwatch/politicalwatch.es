@@ -57,7 +57,7 @@ export default {
           name: 'Simona Levi',
           image: '/images/advisors/simona-levi.jpg',
           web: 'https://es.wikipedia.org/wiki/Simona_Levi',
-          twitter: ''
+          twitter: 'https://twitter.com/X_Net_'
         },
         {
           name: 'Diego Álvarez',
