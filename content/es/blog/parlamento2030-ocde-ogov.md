@@ -18,7 +18,7 @@ El Gobierno Abierto es una apuesta clara para incorporar a la ciudadanía en los
 
 Siguiendo los principios de transparencia, integridad, rendición de cuentas y participación ciudadana que hemos venido desarrollando en [PoliticalWatch](https://www.politicalwatch.es/) desde su nacimiento, a través de proyectos como[ TIPI Ciudadano](https://tipiciudadano.es/) o[ Open Manifesto Project](http://www.openmanifesto.com/),[ Parlamento 2030](https://www.parlamento2030.es/) es una herramienta creada para rastrear, recopilar y ofrecer la información de Parlamentos nacionales relacionada con la[ Agenda 2030](https://sustainabledevelopment.un.org/post2015/transformingourworld).
 
-![Splash de P2030](/images/posts/p2030-splash.png)![](https://cdn-images-1.medium.com/max/2362/1*8hft9AOPMF_4HtsuBXLH8g.png)
+![Splash de P2030](/images/posts/p2030-splash.png)
 
 Parlamento 2030 supone una respuesta a la clara falta de disponibilidad de información accesible sobre la actividad parlamentaria y a la falta de mecanismos de rendición de cuentas de la clase política. Esto supone superar algunos retos de la naturaleza transversal de los ODS ya que, a través de un buscador online y un sistema de etiquetado automático, permite navegar por la actividad parlamentaria relacionada con los ODS. Basada en la [tecnología de Tipi](https://github.com/politicalwatch) que actualmente está conectada con el Congreso de los Diputados del Estado español y siguiendo las bases de código abierto, esta tecnología puede ser adaptada y replicada por cualquier región o parlamento que pueda estar interesado.
 
