@@ -26,6 +26,8 @@ Parlamento 2030 es una herramienta online y de uso libre y gratuito, que, a trav
 * Una nueva interfaz, más intuitiva y moderna: hemos cambiado la apariencia de la web, ahora es mucho más fácil de utilizar, e incluye espacios específicos para cada ODS y también para los grupos parlamentarios, lo que permite ver de manera más sencilla las principales iniciativas presentadas por cada Grupo, por cada diputado o Diputada, y en relación con cada uno de los ODS.
 * Mejoras en las fichas de las iniciativas: hemos mejorado las visualizaciones de las fichas de cada una de las iniciativas, que además ahora pueden descargarse y compartirse de manera sencilla con todos tus contactos.
 
+![Vídeo resumen que muestra la nueva ficha de un grupo parlamentario](/images/posts/p2030-updates-fichas-grupos.gif)
+
 #### Escáner 2030, potenciado
 
 * Gracias a la colaboración con el MAEUEC (Ministerio de Asuntos Exteriores, Unión Europea y Cooperación de España) y Actúa Innovació (Agencia de innovación e investigación para el desarrollo económico de Andorra) hemos realizado una serie de mejoras en el [Escáner 2030](https://www.escaner2030.es/) que ya están a disposición de todas las personas que quiera utilizarlo.
@@ -33,6 +35,8 @@ Parlamento 2030 es una herramienta online y de uso libre y gratuito, que, a trav
 * En primer lugar ahora es una herramienta independiente de Parlamento 2030, si bien está construida con la misma tecnología, se puede acceder a ella de manera directa.
 * Más y mejores visualizaciones de los resultados: Cada vez que uses el escáner, obtendrás una amplia variedad de visualizaciones que podrás descargar y compartir con tus contactos.
 * Guarda tus escaneos: Ahora además podrás guardar los resultados de tus escaneos y ahorrar tiempo en tus búsquedas, generando un enlace que podrás compartir de manera sencilla con quien quieras.
+
+![Vídeo resumen que muestra la nueva ficha de un grupo parlamentario](/images/posts/p2030-updates-escaner.gif)
 
 
 ### Mirando hacia el futuro
