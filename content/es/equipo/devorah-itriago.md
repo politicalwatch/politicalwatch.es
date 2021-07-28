@@ -1,5 +1,5 @@
 ---
-name: 'Devorah Itriago'
+name: 'Dévorah Itriago'
 avatar: '/images/team/deborah-itriago.jpg'
 position: 'Investigadora colaboradora'
 email: ''
