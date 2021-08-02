@@ -1,7 +1,7 @@
 ---
 title: 'Receta de guacamole'
-image: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1110711.jpg&w=596&h=399&c=sc&poi=face&q=85'
-description: ''
+image: '/images/posts/guacamole.jpeg'
+description: 'La mejor receta GUEY!'
 author: pablo-martin
 createdAt: 2021-08-02
 related:
