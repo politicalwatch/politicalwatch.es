@@ -1,4 +1,13 @@
-# Receta de guacamole
+---
+title: 'Receta de guacamole'
+image: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1110711.jpg&w=596&h=399&c=sc&poi=face&q=85'
+description: ''
+author: pablo-martin
+createdAt: 2021-08-02
+related:
+  - la-decada-para-la-accion-necesita-de-herramientas-de-monitoreo-parlamentario-novedades-en-parlamento-2030
+lineOfWork: democracy
+---
 
 You can make this avocado salad smooth or chunky depending on your tastes.
 
