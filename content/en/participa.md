@@ -26,7 +26,7 @@ The volunteering people has made invaluable contributions to the recent work of 
 If you like the work we do, consider collaborating in some of our projects. Your contribution help us to keep supporting innovative projects that promote transparency, the fight against poverty and accountability from the independence and coherence. Collaborate and benefit the tax relief.
 
 ```
-IBAN: ES12 2038 1119 0460 0068 1175
+IBAN: ES20 2100 3284 5113 0035 6362
 ```
 
 Don't forget to specify the concept **Donation** and, in case you want, specify the project of Political Watch where you would like your contribution to go. [Contact us](mailto:info@politicalwatch.es){target=_blank} to answer any question you have.

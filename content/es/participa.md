@@ -27,7 +27,7 @@ Las personas voluntarias han realizado contribuciones inestimables al trabajo re
 Si te gusta el trabajo que hacemos, plantéate colaborar con alguno de nuestros proyectos. Tu contribución nos ayuda a seguir apostando por proyectos innovadores que promuevan la transparencia, la lucha contra la pobreza y la rendición de cuentas desde la independencia y la coherencia. Colabora y benefíciate de la desgravación fiscal.
 
 ```
-IBAN: ES12 2038 1119 0460 0068 1175
+IBAN: ES20 2100 3284 5113 0035 6362
 ```
 
 No olvides especificar el concepto **Donación** y, en el caso de que quieras, concretar, el proyecto de Political Watch para el que te gustaría que fuese tu contribución. [Contáctanos](mailto:info@politicalwatch.es){target=_blank} para resolver cualquier duda.
