@@ -58,7 +58,7 @@ Algunas investigaciones recientes son:
 * Diagnóstico y orientaciones estratégicas para la adopción e implementación del enfoque de Coherencia de Políticas en el Ayuntamiento de Centelles.
 * Desarrollo de una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs) para el Center for Global Development.
 
-[Consulta nuestro repositorio de investigaciones](/investigaxciones){class="c-button c-button--outline"}
+[Consulta nuestro repositorio de investigaciones](/investigaciones){class="c-button c-button--outline"}
 
 ### Organización de espacios de encuentro y debate multiactor
 
