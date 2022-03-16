@@ -11,6 +11,10 @@ related:
 lineOfWork: democracy
 ---
 
+Crónica escrita por la periodista, y colaboradora de Political Watch, [Paloma Ollero](https://www.linkedin.com/in/palomaollero/).
+
+---
+
 El pasado jueves 10 de marzo presentamos el proyecto Qué Hacen Los Diputados (QHLD), el buque insignia de Political Watch.
 La herramienta de  seguimiento parlamentario QHLD permite realizar búsquedas exhaustivas acerca de la actividad llevada a cabo por los representantes públicos en el Congreso de los Diputados.
 
