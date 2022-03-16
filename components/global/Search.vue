@@ -18,14 +18,14 @@
     <div class="c-search__results c-content">
       <div v-if="searched == true" class="c-search__result">
         <h3>{{ $t('blocks.search.title_congress') }}</h3>
-        <ul v-if="tipiResults.length > 0">
-          <li v-for="item in tipiResults" :key="item.url">
+        <ul v-if="qhdlResults.length > 0">
+          <li v-for="item in qhdlResults" :key="item.url">
             <a target="_blank" :title="item.full" :href="item.url">{{ item.title }}</a>
             <span v-for="tag in item.tags" :key="tag" class="c-search__tag">{{ tag }}</span>
           </li>
         </ul>
-        <a v-if="tipiResults.length > 0" target="_blank" :href="tipiMore" class="c-link">{{ $t('blocks.search.see_more') }}</a>
-        <a v-if="tipiResults.length == 0" target="_blank" href="https://tipiciudadano.es" class="c-link">{{ $t('blocks.search.activity_link') }}</a>
+        <a v-if="qhdlResults.length > 0" target="_blank" :href="qhldMore" class="c-link">{{ $t('blocks.search.see_more') }}</a>
+        <a v-if="qhdlResults.length == 0" target="_blank" href="https://quehacenlosdiputados.es/buscar" class="c-link">{{ $t('blocks.search.activity_link') }}</a>
       </div>
       <div v-if="searched == true" class="c-search__result">
         <h3>{{ $t('blocks.search.title_proposals') }}</h3>
@@ -54,9 +54,9 @@ export default {
   data () {
     return {
       searched: false,
-      tipiResults: [],
+      qhdlResults: [],
       ompResults: [],
-      tipiMore: '',
+      qhldMore: '',
       ompMore: ''
     }
   },
@@ -80,23 +80,24 @@ export default {
       }
       return title
     },
-    tipiSearch (term) {
-      this.tipiResults = []
-      this.tipiMore = ''
+    qhldSearch (term) {
+      this.qhdlResults = []
+      this.qhldMore = ''
       if (term === '') {
         return
       }
 
-      const url = 'https://api.tipiciudadano.es/initiatives/?page=1&title=' + term
-      this.tipiMore = 'https://tipiciudadano.es/results/title=' + term
+      const url = 'https://api.quehacenlosdiputados.es/initiatives/?page=1&text=' + term
+      this.qhldMore = 'https://quehacenlosdiputados.es/resultados/text=' + term
       this.fetch(url, (initiative) => {
+        console.log(initiative)
         const result = {
           title: this.trimTitle(initiative.title),
           full: initiative.title,
-          url: 'https://tipiciudadano.es/initiatives/' + initiative.id,
+          url: 'https://quehacenlosdiputados.es/iniciativas/' + initiative.id,
           tags: initiative.topics.slice(0, 3)
         }
-        this.tipiResults.push(result)
+        this.qhdlResults.push(result)
       })
     },
     fetch (url, callback) {
@@ -149,7 +150,7 @@ export default {
     search (event) {
       const term = event.target.value
       this.searched = true
-      this.tipiSearch(term)
+      this.qhldSearch(term)
       this.ompSearch(term)
     }
   }
