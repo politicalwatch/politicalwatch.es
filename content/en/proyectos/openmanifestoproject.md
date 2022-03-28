@@ -4,5 +4,5 @@ subtitle: 'Open standard for electoral programs that makes easier its comprehens
 link: 'http://openmanifestoproject.org'
 image: '/images/projects/omp.jpg'
 lineOfWork: democracy
-order: 6
+order: 8
 ---

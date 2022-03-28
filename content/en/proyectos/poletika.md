@@ -4,5 +4,5 @@ subtitle: 'Platform of civil society organizations focused in the surveillance a
 link: 'http://poletika.org'
 image: '/images/projects/poletika.jpg'
 lineOfWork: democracy
-order: 8
+order: 9
 ---

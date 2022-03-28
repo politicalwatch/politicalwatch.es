@@ -101,7 +101,7 @@ export default {
       })
     },
     fetch (url, callback) {
-      fetch(url)
+      fetch(url, { mode: 'no-cors' })
         .then(response => response.json())
         .then((data) => {
           let count = 0

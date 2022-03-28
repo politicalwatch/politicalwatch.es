@@ -4,5 +4,5 @@ subtitle: 'Análisis y monitoreo de las medidas de seguridad implementadas en lo
 link: 'http://coleseguro.es'
 image: '/images/projects/coleseguro.jpg'
 lineOfWork: democracy
-order: 2
+order: 3
 ---

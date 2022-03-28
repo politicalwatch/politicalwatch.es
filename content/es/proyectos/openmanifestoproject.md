@@ -4,5 +4,5 @@ subtitle: 'Estándar abierto para programas electorales que facilita su comprens
 link: 'http://openmanifestoproject.org'
 image: '/images/projects/omp.jpg'
 lineOfWork: democracy
-order: 6
+order: 8
 ---
