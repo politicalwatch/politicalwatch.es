@@ -21,9 +21,6 @@
           {{ $t('pages.blog.title') }}
         </nuxt-link>
       </li>
-      <li class="c-menu__item c-menu__item-search">
-        <a class="toggle-tooltip" :aria-label="$t('blocks.search.tooltip')" href="#" @click="openSearch"><iconSearch /></a>
-      </li>
       <li
         v-for="locale in availableLocales"
         :key="locale.code"
@@ -39,12 +36,10 @@
 
 <script>
 import iconLang from '~/assets/images/icon-lang.svg?inline'
-import iconSearch from '~/assets/images/icon-search.svg?inline'
 
 export default {
   components: {
-    iconLang,
-    iconSearch
+    iconLang
   },
   props: {
     active: Boolean
@@ -52,11 +47,6 @@ export default {
   computed: {
     availableLocales () {
       return this.$i18n.locales.filter(l => l.code !== this.$i18n.locale)
-    }
-  },
-  methods: {
-    openSearch () {
-      this.$emit('search')
     }
   }
 }

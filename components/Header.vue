@@ -1,6 +1,5 @@
 <template>
   <header class="c-header o-section">
-    <search v-if="searchShown" @closed="toggleSearch" />
     <nuxt-link :to="localePath('index')" class="c-header__logo">
       <logo />
     </nuxt-link>
@@ -14,7 +13,7 @@
       <span class="bar" />
       <span class="text">{{ $t('global.menuToggle') }}</span>
     </button>
-    <Menu :active="isMenuActive" @search="toggleSearch" />
+    <Menu :active="isMenuActive" />
   </header>
 </template>
 
@@ -28,24 +27,13 @@ export default {
   },
   data () {
     return {
-      isMenuActive: false,
-      searchShown: false
+      isMenuActive: false
     }
   },
   created () {
     this.$nuxt.$on('routeChanged', () => {
       this.isMenuActive = false
     })
-  },
-  methods: {
-    toggleSearch () {
-      if (process.browser) {
-        this.searchShown = !this.searchShown
-      }
-      if (this.searchShown) {
-        this.isMenuActive = !this.isMenuActive
-      }
-    }
   }
 }
 </script>
