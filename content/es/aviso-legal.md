@@ -16,13 +16,14 @@ title: Aviso legal
 
 FSS cumple con los requisitos establecidos en la Ley 34/2002, de 11 de Julio, de Servicios de la Sociedad de la Información y Comercio Electrónico, en la Ley 56/2007, de 28 de diciembre de Medidas de Impulso de la Sociedad de la Información, así como en la Ley Orgánica 15/1999, de 13 de diciembre, sobre Protección de Datos de Carácter Personal y su normativa de desarrollo (RD 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de Desarrollo de la Ley Orgánica 15/1999 de Protección de Datos de Carácter Personal) a tal fin ha creado el siguiente Aviso Legal.
 
-```
+<pre>
 Fundación Salvador Soler
 Avenida Cardenal Herrera Oria 63, 3º Izq. 28034. Madrid.
 Teléfono: 691 691 810
 Fax: 91 735 44 28
 Email: coordinacion@unmundosalvadorsoler.org
-```
+Datos del DPO: GRUPO ADAPTALIA – LEGAL FORMATIVO S.L. legal@grupoadaptalia.es 91 553 34 08
+</pre>
 
 El presente Aviso Legal regula el acceso y la utilización de la web, incluyendo los contenidos y los servicios puestos a disposición de los Usuarios a través de la web, bien por FSS, bien por sus Usuarios, bien por cualesquiera terceros.
 
