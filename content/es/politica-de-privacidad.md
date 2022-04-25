@@ -4,7 +4,16 @@ title: Política de privacidad
 
 <md-content>
 
-Political Watch forma parte de la Fundación Salvador Soler (en adelante FSS).
+| TITULAR DEL SITIO WEB                                                                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **DENOMINACIÓN SOCIAL:** FUNDACIÓN SALVADOR SOLER MUNDO JUSTO                                                                                                                                     |
+| **CIF:** G85959666                                                                                                                                                                                |
+| **DOMICILIO SOCIAL:** CARDENAL HERRERA ORIA 63, 3 IZDA, 28047, MADRID                                                                                                                             |
+| **CONTACTO:** <br>Teléfono: 917314873 <br> Email: coordinacion@unmundosalvadorsoler.org                                                                                                                   |
+| **DATOS DE INSCRIPCIÓN EN EL REGISTRO DE FUNDACIONES:** <br>Inscrita el catorce de diciembre de dos mil diez en el Registro de Fundaciones del Ministerio de Cultura , con el número cronológico 962 |
+
+
+**Political Watch forma parte de la Fundación Salvador Soler (en adelante FSS).**
 
 Conforme a la a Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (en adelante LOPDGDD), y al Reglamento (UE) 2016/679, del Parlamento Europeo y del Consejo, de 27 de abril (“Reglamento General de Protección de Datos” o "RGPD"), esta Política de Privacidad se aplica a los tratamientos de datos de carácter personal que FSS realiza como Responsable, en relación con los datos de los usuarios/as (personas físicas) recabados en cualquiera de la secciones del sitio web.
 
@@ -12,13 +21,14 @@ Si no está usted de acuerdo con los términos de esta Política, no acceda ni u
 
 ### Responsable del tratamiento de sus datos
 
-```
+<pre>
 Fundación Salvador Soler
 Avenida Cardenal Herrera Oria 63, 3º Izq. 28034. Madrid.
 Teléfono: 691 691 810
 Fax: 91 735 44 28
 Email: coordinacion@unmundosalvadorsoler.org
-```
+Datos del DPO: GRUPO ADAPTALIA – LEGAL FORMATIVO S.L. legal@grupoadaptalia.es 91 553 34 08
+</pre>
 
 ### Finalidades del tratamiento de datos
 
