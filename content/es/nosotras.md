@@ -6,7 +6,7 @@ alliances:
   - image: '/images/alliances/logooecd_en.png'
     link: 'http://www.oecd.org/pcd/thepcsdpartnership.htm'
     title: 'The PCSD Partnership - OCDE'
-  - image: '/images/alliances/logo-gpsdd-dark.svg'
+  - image: '/images/alliances/gpsdd.png'
     link: 'http://www.data4sdgs.org/'
     title: 'Global Partnership for Sustainable Development Data'
   - image: '/images/alliances/poletika.jpg'
