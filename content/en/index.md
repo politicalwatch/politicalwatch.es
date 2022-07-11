@@ -13,7 +13,7 @@ othersItems:
     description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
     button: 'Access now'
     link: 'http://ojito.politicalwatch.es'
-  - title: 'Escáner 2030'
+  - title: 'Scanner 2030'
     description: 'This online tool allows you to detect and visualize the presence of the different United Nations Sustainable Development Goals (SDGs) in any text.'
     button: 'Scan a document'
     link: 'https://escaner2030.es/'
