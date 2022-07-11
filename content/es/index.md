@@ -4,7 +4,7 @@ subtitle: "Political Watch es una plataforma de innovación política que promue
 featuredItem:
   title: 'QHLD'
   subtitle: 'Relanzamos el proyecto Qué Hacen los Diputados'
-  description: 'Political Watch presenta Que Hacen Los Diputados, una herramienta online que permite conocer de cerca la actividad que se lleva a cabo por parte de nuestros representantes, ofreciendo información sobre lo que sucede en el Congreso de los Diputados y generando un incentivo para que los representantes públicos se comprometan con el desarrollo sostenible, y la calidad democrática.'
+  description: 'Political Watch presenta Que Hacen Los Diputados, una herramienta online que permite conocer de cerca la actividad que se lleva a cabo por parte de nuestros representantes, ofreciendo información sobre lo que sucede en el Congreso de los Diputados y generando un incentivo para que los representantes públicos se comprometan con el desarrollo sostenible, la justicia social y la calidad democrática.'
   button: 'Accede ahora'
   link: 'https://qhld.es'
   image: /images/featured-qhld.png

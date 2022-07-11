@@ -2,12 +2,12 @@
 title: Home
 subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
 featuredItem:
-  title: 'Media Bias Chart'
-  subtitle: 'Release in Spain following Ad Fontes methodology'
-  description: 'Political Watch presents a study that analyses the role of the 30 main Spanish newspapers when reporting on current affairs in the media and political spotlight, and their contribution to polarization in relevant issues as the "Trans law"'
-  button: 'Check it out now'
-  link: '/blog/political-watch-publica-primer-media-bias-chart-espana-2021'
-  image: /images/posts/media-bias-chart-espana-2021/featured.png
+  title: 'QHLD'
+  subtitle: 'We relaunch the project What do deputies do'
+  description: 'Political Watch presents What do deputies do, an online tool that allows to know in depth the parliamentary activity in Spanish Congress. The tool offers an incentive to public representatives to commit to sustainable development, social justice and democratic quality.'
+  button: 'Access now'
+  link: 'https://qhld.es'
+  image: /images/featured-qhld.png
 othersItems:
   - title: 'OJITO'
     description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
