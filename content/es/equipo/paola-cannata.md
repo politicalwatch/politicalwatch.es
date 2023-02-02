@@ -4,9 +4,9 @@ avatar: '/images/team/paola-cannata.jpg'
 position: 'Investigadora'
 email: 'paola.cannata@politicalwatch.es'
 web: ''
-twitter: ''
+twitter: 'https://twitter.com/PaolaCannata'
 github: ''
-linkedin: ''
+linkedin: 'https://www.linkedin.com/in/paola-cannata-molero-68116a238/'
 order: 7
 ---
 
