@@ -1,7 +1,7 @@
 ---
 name: 'Paola Cannata'
 avatar: '/images/team/paola-cannata.jpg'
-position: 'Researcher'
+position: 'Strategy and alliances'
 email: 'paola.cannata@politicalwatch.es'
 web: ''
 twitter: 'https://twitter.com/PaolaCannata'
