@@ -25,6 +25,8 @@ The volunteering people has made invaluable contributions to the recent work of 
 
 If you like the work we do, consider collaborating in some of our projects. Your contribution help us to keep supporting innovative projects that promote transparency, the fight against poverty and accountability from the independence and coherence. Collaborate and benefit the tax relief.
 
+![Image with Bizum code in Spanish](/images/bizum.png)
+
 ```
 IBAN: ES20 2100 3284 5113 0035 6362
 ```
