@@ -2,12 +2,12 @@
 title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
-  title: 'QHLD'
-  subtitle: 'Relanzamos el proyecto Qué Hacen los Diputados'
-  description: 'Political Watch presenta Que Hacen Los Diputados, una herramienta online que permite conocer de cerca la actividad que se lleva a cabo por parte de nuestros representantes, ofreciendo información sobre lo que sucede en el Congreso de los Diputados y generando un incentivo para que los representantes públicos se comprometan con el desarrollo sostenible, la justicia social y la calidad democrática.'
-  button: 'Accede ahora'
-  link: 'https://qhld.es'
-  image: /images/featured-qhld.png
+  title: 'CivicTech'
+  subtitle: 'Presentación del Informe "Más de 10 años de CivicTech"'
+  description: 'El próximo jueves 23 de marzo a las 17:00 (España) en formato online Political Watch presenta el informe "Más de 10 años de CivicTech", informe realizado para la Generalitat de Catalinya con un enfoque en la participación ciudadana. En dicho evento se compartiran hallazgos del momento actual del sector, se harán recomendaciones a los actores relevantes y se debatirá con organizaciones de España y América Latina sobre su futuro.'
+  button: 'Inscríbete ahora'
+  link: 'https://governobert.gencat.cat/es/actualitat/actes-i-jornades/setmana-govern-obert-2023/estudi-civictech/'
+  image: /images/featured-civictech.png
 othersItems:
   - title: 'OJITO'
     description: 'El objetivo de este proyecto liderado por jóvenes es promover una cultura de rendición de cuentas de los decisores públicos a través de la monitorización de la actividad de los grupos parlamentarios y el Gobierno en torno a una serie de temáticas seleccionadas y el desarrollo de una campaña de incidencia pública.'
