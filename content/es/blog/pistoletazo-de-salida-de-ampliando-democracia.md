@@ -1,7 +1,7 @@
 ---
 title: 'Pistoletazo de salida de Ampliando Democracia'
 image: '/images/posts/jaime-lopes-0RDBOAdnbWM-unsplash.jpg'
-description: 'El impacto de la pandemia del COVID-19 a nivel social y económico es ya indiscutible, sin embargo, hace poco más de un año, aún en confinamiento estricto, el Congreso de los Diputados de España creó la Comisión para la ‘Reconstrucción Social y Económica’, que en tiempo récord tuvo que debatir y definir los grandes lineamientos en materia de salud, economía, políticas sociales y cooperación con la Unión Europea para salir de la crisis que ya se venía venir.'
+description: 'La capacidad que las políticas públicas van a tener para dar respuesta audaces y transformadoras a los retos y necesidades de las sociedades actuales en un contexto tan complejo, incierto e interconectado como el del siglo XXI va a depender de un factor clave: la capacidad de nuestras democracias de encontrar nuevas y mejoradas formas de que la ciudadanía participe de forma activa en los procesos de toma de decisión.'
 author: paola-cannata
 createdAt: 2023-03-23
 related:
