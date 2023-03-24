@@ -13,7 +13,7 @@ lineOfWork: democracy
 
 La capacidad que las políticas públicas van a tener para dar respuesta audaces y transformadoras a los retos y necesidades de las sociedades actuales en un contexto tan complejo, incierto e interconectado como el del siglo XXI va a depender de un factor clave: **la capacidad de nuestras democracias de encontrar nuevas y mejoradas formas de que la ciudadanía participe de forma activa en los procesos de toma de decisión**.
 
-A partir de este enorme e importante desafío **Political Watch pone en marcha [Ampliando Democracia](http://ampliandodemocracia.es/)**, un proyecto que pretende contribuir a mejorar la calidad democrática a través de herramientas innovadoras de participación y deliberación ciudadana e incorporar al ámbito español, teniendo nuestro propio contexto,  avances en esta materia que ya son una realidad en el ámbito internacional.
+A partir de este enorme e importante desafío **Political Watch pone en marcha [Ampliando Democracia](http://ampliandodemocracia.org/)**, un proyecto que pretende contribuir a mejorar la calidad democrática a través de herramientas innovadoras de participación y deliberación ciudadana e incorporar al ámbito español, teniendo nuestro propio contexto,  avances en esta materia que ya son una realidad en el ámbito internacional.
 
 **Diversos organismos e instituciones de ámbito internacional como Naciones Unidas, OCDE o la Unión Europea ya están incorporando nuevas e innovadoras formas de participación** en sus procesos formales de decisión, liderando desde el ejemplo y la búsqueda de consensos.
 
