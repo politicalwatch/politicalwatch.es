@@ -3,10 +3,10 @@ title: Home
 subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
 featuredItem:
   title: 'CivicTech'
-  subtitle: 'Launching of the report "More than 10 years of CivicTech"'
-  description: 'Next Thursday, March 23 at 5:00 p.m. (Spain) in online format, Political Watch launches the report "More than 10 years of CivicTech", a report made for the Generalitat de Catalinya with a focus on citizen participation. In this event, findings from the current moment in the sector will be shared, recommendations will be made to relevant stakeholders and discussions will be held with organizations from Spain and Latin America about its future.'
-  button: 'Register now'
-  link: 'https://governobert.gencat.cat/es/actualitat/actes-i-jornades/setmana-govern-obert-2023/estudi-civictech/'
+  subtitle: 'Download the report "More than 10 years of CivicTech"'
+  description: 'You can now download the report "More than 10 years of CivicTech", a report made for the Generalitat de Catalunya with a focus on citizen participation. In this report you will find findings from the current moment in the sector, recommendations to relevant stakeholders and interviews with organizations in Spain and Latin America about their future, among other things.'
+  button: 'Download now'
+  link: 'https://t.ly/fsOS'
   image: /images/featured-civictech.png
 othersItems:
   - title: 'OJITO'
