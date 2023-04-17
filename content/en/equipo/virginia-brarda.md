@@ -7,6 +7,6 @@ web: 'https://modomate.tumblr.com/'
 twitter: 'https://twitter.com/modomate_blog'
 github: ''
 linkedin: 'http://www.linkedin.com/in/lic-virginia-brarda'
-order: 6
+order: 5
 ---
 

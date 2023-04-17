@@ -1,7 +1,7 @@
 ---
 name: 'Pablo Martín'
 avatar: '/images/team/pablo-martin.jpg'
-position: 'Technological Director'
+position: 'Chief Technology Officer'
 email: 'pablo.martin@politicalwatch.es'
 web: 'http://pr3ssh.net'
 twitter: ''
