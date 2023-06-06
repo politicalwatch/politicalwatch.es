@@ -2,17 +2,17 @@
 title: Home
 subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
 featuredItem:
-  title: 'CivicTech'
-  subtitle: 'Download the report "More than 10 years of CivicTech"'
-  description: 'You can now download the report "More than 10 years of CivicTech", a report made for the Generalitat de Catalunya with a focus on citizen participation. In this report you will find findings from the current moment in the sector, recommendations to relevant stakeholders and interviews with organizations in Spain and Latin America about their future, among other things.'
-  button: 'Download now'
-  link: 'https://t.ly/fsOS'
-  image: /images/featured-civictech.png
+  title: 'Ampliando Democracia'
+  subtitle: 'Citizen participation and deliberation network'
+  description: '"Ampliando Democracia" promotes reflection on how to improve governance, public policies and democratic quality through deeper, more inclusive and robust citizen participation. The results of this exercise will be presented to public decision-makers as proposals for integrating participation in decision-making processes. It is an open and participatory project promoted by Political Watch and Deliberativa.'
+  button: 'I want to know more'
+  link: 'https://ampliandodemocracia.org'
+  image: /images/featured-ad.png
 othersItems:
-  - title: 'OJITO'
-    description: 'The goal of this project leaded by youngs is to promote a culture of accountability of the public decision makers through the monitoring of the activity of the parliamentary groups and the government around a set of selected topics and the development of a campaign of public impact.'
-    button: 'Access now'
-    link: 'http://ojito.politicalwatch.es'
+  - title: 'CivicTech'
+    description: 'You can now download the report "More than 10 years of CivicTech", a report made for the Generalitat de Catalunya with a focus on citizen participation. In this report you will find findings from the current moment in the sector, recommendations to relevant stakeholders and interviews with organizations in Spain and Latin America about their future, among other things.'
+    button: 'Download now'
+    link: 'https://t.ly/fsOS'
   - title: 'Scanner 2030'
     description: 'This online tool allows you to detect and visualize the presence of the different United Nations Sustainable Development Goals (SDGs) in any text.'
     button: 'Scan a document'
