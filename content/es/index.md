@@ -9,14 +9,14 @@ featuredItem:
   link: 'https://ampliandodemocracia.org'
   image: /images/featured-ad.png
 othersItems:
+  - title: 'RTVE 2030'
+    description: 'Os presentamos RTVE 2030, una web que utiliza técnicas de Inteligencia Artificial (IA) para medir el tiempo dedicado a la Agenda 2030 en la programación de RTVE; ésta permite ver, una vez más, el valor añadido de las tecnologías cívicas como herramientas de innovación en la administración pública.'
+    button: 'Visita RTVE 2030'
+    link: 'https://rtve2030.rtve.es/'
   - title: 'CivicTech'
     description: 'Ya puedes descargar el informe "Más de 10 años de CivicTech", informe realizado para la Generalitat de Catalunya con un enfoque en la participación ciudadana. En dicho informe encontrarás hallazgos del momento actual del sector, recomendaciones a los actores relevantes y entrevistas a organizaciones de España y América Latina sobre su futuro entre otras cosas.'
     button: 'Descárgalo ya'
     link: 'https://t.ly/fsOS'
-  - title: 'Escáner 2030'
-    description: 'Esta herramienta online te permite detectar y visualizar la presencia de los diferentes Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas en cualquier texto.'
-    button: 'Escanea un texto'
-    link: 'https://escaner2030.es/'
 blogLatest: 2
 ---
 <hero></hero>

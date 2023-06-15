@@ -9,14 +9,14 @@ featuredItem:
   link: 'https://ampliandodemocracia.org'
   image: /images/featured-ad.png
 othersItems:
+  - title: 'RTVE 2030'
+    description: "We present RTVE 2030, a website that uses Artificial Intelligence (AI) techniques to measure the time dedicated to the 2030 Agenda in RTVE's programming; it allows us to see, once again, the added value of civic technologies as tools for innovation in public administration."
+    button: 'Visit RTVE 2030'
+    link: 'https://rtve2030.rtve.es/'
   - title: 'CivicTech'
     description: 'You can now download the report "More than 10 years of CivicTech", a report made for the Generalitat de Catalunya with a focus on citizen participation. In this report you will find findings from the current moment in the sector, recommendations to relevant stakeholders and interviews with organizations in Spain and Latin America about their future, among other things.'
     button: 'Download now'
     link: 'https://t.ly/fsOS'
-  - title: 'Scanner 2030'
-    description: 'This online tool allows you to detect and visualize the presence of the different United Nations Sustainable Development Goals (SDGs) in any text.'
-    button: 'Scan a document'
-    link: 'https://escaner2030.es/'
 blogLatest: 2
 ---
 <hero></hero>
