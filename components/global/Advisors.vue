@@ -77,12 +77,6 @@ export default {
           web: 'https://elaragon.net/',
           twitter: 'https://twitter.com/elaragon'
         },
-        // {
-        //   name: 'Irene Milleiro',
-        //   image: '/images/advisors/irene-milleiro.jpg',
-        //   web: '',
-        //   twitter: 'https://twitter.com/irenemilleiro'
-        // },
         {
           name: 'Teresa Cavero',
           image: '/images/advisors/teresa-cavero.jpg',
@@ -100,6 +94,10 @@ export default {
           image: '/images/advisors/sergio-salgado.jpg',
           web: '',
           twitter: 'https://twitter.com/X_Net_'
+        },
+        {
+          name: 'Déborah Itriago',
+          image: '/images/advisors/deborah-itriago.jpg'
         }
       ]
     }
