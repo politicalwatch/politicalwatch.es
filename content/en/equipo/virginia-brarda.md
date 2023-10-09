@@ -1,12 +1,11 @@
 ---
-name: 'Virginia Brarda'
-avatar: '/images/team/virginia-brarda.jpg'
-position: 'Researcher'
-email: 'virginia.brarda@politicalwatch.es'
-web: 'https://modomate.tumblr.com/'
-twitter: 'https://twitter.com/modomate_blog'
-github: ''
-linkedin: 'http://www.linkedin.com/in/lic-virginia-brarda'
-order: 5
+name: "Virginia Brarda"
+avatar: "/images/team/virginia-brarda.jpg"
+position: "Researcher"
+email: "virginia.brarda@politicalwatch.es"
+web: "https://modomate.tumblr.com/"
+twitter: "https://twitter.com/modomate_blog"
+github: ""
+linkedin: "http://www.linkedin.com/in/lic-virginia-brarda"
+order: 7
 ---
-
