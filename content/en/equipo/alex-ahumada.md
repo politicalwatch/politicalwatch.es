@@ -1,7 +1,7 @@
 ---
 name: "Alex Ahumada"
 avatar: "/images/team/alex-ahumada.jpg"
-position: "Ingeniero de software"
+position: "Software engineer"
 email: "alex.ahumada@politicalwatch.es"
 web: ""
 twitter: "https://twitter.com/alexahumadap"

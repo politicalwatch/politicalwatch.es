@@ -90,7 +90,6 @@ export default {
       const url = 'https://api.quehacenlosdiputados.es/initiatives/?page=1&text=' + term
       this.qhldMore = 'https://quehacenlosdiputados.es/resultados/text=' + term
       this.fetch(url, (initiative) => {
-        console.log(initiative)
         const result = {
           title: this.trimTitle(initiative.title),
           full: initiative.title,
