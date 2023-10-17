@@ -6,7 +6,7 @@
     <nav v-if="withProjectsToc" class="c-projects-toc">
       <div class="c-projects-toc__wrapper">
         <h3 class="c-projects-toc__title">
-          {{ this.$t('blocks.projects.title') }}
+          {{ $t('blocks.projects.title') }}
         </h3>
         <ul class="c-projects-toc__list">
           <li v-for="(project, i) in projects" :key="i" class="c-projects-toc__item">

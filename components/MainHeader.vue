@@ -13,7 +13,7 @@
       <span class="bar" />
       <span class="text">{{ $t('global.menuToggle') }}</span>
     </button>
-    <Menu :active="isMenuActive" />
+    <MainMenu :active="isMenuActive" />
   </header>
 </template>
 
@@ -21,7 +21,7 @@
 import logo from '~/assets/images/logo.svg?inline'
 
 export default {
-  name: 'Header',
+  name: 'MainHeader',
   components: {
     logo
   },

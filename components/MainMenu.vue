@@ -38,6 +38,7 @@
 import iconLang from '~/assets/images/icon-lang.svg?inline'
 
 export default {
+  name: 'MainMenu',
   components: {
     iconLang
   },

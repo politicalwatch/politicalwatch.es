@@ -34,7 +34,7 @@ import github from '~/assets/images/icon-github.svg?inline'
 import linkedin from '~/assets/images/icon-linkedin.svg?inline'
 
 export default {
-  name: 'Footer',
+  name: 'MainFooter',
   components: {
     logo,
     twitter,

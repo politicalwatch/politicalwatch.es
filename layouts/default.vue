@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header />
+    <MainHeader />
     <Nuxt />
     <Newsletter />
-    <Footer />
+    <MainFooter />
     <Cookies />
   </div>
 </template>
