@@ -2,21 +2,27 @@
 title: Inicio
 subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
 featuredItem:
-  title: 'Ampliando Democracia'
-  subtitle: 'Red de participación y deliberación ciudadana'
-  description: 'Ampliando Democracia promueve la reflexión sobre cómo mejorar la gobernanza, las políticas públicas y la calidad democrática a través de  una participación ciudadana más profunda, inclusiva y sólida. Los resultados de este ejercicio serán presentados a los decisores públicos como propuestas para integrar la participación en los procesos de toma de decisiones. Es un proyecto abierto y participativo impulsado por Political Watch y Deliberativa.'
-  button: 'Quiero saber más'
-  link: 'https://ampliandodemocracia.org'
-  image: /images/featured-ad.png
+  title: 'Informe COTEC'
+  subtitle: 'La atención a las demandas de la España Rural'
+  description: 'En el marco de la convocatoria PIA2022 de la Fundación Cotec, investigamos las demandas de la España rural en clave de desigualdad y analizamos su tratamiento mediático y parlamentario en los últimos años. Esta investigación combina diferentes metodologías, como la realización de entrevistas o el uso de tecnologías cívicas, para arrojar luz sobre las desigualdades que afectan a los núcleos rurales de población.'
+  button: 'Lee en informe completo aquí'
+  link: 'https://cotec.es/proyecto/la-atencion-a-las-demandas-de-la-espaa-rural/3da5715f-c772-cd00-2883-e4bb47630328'
+  image: /images/featured-cotec.png
 othersItems:
   - title: 'RTVE 2030'
-    description: 'Os presentamos RTVE 2030, una web que utiliza técnicas de Inteligencia Artificial (IA) para medir el tiempo dedicado a la Agenda 2030 en la programación de RTVE; ésta permite ver, una vez más, el valor añadido de las tecnologías cívicas como herramientas de innovación en la administración pública.'
+    description: 'Creamos un espacio de consulta pública on-line que permite conocer el tiempo que los programas informativos y divulgativos de Televisión Española dedican a la difusión de los 17 Objetivos de Desarrollo Sostenible. La medición se realiza a través de una innovadora herramienta, Radar ODS, que clasifica los contenidos de forma automática gracias a técnicas de Inteligencia Artificial. Aplicando esta tecnología a las transcripciones, etiquetamos y cuantificamos los contenidos para conocer su vinculación con las metas y objetivos de la Agenda 2030, y las horas de pantalla dedicadas a ellos.'
     button: 'Visita RTVE 2030'
     link: 'https://rtve2030.rtve.es/'
-  - title: 'CivicTech'
-    description: 'Ya puedes descargar el informe "Más de 10 años de CivicTech", informe realizado para la Generalitat de Catalunya con un enfoque en la participación ciudadana. En dicho informe encontrarás hallazgos del momento actual del sector, recomendaciones a los actores relevantes y entrevistas a organizaciones de España y América Latina sobre su futuro entre otras cosas.'
-    button: 'Descárgalo ya'
-    link: 'https://t.ly/fsOS'
+  - title: 'QHLD'
+    description: 'A partir de una Web, activamos una tecnología cívica que sistematiza, clasifica y muestra la actividad parlamentaria de una manera sencilla y accesible con el objetivo de promover la vigilancia ciudadana y la rendición de cuentas acortando las distancias entre la ciudadanía y sus representantes políticos.
+    Esta herramienta también nos permite extraer datos para medir indicadores, y por lo tanto, investigar, generar informes, ya sea para el público en general como para organizaciones, e incluso impulsar campañas de incidencia sobre un tema de interés vinculado a la calidad democrática, la gobernanza y la transparencia.'
+    button: 'Echa un vistazo aquí'
+    link: 'https://quehacenlosdiputados.es/'
+  - title: 'POLÉTIKA'
+    description: 'Conformamos y lideramos una plataforma de incidencia pública y vigilancia ciudadana que reúne a más de 500 organizaciones sociales en España y se activa, en el contexto de Elecciones Generales, con el objetivo de comprometer a los partidos políticos con las prioridades estratégicas identificadas y consensuadas por la coalición para la XV Legislatura: las Personas, el Planeta y la Democracia
+    Coordinamos el diálogo entre las organizaciones, proponemos la metodología para la definición de peticiones y la valoración de programas electorales, generamos eventos de debate entre líderes políticos, impulsamos campañas en rrss y diseñamos publicaciones para medios de comunicación.'
+    button: 'Conoce la incidencia en el 23J'
+    link: 'https://www.poletika.org/'
 blogLatest: 2
 ---
 <hero></hero>
