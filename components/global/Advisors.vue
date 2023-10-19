@@ -3,7 +3,7 @@
     <h2 class="c-team__title">
       {{ $t('blocks.advisors.title') }}
     </h2>
-    <div class="c-team__wrapper" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
+    <div class="c-team__wrapper">
       <article
         v-for="(advisor, i) in advisors"
         :key="i"
@@ -104,3 +104,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.c-team__wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+</style>
