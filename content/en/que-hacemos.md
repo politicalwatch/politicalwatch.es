@@ -60,7 +60,7 @@ Some recent research projects include:
 - Diagnosis and strategic orientations for the adoption and implementation of the Policy Coherence approach in Centelles City Council.
 - Development of a methodology to analyze the inclusion of the sustainable development approach in International Investment Agreements (IIAs) for the Center for Global Development.
 
-[Check our research repository out](/investigaciones)
+<a href="/investigaciones" class="c-button c-button--outline">Check our research repository out</a>
 
 ### Organization of multi-stakeholder meetings and debates
 
@@ -87,6 +87,6 @@ Our software allows the extraction of information from Twitter and:
 
 To guide our work and direct it to the achievement of our main goals, we develop since 2019 strategic bianual plans, building them in a participatory way between all the members of the team. You can access our Strategic Plan 2019-2021.
 
-[Download our Plan (in Spanish)](/documentos/pw-plan-estrategico.pdf)
+<a href="/documentos/pw-plan-estrategico.pdf" target="_blank" class="c-button c-button--outline">Download our Plan (in Spanish)</a>
 
 <md-content>

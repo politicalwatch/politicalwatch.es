@@ -60,7 +60,7 @@ Algunas investigaciones recientes son:
 - Diagnóstico y orientaciones estratégicas para la adopción e implementación del enfoque de Coherencia de Políticas en el Ayuntamiento de Centelles.
 - Desarrollo de una metodología para analizar la inclusión del enfoque de desarrollo sostenible en los Acuerdos Internacionales de Inversión (IIAs) para el Center for Global Development.
 
-[Consulta nuestro repositorio de investigaciones](/investigaciones)
+<a href="/investigaciones" class="c-button c-button--outline">Consulta nuestro repositorio de investigaciones</a>
 
 ### Organización de espacios de encuentro y debate multiactor
 
@@ -87,6 +87,6 @@ Software propio que permite la extracción de información de Twitter y a partir
 
 Para guiar nuestro trabajo y orientarlo a la consecución de nuestros objetivos principales, desde 2019 elaboramos planes estratégicos bianuales, construidos de manera participativa entre todos los miembros del equipo. Puedes acceder al Plan Estratégico 2019-2021.
 
-[Descarga nuestro Plan](/documentos/pw-plan-estrategico.pdf)
+<a href="/documentos/pw-plan-estrategico.pdf" target="_blank" class="c-button c-button--outline">Descarga nuestro Plan</a>
 
 <md-content>
