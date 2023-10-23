@@ -1,6 +1,6 @@
 ---
-title: 'We do'
-subtitle: 'At Political Watch we work to promote a more just and sustainable society. We do so through research, the development of civic technologies, advocacy and support to companies, public administrations and organizations in their innovation and transformation processes to meet the commitments of the 2030 Agenda for Sustainable Development.'
+title: "We do"
+subtitle: "At Political Watch we work to promote a more just and sustainable society. We do so through research, the development of civic technologies, advocacy and support to companies, public administrations and organizations in their innovation and transformation processes to meet the commitments of the 2030 Agenda for Sustainable Development."
 ---
 
 <lines-of-work hide-title></lines-of-work>
@@ -12,19 +12,20 @@ subtitle: 'At Political Watch we work to promote a more just and sustainable soc
 ### Software Development
 
 We have expertise in:
-* Automatic data extraction techniques (web scrapping).
-* Treatment of large volumes of data (Big Data).
-* Automatic Learning (Machine Learning) and Natural Language Processing (NLP).
-* Conversational interfaces for virtual assistants such as Google Home or Alexa.
-* Instant messaging bots (for Telegram and others).
-* Modern web development (webapps and APIs)
+
+- Automatic data extraction techniques (web scrapping).
+- Treatment of large volumes of data (Big Data).
+- Automatic Learning (Machine Learning) and Natural Language Processing (NLP).
+- Conversational interfaces for virtual assistants such as Google Home or Alexa.
+- Instant messaging bots (for Telegram and others).
+- Modern web development (webapps and APIs)
 
 Some of the projects in which we have used and developed these technologies are:
 
-* [Escáner 2030](https://escaner2030.es/)
-* [Qué hacen los diputados](https://quehacenlosdiputados.es)
-* [Political Watch COVID-19](https://politicalwatch.es/blog/un-a%C3%B1o-covidwatch/)
-* [Open Manifesto Project](https://openmanifestoproject.org/)
+- [Escáner 2030](https://escaner2030.es/)
+- [Qué hacen los diputados](https://quehacenlosdiputados.es)
+- [Political Watch COVID-19](https://politicalwatch.es/blog/un-a%C3%B1o-covidwatch/)
+- [Open Manifesto Project](https://openmanifestoproject.org/)
 
 ### Training
 
@@ -32,9 +33,9 @@ Our training programs include our areas of greatest expertise: civic monitoring,
 
 We have experience in:
 
-* Training at the higher education level: Comillas Pontifical University.
-* Training on Policy Coherence for public entities such as the Generalitat de Catalunya, Diputació de Barcelona and City Councils.
-* Training for capacity building of social organizations.
+- Training at the higher education level: Comillas Pontifical University.
+- Training on Policy Coherence for public entities such as the Generalitat de Catalunya, Diputació de Barcelona and City Councils.
+- Training for capacity building of social organizations.
 
 ### Data visualizations
 
@@ -44,8 +45,8 @@ We work with dashboards and both static and dynamic visualizations for internal 
 
 Some of the dashboards we have created:
 
-* [Analysis of citizen proposals sent to the Commission for Social and Economic Reconstruction](https://datastudio.google.com/u/0/reporting/1EAxsZQY5BSQJn9K-jnplJbtfD9O8AERe/page/yBJUB)
-* [Analysis of the conclusions of the Commission for Social and Economic Reconstruction from an environmental perspective for ECODES](https://datastudio.google.com/u/0/reporting/1-NsNGyyBkau-5SMJ9EG7gxqYg33fnCpT/page/y18WB)
+- [Analysis of citizen proposals sent to the Commission for Social and Economic Reconstruction](https://datastudio.google.com/u/0/reporting/1EAxsZQY5BSQJn9K-jnplJbtfD9O8AERe/page/yBJUB)
+- [Analysis of the conclusions of the Commission for Social and Economic Reconstruction from an environmental perspective for ECODES](https://datastudio.google.com/u/0/reporting/1-NsNGyyBkau-5SMJ9EG7gxqYg33fnCpT/page/y18WB)
 
 ### Research and specialized technical assistance
 
@@ -53,13 +54,13 @@ We conduct research both internally, as an input for our advocacy actions and pa
 
 Some recent research projects include:
 
-* Analysis of investment in education for adaptation to the COVID-19 context in Spain.
-* Elaboration of a system of indicators for monitoring Policy Coherence for Sustainable Development in Sant Boi de Llobregat City Council.
-* Mapping and elaboration of a matrix of indicators for the monitoring and analysis of Spain's contribution to SDG 3+ and Global Health.
-* Diagnosis and strategic orientations for the adoption and implementation of the Policy Coherence approach in Centelles City Council.
-* Development of a methodology to analyze the inclusion of the sustainable development approach in International Investment Agreements (IIAs) for the Center for Global Development.
+- Analysis of investment in education for adaptation to the COVID-19 context in Spain.
+- Elaboration of a system of indicators for monitoring Policy Coherence for Sustainable Development in Sant Boi de Llobregat City Council.
+- Mapping and elaboration of a matrix of indicators for the monitoring and analysis of Spain's contribution to SDG 3+ and Global Health.
+- Diagnosis and strategic orientations for the adoption and implementation of the Policy Coherence approach in Centelles City Council.
+- Development of a methodology to analyze the inclusion of the sustainable development approach in International Investment Agreements (IIAs) for the Center for Global Development.
 
-[Check our research repository out](/investigaciones){class="c-button c-button--outline"}
+[Check our research repository out](/investigaciones)
 
 ### Organization of multi-stakeholder meetings and debates
 
@@ -67,26 +68,25 @@ We organize them on different topics, some of them related to ongoing projects a
 
 Some of the last meetings were:
 
-* "Rethinking Spain as a brand: is there a place for foreign direct investment and international cooperation?"
-* "Trump Administration: foreign, energy and trade policy."
-* "Challenges and opportunities for Spanish financial cooperation."
-* [Presentation of ColeSeguro's final report](https://coleseguro.es)
+- "Rethinking Spain as a brand: is there a place for foreign direct investment and international cooperation?"
+- "Trump Administration: foreign, energy and trade policy."
+- "Challenges and opportunities for Spanish financial cooperation."
+- [Presentation of ColeSeguro's final report](https://coleseguro.es)
 
 ### Audience analysis
 
 Our software allows the extraction of information from Twitter and:
 
-* Its thematic tagging using knowledge bases elaborated ad hoc according to the needs of the project.
-*  Impact analysis of an account based on the aggregate impact of its tweets.
-* Affinity analysis of an account's followers and the impact of their interactions with the main account.
-* Categorization of followers according to the project needs.
-* Analysis of new audiences, identifying potential new allies based on the analysis of affinity and impact of their Tweets.
+- Its thematic tagging using knowledge bases elaborated ad hoc according to the needs of the project.
+- Impact analysis of an account based on the aggregate impact of its tweets.
+- Affinity analysis of an account's followers and the impact of their interactions with the main account.
+- Categorization of followers according to the project needs.
+- Analysis of new audiences, identifying potential new allies based on the analysis of affinity and impact of their Tweets.
 
 ## Strategic plan
 
 To guide our work and direct it to the achievement of our main goals, we develop since 2019 strategic bianual plans, building them in a participatory way between all the members of the team. You can access our Strategic Plan 2019-2021.
 
-[Download our Plan (in Spanish)](/documentos/pw-plan-estrategico.pdf){class="c-button c-button--outline", target=_blank}
+[Download our Plan (in Spanish)](/documentos/pw-plan-estrategico.pdf)
 
 <md-content>
-
