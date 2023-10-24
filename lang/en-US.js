@@ -1,106 +1,109 @@
 export default {
   global: {
-    menuToggle: 'Menu',
-    developedBy: 'Design and development',
-    shareLabel: 'Share',
-    filtersLabel: 'Filter',
-    nextLabel: 'Next',
-    previousLabel: 'Previous'
+    menuToggle: "Menu",
+    developedBy: "Design and development",
+    shareLabel: "Share",
+    filtersLabel: "Filter",
+    nextLabel: "Next",
+    previousLabel: "Previous",
   },
   pages: {
     home: {
-      title: 'Home'
+      title: "Home",
     },
     about: {
-      title: 'About us'
+      title: "About us",
     },
     what: {
-      title: 'We do'
+      title: "What we do",
     },
     join: {
-      title: 'Join'
+      title: "Join",
     },
     blog: {
-      title: 'Blog'
+      title: "Blog",
     },
     research: {
-      title: 'Research'
+      title: "Research",
     },
     legal: {
-      title: 'Legal notice'
+      title: "Legal notice",
     },
     privacy: {
-      title: 'Privacy policy'
+      title: "Privacy policy",
     },
     cookies: {
-      title: 'Cookies policy'
-    }
+      title: "Cookies policy",
+    },
   },
   blocks: {
     hero: {
-      title: 'Data for <span>social change</span><span>political innovation</span>',
-      subtitle: 'The think-and-do tank <span>of the Salvador Soler Foundation</span>'
+      title:
+        "Data for <span>social change</span><span>political innovation</span>",
+      subtitle:
+        "The think-and-do tank <span>of the Salvador Soler Foundation</span>",
     },
     newsletter: {
-      title: 'don\'t miss anything',
-      subtitle: 'Subscribe',
-      placeholder: 'Write your email',
-      send: 'Send'
+      title: "Stay Informed",
+      subtitle: "Subscribe",
+      placeholder: "Your email",
+      send: "Send",
     },
     blog: {
-      title: 'Blog',
-      goto: 'Go to blog',
-      button: 'Read more'
+      title: "Blog",
+      goto: "Go to blog",
+      button: "Read more",
     },
     linesOfWork: {
-      title: 'We do',
-      subtitle: '',
+      title: "What we do",
+      subtitle: "",
       democracy: {
-        title: 'Democracy',
-        subtitle: 'Citizen surveillance for a better society',
-        button: 'Tell me more',
-        link: '/en/democracia'
+        title: "Democracy",
+        subtitle: "Citizen surveillance for a better society",
+        button: "Tell me more",
+        link: "/en/democracia",
       },
       coherence: {
-        title: 'Coherence',
-        subtitle: 'Policies that live up to the challenges of our era',
-        button: 'Tell me more',
-        link: '/en/coherencia'
-      }
+        title: "Coherence",
+        subtitle: "Policies that live up to the challenges of our era",
+        button: "Tell me more",
+        link: "/en/coherencia",
+      },
     },
     team: {
-      title: 'Team'
+      title: "Team",
     },
     advisors: {
-      title: 'Advisors'
+      title: "Advisors",
     },
     alliances: {
-      title: 'Partners'
+      title: "Partners",
     },
     projects: {
-      title: 'Projects',
-      subtitle: 'Political Watch is a platform...',
-      button: 'Show project'
+      title: "Projects",
+      subtitle: "Political Watch is a platform...",
+      button: "Show project",
     },
     research: {
-      title: 'Research',
-      goto: 'Find all',
-      button: 'Download'
+      title: "Research",
+      goto: "Find all",
+      button: "Download",
     },
     cookies: {
-      message: 'We use Google Analytics to know the impact of our projects and investigations in the digital ecosystem, with the aim to continue improving and adapting in an increasingly changing world. With this form we ask you your consent to use it.',
-      accept: 'Accept',
-      reject: 'Reject'
+      message:
+        "We use Google Analytics to know the impact of our projects and investigations in the digital ecosystem, with the aim to continue improving and adapting in an increasingly changing world. With this form we ask you your consent to use it.",
+      accept: "Accept",
+      reject: "Reject",
     },
     search: {
-      placeholder: 'Search...',
-      help: 'Introduce a party or keyword and dive into the electoral programs and the parliamentary activity',
-      see_more: 'See more',
-      activity_link: 'Search parliamentary activity',
-      proposals_link: 'Search electoral proposals',
-      title_congress: 'Activity in the parliament',
-      title_proposals: 'Electoral proposals',
-      tooltip: 'Political search'
-    }
-  }
-}
+      placeholder: "Search...",
+      help: "Introduce a party or keyword and dive into the electoral programs and the parliamentary activity",
+      see_more: "See more",
+      activity_link: "Search parliamentary activity",
+      proposals_link: "Search electoral proposals",
+      title_congress: "Activity in the parliament",
+      title_proposals: "Electoral proposals",
+      tooltip: "Political search",
+    },
+  },
+};

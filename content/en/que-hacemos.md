@@ -1,5 +1,5 @@
 ---
-title: "We do"
+title: "What we do"
 subtitle: "At Political Watch we work to promote a more just and sustainable society. We do so through research, the development of civic technologies, advocacy and support to companies, public administrations and organizations in their innovation and transformation processes to meet the commitments of the 2030 Agenda for Sustainable Development."
 ---
 
@@ -11,7 +11,7 @@ subtitle: "At Political Watch we work to promote a more just and sustainable soc
 
 ### Software Development
 
-We have expertise in:
+We offer:
 
 - Automatic data extraction techniques (web scrapping).
 - Treatment of large volumes of data (Big Data).
@@ -29,7 +29,7 @@ Some of the projects in which we have used and developed these technologies are:
 
 ### Training
 
-Our training programs include our areas of greatest expertise: civic monitoring, policy coherence for sustainable development, Agenda 2030, parliamentary monitoring, and software development with a focus on social change.
+Our training programs include our areas of greatest expertise: civic monitoring, policy coherence for sustainable development, 2030 Agenda, parliamentary monitoring, and software development with a focus on social change.
 
 We have experience in:
 
@@ -56,7 +56,7 @@ Some recent research projects include:
 
 - Analysis of investment in education for adaptation to the COVID-19 context in Spain.
 - Elaboration of a system of indicators for monitoring Policy Coherence for Sustainable Development in Sant Boi de Llobregat City Council.
-- Mapping and elaboration of a matrix of indicators for the monitoring and analysis of Spain's contribution to SDG 3+ and Global Health.
+- Mapping and elaboration of a matrix of indicators for the monitoring and analysis of Spain's contribution to SDG 3 and Global Health.
 - Diagnosis and strategic orientations for the adoption and implementation of the Policy Coherence approach in Centelles City Council.
 - Development of a methodology to analyze the inclusion of the sustainable development approach in International Investment Agreements (IIAs) for the Center for Global Development.
 
@@ -64,7 +64,7 @@ Some recent research projects include:
 
 ### Organization of multi-stakeholder meetings and debates
 
-We organize them on different topics, some of them related to ongoing projects and others to topics we are interested in deepening. These debates are usually held in collaboration with FUNCAS and are privileged spaces with key players from different actors in civil society, the public and private sector and academia.
+We organize events on different topics, some of them related to ongoing projects and others to topics we are interested in deepening. These debates are usually held in collaboration with FUNCAS and are privileged spaces with key players from different actors in civil society, the public and private sector and academia.
 
 Some of the last meetings were:
 
