@@ -6,7 +6,7 @@ featuredItem:
   subtitle: "La atención a las demandas de la España Rural"
   description: "En el marco de la convocatoria PIA2022 de la Fundación Cotec, investigamos las demandas de la España rural en clave de desigualdad y analizamos su tratamiento mediático y parlamentario en los últimos años. Esta investigación combina diferentes metodologías, como la realización de entrevistas o el uso de tecnologías cívicas, para arrojar luz sobre las desigualdades que afectan a los núcleos rurales de población."
   button: "Lee en informe completo aquí"
-  link: "https://cotec.es/proyecto/la-atencion-a-las-demandas-de-la-espaa-rural/3da5715f-c772-cd00-2883-e4bb47630328"
+  link: "https://cotec.es/proyectos-cpt/la-atencion-a-las-demandas-de-la-espana-rural/"
   image: /images/featured-cotec.png
 othersItems:
   - title: "RTVE 2030"

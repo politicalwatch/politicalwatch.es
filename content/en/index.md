@@ -6,7 +6,7 @@ featuredItem:
   subtitle: "Paying attention to the demands of Spain’s rural areas"
   description: "Under the research line PIA2022 of COTEC Foundation, we examined the social demands coming from rural territories of Spain to tackle inequality, analyzing how their petitions have been portrayed in the media and debated in the parliament in the last years. This study combines different methodologies, such as the conduction of interviews or the use of civic technologies, to shed light on the inequalities affecting the rural population."
   button: "Read the full report here"
-  link: "https://cotec.es/proyecto/la-atencion-a-las-demandas-de-la-espaa-rural/3da5715f-c772-cd00-2883-e4bb47630328"
+  link: "https://cotec.es/proyectos-cpt/la-atencion-a-las-demandas-de-la-espana-rural/"
   image: /images/featured-cotec.png
 othersItems:
   - title: "RTVE 2030"
