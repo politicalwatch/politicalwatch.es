@@ -2,7 +2,7 @@
 title: 'Political Watch publica el primer Media Bias Chart con el análisis de 30 medios de comunicación en España'
 image:  '/images/posts/media-bias-chart-espana-2021/utsav-srestha-HeNrEdA4Zp4-unsplash.jpg'
 description: 'Political Watch presenta un estudio en el que analiza el papel que los 30 principales medios de comunicación escrita de España tienen en el abordaje de la actualidad mediática y política y su contribución a la polarización en la que la sociedad está inmersa en temas tan relevantes y sensibles como la "Ley trans".'
-author: irene-martin
+author: javier-perez
 createdAt: 2021-06-21
 related:
   - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
@@ -114,6 +114,10 @@ El análisis de los 450 artículos se ha llevado a cabo a lo largo de 6 semanas 
 Los coordinadores seleccionaron 16 artículos por periódico – 10 artículos sobre temáticas generales y 6 sobre temas relacionados con colectivos que son objeto potencial de discurso de odio–. Todos los artículos fueron seleccionados dentro de un mismo marco temporal - del 25 de marzo al 28 de abril de 2021-. En el caso de las noticias relacionadas con colectivos más discriminados, los artículos pertenecen mayoritariamente a este mismo ámbito temporal, pero ha habido casos en los que, al no encontrarse noticias sobre estas cuestiones, se han tenido que buscar artículos más antiguos.
 
  Cada uno de los 16 artículos de los 30 medios ha sido evaluado por 3 analistas en las dos dimensiones mencionadas. Por tanto, finalmente se obtuvieron 1350 valoraciones. Respecto a la puntuación general de cada artículo, se calcula a través del promedio de los tres puntajes individuales. Aunque las discrepancias entre analistas no han sido significativas, siendo analistas con diferentes orientaciones políticas, cuando las discrepancias eran mayores de 8 puntos entre la mayor y la menor puntuación de un mismo artículo, se ha revisado conjuntamente entre los 3 analistas para poner en común las razones de esa puntuación. En algunos casos, los analistas han modificado sus puntuaciones mientras que en otras, se han mantenido las puntuaciones iniciales.
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín
 
 
 #### Créditos

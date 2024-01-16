@@ -2,7 +2,7 @@
 title: 'candi-DATOS: Nueva aplicación de vigilancia electoral'
 image:  '/images/posts/candi-datos.png'
 description: '¿Hasta dónde podemos tener información sobre los compromisos de los candidatos?'
-author: irene-martin
+author: pablo-martin
 createdAt: 2019-03-14
 related:
   - larga-vida-a-polétika
@@ -21,3 +21,7 @@ Siguiendo la voluntad de favorecer el seguimiento, vigilancia y presión ciudada
 **Para alimentar candi-DATOS**, el equipo de Polétika.org llevará a cabo **escuchas diarias de todas las intervenciones oficiales de los candidatos** de cada uno de los partidos a los que damos seguimiento, con el objetivo de vincularlas a las 11 temáticas y a cada una de las peticiones que las organizaciones que conformamos Polétika hemos registrado y enviado a los partidos políticos.
 
 Esta herramienta es un gran avance que permite, de manera rápida y eficaz, hacer un seguimiento y, por tanto, informarse de las prioridades de los candidatos a las próximas Elecciones Generales del próximo 28 de abril. Una ciudadanía informada es más congruente a la hora de tomar las decisiones y está más empoderada para promover procesos de interpelación sobre las propuestas de su futuro Presidente del Gobierno. Por ello, es fundamental que herramientas como candi-DATOS existan y sean utilizadas masivamente por la ciudadanía
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín

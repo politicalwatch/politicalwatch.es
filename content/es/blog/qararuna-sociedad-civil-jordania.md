@@ -2,7 +2,7 @@
 title: 'Qararuna: Contribuyendo a construir una sociedad civil activa en Jordania'
 image:  '/images/posts/congresoqa.jpeg'
 description: 'CIECODE ha sido invitado a colaborar con el proyecto Qararuna en Jordania como formador dentro de un programa de 30 meses dirigido a organizaciones de la sociedad civil del país.'
-author: irene-martin
+author: belen-aguero
 createdAt: 2019-09-12
 related:
   - political-watch-amplía-sus-horizontes-en-2019
@@ -30,3 +30,7 @@ En el segundo módulo, presentaremos experiencias como [Polétika](http://poleti
 Nuestro objetivo como organización será, además de presentar nuestros proyectos y la experiencia de tratar temáticas como la vigilancia ciudadana y el monitoreo político, poder trabajar con las organizaciones en las temáticas que sean de su propio interés. Con la voluntad de compartir experiencias se presentarán casos reales que ocupen su atención a la vez que promover la colaboración entre iguales, aprovechando nuestros puntos en común se podrán generar sinergias y posibles acciones en conjunto.
 
 La primera edición del curso será a fines de septiembre, seguidas de dos más durante este 2019. Estamos ansiosas de comenzar y felices por la oportunidad de difundir nuestros proyectos y los principios bajo los cuales trabajamos, como también de colaborar con otras organizaciones de la sociedad civil en la búsqueda de una sociedad más justa.
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín

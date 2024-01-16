@@ -2,7 +2,7 @@
 title: 'Parlamento 2030 seleccionada por la OCDE como herramienta hacia el Gobierno Abierto'
 image:  '/images/posts/p2030-splash.png'
 description: 'Nuestra herramienta Parlamento 2030 ha sido seleccionada por la OCDE como una de las herramientas innovadoras de Gobierno Abierto más relevantes en la actualidad.'
-author: irene-martin
+author: belen-aguero
 createdAt: 2019-06-28
 related:
   - qararuna-sociedad-civil-jordania 
@@ -23,3 +23,7 @@ Siguiendo los principios de transparencia, integridad, rendición de cuentas y p
 Parlamento 2030 supone una respuesta a la clara falta de disponibilidad de información accesible sobre la actividad parlamentaria y a la falta de mecanismos de rendición de cuentas de la clase política. Esto supone superar algunos retos de la naturaleza transversal de los ODS ya que, a través de un buscador online y un sistema de etiquetado automático, permite navegar por la actividad parlamentaria relacionada con los ODS. Basada en la [tecnología de Tipi](https://github.com/politicalwatch) que actualmente está conectada con el Congreso de los Diputados del Estado español y siguiendo las bases de código abierto, esta tecnología puede ser adaptada y replicada por cualquier región o parlamento que pueda estar interesado.
 
 Estas seis iniciativas seleccionadas por la OCDE y el Open Government Partnership serán votadas a lo largo de estos días. Las más votadas tendrán la oportunidad de acudir al evento de alto nivel de la OCDE que tendrá lugar a finales de 2019 en París para compartir . Os animamos a apoyarnos y votar a la iniciativa Parlamento 2030 hasta el 1 de julio en la web de la OCDE:[ http://www.oecd.org/gov/open-government-toolkit-navigator.htm](http://www.oecd.org/gov/open-government-toolkit-navigator.htm)
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín

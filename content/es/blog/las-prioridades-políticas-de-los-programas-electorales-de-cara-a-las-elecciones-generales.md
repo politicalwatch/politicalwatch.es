@@ -2,7 +2,7 @@
 title: 'Las prioridades políticas de los Programas Electorales de cara a las Elecciones Generales'
 image:  '/images/posts/congreso.jpeg'
 description: 'La tecnología de TiPi Ciudadano sigue avanzando, la nueva modalidad de Scanner, que permite realizar el etiquetado automático de cualquier…'
-author: irene-martin 
+author: javier-perez
 createdAt: 2019-04-08
 related:
   - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa 
@@ -67,3 +67,7 @@ Una visualización con más detalle nos permite ver en términos porcentuales la
 ![Temáticas mencionadas en el programa electoral de VOX](/images/posts/mencionesvox.png)*Temáticas mencionadas en el programa electoral de VOX*
 
 Luego de realizar el análisis por programas, hemos comparado los resultados en cuanto a las temáticas que menciona cada uno de los programas y su coherencia con el trabajo realizado en el Congreso de los Diputados por parte de los distintos partidos en los últimos cuatro años. Podeís ver el análisis en este [enlace](https://medium.com/@CIECODE/comparativa-de-programas-electorales-con-tipi-ciudadano-df8641ddc145).
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín

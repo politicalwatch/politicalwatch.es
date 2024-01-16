@@ -2,7 +2,7 @@
 title: 'Análisis sobre la calidad democrática en España'
 image: '/images/posts/analisis-calidad-democratica-espana/pawel.jpg'
 description: 'Qué consideramos calidad democrática y la situación actual tanto en el mundo con en España son algunas de las cuestiones que intentamos exponer en esta investigación.'
-author: irene-martin
+author: pablo-martin
 createdAt: 2020-03-24
 related:
   - breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa
@@ -146,6 +146,10 @@ Uno de los aspectos que resulta más preocupante es que ante las amenazas y retr
 Otra de las conclusiones relevantes de este análisis es que los partidos políticos sí parecen haber incorporado en sus posicionamientos las amenazas y las oportunidades que ofrecen las nuevas tecnologías. Sin embargo, en esta cuestión también hay divergencia entre partidos. Así, los más tradicionales siguen sin incluir las perspectiva de los derechos y deberes digitales ni abordan cuestiones clave como la soberanía tecnológica o la privacidad en Internet.
 
 En relación a la transparencia y a la lucha contra la corrupción, siendo dos de los aspectos que más preocupan a la ciudadanía española, parece existir cierta disputa por el liderazgo y la iniciativa política entre distintos partidos. Ese es el caso de la transposición de la Directiva Europea de protección de alertadores (con las iniciativas de Ciudadanos, de Vox y la conjunta de Más País, ERC, BNG y Compromís) y de las distintas propuestas para el registro de los grupos de interés (principalmente de Ciudadanos y del Grupo Mixto).
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín
 
 #### Referencias
 

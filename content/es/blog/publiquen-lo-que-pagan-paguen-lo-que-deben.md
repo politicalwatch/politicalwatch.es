@@ -2,7 +2,7 @@
 title: 'Publiquen lo que pagan, paguen lo que deben'
 image:  '/images/posts/paraiso.png'
 description: 'Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al…'
-author: irene-martin
+author: javier-perez
 createdAt: 2019-11-28
 related:
   - impactos-im-previstos-efectos-de-las-políticas-domésticas-en-el-exterior
@@ -26,3 +26,7 @@ Desde la perspectiva de la coherencia de políticas para el desarrollo, que en e
 En ocasiones, la perspectiva de coherencia de políticas para el desarrollo exige resolver tensiones entre dos intereses deseables pero contrapuestos (la generación de empleo frente a la conservación de zonas naturales protegidas, por ejemplo). Pero en este caso, se trata de elegir entre el interés general de países en desarrollo y el aumento indebido del beneficio de unos pocos. Por eso, la inacción de la comunidad internacional en esta materia es tan indignante y tan clarificadora de su falta de compromiso político real con el desarrollo sostenible.
 
 La construcción de sistemas fiscales justos debe convertirse en una prioridad política de primer orden para los países en desarrollo pero además, es fundamental avanzar en normativas contra la evasión y la elusión fiscal e impulsar un acuerdo internacional para lograr que el sistema fiscal internacional responda a la realidad de los nuevos modelos empresariales globales. Concretamente según la plataforma polétika, [una reforma de largo alcance que se extienda a todos los sectores, que garantice una reasignación de los derechos tributarios más justa, para que también los países en desarrollo reciban la parte que les corresponde y puedan a su vez invertirla en políticas públicas clave.](http://poletika.org/tema/2)
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín

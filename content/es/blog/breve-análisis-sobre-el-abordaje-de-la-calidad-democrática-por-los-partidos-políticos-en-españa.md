@@ -2,7 +2,7 @@
 title: 'Breve análisis sobre el abordaje de la calidad democrática por los partidos políticos en España'
 image:  '/images/posts/breve_analisis.jpeg'
 description: '¿Qué consideramos calidad democrática? En este artículo encontrarás algunos detalles de nuestra última investigación.'
-author: irene-martin
+author: pablo-martin
 createdAt: 2020-03-25
 related:
   - analisis-calidad-democratica-espana
@@ -63,3 +63,7 @@ Esta investigación nos ha permitido ahondar un poco más en los retos de la cal
 
 [global-freedom]: /images/posts/global_freedom.png
 [grafico1]: /images/posts/grafico1.png
+
+---
+
+Artículo originariamente firmado por nuestra compañera Irene Martín
