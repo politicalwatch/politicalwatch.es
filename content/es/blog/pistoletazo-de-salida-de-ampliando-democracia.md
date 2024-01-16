@@ -2,7 +2,7 @@
 title: 'Pistoletazo de salida de Ampliando Democracia'
 image: '/images/posts/jaime-lopes-0RDBOAdnbWM-unsplash.jpg'
 description: 'La capacidad que las políticas públicas van a tener para dar respuesta audaces y transformadoras a los retos y necesidades de las sociedades actuales en un contexto tan complejo, incierto e interconectado como el del siglo XXI va a depender de un factor clave: la capacidad de nuestras democracias de encontrar nuevas y mejoradas formas de que la ciudadanía participe de forma activa en los procesos de toma de decisión.'
-author: paola-cannata
+author: javier-perez
 createdAt: 2023-03-23
 related:
   - larga-vida-a-polétika
@@ -35,5 +35,9 @@ Somos conscientes de que el reto es enorme, pero el actual contexto social y pol
 Está previsto que en los próximos meses se realicen distintas actividades de diversa naturaleza y en múltiple alianza.
 
 ---
+
+Artículo originariamente firmado por nuestra compañera Paola Cannata
+
+#### Créditos
 
 Foto de <a href="https://unsplash.com/@jaimelopes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaime Lopes</a> en <a href="https://unsplash.com/es/fotos/0RDBOAdnbWM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
