@@ -102,7 +102,10 @@ export default {
       .fetch();
 
     return {
-      post,
+      post: {
+        ...post,
+        path: post.path.replace("/es", ""),
+      },
       author,
       related: related.map((post) => {
         const authorName = authors.find((author) => {

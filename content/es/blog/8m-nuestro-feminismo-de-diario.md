@@ -23,7 +23,7 @@ Anteponemos el interés colectivo al individual y evitamos rigideces que suelen 
 
 Las personas y las entidades -físicas o jurídicas- somos seres sociales; no podemos vivir en el aislamiento. La vida es solo una: una ruptura de pareja o la enfermedad de un hijo te afectarán en el trabajo igual que un jefe tóxico o un trabajo estresante te dejarán sin dormir. En Political Watch hemos decidido cuidar en el trabajo para cuidar la vida.
 
-Apostamos por la colaboración frente a la competición y reconocemos que las emociones no nos debilitan, sino que nos hacen humanas y mejores. Todo lo que merece la pena en la vida emociona.
+Apostamos por la colaboración frente a la competición y reconocemos que las emociones no nos debilitan, sino que nos hacen humanas y mejores. **Todo lo que merece la pena en la vida emociona.**
 
 Y aunque las mujeres facturen (o sean empleadas que cobren a fin de mes decentemente), nos parece que el éxito es, sobre todo, vivir bien y tratarnos aún mejor.
 

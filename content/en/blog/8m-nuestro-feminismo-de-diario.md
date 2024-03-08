@@ -23,7 +23,7 @@ We put the collective interest before the individual interest and we avoid rigid
 
 People and entities - individual or legal - are social beings; we cannot live in isolation. There is only one life: a break-up or a child's illness will affect you at work just as a toxic boss or a stressful job will leave you sleepless. At Political Watch we have decided to be caring at work in order to take care of life.
 
-We are committed to collaboration over competition and we recognise that emotions do not weaken us, but make us human and better. Everything in life that is worthwhile is emotional.
+We are committed to collaboration over competition and we recognise that emotions do not weaken us, but make us human and better. **Everything in life that is worthwhile is emotional.**
 
 And even if women are paid (or are employees who make a decent salary at the end of the month), it seems to us that success is, above all, living well and treating ourselves even better.
 

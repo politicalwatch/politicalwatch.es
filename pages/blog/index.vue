@@ -63,6 +63,7 @@ export default {
         return {
           ...post,
           author: authorName.name,
+          path: post.path.replace("/es", ""),
         };
       }),
       totalPosts: all.length,
