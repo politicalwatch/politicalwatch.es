@@ -27,6 +27,6 @@ We are committed to collaboration over competition and we recognise that emotion
 
 And even if women are paid (or are employees who make a decent salary at the end of the month), it seems to us that success is, above all, living well and treating ourselves even better.
 
-Happy and vindicative 8th March :músculo::tono-de-piel-4:
+Happy and vindicative 8th March.
 
 Cover image: Photo by [Gayatri Malhotra](https://unsplash.com/es/@gmalhotra?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/es/fotos/un-grupo-de-personas-con-carteles-frente-a-un-edificio-u2L9p1awiEE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash).
