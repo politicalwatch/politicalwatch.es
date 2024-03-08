@@ -1,24 +1,24 @@
 <template>
-  <nav class="c-menu" :class="{ 'is-active' : active }">
+  <nav class="c-menu" :class="{ 'is-active': active }">
     <ul class="c-menu__list">
       <li class="c-menu__item">
         <nuxt-link :to="localeRoute('/nosotras')">
-          {{ $t('pages.about.title') }}
+          {{ $t("pages.about.title") }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
         <nuxt-link :to="localePath('/que-hacemos')">
-          {{ $t('pages.what.title') }}
+          {{ $t("pages.what.title") }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
         <nuxt-link :to="localePath('/participa')">
-          {{ $t('pages.join.title') }}
+          {{ $t("pages.join.title") }}
         </nuxt-link>
       </li>
       <li class="c-menu__item">
-        <nuxt-link to="/blog">
-          {{ $t('pages.blog.title') }}
+        <nuxt-link :to="localePath('/blog')">
+          {{ $t("pages.blog.title") }}
         </nuxt-link>
       </li>
       <li
@@ -35,20 +35,20 @@
 </template>
 
 <script>
-import iconLang from '~/assets/images/icon-lang.svg?inline'
+import iconLang from "~/assets/images/icon-lang.svg?inline";
 
 export default {
-  name: 'MainMenu',
+  name: "MainMenu",
   components: {
-    iconLang
+    iconLang,
   },
   props: {
-    active: Boolean
+    active: Boolean,
   },
   computed: {
-    availableLocales () {
-      return this.$i18n.locales.filter(l => l.code !== this.$i18n.locale)
-    }
-  }
-}
+    availableLocales() {
+      return this.$i18n.locales.filter((l) => l.code !== this.$i18n.locale);
+    },
+  },
+};
 </script>
