@@ -1,0 +1,29 @@
+---
+title: 'Propuestas ciudadanas claras y accesibles en el Congreso de los Diputados'
+slug: 'propuestas-ciudadanas-claras-y-accesibles-en-el-congreso-de-los-diputados'
+image:  '/images/posts/stats_propuestas.png'
+description: 'La ciudadanía ya tiene claro que la COVID-19 ha traído grandes cambios en la forma de relacionarnos y de entender el mundo. Uno de estos…'
+author: belen-aguero
+createdAt: 2020-06-25
+related:
+  - querida-transparencia-hoy-toca-celebrar
+  - reconstrucción-transparente-patxi-lópez-responde-a-la-petición-de-la-sociedad-civil
+  - aitor-esteban-soy-pesimista-ante-la-comisión-del-covid-19
+lineOfWork: democracy
+---
+
+La ciudadanía ya tiene claro que la COVID-19 ha traído grandes cambios en la forma de relacionarnos y de entender el mundo. Uno de estos cambios a nivel político ha sido el avance sin precedente en materia de participación ciudadana que ha sido impulsado por la Comisión para la Reconstrucción Social y Económica que arrancó el pasado 7 de mayo con el objetivo de acordar unas medidas para hacer frente a las consecuencias sociales y económicas derivadas de la COVID-19.
+
+Se trata de un gran avance en materia de participación en del Estado español en el que, por primera vez en democracia, la ciudadanía, organizaciones de la sociedad civil o el sector privado tienen la posibilidad de hacer llegar sus propuestas para la reconstrucción a la Comisión no permanente, destinada a consensuar una serie de medidas que se remitirán al Pleno para su debate y posterior aprobación. Para impulsar la participación , [el Congreso de los Diputados habilitó el pasado 25 de mayo un buzón](https://www.publico.es/politica/reconstruccion-social-economica-congreso-habilita-primera-vez-buzon-participacion-ciudadana.html) al que enviar las propuestas a través de un correo electrónico y que fueran tomadas en consideración.
+
+Sin embargo, y a pesar de que es un gran avance, se trata de un mecanismo muy básico y rudimentario en términos de participación dada su unilateralidad y sus limitaciones en torno a la co-creación de propuestas, no permitiendo adherirse y apoyar propuestas que otras personas o colectivos hayan remitido. Otra de las críticas a esta primera propuesta del Congreso está relacionada con la difusión pública las propuestas. Esta cuestión resulta fundamental para conocer las sugerencias aportadas y además, poder hacer seguimiento de lo que se haga con las mismas. Por ello y [tras la petición de más 40 organizaciones de garantizar la publicación ](https://www.politicalwatch.es/blog/reconstrucción-transparente-patxi-lópez-responde-a-la-petición-de-la-sociedad-civil)de todas las propuestas que lleguen a través de dicho buzón, la Comisión ha ido publicando aquellas cuyos remitentes no han expresado explícitamente su desacuerdo. Hasta ahora, han llegado al buzón más de 700 propuestas por parte de diferentes actores de las cuáles se han publicado unas 350”.
+
+A pesar de que es un gran paso hacia el Estado Abierto, la transparencia y accesibilidad deben ser dos pilares clave en los procesos de apertura de información pública. Siguiendo este principio, hemos desarrollado una propuesta gráfica que permite comprender y analizar de manera visual las propuestas que están llegando al buzón de participación. Además de facilitar el análisis por temática principal y por agente generador de la propuesta, clasificamos las propuestas en 22 temáticas sociales como igualdad de género, infancia o fiscalidad gracias a la herramienta [TiPi Ciudadano.](https://tipiciudadano.es/) Por otra parte, también abordamos las propuestas recibidas a través de este mecanismo de participación desde la perspectiva de Agenda 2030, haciendo visibles los ODS que se abordan en cada propuesta gracias a la herramienta [Parlamento 2030.](https://www.parlamento2030.es/)
+
+Esta[ nueva forma de acceso a las propuestas](https://datastudio.google.com/u/0/reporting/1EAxsZQY5BSQJn9K-jnplJbtfD9O8AERe/page/yBJUB) que hemos implementado democratiza el acceso y la comprensión de las propuestas que están llegando a los grupos de trabajo de la Comisión. Además, permite conocer en detalle las propuestas que nos resulten más interesantes y obtener conclusiones generales como que la mayoría de propuestas están relacionadas con infancia y sanidad pero sin embargo, no hay apenas propuestas sobre migraciones o vivienda. Otra conclusión a obtener gracias a este mecanismo sobre el diagnóstico en clave ODS es el protagonismo de los ODS 3 (Salud y Bienestar), ODS 4 (Educación) y ODS 5 (Igualdad de Género) frente a otros Objetivos de Desarrollo Sostenible que no se están abordando, como el ODS 2 (Hambre Cero) o el ODS 12 (Producción y Consumo Responsables).
+![Stats propuestas](/images/posts/stats_propuestas.png)![](https://cdn-images-1.medium.com/max/3078/1*ijhCZG0jzO0jt7yYHywrAQ.png)
+Cada uno de estos avances son un gran paso para abrir las instituciones y reforzar la transparencia y la accesibilidad de la información del Congreso de los Diputados. Sin embargo, habrá que exigir al Congreso que explique cómo se han utilizado las aportaciones recibidas y en qué medida han sido incorporadas o no al documento de conclusiones y recomendaciones. Esperamos que próximamente la Comisión para la Reconstrucción se pronuncie al respecto y se comprometa con un mecanismo que complete el proceso que iniciaron el pasado 25 de mayo.
+
+La participación ciudadana es una de las claves para reforzar las democracias y recuperar la confianza en las instituciones públicas por lo que esperamos que la Cámara Baja siga comprometida y promueva avances en línea con los compromisos internacionales en materia de gobierno abierto y con las mejores prácticas parlamentarias de nuestro entorno.
+
+Asimismo, esperamos que este mecanismo participativo y su experiencia de implementación permita ampliar horizontes y que sirva como modelo para articular un espacio de apertura parlamentaria en toda la actuación parlamentaria.
