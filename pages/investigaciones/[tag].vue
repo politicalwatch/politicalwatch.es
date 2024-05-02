@@ -1,9 +1,12 @@
 <template>
-  <Research title-type="h1" :filters="tags" />
+  <research :title="t('pages.research.title')" :tag="tag" title-type="h1" />
 </template>
 
 <script setup lang="ts">
+const route = useRoute();
 const { t, te, locale } = useI18n();
+
+const tag = route.params.tag;
 
 useHead({
   title: t("pages.research.title"),
@@ -42,17 +45,5 @@ useHead({
       content: `${t("pages.research.title")} | Political Watch`,
     },
   ],
-});
-
-const { data: research } = await useAsyncData("investigaciones", () =>
-  queryContent(locale.value, "investigaciones")
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 })
-    .find()
-);
-
-const tags = computed(() => {
-  const tags = new Set(research.value?.map((item) => item.tags).flat());
-  return [...tags];
 });
 </script>
