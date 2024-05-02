@@ -1,10 +1,7 @@
 <template>
   <section id="projects" class="c-projects o-section">
     <div class="o-container">
-      <page-header
-        :title="getTitle"
-        :subtitle="getSubtitle"
-      />
+      <page-header :title="getTitle" :subtitle="getSubtitle" />
     </div>
     <div class="c-projects__wrapper">
       <article
@@ -16,7 +13,7 @@
           :src="project.image"
           :alt="project.title"
           class="c-projects__project-image"
-        >
+        />
         <div class="c-projects__project-wrapper">
           <h3 class="c-projects__project-title">
             {{ project.title }}
@@ -29,7 +26,7 @@
             target="_blank"
             class="c-button c-projects__project-link"
           >
-            {{ $t('blocks.projects.button') }}
+            {{ t("blocks.projects.button") }}
           </a>
         </div>
       </article>
@@ -37,30 +34,39 @@
   </section>
 </template>
 
-<script>
+<script setup lang="ts">
+const { t, locale } = useI18n();
 
-export default {
-  name: 'Projects',
-  props: {
-    title: {
-      type: String,
-      default: ''
-    },
-    subtitle: {
-      type: String,
-      default: ''
-    }
+const { title, subtitle, projectLimit, lineOfWork } = defineProps({
+  title: {
+    type: String,
+    default: "",
   },
-  computed: {
-    projects () {
-      return this.$parent.projects
-    },
-    getTitle () {
-      return this.title || this.$t('blocks.projects.title')
-    },
-    getSubtitle () {
-      return this.subtitle || this.$t('blocks.projects.subtitle')
-    }
-  }
-}
+  subtitle: {
+    type: String,
+    default: "",
+  },
+  projectLimit: {
+    type: Number,
+    default: null,
+  },
+  lineOfWork: {
+    type: String,
+    default: null,
+  },
+});
+
+const getTitle = computed(() => title || t("blocks.projects.title"));
+const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
+
+const { data: projects } = await useAsyncData("proyectos", () => {
+  const query = queryContent(locale.value, "proyectos")
+    .sort({ order: -1 })
+    .sort({ createdAt: -1 });
+
+  if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
+  if (projectLimit) query.limit(projectLimit);
+
+  return query.find();
+});
 </script>

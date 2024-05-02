@@ -8,66 +8,61 @@
         {{ tag }}
       </h3>
     </div>
-    <nuxt-link
+    <NuxtLinkLocale
       v-if="link && button && !filters.length"
       class="c-link"
-      :to="localePath(link)"
+      :to="link"
     >
       {{ button }}
-    </nuxt-link>
+    </NuxtLinkLocale>
     <div v-if="filters.length" class="c-dropdown">
-      <select @change="goToTag($event)">
+      <select @change="goToTag">
         <option value="">
-          {{ $t('global.filtersLabel') }}
+          {{ t("global.filtersLabel") }}
         </option>
-        <option
-          v-for="item in filters"
-          :key="item"
-          :value="item"
-        >
-          {{ item | urldecode }}
+        <option v-for="item in filters" :key="item" :value="item">
+          {{ decodeURIComponent(item).replace(/-/g, " ") }}
         </option>
       </select>
     </div>
   </header>
 </template>
 
-<script>
-export default {
-  name: 'SectionHeader',
-  props: {
-    title: {
-      type: String,
-      default: ''
-    },
-    tag: {
-      type: String,
-      default: ''
-    },
-    button: {
-      type: String,
-      default: ''
-    },
-    link: {
-      type: String,
-      default: ''
-    },
-    type: {
-      type: String,
-      default: 'h2',
-      validator: type => ['h1', 'h2'].includes(type)
-    },
-    filters: {
-      type: Array,
-      default: () => []
-    }
+<script setup lang="ts">
+const router = useRouter();
+const { t } = useI18n();
+
+const { title, tag, button, link, type, filters } = defineProps({
+  title: {
+    type: String,
+    default: "",
   },
-  methods: {
-    goToTag (event) {
-      // eslint-disable-next-line no-console
-      console.log(event.target.value)
-      this.$router.push({ path: `/investigaciones/${event.target.value}` })
-    }
-  }
-}
+  tag: {
+    type: String,
+    default: "",
+  },
+  button: {
+    type: String,
+    default: "",
+  },
+  link: {
+    type: String,
+    default: "",
+  },
+  type: {
+    type: String,
+    default: "h2",
+    validator: (type: string) => ["h1", "h2"].includes(type),
+  },
+  filters: {
+    type: Array as () => string[],
+    default: () => [],
+  },
+});
+
+const goToTag = (event: Event) => {
+  const selectElement = event.target as HTMLSelectElement;
+  const selectedTag = selectElement.value;
+  router.push(`/investigaciones/${selectedTag}`);
+};
 </script>
