@@ -1,7 +1,7 @@
 <template>
   <div>
     <MainHeader />
-    <Nuxt />
+    <slot />
     <Newsletter />
     <MainFooter />
     <Cookies />
