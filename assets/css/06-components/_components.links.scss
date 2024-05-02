@@ -9,7 +9,8 @@
   text-transform: uppercase;
   padding-right: gap(3.5);
   text-decoration: none;
-  background: url('~assets/images/icon-arrow.svg') right gap(0.5) center no-repeat;
+  background: url("@/assets/images/icon-arrow.svg") right gap(0.5) center
+    no-repeat;
 
   &:hover {
     background-position: right center;
