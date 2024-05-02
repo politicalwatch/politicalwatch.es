@@ -3,7 +3,6 @@
     <ContentRenderer :value="page" v-if="page">
       <ContentRendererMarkdown :value="page" />
     </ContentRenderer>
-    <!-- <nuxt-content :document="page" /> -->
   </main>
 </template>
 

@@ -1,16 +1,15 @@
 export const usePage = async () => {
-  let teamMembers = ref([]);
-  let projects = ref([]);
-  let research = ref([]);
-
   const route = useRoute();
-
   const { locale } = useI18n();
 
-  const queryPath = `${locale.value == "es" ? locale.value : ""}${route.path}`;
+  let queryPath: string | string[] = route.params.slug ?? "home";
+
+  if (Array.isArray(queryPath)) {
+    queryPath = queryPath.join("/");
+  }
 
   const { data: page, error } = await useAsyncData(queryPath, () =>
-    queryContent(queryPath).findOne()
+    queryContent(queryPath).locale(locale.value).findOne()
   );
 
   if (!page) {
