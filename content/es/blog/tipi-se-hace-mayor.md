@@ -11,9 +11,9 @@ related:
 lineOfWork: democracy
 ---
 
-Dos años han pasado ya desde que en 2018 escribiéramos [Más ágiles y más resilientes](/blog/más-ágiles-y-más-resilientes), un artículo en el que mostrábamos el gran número de avances introducidos en la plataforma TiPi, el que ha sido buque insignia de CIECODE durante los últimos años.
+Dos años han pasado ya desde que en 2018 escribiéramos [Más ágiles y más resilientes](https://www.politicalwatch.es/blog/más-ágiles-y-más-resilientes), un artículo en el que mostrábamos el gran número de avances introducidos en la plataforma TiPi, el que ha sido buque insignia de CIECODE durante los últimos años.
 
-Aun así, dos años en el siglo XXI es una eternidad. En los últimos meses hemos estado trabajando intensamente en dos proyectos muy ilusionantes para nosotros: la adaptación de [Parlamento2030](https://www.parlamento2030.es/) al [Congreso de la Nación de Paraguay](http://ods.congreso.gov.py/) y al Consell General de Andorra. Además, hemos podido compartir todos nuestros avances en vigilancia ciudadana y seguimiento parlamentario con organizaciones sociales de Jordania dentro del [programa Qararuna](/blog/qararuna-sociedad-civil-jordania).
+Aun así, dos años en el siglo XXI es una eternidad. En los últimos meses hemos estado trabajando intensamente en dos proyectos muy ilusionantes para nosotros: la adaptación de [Parlamento2030](https://www.parlamento2030.es/) al [Congreso de la Nación de Paraguay](http://ods.congreso.gov.py/) y al Consell General de Andorra. Además, hemos podido compartir todos nuestros avances en vigilancia ciudadana y seguimiento parlamentario con organizaciones sociales de Jordania dentro del [programa Qararuna](https://www.politicalwatch.es/blog/qararuna-sociedad-civil-jordania).
 
 En términos tecnológicos, estos nuevos proyectos han servido para poner a prueba nuestra plataforma: trabajar en diferentes países, en diferentes idiomas y, por primera vez, con encargos desde las cámaras de representantes y no desde la sociedad civil. Todo ello nos ha obligado a repensar nuestro modelo y a adaptarlo al máximo para dar respuesta a los retos planteados.
 

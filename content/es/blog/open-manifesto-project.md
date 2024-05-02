@@ -12,7 +12,7 @@ related:
 lineOfWork: democracy
 ---
 
-Desde **#PoliticalWatch** llevamos **[7 años analizando la política institucional en España](/blog/más-ágiles-y-más-resilientes)**, siguiendo de cerca las propuestas electorales de cada uno de los partidos políticos en temáticas sociales y de desarrollo sostenible a través, por ejemplo, de **nuestra activa [participación en plataformas de referencia como Polétika](http://poletika.org/)**.
+Desde **#PoliticalWatch** llevamos **[7 años analizando la política institucional en España](https://www.politicalwatch.es/blog/más-ágiles-y-más-resilientes)**, siguiendo de cerca las propuestas electorales de cada uno de los partidos políticos en temáticas sociales y de desarrollo sostenible a través, por ejemplo, de **nuestra activa [participación en plataformas de referencia como Polétika](http://poletika.org/)**.
 
 Con el objetivo de seguir profundizando en este análisis de la política, tan necesario en estos tiempos donde la información es un negocio, hemos alcanzado un **[acuerdo de colaboración con la ](http://www.upv.es/noticias-upv/noticia-10764-investigacion-es.html)Cátedra de Tecnología Cívica y Empoderamiento (TCE)**, promovida por la Universitat Politècnica de València junto a la Delegació de Transparència i Govern Obert de la Diputació de València ([ver nota de prensa](http://www.upv.es/noticias-upv/noticia-10764-investigacion-es.html)).
 
