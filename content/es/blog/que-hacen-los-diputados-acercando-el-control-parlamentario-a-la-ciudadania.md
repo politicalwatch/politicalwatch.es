@@ -1,5 +1,6 @@
 ---
 title: 'Qué Hacen Los Diputados: Acercando el control parlamentario a la ciudadanía'
+slug: 'que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania'
 image: '/images/posts/qhld-presentacion.jpg'
 description: 'El pasado 10 de marzo relanzamos el proyecto Qué Hacen los Diputados manteniendo el espíritu del proyecto original e incorporando todas las innovaciones de nuestras herramientas de seguimiento parlamentario como TiPi Ciudadano.Con motivo de este lanzamiento, organizamos un evento que reunió  a multitud de personas relevantes.'
 author: pablo-martin

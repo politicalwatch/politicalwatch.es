@@ -1,5 +1,6 @@
 ---
 title: 'Influence Index: la ciencia detrás de un índice de influencia'
+slug: 'influence-index-la-ciencia-detrás-de-un-índice-de-influencia'
 image: '/images/posts/influence_index.jpeg'
 description: 'Influence Index, es una herramienta tecnológica que ofrece información sobre quién tiene influencia dentro del Parlamento Europeo, qué les hace influyentes y cómo afecta esto a la política europea.'
 author: belen-aguero

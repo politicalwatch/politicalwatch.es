@@ -1,5 +1,6 @@
 ---
 title: 'La década para la Acción necesita de herramientas de monitoreo parlamentario: Novedades en Parlamento 2030'
+slug: 'la-decada-para-la-accion-necesita-de-herramientas-de-monitoreo-parlamentario-novedades-en-parlamento-2030'
 image:  '/images/posts/li-an-lim-ycW4YxhrWHM-unsplash.jpg'
 description: 'Desde Political Watch aprovechamos el Foro Político de Alto Nivel de Naciones Unidas para presentar los avances y mejoras que hemos realizado en Parlamento 2030, una herramienta online de monitoreo parlamentario en clave de ODS.'
 author: belen-aguero

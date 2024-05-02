@@ -1,5 +1,6 @@
 ---
 title: 'TiPi se hace mayor'
+slug: 'tipi-se-hace-mayor'
 image:  '/images/posts/tipi.jpeg'
 description: 'Cuando una tecnología cívica alcanza la madurez'
 author: pablo-martin

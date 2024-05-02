@@ -1,5 +1,6 @@
 ---
 title: 'Propuestas ciudadanas claras y accesibles en el Congreso de los Diputados'
+slug: 'propuestas-ciudadanas-claras-y-accesibles-en-el-congreso-de-los-diputados'
 image:  '/images/posts/stats_propuestas.png'
 description: 'La ciudadanía ya tiene claro que la COVID-19 ha traído grandes cambios en la forma de relacionarnos y de entender el mundo. Uno de estos…'
 author: belen-aguero

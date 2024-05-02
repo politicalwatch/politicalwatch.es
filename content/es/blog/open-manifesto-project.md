@@ -1,5 +1,6 @@
 ---
 title: 'Open Manifesto Project: nuestra apuesta por la accesibilidad electoral'
+slug: 'open-manifesto-project'
 image:  '/images/posts/omp.png'
 description: 'Desde #PoliticalWatch llevamos 7 años analizando la política institucional en España, siguiendo de cerca las propuestas electorales de…'
 author: pablo-martin

@@ -1,5 +1,6 @@
 ---
 title: 'Political watch amplía su equipo para reforzar el trabajo, el compromiso y la ambición de la organización'
+slug: 'political-watch-amplia-su-equipo-2023'
 image: '/images/posts/alex-radelich.jpg'
 description: 'Political Watch crece y amplia su equipo con nuevas incorporaciones para consolidar y reforzar su posición en el ámbito de la innovación, la investigación social y la incidencia política a favor de una sociedad más justa y sostenible.'
 author: javier-perez

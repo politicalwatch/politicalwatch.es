@@ -1,5 +1,6 @@
 ---
 name: "Paula Llera"
+slug: 'paula-llera'
 avatar: "/images/team/paula-llera.jpg"
 position: "Investigadora"
 email: "paula.llera@politicalwatch.es"

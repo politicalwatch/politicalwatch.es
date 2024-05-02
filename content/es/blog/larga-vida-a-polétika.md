@@ -1,5 +1,6 @@
 ---
 title: '¡Larga vida a Polétika!'
+slug: 'larga-vida-a-polétika'
 image:  '/images/posts/poletika.jpeg'
 description: 'Ayer publicamos junto con el resto de organizaciones, redes y plataformas de Polétika'
 author: javier-perez

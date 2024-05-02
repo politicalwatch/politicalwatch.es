@@ -1,5 +1,6 @@
 ---
 title: 'A un año del proyecto Political Watch COVID-19: Vigilancia e incidencia durante el confinamiento'
+slug: 'un-año-covidwatch'
 image: '/images/posts/un-año-covidwatch/comision-covid-19.jpg'
 description: 'El impacto de la pandemia del COVID-19 a nivel social y económico es ya indiscutible, sin embargo, hace poco más de un año, aún en confinamiento estricto, el Congreso de los Diputados de España creó la Comisión para la ‘Reconstrucción Social y Económica’, que en tiempo récord tuvo que debatir y definir los grandes lineamientos en materia de salud, economía, políticas sociales y cooperación con la Unión Europea para salir de la crisis que ya se venía venir.'
 author: belen-aguero

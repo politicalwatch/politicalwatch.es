@@ -1,5 +1,6 @@
 ---
 title: 'Pistoletazo de salida de Ampliando Democracia'
+slug: 'pistoletazo-de-salida-de-ampliando-democracia'
 image: '/images/posts/jaime-lopes-0RDBOAdnbWM-unsplash.jpg'
 description: 'La capacidad que las políticas públicas van a tener para dar respuesta audaces y transformadoras a los retos y necesidades de las sociedades actuales en un contexto tan complejo, incierto e interconectado como el del siglo XXI va a depender de un factor clave: la capacidad de nuestras democracias de encontrar nuevas y mejoradas formas de que la ciudadanía participe de forma activa en los procesos de toma de decisión.'
 author: javier-perez

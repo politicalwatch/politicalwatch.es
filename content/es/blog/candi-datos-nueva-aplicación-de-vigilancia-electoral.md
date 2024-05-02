@@ -1,5 +1,6 @@
 ---
 title: 'candi-DATOS: Nueva aplicación de vigilancia electoral'
+slug: 'candi-datos-nueva-aplicación-de-vigilancia-electoral'
 image:  '/images/posts/candi-datos.png'
 description: '¿Hasta dónde podemos tener información sobre los compromisos de los candidatos?'
 author: pablo-martin

@@ -1,5 +1,6 @@
 ---
 title: ' Comparativa de Programas Electorales con TiPi Ciudadano'
+slug: 'comparativa-de-programas-electorales-con-tipi-ciudadano'
 image: '/images/posts/barras.png'
 description: 'El Scanner, la nueva utilidad de TiPi que permite realizar el etiquetado automático de cualquier texto según las 21 temáticas a las que damos seguimiento, nos abre nuevas posibilidades de análisis de documentos de acuerdo a su vinculación con las temáticas sociales.'
 author: pablo-martin

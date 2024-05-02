@@ -1,5 +1,6 @@
 ---
 name: "Celia Zafra"
+slug: "celia-zafra"
 avatar: "/images/team/celia-zafra.jpg"
 position: "Comms Manager"
 email: "celia.zafra@politicalwatch.es"

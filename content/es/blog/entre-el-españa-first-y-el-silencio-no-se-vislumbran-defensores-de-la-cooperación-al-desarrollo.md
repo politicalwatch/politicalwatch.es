@@ -1,5 +1,6 @@
 ---
 title: 'Entre el ‘España first’ y el silencio: no se vislumbran defensores de la Cooperación al Desarrollo…'
+slug: 'entre-el-españa-first-y-el-silencio-no-se-vislumbran-defensores-de-la-cooperación-al-desarrollo'
 image: '/images/posts/voluntarios.png'
 description: 'Sólo han pasado dos meses de pandemia, dos meses muy intensos en los cuales el Gobierno español ha puesto en marcha un complejo entramado de leyes y medidas sociales y económicas destinadas a amortiguar el golpe del coronavirus en la vida de ciudadanía y Estado y a intentar mitigar sus consecuencias.'
 author: javier-perez

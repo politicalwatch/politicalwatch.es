@@ -1,5 +1,6 @@
 ---
 title: 'Breve análisis sobre el abordaje de la calidad democrática por los partidos políticos en España'
+slug: 'breve-análisis-sobre-el-abordaje-de-la-calidad-democrática-por-los-partidos-políticos-en-españa'
 image:  '/images/posts/breve_analisis.jpeg'
 description: '¿Qué consideramos calidad democrática? En este artículo encontrarás algunos detalles de nuestra última investigación.'
 author: pablo-martin

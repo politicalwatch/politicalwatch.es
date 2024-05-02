@@ -1,5 +1,6 @@
 ---
 title: 'Las prioridades políticas de los Programas Electorales de cara a las Elecciones Generales'
+slug: 'las-prioridades-políticas-de-los-programas-electorales-de-cara-a-las-elecciones-generales'
 image:  '/images/posts/congreso.jpeg'
 description: 'La tecnología de TiPi Ciudadano sigue avanzando, la nueva modalidad de Scanner, que permite realizar el etiquetado automático de cualquier…'
 author: javier-perez

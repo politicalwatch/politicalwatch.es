@@ -1,5 +1,6 @@
 ---
 title: 'Qararuna: Contribuyendo a construir una sociedad civil activa en Jordania'
+slug: 'qararuna-sociedad-civil-jordania'
 image:  '/images/posts/congresoqa.jpeg'
 description: 'CIECODE ha sido invitado a colaborar con el proyecto Qararuna en Jordania como formador dentro de un programa de 30 meses dirigido a organizaciones de la sociedad civil del país.'
 author: belen-aguero

@@ -1,5 +1,6 @@
 ---
 title: 'Mejorando la accesibilidad de los programas electorales'
+slug: 'mejorando-la-accesibilidad-de-los-programas-electorales'
 image:  '/images/posts/progsopo.jpeg'
 description: 'Desde que comenzamos los trabajos en Open Manifesto Project teníamos claro que la accesibilidad era la pieza clave de todo el proyecto…'
 author: pablo-martin

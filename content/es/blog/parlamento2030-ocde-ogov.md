@@ -1,5 +1,6 @@
 ---
 title: 'Parlamento 2030 seleccionada por la OCDE como herramienta hacia el Gobierno Abierto'
+slug: 'parlamento2030-ocde-ogov'
 image:  '/images/posts/p2030-splash.png'
 description: 'Nuestra herramienta Parlamento 2030 ha sido seleccionada por la OCDE como una de las herramientas innovadoras de Gobierno Abierto más relevantes en la actualidad.'
 author: belen-aguero

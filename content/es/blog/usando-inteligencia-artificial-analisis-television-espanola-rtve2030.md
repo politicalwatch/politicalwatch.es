@@ -1,5 +1,6 @@
 ---
 title: 'Usando Inteligencia Artificial para medir el compromiso de la televisión pública española con la Agenda 2030'
+slug: 'usando-inteligencia-artificial-analisis-television-espanola-rtve2030'
 image:  '/images/posts/rtve2030.png'
 description: 'Hoy se lanza RTVE 2030, una web que utiliza técnicas de Inteligencia Artificial (IA) para medir el tiempo dedicado a la Agenda 2030 en la programación de RTVE; ésta permite ver, una vez más, el valor añadido de las tecnologías cívicas como herramientas de innovación en la administración pública.'
 author: belen-aguero

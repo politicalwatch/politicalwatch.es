@@ -1,5 +1,6 @@
 ---
 title: 'La Asamblea de Madrid a vista de pájaro: análisis de la XI legislatura'
+slug: 'la-asamblea-de-madrid-a-vista-de-pájaro_análisis-de-la-xi-legislatura'
 image:  '/images/posts/Asamblea_de_Madrid.jpg'
 description: 'Se aproximan las nuevas elecciones en la Comunidad de Madrid, y antes de que llegue el momento de acudir a las urnas toca hacer balance de la legislatura que llegó a su fin tras menos de dos años de gobierno.'
 author: belen-aguero

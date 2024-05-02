@@ -1,5 +1,6 @@
 ---
 title: 'Análisis sobre la calidad democrática en España'
+slug: 'analisis-calidad-democratica-espana'
 image: '/images/posts/analisis-calidad-democratica-espana/pawel.jpg'
 description: 'Qué consideramos calidad democrática y la situación actual tanto en el mundo con en España son algunas de las cuestiones que intentamos exponer en esta investigación.'
 author: pablo-martin

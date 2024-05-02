@@ -1,5 +1,6 @@
 ---
 title: "8M: Nuestro feminismo de diario"
+slug: '8m-nuestro-feminismo-de-diario'
 image: "/images/posts/8m-nuestro-feminismo-de-diario.jpg"
 description: "Se acerca el 8 de marzo y cada año tenemos el mismo debate en Political Watch. Que mejor calladas que decir tonterías. Que qué vamos a aportar nosotras (y nosotros) a un día siempre lleno de contenidos necesarios y también de oportunistas del #PinkWashing. Y siempre elegíamos el silencio, que es también una manera de hablar."
 author: celia-zafra

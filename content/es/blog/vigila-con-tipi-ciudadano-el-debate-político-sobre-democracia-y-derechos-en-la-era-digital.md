@@ -1,5 +1,6 @@
 ---
 title: 'Vigila con TiPi Ciudadano el debate político sobre Democracia y Derechos en la era digital'
+slug: 'vigila-con-tipi-ciudadano-el-debate-político-sobre-democracia-y-derechos-en-la-era-digital'
 image:  '/images/posts/tipi_logo.jpeg'
 description: 'Desde CIECODE seguimos empeñados en garantizar que cualquier persona que quiera mantenerse informada sobre el debate político de los temas importantes para sus derechos y libertades...'
 author: belen-aguero

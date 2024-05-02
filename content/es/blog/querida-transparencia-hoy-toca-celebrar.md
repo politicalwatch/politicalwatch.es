@@ -1,5 +1,6 @@
 ---
 title: 'Querida Transparencia: hoy toca celebrar'
+slug: 'querida-transparencia-hoy-toca-celebrar'
 image:  '/images/posts/comision.jpeg'
 description: 'Las propuestas remitidas a la Comisión para la Reconstrucción a través del nuevo buzón de participación ciudadana serán publicadas en la página web del Congreso de los Diputados para su conocimiento público, lo que supone un hito en la transparencia parlamentaria española'
 author: javier-perez

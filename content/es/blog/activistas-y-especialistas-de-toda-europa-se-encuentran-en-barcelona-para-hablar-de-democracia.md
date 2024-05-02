@@ -1,5 +1,6 @@
 ---
 title: "Activistas y especialistas de toda Europa se encuentran en Barcelona para hablar de democracia"
+slug: 'activistas-y-especialistas-de-toda-europa-se-encuentran-en-barcelona-para-hablar-de-democracia'
 image: "/images/posts/gdc-forum-europe-2024.png"
 description: "¿Cuál es el estado de la democracia en Europa? ¿Qué pueden hacer los jóvenes para mejorarla? ¿Qué desafíos y oportunidades plantea la tecnología para nuestros sistemas políticos? Estas son algunas de las preguntas que se intentarán responder en el Foro Europeo de la Coalición Global por la Democracia, que se celebrará en Barcelona el próximo 12 de marzo."
 author: celia-zafra

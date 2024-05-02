@@ -1,5 +1,6 @@
 ---
 title: 'Presentamos Ampliando Democracia: Alianzas globales para una mejor democracia'
+slug: 'presentacion-ampliando-democracia-27-marzo-2023'
 image: '/images/posts/boosting-democratic-renewal-event-27-march-2023.png'
 description: 'Este lunes, 27 de marzo, Political Watch presenta Ampliando Democracia. El encuentro será online de 14 a 15.30 y será una sesión de las organizadas por Global Democracy Coalition con motivo del Partners for Democracy Day. La presentación de Ampliando Democracia la haremos de la mano de nuestras alianzas globales Democracy Network, Démocratie Ouverte y Alma Cívica.'
 author: javier-perez

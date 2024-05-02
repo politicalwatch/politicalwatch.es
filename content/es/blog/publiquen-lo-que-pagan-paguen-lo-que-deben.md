@@ -1,5 +1,6 @@
 ---
 title: 'Publiquen lo que pagan, paguen lo que deben'
+slug: 'publiquen-lo-que-pagan-paguen-lo-que-deben'
 image:  '/images/posts/paraiso.png'
 description: 'Por primera vez, esta semana las empresas transnacionales españolas han tenido que hacer pública la información sobre su tributación al…'
 author: javier-perez
