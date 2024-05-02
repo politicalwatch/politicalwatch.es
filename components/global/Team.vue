@@ -41,10 +41,10 @@
 </template>
 
 <script setup lang="ts">
-import web from "~/assets/images/member-web.svg?component";
-import twitter from "~/assets/images/member-twitter.svg?component";
-import github from "~/assets/images/member-github.svg?component";
-import linkedin from "~/assets/images/member-linkedin.svg?component";
+import web from "@/assets/images/member-web.svg?component";
+import twitter from "@/assets/images/member-twitter.svg?component";
+import github from "@/assets/images/member-github.svg?component";
+import linkedin from "@/assets/images/member-linkedin.svg?component";
 
 const { teamLimit } = defineProps({
   teamLimit: {
@@ -56,7 +56,8 @@ const { teamLimit } = defineProps({
 const { t, locale } = useI18n();
 
 const { data: team } = await useAsyncData("equipo", () => {
-  const query = queryContent(locale.value, "equipo")
+  const query = queryContent("equipo")
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 });
 

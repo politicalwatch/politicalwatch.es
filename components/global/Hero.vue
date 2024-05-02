@@ -6,7 +6,7 @@
         <h3 class="c-hero__subtitle" v-html="t('blocks.hero.subtitle')" />
       </div>
       <img
-        src="~/assets/images/hero.svg?url"
+        src="@/assets/images/hero.svg?url"
         alt="Political Watch"
         class="c-hero__image"
         width="640"

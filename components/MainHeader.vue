@@ -20,7 +20,7 @@
 <script setup lang="ts">
 import { ref, watch } from "vue";
 
-import logo from "~/assets/images/logo.svg?component";
+import logo from "@/assets/images/logo.svg?component";
 
 const route = useRoute();
 const { t } = useI18n();

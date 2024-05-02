@@ -29,8 +29,8 @@
 </template>
 
 <script setup lang="ts">
-import web from "~/assets/images/member-web.svg?component";
-import twitter from "~/assets/images/member-twitter.svg?component";
+import web from "@/assets/images/member-web.svg?component";
+import twitter from "@/assets/images/member-twitter.svg?component";
 
 const { t } = useI18n();
 

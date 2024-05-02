@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import { computed } from "vue";
 
-import iconLang from "~/assets/images/icon-lang.svg?component";
+import iconLang from "@/assets/images/icon-lang.svg?component";
 
 const { active } = defineProps({
   active: Boolean,
