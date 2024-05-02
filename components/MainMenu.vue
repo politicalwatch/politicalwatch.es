@@ -2,53 +2,51 @@
   <nav class="c-menu" :class="{ 'is-active': active }">
     <ul class="c-menu__list">
       <li class="c-menu__item">
-        <nuxt-link :to="localeRoute('/nosotras')">
-          {{ $t("pages.about.title") }}
-        </nuxt-link>
+        <NuxtLinkLocale to="/nosotras">
+          {{ t("pages.about.title") }}
+        </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
-        <nuxt-link :to="localePath('/que-hacemos')">
-          {{ $t("pages.what.title") }}
-        </nuxt-link>
+        <NuxtLinkLocale to="/que-hacemos">
+          {{ t("pages.what.title") }}
+        </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
-        <nuxt-link :to="localePath('/participa')">
-          {{ $t("pages.join.title") }}
-        </nuxt-link>
+        <NuxtLinkLocale to="/participa">
+          {{ t("pages.join.title") }}
+        </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
-        <nuxt-link :to="localePath('/blog')">
-          {{ $t("pages.blog.title") }}
-        </nuxt-link>
+        <NuxtLinkLocale to="/blog">
+          {{ t("pages.blog.title") }}
+        </NuxtLinkLocale>
       </li>
       <li
         v-for="locale in availableLocales"
         :key="locale.code"
         class="c-menu__item c-menu__item--lang"
       >
-        <nuxt-link :to="switchLocalePath(locale.code)">
+        <NuxtLink :to="switchLocalePath(locale.code)">
           <icon-lang /> {{ locale.code }}
-        </nuxt-link>
+        </NuxtLink>
       </li>
     </ul>
   </nav>
 </template>
 
-<script>
-import iconLang from "~/assets/images/icon-lang.svg?inline";
+<script setup lang="ts">
+import { computed } from "vue";
 
-export default {
-  name: "MainMenu",
-  components: {
-    iconLang,
-  },
-  props: {
-    active: Boolean,
-  },
-  computed: {
-    availableLocales() {
-      return this.$i18n.locales.filter((l) => l.code !== this.$i18n.locale);
-    },
-  },
-};
+import iconLang from "~/assets/images/icon-lang.svg?component";
+
+const { active } = defineProps({
+  active: Boolean,
+});
+
+const { t, locale, locales } = useI18n();
+const switchLocalePath = useSwitchLocalePath();
+
+const availableLocales = computed(() => {
+  return locales.value.filter((l) => l.code !== locale.value);
+});
 </script>
