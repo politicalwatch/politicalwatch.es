@@ -2,10 +2,6 @@
 title: 'Coherence'
 subtitle: 'Policies at the height of the challenges of our era'
 image: /images/coherence-big.svg
-projects: 10
-research: 3
-blogLatest: 2
-lineOfWork: coherence
 ---
 
 <md-content with-projects-toc>
@@ -44,12 +40,23 @@ In the international tradinv scope and the foreign investment, from Political Wa
 
 </md-content>
 
-<projects
-  title="Projects"
-  subtitle="Consultancies, advicements and researchs focused in the analysis of the process of building and designing public politics with a focus in gender, human rights and sustainable development.">
-</projects>
+::Projects
+---
+title: "Projects"
+subtitle: "Consultancies, advicements and researchs focused in the analysis of the process of building and designing public politics with a focus in gender, human rights and sustainable development."
+projectLimit: 10
+---
+::
 
-<research></research>
+::research
+---
+researchLimit: 3
+---
+::
 
-<blogLatest></blogLatest>
-
+::BlogLatest
+---
+postLimit: 2
+lineOfWork: coherence
+---
+::

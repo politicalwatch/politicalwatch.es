@@ -1,7 +1,6 @@
 ---
 title: "About us"
 subtitle: "Political Watch is an independent organisation that, through the development of civic technologies, advocacy and research, fights for a more fair, democratic and sustainable society."
-team: 20
 alliances:
   - image: "/images/alliances/logooecd_en.png"
     link: "http://www.oecd.org/pcd/thepcsdpartnership.htm"
@@ -71,7 +70,11 @@ We don't want to demand what we don't do. For that reason we commit to be totall
 
 </md-content>
 
-<team></team>
+::Team
+---
+teamLimit: 20
+---
+::
 
 <advisors></advisors>
 

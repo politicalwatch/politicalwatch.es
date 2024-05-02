@@ -53,4 +53,8 @@ blogLatest: 2
 </banner>
 -->
 
-<blog-latest></blog-latest>
+::BlogLatest
+---
+postLimit: 2
+---
+::
