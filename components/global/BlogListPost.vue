@@ -2,8 +2,8 @@
   <article class="c-list-post" :class="{ 'c-list-post--noimage': noImage }">
     <NuxtLinkLocale v-if="!noImage" :to="post.path">
       <img
-        :src="post.image"
-        :alt="post.title"
+        :src="post?.image"
+        :alt="post?.title"
         class="c-list-post__image"
         width="448"
         height="320"
@@ -12,16 +12,16 @@
     </NuxtLinkLocale>
     <h3 class="c-list-post__title">
       <NuxtLinkLocale :to="post._path">
-        {{ post.title }}
+        {{ post?.title }}
       </NuxtLinkLocale>
     </h3>
     <div class="c-list-post__wrapper">
       <div v-if="author" class="c-list-post__author">
         <strong>{{ author }}</strong> /
-        {{ format(post.createdAt, "d 'de' MMMM yyyy", { locale: es }) }}
+        {{ format(post?.createdAt, "d 'de' MMMM yyyy", { locale: es }) }}
       </div>
       <div class="c-list-post__desc">
-        {{ post.description }}
+        {{ post?.description }}
       </div>
       <NuxtLinkLocale
         v-if="!noButton"

@@ -43,7 +43,7 @@
 </template>
 
 <script setup lang="ts">
-import download from "~/assets/images/icon-download.svg?component";
+import download from "@/assets/images/icon-download.svg?component";
 
 const { title, tag, titleType, filters, researchLimit, lineOfWork } =
   defineProps({
@@ -88,7 +88,8 @@ const getAnchorText = (link: string) => {
 };
 
 const { data: research } = await useAsyncData("investigaciones", () => {
-  const query = queryContent(locale.value, "investigaciones")
+  const query = queryContent("investigaciones")
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 });
 

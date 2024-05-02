@@ -60,7 +60,8 @@ const getTitle = computed(() => title || t("blocks.projects.title"));
 const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
 
 const { data: projects } = await useAsyncData("proyectos", () => {
-  const query = queryContent(locale.value, "proyectos")
+  const query = queryContent("proyectos")
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 });
 

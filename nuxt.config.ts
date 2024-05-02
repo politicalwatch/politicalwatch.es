@@ -2,6 +2,7 @@ import svgLoader from "vite-svg-loader";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  ssr: true,
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
@@ -28,6 +29,10 @@ export default defineNuxtConfig({
   ],
   vite: {
     plugins: [svgLoader()],
+  },
+  content: {
+    locales: ["es", "en"],
+    defaultLocale: "es",
   },
   i18n: {
     locales: [
@@ -68,7 +73,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.scss"],
   site: {
-    hostname: process.env.BASE_URL,
-    gzip: true,
+    url: import.meta.env.NUXT_PUBLIC_BASE_URL,
   },
 });

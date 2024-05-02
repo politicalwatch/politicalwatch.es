@@ -45,7 +45,8 @@ useHead({
 });
 
 const { data: research } = await useAsyncData("investigaciones", () =>
-  queryContent(locale.value, "investigaciones")
+  queryContent("investigaciones")
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 })
     .find()

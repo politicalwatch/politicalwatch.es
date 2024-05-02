@@ -1,9 +1,9 @@
 <template>
-  <section class="o-container c-post o-section">
+  <section v-if="post" class="o-container c-post o-section">
     <header class="c-post__header">
-      <img class="c-post__image" :src="post.image" alt="post.title" />
+      <img class="c-post__image" :src="post?.image" :alt="post?.title" />
       <h1 class="c-post__title">
-        {{ post.title }}
+        {{ post?.title }}
       </h1>
     </header>
     <div class="c-post__meta">
@@ -17,7 +17,7 @@
           {{ author.name }}
         </p>
         <p class="c-post__author-date">
-          {{ format(post.createdAt, "d 'de' MMMM yyyy", { locale: es }) }}
+          {{ format(post?.createdAt, "d 'de' MMMM yyyy", { locale: es }) }}
         </p>
       </div>
 
@@ -67,7 +67,7 @@
           v-for="(post, i) in related"
           :key="i"
           :post="post"
-          :author="post.author?.name"
+          :author="post?.author?.name"
           no-button
         />
       </div>
@@ -78,94 +78,105 @@
 <script setup>
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
-import twitter from "~/assets/images/share-twitter.svg?component";
-import whatsapp from "~/assets/images/share-whatsapp.svg?component";
-import facebook from "~/assets/images/share-facebook.svg?component";
-import telegram from "~/assets/images/share-telegram.svg?component";
-import linkedin from "~/assets/images/share-linkedin.svg?component";
+import twitter from "@/assets/images/share-twitter.svg?component";
+import whatsapp from "@/assets/images/share-whatsapp.svg?component";
+import facebook from "@/assets/images/share-facebook.svg?component";
+import telegram from "@/assets/images/share-telegram.svg?component";
+import linkedin from "@/assets/images/share-linkedin.svg?component";
 
 const config = useRuntimeConfig();
-console.log("config", config);
 const route = useRoute();
 const { t, locale } = useI18n();
 
-const slug = route.params.slug[0];
+const slug = route.params.slug.join("/");
 
-const { data: post } = await useAsyncData("post", () =>
-  queryContent("/es/blog", slug)
+const { data: post, error } = await useAsyncData(route.path, () =>
+  queryContent("blog", slug)
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 })
     .findOne()
 );
 
-const { data: author } = await useAsyncData("author", async () => {
-  if (!post.value.author) return null;
+const { data: author } = await useAsyncData(
+  `author-${route.path}`,
+  async () => {
+    if (!post.value?.author) return null;
 
-  return await queryContent(locale.value, "equipo", post.value.author)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 })
-    .only(["name", "avatar"])
-    .findOne();
-});
+    return queryContent("equipo", post.value?.author)
+      .locale(locale.value)
+      .sort({ order: -1 })
+      .sort({ createdAt: -1 })
+      .only(["name", "avatar"])
+      .findOne();
+  }
+);
 
-const { data: related } = await useAsyncData("related", async () => {
-  if (!post.value.related) return null;
+const { data: related } = await useAsyncData(
+  `related-${route.path}`,
+  async () => {
+    if (!post.value?.related) return null;
 
-  const [posts, authors] = await Promise.all([
-    queryContent("/es/blog")
-      .where({ slug: { $in: post.value.related } })
-      .find(),
-    queryContent(locale.value, "equipo")
-      .sort({ order: -1, createdAt: -1 })
-      .only(["name", "slug"])
-      .find(),
-  ]);
+    const [posts, authors] = await Promise.all([
+      queryContent("blog")
+        .locale(locale.value)
+        .where({ slug: { $in: post.value?.related } })
+        .find(),
+      queryContent("equipo")
+        .locale(locale.value)
+        .sort({ order: -1, createdAt: -1 })
+        .only(["name", "slug"])
+        .find(),
+    ]);
 
-  return posts.map((post) => ({
-    ...post,
-    _path: post._path?.replace("/es", ""),
-    author: authors.find((author) => {
-      return author.slug === post.author;
-    }),
-  }));
-});
+    return posts.map((post) => ({
+      ...post,
+      author: authors.find((author) => {
+        return author.slug === post?.author;
+      }),
+    }));
+  }
+);
 
 useHead({
-  title: `${post.value.title} | Political Watch`,
-  description: post.value.description || post.value.title,
+  title: `${post.value?.title} | Political Watch`,
   htmlAttrs: {
     lang: "es",
   },
   meta: [
     {
+      name: "description",
+      content: post.value?.description || post.value?.title,
+    },
+    {
       hid: "og:description",
       property: "og:description",
-      content: post.value.description || post.value.title,
+      content: post.value?.description || post.value?.title,
     },
     {
       property: "og:title",
       hid: "og:title",
-      content: `${post.value.title} | Political Watch`,
+      content: `${post.value?.title} | Political Watch`,
     },
     {
       hid: "og:image",
       property: "og:image",
-      content: `${config.baseURL}${post.value.image}`,
+      content: `${config.public.baseURL}${post.value?.image}`,
     },
     {
       hid: "twitter:description",
       property: "twitter:description",
-      content: post.value.description || post.value.title,
+      content: post.value?.description || post.value?.title,
     },
     {
       property: "twitter:title",
       hid: "twitter:title",
-      content: `${post.value.title} | Political Watch`,
+      content: `${post.value?.title} | Political Watch`,
     },
     {
       hid: "twitter:image",
       property: "twitter:image",
-      content: `${config.baseURL}${post.value.image}`,
+      content: `${config.public.baseURL}${post.value?.image}`,
     },
   ],
 });

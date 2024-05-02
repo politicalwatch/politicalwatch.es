@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import BlogListPost from "~/components/global/BlogListPost.vue";
+import BlogListPost from "@/components/global/BlogListPost.vue";
 
 const route = useRoute();
 const { t, te, locale } = useI18n();
@@ -36,30 +36,34 @@ const { t, te, locale } = useI18n();
 const currentPage = parseInt(route.params.number as string);
 
 const { data: allCount } = await useAsyncData("allCount", () =>
-  queryContent(locale.value, "blog").count()
+  queryContent("blog").locale(locale.value).count()
 );
 
-const { data: posts } = await useAsyncData("posts", async () => {
-  const [posts, authors] = await Promise.all([
-    queryContent(locale.value, "blog")
-      .sort({ order: -1, createdAt: -1 })
-      .limit(9)
-      .skip(currentPage * 9)
-      .find(),
-    queryContent(locale.value, "equipo")
-      .sort({ order: -1, createdAt: -1 })
-      .only(["name", "slug"])
-      .find(),
-  ]);
+const { data: posts } = await useAsyncData(
+  `posts-page-${currentPage}`,
+  async () => {
+    const [posts, authors] = await Promise.all([
+      queryContent("blog")
+        .locale(locale.value)
+        .sort({ order: -1, createdAt: -1 })
+        .limit(9)
+        .skip(currentPage * 9)
+        .find(),
+      queryContent("equipo")
+        .locale(locale.value)
+        .sort({ order: -1, createdAt: -1 })
+        .only(["name", "slug"])
+        .find(),
+    ]);
 
-  return posts.map((post) => ({
-    ...post,
-    _path: post._path?.replace("/es", ""),
-    author: authors.find((author) => {
-      return author.slug === post.author;
-    }),
-  }));
-});
+    return posts.map((post) => ({
+      ...post,
+      author: authors.find((author) => {
+        return author.slug === post.author;
+      }),
+    }));
+  }
+);
 
 const totalPosts = computed(() => allCount.value ?? 0);
 const hasNext = computed(() => totalPosts.value > (currentPage + 1) * 9);

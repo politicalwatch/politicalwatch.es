@@ -42,7 +42,8 @@ const { withProjectsToc, projectLimit } = defineProps({
 const { t, locale } = useI18n();
 
 const { data: projects } = await useAsyncData("proyectos", () => {
-  const query = queryContent(locale.value, "proyectos")
+  const query = queryContent("proyectos")
+    .locale(locale.value)
     .sort({ order: -1 })
     .sort({ createdAt: -1 });
 
