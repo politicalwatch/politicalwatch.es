@@ -34,7 +34,7 @@
   </article>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
 

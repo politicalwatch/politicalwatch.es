@@ -46,22 +46,19 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: "Featured",
-  props: {
-    title: {
-      type: String,
-      default: "",
-    },
-    featured: {
-      type: Object,
-      default: () => {},
-    },
-    others: {
-      type: Array,
-      default: () => [],
-    },
+<script setup lang="ts">
+const { title, featured, others } = defineProps({
+  title: {
+    type: String,
+    default: "",
   },
-};
+  featured: {
+    type: Object,
+    default: () => {},
+  },
+  others: {
+    type: Array,
+    default: () => [],
+  },
+});
 </script>
