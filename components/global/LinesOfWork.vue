@@ -8,7 +8,7 @@
     <div class="c-sections__wrapper">
       <article class="c-sections__section">
         <img
-          src="/images/democracy.svg"
+          :src="coherence"
           :alt="t('blocks.linesOfWork.democracy.title')"
           class="c-sections__section-img"
         />
@@ -24,7 +24,7 @@
       </article>
       <article class="c-sections__section">
         <img
-          src="/images/coherence.svg"
+          :src="democracy"
           :alt="t('blocks.linesOfWork.coherence.title')"
           class="c-sections__section-img"
         />
@@ -43,6 +43,9 @@
 </template>
 
 <script setup lang="ts">
+import coherence from "@/assets/images/coherence.svg?url";
+import democracy from "@/assets/images/democracy.svg?url";
+
 const { t } = useI18n();
 
 const { hideTitle } = defineProps({
