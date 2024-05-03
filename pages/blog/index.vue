@@ -111,33 +111,4 @@ useHead({
     },
   ],
 });
-
-// export default {
-//   async asyncData({ $content, app }) {
-//     const all = await $content(`/${app.i18n.locale}/blog`).fetch();
-//     const posts = await $content(`/${app.i18n.locale}/blog`)
-//       .sortBy("order", "desc")
-//       .sortBy("createdAt", "desc")
-//       .limit(9)
-//       .fetch();
-//     const authors = await $content(`${app.i18n.locale}/equipo`)
-//       .only(["name", "slug"])
-//       .fetch();
-
-//     return {
-//       posts: posts.map((post) => {
-//         const authorName = authors.find((author) => {
-//           return author.slug === post.author;
-//         });
-//         return {
-//           ...post,
-//           author: authorName.name,
-//           path: post.path.replace("/es", ""),
-//         };
-//       }),
-//       totalPosts: all.length,
-//       hasNext: all.length > 9,
-//     };
-//   },
-// };
 </script>
