@@ -2,14 +2,14 @@
   <section v-if="isOpen" class="c-cookies">
     <div class="o-container">
       <p>{{ t("blocks.cookies.message") }}</p>
-      <p>
+      <div class="c-cookies__actions">
         <a href="#" class="c-button" @click.prevent="accept">{{
           t("blocks.cookies.accept")
         }}</a>
         <a href="#" class="c-button c-button--outline" @click.prevent="deny">{{
           t("blocks.cookies.reject")
         }}</a>
-      </p>
+      </div>
     </div>
   </section>
 </template>
@@ -53,3 +53,13 @@ const getGDPR = () => {
   }
 };
 </script>
+
+<style scoped lang="scss">
+.c-cookies {
+  &__actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-block-end: 1em;
+  }
+}
+</style>
