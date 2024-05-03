@@ -38,15 +38,19 @@ export default defineNuxtConfig({
     locales: [
       {
         code: "en",
+        iso: "en",
         name: "English",
       },
       {
         code: "es",
+        iso: "es",
         name: "Español",
+        isCatchallLocale: true,
       },
     ],
     defaultLocale: "es",
     detectBrowserLanguage: false,
+    baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,
   },
   googleFonts: {
     families: {
