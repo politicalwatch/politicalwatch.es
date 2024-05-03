@@ -3,7 +3,7 @@
     <div class="c-hero__wrapper">
       <div class="c-hero__content">
         <h1 class="c-hero__title" v-html="t('blocks.hero.title')" />
-        <h3 class="c-hero__subtitle" v-html="t('blocks.hero.subtitle')" />
+        <h2 class="c-hero__subtitle" v-html="t('blocks.hero.subtitle')" />
       </div>
       <img
         src="@/assets/images/hero.svg?url"
