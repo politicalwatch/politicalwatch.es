@@ -15,6 +15,47 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    head: {
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
+      title: "Political Watch",
+      titleTemplate: "%s | Political Watch",
+      meta: [
+        {
+          hid: "keywords",
+          name: "keywords",
+          content:
+            "transparencia, rendición de cuentas, desarrollo sostenible, innovación social, política, coherencia de políticas, agenda 2030, ods, empresa y derechos humanos",
+        },
+        {
+          property: "og:title",
+          hid: "og:title",
+          content: "Political Watch",
+        },
+        {
+          hid: "og:image",
+          property: "og:image",
+          content: `${import.meta.env.NUXT_PUBLIC_BASE_URL}/politicalwatch.jpg`,
+        },
+        {
+          property: "twitter:title",
+          hid: "twitter:title",
+          content: "Political Watch",
+        },
+        {
+          hid: "twitter:image",
+          property: "twitter:image",
+          content: `${import.meta.env.NUXT_PUBLIC_BASE_URL}/politicalwatch.jpg`,
+        },
+      ],
+      link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
+      script: [
+        {
+          src: "/scripts/metricool.js",
+          type: "text/javascript",
+        },
+      ],
+    },
     pageTransition: {
       name: "page",
       mode: "out-in", // default

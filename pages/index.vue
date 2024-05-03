@@ -11,16 +11,10 @@ definePageMeta({
   layout: "default",
 });
 
+const { t } = useI18n();
 const { page } = await usePage();
 
 useHead({
-  title: "Home",
-  meta: [
-    {
-      hid: "description",
-      name: "description",
-      content: "Home page",
-    },
-  ],
+  title: t("pages.home.title"),
 });
 </script>

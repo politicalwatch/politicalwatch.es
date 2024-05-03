@@ -19,4 +19,14 @@ definePageMeta({
 });
 
 const { page } = await usePage();
+
+useHead({
+  title: page?.value?.title,
+  meta: [
+    {
+      name: "description",
+      content: page?.value?.subtitle,
+    },
+  ],
+});
 </script>
