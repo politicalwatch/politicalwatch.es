@@ -2,7 +2,7 @@
   <footer class="c-footer">
     <div class="c-footer__wrapper o-container">
       <NuxtLinkLocale to="index" class="c-footer__logo" aria-label="Home">
-        <logo />
+        <logo viewBox="0 0 256 88" />
       </NuxtLinkLocale>
       <div class="c-footer__address">
         <p>

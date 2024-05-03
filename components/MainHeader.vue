@@ -1,7 +1,7 @@
 <template>
   <header class="c-header o-section">
     <NuxtLinkLocale to="index" class="c-header__logo" aria-label="Home">
-      <logo />
+      <logo viewBox="0 0 300 24" />
     </NuxtLinkLocale>
     <button
       class="c-header__menu-toggle"
