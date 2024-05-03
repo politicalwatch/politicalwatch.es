@@ -1,7 +1,7 @@
 <template>
   <footer class="c-footer">
     <div class="c-footer__wrapper o-container">
-      <NuxtLinkLocale to="index" class="c-footer__logo">
+      <NuxtLinkLocale to="index" class="c-footer__logo" aria-label="Home">
         <logo />
       </NuxtLinkLocale>
       <div class="c-footer__address">
@@ -15,18 +15,28 @@
         </p>
       </div>
       <div class="c-footer__social">
-        <a href="https://twitter.com/_PoliticalWatch" target="_blank"
+        <a
+          href="https://twitter.com/_PoliticalWatch"
+          target="_blank"
+          aria-label="Twitter"
           ><twitter
         /></a>
-        <a href="https://www.facebook.com/PoliticalWatch.es/" target="_blank"
+        <a
+          href="https://www.facebook.com/PoliticalWatch.es/"
+          target="_blank"
+          aria-label="Facebook"
           ><facebook
         /></a>
-        <a href="https://github.com/politicalwatch/" target="_blank"
+        <a
+          href="https://github.com/politicalwatch/"
+          target="_blank"
+          aria-label="GitHub"
           ><github
         /></a>
         <a
           href="https://www.linkedin.com/company/politicalwatch"
           target="_blank"
+          aria-label="LinkedIn"
           ><linkedin
         /></a>
       </div>

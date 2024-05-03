@@ -1,12 +1,13 @@
 <template>
   <header class="c-header o-section">
-    <NuxtLinkLocale to="index" class="c-header__logo">
+    <NuxtLinkLocale to="index" class="c-header__logo" aria-label="Home">
       <logo />
     </NuxtLinkLocale>
     <button
       class="c-header__menu-toggle"
       :class="{ 'is-active': isMenuActive }"
       @click.prevent="isMenuActive = !isMenuActive"
+      aria-label="Toggle menu"
     >
       <span class="bar" />
       <span class="bar" />
