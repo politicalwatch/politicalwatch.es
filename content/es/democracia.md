@@ -1,11 +1,7 @@
 ---
-title: 'Democracia'
-subtitle: 'Vigilancia ciudadana para una sociedad mejor'
+title: "Democracia"
+subtitle: "Vigilancia ciudadana para una sociedad mejor"
 image: /images/democracy-big.svg
-projects: 10
-research: 3
-blogLatest: 2
-lineOfWork: democracy
 ---
 
 <md-content with-projects-toc>
@@ -36,11 +32,23 @@ Frente a las prácticas de lobby tradicional, la incidencia pública plantea una
 
 </md-content>
 
-<projects
-  title="Proyectos"
-  subtitle="Plataformas ciudadanas, herramientas de monitoreo parlamentario y campañas de incidencia pública. Todo ello basado en tecnologías cívicas.">
-</projects>
+::Projects
+---
+title: "Proyectos"
+subtitle: "Plataformas ciudadanas, herramientas de monitoreo parlamentario y campañas de incidencia pública. Todo ello basado en tecnologías cívicas."
+projectLimit: 10
+---
+::
 
-<research></research>
+::research
+---
+researchLimit: 3
+---
+::
 
-<blogLatest></blogLatest>
+::BlogLatest
+---
+postLimit: 2
+lineOfWork: democracy
+---
+::

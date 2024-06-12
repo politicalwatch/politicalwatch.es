@@ -1,39 +1,36 @@
 <template>
   <header class="c-header o-section">
-    <nuxt-link :to="localePath('index')" class="c-header__logo">
-      <logo />
-    </nuxt-link>
+    <NuxtLinkLocale to="index" class="c-header__logo" aria-label="Home">
+      <logo viewBox="0 0 300 24" />
+    </NuxtLinkLocale>
     <button
       class="c-header__menu-toggle"
-      :class="{ 'is-active' : isMenuActive }"
+      :class="{ 'is-active': isMenuActive }"
       @click.prevent="isMenuActive = !isMenuActive"
+      aria-label="Toggle menu"
     >
       <span class="bar" />
       <span class="bar" />
       <span class="bar" />
-      <span class="text">{{ $t('global.menuToggle') }}</span>
+      <span class="text">{{ t("global.menuToggle") }}</span>
     </button>
     <MainMenu :active="isMenuActive" />
   </header>
 </template>
 
-<script>
-import logo from '~/assets/images/logo.svg?inline'
+<script setup lang="ts">
+import { ref, watch } from "vue";
 
-export default {
-  name: 'MainHeader',
-  components: {
-    logo
-  },
-  data () {
-    return {
-      isMenuActive: false
-    }
-  },
-  created () {
-    this.$nuxt.$on('routeChanged', () => {
-      this.isMenuActive = false
-    })
+import logo from "@/assets/images/logo.svg?component";
+
+const route = useRoute();
+const { t } = useI18n();
+const isMenuActive = ref(false);
+
+watch(
+  () => route.path,
+  (newRoute) => {
+    isMenuActive.value = false;
   }
-}
+);
 </script>

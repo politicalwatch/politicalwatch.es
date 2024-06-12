@@ -1,11 +1,7 @@
 ---
-title: 'Democracy'
-subtitle: 'Citizen surveillance for a better society'
+title: "Democracy"
+subtitle: "Citizen surveillance for a better society"
 image: /images/democracy-big.svg
-projects: 10
-research: 3
-blogLatest: 2
-lineOfWork: democracy
 ---
 
 <md-content with-projects-toc>
@@ -36,11 +32,23 @@ In front of the traditional lobby practices, public incidence raises a new way t
 
 </md-content>
 
-<projects
-  title="Projects"
-  subtitle="Citizen platforms, parliamentary monitoring tools and incidence public campaigns. All of this based in civic technologies.">
-</projects>
+::Projects
+---
+title: "Projects"
+subtitle: "Citizen platforms, parliamentary monitoring tools and incidence public campaigns. All of this based in civic technologies."
+projectLimit: 10
+---
+::
 
-<research></research>
+::research
+---
+researchLimit: 3
+---
+::
 
-<blogLatest></blogLatest>
+::BlogLatest
+---
+postLimit: 2
+lineOfWork: democracy
+---
+::

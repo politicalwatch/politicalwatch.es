@@ -7,6 +7,10 @@
     @include th2;
 
     margin: gap(6) 0 gap(4) 0;
+    a {
+      color: white;
+      text-decoration: none;
+    }
   }
 
   h3 {
@@ -14,11 +18,44 @@
 
     margin: gap(6) 0 gap(4) 0;
     text-transform: uppercase;
+
+    a {
+      color: #172844;
+      font-weight: 900;
+      text-decoration: none;
+    }
   }
 
   h4 {
     @include th4;
 
     margin: gap(6) 0 gap(4) 0;
+  }
+}
+
+.c-post {
+  h2 {
+    a {
+      color: #172844;
+      font-family: Montserrat, sans-serif;
+      font-size: 1.25rem;
+      font-weight: 800;
+      line-height: 1.6;
+      margin: 3rem 0 2rem;
+      padding: 0;
+      text-decoration: none;
+    }
+  }
+  h3 {
+    a {
+      background-color: transparent;
+      color: #172844;
+      font-family: Montserrat, sans-serif;
+      font-size: 1.5rem;
+      font-weight: 900;
+      line-height: 1.33;
+      margin: 3rem 0 2rem;
+      text-decoration: none;
+    }
   }
 }

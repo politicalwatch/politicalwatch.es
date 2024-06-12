@@ -1,5 +1,6 @@
 ---
 name: "Virginia Brarda"
+slug: "virginia-brarda"
 avatar: "/images/team/virginia-brarda.jpg"
 position: "Researcher"
 email: "virginia.brarda@politicalwatch.es"

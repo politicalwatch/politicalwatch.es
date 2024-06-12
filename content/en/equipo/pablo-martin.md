@@ -1,5 +1,6 @@
 ---
 name: 'Pablo Martín'
+slug: 'pablo-martin'
 avatar: '/images/team/pablo-martin.jpg'
 position: 'Chief Technology Officer'
 email: 'pablo.martin@politicalwatch.es'

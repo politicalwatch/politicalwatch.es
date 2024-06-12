@@ -26,13 +26,13 @@
   &::after {
     pointer-events: none;
     position: absolute;
-    content: '';
+    content: "";
     display: block;
     right: gap(2);
     top: 50%;
     transform: translateY(-50%);
     width: gap(2);
     height: gap(2);
-    background: url('~assets/images/icon-filter.svg') no-repeat center center;
+    background: url("@/assets/images/icon-filter.svg") no-repeat center center;
   }
 }

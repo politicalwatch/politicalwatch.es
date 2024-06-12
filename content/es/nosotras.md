@@ -68,7 +68,11 @@ No queremos exigir lo que no cumplimos. Por eso nos comprometemos a ser totalmen
 
 </md-content>
 
-<team></team>
+::Team
+---
+teamLimit: 20
+---
+::
 
 <advisors></advisors>
 

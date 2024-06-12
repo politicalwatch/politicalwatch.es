@@ -1,5 +1,6 @@
 ---
 name: 'Belén Agüero'
+slug: 'belen-aguero'
 avatar: '/images/team/belen-aguero.jpg'
 position: 'Researcher and data analyst'
 email: 'belen.aguero@politicalwatch.es'

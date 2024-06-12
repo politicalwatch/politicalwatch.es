@@ -1,15 +1,15 @@
 <template>
   <section class="c-team o-container o-section">
     <h2 class="c-team__title">
-      {{ $t('blocks.team.title') }}
+      {{ t("blocks.team.title") }}
     </h2>
     <div class="c-team__wrapper">
-      <article
-        v-for="(member, i) in team"
-        :key="i"
-        class="c-team__member"
-      >
-        <img :src="member.avatar" :alt="member.name" class="c-team__member-avatar">
+      <article v-for="(member, i) in team" :key="i" class="c-team__member">
+        <img
+          :src="member.avatar"
+          :alt="member.name"
+          class="c-team__member-avatar"
+        />
         <div class="c-team__member-wrapper">
           <h3 class="c-team__member-name">
             {{ member.name }}
@@ -40,24 +40,26 @@
   </section>
 </template>
 
-<script>
-import web from '~/assets/images/member-web.svg?inline'
-import twitter from '~/assets/images/member-twitter.svg?inline'
-import github from '~/assets/images/member-github.svg?inline'
-import linkedin from '~/assets/images/member-linkedin.svg?inline'
+<script setup lang="ts">
+import web from "@/assets/images/member-web.svg?component";
+import twitter from "@/assets/images/member-twitter.svg?component";
+import github from "@/assets/images/member-github.svg?component";
+import linkedin from "@/assets/images/member-linkedin.svg?component";
 
-export default {
-  name: 'Team',
-  components: {
-    web,
-    twitter,
-    github,
-    linkedin
+const { teamLimit } = defineProps({
+  teamLimit: {
+    type: Number,
+    default: null,
   },
-  computed: {
-    team () {
-      return this.$parent.teamMembers
-    }
-  }
-}
+});
+
+const { t, locale } = useI18n();
+
+const { data: team } = await useAsyncData("equipo", () => {
+  const query = queryContent("equipo").locale(locale.value).sort({ order: 1 });
+
+  if (teamLimit) query.limit(teamLimit);
+
+  return query.find();
+});
 </script>

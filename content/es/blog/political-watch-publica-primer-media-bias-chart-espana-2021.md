@@ -1,5 +1,6 @@
 ---
 title: 'Political Watch publica el primer Media Bias Chart con el análisis de 30 medios de comunicación en España'
+slug: 'political-watch-publica-primer-media-bias-chart-espana-2021'
 image:  '/images/posts/media-bias-chart-espana-2021/utsav-srestha-HeNrEdA4Zp4-unsplash.jpg'
 description: 'Political Watch presenta un estudio en el que analiza el papel que los 30 principales medios de comunicación escrita de España tienen en el abordaje de la actualidad mediática y política y su contribución a la polarización en la que la sociedad está inmersa en temas tan relevantes y sensibles como la "Ley trans".'
 author: javier-perez

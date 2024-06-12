@@ -1,5 +1,6 @@
 ---
 name: "Thai Jungpanich"
+slug: "thai-jungpanich"
 avatar: "/images/team/thai-jungpanich.jpg"
 position: "Directora de alianzas estratégicas"
 email: "thai.jungpanich@politicalwatch.es"

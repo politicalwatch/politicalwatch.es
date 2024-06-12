@@ -1,10 +1,6 @@
 <template>
   <section class="c-sections o-section">
-    <page-header
-      v-if="title || subtitle"
-      :title="title"
-      :subtitle="subtitle"
-    />
+    <page-header v-if="title || subtitle" :title="title" :subtitle="subtitle" />
     <div class="c-sections__wrapper">
       <article
         v-for="(section, i) in sections"
@@ -15,7 +11,7 @@
           :src="section.image"
           :alt="section.title"
           class="c-sections__section-img"
-        >
+        />
         <h3 class="c-sections__section-title">
           {{ section.title }}
         </h3>
@@ -28,22 +24,19 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'Sections',
-  props: {
-    title: {
-      type: String,
-      default: ''
-    },
-    subtitle: {
-      type: String,
-      default: ''
-    },
-    sections: {
-      type: Array,
-      default: () => []
-    }
-  }
-}
+<script setup lang="ts">
+const { title, subtitle, sections } = defineProps({
+  title: {
+    type: String,
+    default: "",
+  },
+  subtitle: {
+    type: String,
+    default: "",
+  },
+  sections: {
+    type: Array,
+    default: () => [],
+  },
+});
 </script>

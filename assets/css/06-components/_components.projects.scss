@@ -10,7 +10,7 @@
     position: relative;
 
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -107,7 +107,8 @@
         line-height: 1.5;
         display: block;
         padding-right: gap(4);
-        background: url('~assets/images/icon-arrow.svg') right gap(0.5) top gap(0.5) no-repeat;
+        background: url("@/assets/images/icon-arrow.svg") right gap(0.5) top
+          gap(0.5) no-repeat;
       }
     }
   }

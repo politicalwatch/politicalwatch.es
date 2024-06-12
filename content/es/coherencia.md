@@ -1,11 +1,7 @@
 ---
-title: 'Coherencia'
-subtitle: 'Políticas a la altura de los retos de nuestra era'
+title: "Coherencia"
+subtitle: "Políticas a la altura de los retos de nuestra era"
 image: /images/coherence-big.svg
-projects: 10
-research: 3
-blogLatest: 2
-lineOfWork: coherence
 ---
 
 <md-content with-projects-toc>
@@ -38,17 +34,29 @@ Un sistema comercial multilateral ordenado, equilibrado y justo es un “bien p�
 
 En el ámbito del comercio internacional y la inversión extranjera, desde Political Watch llevamos a cabo proyectos para:
 
-* Conocer las implicaciones que la política comercial tiene sobre las expectativas de desarrollo sostenible de terceros países.
-* Analizar la inclusión del enfoque de desarrollo sostenible en los tratados internacionales comerciales y de inversión.
-* Vigilar el impacto sobre los derechos humanos de inversiones de empresas españolas en países en desarrollo.
+- Conocer las implicaciones que la política comercial tiene sobre las expectativas de desarrollo sostenible de terceros países.
+- Analizar la inclusión del enfoque de desarrollo sostenible en los tratados internacionales comerciales y de inversión.
+- Vigilar el impacto sobre los derechos humanos de inversiones de empresas españolas en países en desarrollo.
 
 </md-content>
 
-<projects
-  title="Proyectos"
-  subtitle="Consultorías, asesorías e investigaciones centradas en el análisis de los procesos de construcción y diseño de políticas públicas con un enfoque de género, derechos humanos y desarrollo sostenible.">
-</projects>
+::Projects
+---
+title: "Proyectos"
+subtitle: "Consultorías, asesorías e investigaciones centradas en el análisis de los procesos de construcción y diseño de políticas públicas con un enfoque de género, derechos humanos y desarrollo sostenible."
+projectLimit: 10
+---
+::
 
-<research></research>
+::Research
+---
+researchLimit: 3
+---
+::
 
-<blogLatest></blogLatest>
+::BlogLatest
+---
+postsLimit: 2
+lineOfWork: coherence
+---
+::

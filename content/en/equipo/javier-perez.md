@@ -1,5 +1,6 @@
 ---
 name: 'Javier Pérez'
+slug: 'javier-perez'
 avatar: '/images/team/javier-perez.jpg'
 position: 'Director'
 email: 'javier.perez@politicalwatch.es'

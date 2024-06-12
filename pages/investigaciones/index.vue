@@ -1,45 +1,59 @@
 <template>
-  <research title-type="h1" :filters="tags" />
+  <Research title-type="h1" :filters="tags" />
 </template>
 
-<script>
-export default {
-  async asyncData ({ $content, app }) {
-    const research = await $content(`/${app.i18n.locale}/investigaciones`)
-      .fetch()
-    const tags = new Set(research.map(item => item.tags).flat())
-    return { research, tags: [...tags] }
+<script setup lang="ts">
+const { t, te, locale } = useI18n();
+
+useHead({
+  title: t("pages.research.title"),
+  htmlAttrs: {
+    lang: locale.value,
   },
-  head () {
-    return {
-      title: this.$t('pages.research.title'),
-      description: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title'),
-      htmlAttrs: {
-        lang: this.$i18n.locale
-      },
-      meta: [
-        {
-          hid: 'og:description',
-          property: 'og:description',
-          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
-        },
-        {
-          property: 'og:title',
-          hid: 'og:title',
-          content: `${this.$t('pages.research.title')} | Political Watch`
-        },
-        {
-          hid: 'twitter:description',
-          property: 'twitter:description',
-          content: this.$te('pages.research.description') ? this.$t('pages.research.description') : this.$t('pages.research.title')
-        },
-        {
-          property: 'twitter:title',
-          hid: 'twitter:title',
-          content: `${this.$t('pages.research.title')} | Political Watch`
-        }
-      ]
-    }
-  }
-}
+  meta: [
+    {
+      name: "description",
+      content: te("pages.research.description")
+        ? t("pages.research.description")
+        : t("pages.research.title"),
+    },
+    {
+      hid: "og:description",
+      property: "og:description",
+      content: te("pages.research.description")
+        ? t("pages.research.description")
+        : t("pages.research.title"),
+    },
+    {
+      property: "og:title",
+      hid: "og:title",
+      content: `${t("pages.research.title")} | Political Watch`,
+    },
+    {
+      hid: "twitter:description",
+      property: "twitter:description",
+      content: te("pages.research.description")
+        ? t("pages.research.description")
+        : t("pages.research.title"),
+    },
+    {
+      property: "twitter:title",
+      hid: "twitter:title",
+      content: `${t("pages.research.title")} | Political Watch`,
+    },
+  ],
+});
+
+const { data: research } = await useAsyncData("investigaciones", () =>
+  queryContent("investigaciones")
+    .locale(locale.value)
+    .sort({ order: -1 })
+    .sort({ createdAt: -1 })
+    .find()
+);
+
+const tags = computed(() => {
+  const tags = new Set(research.value?.map((item) => item.tags).flat());
+  return [...tags];
+});
 </script>

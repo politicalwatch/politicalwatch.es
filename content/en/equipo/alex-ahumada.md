@@ -1,5 +1,6 @@
 ---
 name: "Alex Ahumada"
+slug: 'alex-ahumada'
 avatar: "/images/team/alex-ahumada.jpg"
 position: "Software engineer"
 email: "alex.ahumada@politicalwatch.es"
