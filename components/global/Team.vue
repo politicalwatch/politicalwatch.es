@@ -56,10 +56,7 @@ const { teamLimit } = defineProps({
 const { t, locale } = useI18n();
 
 const { data: team } = await useAsyncData("equipo", () => {
-  const query = queryContent("equipo")
-    .locale(locale.value)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 });
+  const query = queryContent("equipo").locale(locale.value).sort({ order: 1 });
 
   if (teamLimit) query.limit(teamLimit);
 
