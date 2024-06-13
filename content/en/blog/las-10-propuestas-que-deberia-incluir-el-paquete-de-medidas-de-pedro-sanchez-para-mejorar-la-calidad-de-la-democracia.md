@@ -9,7 +9,7 @@ related:
   - pistoletazo-de-salida-de-ampliando-democracia
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
   - la-decada-para-la-accion-necesita-de-herramientas-de-monitoreo-parlamentario-novedades-en-parlamento-2030
-lineOfWork: feminismo
+lineOfWork: democracy
 ---
 
 Desde Political Watch, centro de investigación especializado en vigilancia ciudadana, damos la bienvenida al compromiso que hizo ayer público el presidente del Gobierno en el Congreso de presentar un paquete de medidas para mejorar la "calidad democrática" antes del final del verano.
@@ -31,7 +31,7 @@ Para que el Presidente no empiece desde cero, le proponemos las siguientes 10 me
 
 El momento no puede ser más adecuado, justo cuando está redactándose el V Plan de Gobierno abierto 2024-2028 y cuando España va a co-presidir la [Alianza para el Gobierno Abierto (OGP)](https://www.opengovpartnership.org/es/) a partir del próximo 1 de octubre, con el objetivo de impulsar unas instituciones más transparentes, participativas y que rindan cuentas a la ciudadanía.
 
-Somos conscientes de que el reto es de una enorme dimensión, pero cualquier respuesta para, como mínimo, por este decálogo de propuestas. Por nuestra parte, nos ofrecemos a acompañar a las instituciones en el debate y puesta en práctica de estas medidas de una vez por todas.
+Somos conscientes de que el reto es de una enorme dimensión, pero cualquier respuesta pasa, como mínimo, por este decálogo de propuestas. Por nuestra parte, nos ofrecemos a acompañar a las instituciones en el debate y puesta en práctica de estas medidas de una vez por todas.
 
 ### Créditos
 
