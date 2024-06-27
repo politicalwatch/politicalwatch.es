@@ -39,6 +39,6 @@ Está previsto que en los próximos meses se realicen distintas actividades de d
 
 Artículo originariamente firmado por nuestra compañera Paola Cannata
 
-#### Créditos
+### Créditos
 
 Foto de <a href="https://unsplash.com/@jaimelopes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jaime Lopes</a> en <a href="https://unsplash.com/es/fotos/0RDBOAdnbWM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
