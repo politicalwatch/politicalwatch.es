@@ -8,7 +8,7 @@ createdAt: 2024-07-01
 related:
   - usando-inteligencia-artificial-analisis-television-espanola-rtve2030
   - comparativa-de-programas-electorales-con-tipi-ciudadano
-lineOfWork: democracy
+lineOfWork: coherence
 ---
 
 * Son programas de La 1, La 2, Canal 24 horas, Clan y Playz, incluidos más de 6.700 Telediarios. En los próximos meses incorporará contenidos de RNE
