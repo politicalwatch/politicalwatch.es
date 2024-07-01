@@ -56,7 +56,7 @@ researchLimit: 3
 
 ::BlogLatest
 ---
-postsLimit: 2
+postLimit: 2
 lineOfWork: coherence
 ---
 ::
