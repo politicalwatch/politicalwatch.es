@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.2.0",
-    "nuxt": "^3.12.2",
+    "nuxt": "^3.12.3",
     "nuxt-gtag": "^2.0.5",
     "vite-svg-loader": "^5.1.0"
   }
