@@ -17,7 +17,7 @@ Las **tecnologías cívicas** ([#CivicTech](https://twitter.com/search?q=%23civi
 
 Siguiendo la voluntad de favorecer el seguimiento, vigilancia y presión ciudadana, nace [**candi-DATOS](http://poletika.org/vigila/que-dicen)** de la mano de la plataforma [Polétika.org](http://poletika.org/), con el objetivo de **suministrar información acerca de los compromisos políticos de los cinco candidatos a las Elecciones Generales en las once temáticas de Polétika**: calidad democrática, cambio climático, conflictos y migraciones, desarrollo, educación, empleo, fiscalidad, género, infancia, protección social y sanidad. Esta herramienta supone un gran salto en lo que a vigilancia ciudadana se refiere, puesto que permite conocer las declaraciones públicas de Santiago Abascal, Albert Rivera, Pablo Iglesias o Irene Montero, Pedro Sánchez y Pablo Casado de manera automática y centralizada. Este widget permite a su vez seleccionar una temática y/o un candidato para realizar una búsqueda y que nos sirva de atajo a la hora de encontrar (o no) la información que deseamos en el menor tiempo posible.
 
-![Apariencia del widget candi-Datos]('/images/posts/widgetcandi.png')*Apariencia del widget candi-DATOS*
+![Apariencia del widget candi-Datos](/images/posts/widgetcandi.png)*Apariencia del widget candi-DATOS*
 
 **Para alimentar candi-DATOS**, el equipo de Polétika.org llevará a cabo **escuchas diarias de todas las intervenciones oficiales de los candidatos** de cada uno de los partidos a los que damos seguimiento, con el objetivo de vincularlas a las 11 temáticas y a cada una de las peticiones que las organizaciones que conformamos Polétika hemos registrado y enviado a los partidos políticos.
 

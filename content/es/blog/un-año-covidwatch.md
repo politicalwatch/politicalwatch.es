@@ -1,7 +1,7 @@
 ---
 title: 'A un año del proyecto Political Watch COVID-19: Vigilancia e incidencia durante el confinamiento'
 slug: 'un-año-covidwatch'
-image: '/images/posts/un-año-covidwatch/comision-covid-19.jpg'
+image: '/images/posts/un-ano-covidwatch/comision-covid-19.jpg'
 description: 'El impacto de la pandemia del COVID-19 a nivel social y económico es ya indiscutible, sin embargo, hace poco más de un año, aún en confinamiento estricto, el Congreso de los Diputados de España creó la Comisión para la ‘Reconstrucción Social y Económica’, que en tiempo récord tuvo que debatir y definir los grandes lineamientos en materia de salud, economía, políticas sociales y cooperación con la Unión Europea para salir de la crisis que ya se venía venir.'
 author: belen-aguero
 createdAt: 2021-07-27
@@ -38,11 +38,11 @@ Por ello, en un primer momento del proyecto se construyó un **programa informá
 
 Este programa partía de las emisiones en vivo del Congreso de los Diputados, publicadas en una página con todas las comparecencias e intervenciones que se iban desarrollando en cada sesión.
 
-![Captura de pantalla del Excel de seguimiento del proceso](/images/posts/un-año-covidwatch/tracking-covidwatch.png)
+![Captura de pantalla del Excel de seguimiento del proceso](/images/posts/un-ano-covidwatch/tracking-covidwatch.png)
 
 El primer paso para dar seguimiento a las sesiones de la Comisión para la Reconstrucción Social y Económica fue crear una hoja de cálculo colaborativa en la que llevar todo el control de avances de cada sesión. En ella aparece una primera pestaña con el registro de cada sesión (número y url) y luego una pestaña por cada día que se celebre.
 
-![Imagen descriptiva de web scraping](/images/posts/un-año-covidwatch/web-scraping.png)
+![Imagen descriptiva de web scraping](/images/posts/un-ano-covidwatch/web-scraping.png)
 
 Es en esa pestaña de seguimiento diario donde se vuelcan en tiempo real todas las intervenciones que se produzcan junto con el enlace a su video en formato MP4. ¿Cómo conseguir ese tiempo real en la escaleta de intervenciones? Con una aplicación que extrae de manera automática dicha información del Congreso; la técnica que utilizamos para ello es conocida como *web scraping*.
 
@@ -53,7 +53,7 @@ ffmpeg -i intervencion.mp4 -ac 1 intervencion.flac
 Una vez está listo el audio de la intervención, se subía a Internet para que sirva como entrada del proceso final: [Speech to Text (STT)](https://cloud.google.com/speech-to-text/). Este STT lo podemos encontrar dentro de la nube de Google como mecanismo de transcripción automática. Su funcionamiento se basa en técnicas de aprendizaje automático, más concretamente redes neuronales. Lo que viene a llamarse **Inteligencia Artificial, solo que al servicio del ciudadano**.
 
 
-![Imagen descriptiva del servicio Speech to Tex de Google](/images/posts/un-año-covidwatch/google-cloud-speech-to-text.png)
+![Imagen descriptiva del servicio Speech to Tex de Google](/images/posts/un-ano-covidwatch/google-cloud-speech-to-text.png)
 
 Este proceso en un inicio se llevaba adelante para cada una de las reuniones de la Comisión, sin embargo, a las pocas semanas de iniciado el proceso, el propio Congreso decidió, por primera vez, acelerar el proceso de publicación de las transcripciones, lo que supuso un hito en su historia y un avance en transparencia, reduciendo los tiempos de más de una semana a poco más de uno o dos días. Ante esta mejora, desde el proyecto se decidió continuar con las transcripciones, pero solo de las comparecencias más relevantes (ministros y ministras, personalidades destacadas en cada temática, etc), con el objetivo de continuar brindando una información casi a tiempo real a las organizaciones interesadas, para quienes dos días seguía siendo una espera larga.
 
@@ -73,19 +73,19 @@ Estos contenidos y materiales fueron:
     * un análisis en clave de los ODS de la Agenda 2030 elaborado a partir del etiquetado de [Parlamento 2030](https://www.parlamento2030.es/) (imagen 4).
 
 <figure>
-  <img alt="Ejemplo de cómo se rescataban las propuestas sociales y económicas de cada partido en las sesiones de la Comisión de reconstrucción" src="/images/posts/un-año-covidwatch/imagen1.png" />
+  <img alt="Ejemplo de cómo se rescataban las propuestas sociales y económicas de cada partido en las sesiones de la Comisión de reconstrucción" src="/images/posts/un-ano-covidwatch/imagen1.png" />
   <figcaption>Imagen 1</figcaption>
 </figure>
 <figure>
-  <img alt="Nube de palabras de la comparecencia de la Vicepresidenta Teresa Ribero" src="/images/posts/un-año-covidwatch/imagen2.png" />
+  <img alt="Nube de palabras de la comparecencia de la Vicepresidenta Teresa Ribero" src="/images/posts/un-ano-covidwatch/imagen2.png" />
   <figcaption>Imagen 2</figcaption>
 </figure>
 <figure>
-  <img alt="Resumen gráfico temático de la comparecencia de la Ministra Irene Montero" src="/images/posts/un-año-covidwatch/imagen3.png" />
+  <img alt="Resumen gráfico temático de la comparecencia de la Ministra Irene Montero" src="/images/posts/un-ano-covidwatch/imagen3.png" />
   <figcaption>Imagen 3</figcaption>
 </figure>
 <figure>
-  <img alt="Gráfico resumen de los ODS tratados en la comparecencia del Ministro Pablo Iglesias" src="/images/posts/un-año-covidwatch/imagen4.png" />
+  <img alt="Gráfico resumen de los ODS tratados en la comparecencia del Ministro Pablo Iglesias" src="/images/posts/un-ano-covidwatch/imagen4.png" />
   <figcaption>Imagen 4</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ Finalizado el primer mes de trabajo de la Comisión, se anunció un importante a
 
 Por ello desde Political Watch dirigimos una [carta](https://docs.google.com/document/d/1v69gG89NLNCM2eG_M_BwdToAsxWY2Zfk8eT2ezy93Yw/edit) a la presidencia de la Comisión, cargo que ocupaba en ese momento el diputado socialista Patxi López, para que todas esas propuestas ciudadanas fueran publicadas de alguna manera por el Congreso, ya que consideramos imprescindible que toda la información relativa a esta comisión se hiciera pública.
 
-![Ilustración que muestra a dos personas participando publicamente](/images/posts/un-año-covidwatch/participa.png)
+![Ilustración que muestra a dos personas participando publicamente](/images/posts/un-ano-covidwatch/participa.png)
 
 Esta carta contó con el apoyo de casi 40 organizaciones de la sociedad civil española, y recibió no solo [respuesta](https://drive.google.com/file/d/12mGxFyRINpE3fnmy56GuYlV4FWY4538v/view) de Patxi López sino que además se aceptó la demanda y las propuestas fueron publicadas en la web del Congreso, es cierto que de una manera muy poco ‘amigable’ en términos de análisis, pero fue aún así una [gran victoria](https://politicalwatch.es/blog/querida-transparencia-hoy-toca-celebrar) para todas las organizaciones que luchan desde hace años por la transparencia y el acceso a la información en España.
 
