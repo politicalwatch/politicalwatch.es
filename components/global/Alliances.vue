@@ -12,7 +12,13 @@
           target="_blank"
           class="c-alliances__item"
         >
-          <img :src="alliance.image" :alt="alliance.title" />
+          <NuxtImg
+            :src="alliance.image"
+            :alt="alliance.title"
+            fit="cover"
+            sizes="160px xs:100px sm:160px"
+            loading="lazy"
+          />
         </a>
       </div>
     </div>

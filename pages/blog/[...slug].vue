@@ -1,16 +1,23 @@
 <template>
   <section v-if="post" class="o-container c-post o-section">
     <header class="c-post__header">
-      <img class="c-post__image" :src="post?.image" :alt="post?.title" />
+      <NuxtImg
+        class="c-post__image"
+        :src="post?.image"
+        :alt="post?.title"
+        sizes="100vw xs:320px sm:640px md:768px lg:1024px xl:1120px"
+      />
       <h1 class="c-post__title">
         {{ post?.title }}
       </h1>
     </header>
     <div class="c-post__meta">
       <div class="c-post__author">
-        <img
+        <NuxtImg
           :src="author.avatar"
           :alt="author.name"
+          width="64"
+          height="64"
           class="c-post__author-avatar"
         />
         <p class="c-post__author-name">

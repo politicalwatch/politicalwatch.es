@@ -4,9 +4,15 @@ import svgLoader from "vite-svg-loader";
 export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
+  compatibilityDate: "2024-07-05",
   runtimeConfig: {
     public: {
       baseURL: "https://politicalwatch.es/",
+    },
+  },
+  nitro: {
+    prerender: {
+      routes: ["/"],
     },
   },
   routeRules: {
@@ -67,9 +73,23 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "@nuxtjs/sitemap",
     "nuxt-gtag",
+    "@nuxt/image",
   ],
   vite: {
     plugins: [svgLoader()],
+  },
+  image: {
+    quality: 70,
+    format: ["webp", "jpeg", "jpg", "png"],
+    screens: {
+      xs: 320,
+      sm: 640,
+      md: 768,
+      lg: 1024,
+      xl: 1280,
+      xxl: 1536,
+      "2xl": 1536,
+    },
   },
   content: {
     locales: ["es", "en"],

@@ -9,9 +9,12 @@
         :key="i"
         class="c-projects__project"
       >
-        <img
+        <NuxtImg
           :src="project.image"
           :alt="project.title"
+          fit="cover"
+          sizes="500px xs:100vw sm:100vw md:50vw lg:50vw xl:50vw 2xl:50vw"
+          loading="lazy"
           class="c-projects__project-image"
         />
         <div class="c-projects__project-wrapper">

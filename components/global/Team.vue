@@ -5,9 +5,12 @@
     </h2>
     <div class="c-team__wrapper">
       <article v-for="(member, i) in team" :key="i" class="c-team__member">
-        <img
+        <NuxtImg
           :src="member.avatar"
           :alt="member.name"
+          fit="cover"
+          sizes="500px xs:256px sm:576px md:704px lg:464px xl:352px"
+          loading="lazy"
           class="c-team__member-avatar"
         />
         <div class="c-team__member-wrapper">

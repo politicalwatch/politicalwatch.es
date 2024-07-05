@@ -1,10 +1,11 @@
 <template>
   <article class="c-list-post" :class="{ 'c-list-post--noimage': noImage }">
     <NuxtLinkLocale v-if="!noImage" :to="post._path">
-      <img
+      <NuxtImg
         :src="post?.image"
         :alt="post?.title"
         class="c-list-post__image"
+        fit="cover"
         width="448"
         height="320"
         loading="lazy"

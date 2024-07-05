@@ -11,11 +11,13 @@
       <h4 class="c-featured__item-subtitle">
         {{ featured.subtitle }}
       </h4>
-      <img
+      <NuxtImg
         :src="featured.image"
         :alt="featured.title"
-        class="c-featured__item-image"
+        fit="cover"
+        sizes="50vw xs:100vw"
         loading="lazy"
+        class="c-featured__item-image"
       />
       <div class="c-featured__item-desc">
         {{ featured.description }}

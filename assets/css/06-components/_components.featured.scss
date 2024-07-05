@@ -28,7 +28,7 @@
 
       @media (min-width: $sm) {
         max-width: 50%;
-        margin: 0  0 gap(5) 0;
+        margin: 0 0 gap(5) 0;
       }
 
       @media (min-width: $md) {
@@ -68,7 +68,6 @@
 
       @media (min-width: $sm) {
         max-width: 40%;
-        width: auto;
         margin: 0;
         position: absolute;
         right: 0;

@@ -16,21 +16,26 @@
   &__wrapper {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
     margin-bottom: gap(4);
-
-    @media (min-width: $sm) {
-      flex-wrap: wrap;
-    }
+    flex-wrap: wrap;
   }
 
   &__item {
     display: block;
-    flex: 0 0 160px;
-    max-width: 160px;
-    margin-right: gap(4);
+    flex: 1 0 100px;
+    max-width: 100px;
 
     @media (min-width: $sm) {
       margin-bottom: gap(4);
+      flex: 1 0 160px;
+      max-width: 160px;
+    }
+
+    img {
+      display: block;
+      width: 100%;
     }
   }
 }
