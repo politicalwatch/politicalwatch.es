@@ -1,6 +1,6 @@
 ---
 title: "Día Mundial de la Población: Los 11 problemas de la España Vaciada de los que no se habla"
-slug: 'dia-mundial-de-la-poblacion-los-11-problemas-espana-vaciada'
+slug: 'dia-mundial-de-la-poblacion-los-11-problemas-espana-vaciada-de-los-que-no-se-habla'
 image: "/images/posts/dia-mundial-de-la-poblacion-los-11-problemas-espana-vaciada.jpg"
 description: "Con el verano, miles de personas regresan a pueblos que cuando llegue septiembre, volverán a estar vacíos. España tiene tres de los territorios más despoblados del Sur de Europa y es uno de los países con mayor pérdida de habitantes en zonas rurales, hasta el punto de que el 60% de los municipios españoles tiene menos de 1.000 habitantes. En el Día Mundial de la Población, que se celebra cada 11 de julio, Naciones Unidas alerta sobre este fenómeno de concentración urbana constante."
 author: celia-zafra
