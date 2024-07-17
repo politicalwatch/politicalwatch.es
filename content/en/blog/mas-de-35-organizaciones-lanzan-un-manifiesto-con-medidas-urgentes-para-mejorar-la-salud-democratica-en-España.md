@@ -12,9 +12,8 @@ related:
 lineOfWork: democracy
 ---
 
-- El documento responde a la **ausencia de participación ciudadana en el Plan de Acción por la Democracia** que el Gobierno presenta esta semana
-
-- El maniﬁesto **se hace público ante la presentación por parte del presidente del Gobierno del Plan de Acción por la Democracia**, hoy en el Pleno del Congreso de los Diputados
+- El manifiesto se hace público ante la presentación por parte del presidente del Gobierno del Plan de Acción por la Democracia, hoy en el Pleno del Congreso de los Diputados
+- El documento responde a la ausencia de participación ciudadana en dicho Plan
 
 Las organizaciones ﬁrmantes del maniﬁesto, que nace del convencimiento de que **la regeneración democrática sólo es posible si se elabora de manera democrática,** reclaman que se tomen medidas urgentes y prioritarias en el Plan de Acción por la Democracia que el Gobierno presenta hoy en el Pleno del Congreso de los Diputados. Estas entidades expresan su profunda preocupación por la falta de consulta a la sociedad civil y a organizaciones especializadas durante la elaboración del plan, subrayando que **la participación activa de estos actores es esencial para garantizar la transparencia y la legitimidad de las reformas propuestas.**
 
@@ -32,9 +31,7 @@ Finalmente, el maniﬁesto llama a implementar acciones para **preservar la salu
 
 En un contexto donde la conﬁanza ciudadana en las instituciones democráticas es fundamental, **las organizaciones ﬁrmantes llaman a las instituciones democráticas a mejorar la democracia con la participación de todos y reaﬁrman su compromiso de colaborar activamente con el Gobierno y otras instituciones** para asegurar la implementación efectiva de estas medidas.
 
-El maniﬁesto está disponible en el siguiente [**enlace**](https://drive.google.com/file/d/1jP8cjqFU58zBpg3BSdWJCKezWyh5S45F/view?usp=sharing)**.**
-
-_Para la ilustración gráﬁca, los representantes de las organizaciones ﬁrmantes del maniﬁesto se tomarán una foto con el documento en la Puerta de los Leones del Congreso de los Diputados mañana, miércoles 17 de julio, a las 9:00 al inicio de la comparecencia del presidente del Gobierno en el Congreso._
+El maniﬁesto está disponible en el siguiente [**enlace**](https://drive.google.com/file/d/1jP8cjqFU58zBpg3BSdWJCKezWyh5S45F/view?usp=sharing).
 
 ## Para más información
 
