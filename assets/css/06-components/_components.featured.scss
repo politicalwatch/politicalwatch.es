@@ -39,13 +39,15 @@
     &-subtitle {
       @include th3;
 
-      background-color: $white;
-      padding: 0 gap(2) gap(2) gap(2);
-      text-transform: uppercase;
-      margin: 0 0 0 gap(-2);
-      width: calc(100vw - #{gap(4)});
-      position: absolute;
-      z-index: 1;
+      & {
+        background-color: $white;
+        padding: 0 gap(2) gap(2) gap(2);
+        text-transform: uppercase;
+        margin: 0 0 0 gap(-2);
+        width: calc(100vw - #{gap(4)});
+        position: absolute;
+        z-index: 1;
+      }
 
       @media (min-width: $sm) {
         width: auto;

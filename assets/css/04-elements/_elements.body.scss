@@ -1,12 +1,14 @@
 body {
   @include tbody1;
 
-  display: flex;
-  flex-direction: column;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  overflow-x: hidden;
+  & {
+    display: flex;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    overflow-x: hidden;
+  }
 }
 
 .page-enter-active,

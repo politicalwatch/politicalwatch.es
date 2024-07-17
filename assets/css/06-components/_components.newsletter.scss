@@ -19,15 +19,19 @@
   &__title {
     @include th2;
 
-    color: $brand;
-    background-color: $white;
-    margin: 0 0 gap(1) 0;
+    & {
+      color: $brand;
+      background-color: $white;
+      margin: 0 0 gap(1) 0;
+    }
   }
 
   &__subtitle {
     @include th1;
 
-    margin: 0 0 gap(4) 0;
+    & {
+      margin: 0 0 gap(4) 0;
+    }
 
     @media (min-width: $md) {
       margin: 0;

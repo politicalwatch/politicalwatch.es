@@ -98,35 +98,43 @@
     h1 {
       @include th1;
 
-      margin: gap(6) 0 gap(4) 0;
-      background-color: transparent;
-      color: $brand;
-      padding: 0;
-      text-transform: none;
+      & {
+        margin: gap(6) 0 gap(4) 0;
+        background-color: transparent;
+        color: $brand;
+        padding: 0;
+        text-transform: none;
+      }
     }
 
     h2 {
       @include th2;
 
-      margin: gap(6) 0 gap(4) 0;
-      background-color: transparent;
-      color: $brand;
-      padding: 0;
-      text-transform: none;
+      & {
+        margin: gap(6) 0 gap(4) 0;
+        background-color: transparent;
+        color: $brand;
+        padding: 0;
+        text-transform: none;
+      }
     }
 
     h3 {
       @include th3;
 
-      margin: gap(6) 0 gap(4) 0;
-      background-color: transparent;
-      color: $brand;
+      & {
+        margin: gap(6) 0 gap(4) 0;
+        background-color: transparent;
+        color: $brand;
+      }
     }
 
     h4 {
       @include th4;
 
-      margin: gap(6) 0 gap(4) 0;
+      & {
+        margin: gap(6) 0 gap(4) 0;
+      }
     }
 
     h5,

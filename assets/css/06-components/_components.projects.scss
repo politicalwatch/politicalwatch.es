@@ -40,11 +40,13 @@
     &-title {
       @include th4;
 
-      text-transform: uppercase;
-      background-color: $white;
-      padding: gap(1) gap(2);
-      display: inline-block;
-      margin: 0 0 gap(1) 0;
+      & {
+        text-transform: uppercase;
+        background-color: $white;
+        padding: gap(1) gap(2);
+        display: inline-block;
+        margin: 0 0 gap(1) 0;
+      }
 
       @media (min-width: $md) {
         font-size: rem(16px);

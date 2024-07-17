@@ -7,7 +7,9 @@
   &__title {
     @include th2;
 
-    margin: 0 0 gap(1) 0;
+    & {
+      margin: 0 0 gap(1) 0;
+    }
 
     @media (min-width: $md) {
       margin-bottom: 0;
