@@ -10,11 +10,6 @@ export default defineNuxtConfig({
       baseURL: "https://politicalwatch.es/",
     },
   },
-  nitro: {
-    prerender: {
-      routes: ["/"],
-    },
-  },
   routeRules: {
     "/covid-19": {
       redirect: { to: "/blog/un-año-covidwatch", statusCode: 301 },
