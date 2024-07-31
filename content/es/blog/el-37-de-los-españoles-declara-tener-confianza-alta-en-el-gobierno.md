@@ -3,7 +3,7 @@ title: "El 37% de los españoles declara tener una confianza alta o moderadament
 slug: 'el-37-de-los-españoles-declara-tener-confianza-alta-en-el-gobierno'
 image: "/images/posts/el-37-de-los-espanoles-declara-tener-confianza-alta-en-el-gobierno.jpg"
 description: ""
-author: celia-zafra
+author: paula-llera
 createdAt: 2024-07-31
 related:
  - pistoletazo-de-salida-de-ampliando-democracia
