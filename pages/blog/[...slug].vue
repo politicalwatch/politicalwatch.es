@@ -63,8 +63,11 @@
       </div>
     </div>
 
-    <ContentRenderer v-if="post" class="c-post__content o-section">
-      <ContentRendererMarkdown :value="post" />
+    <ContentRenderer v-if="post">
+      <ContentRendererMarkdown
+        :value="post"
+        class="c-post__content o-section"
+      />
     </ContentRenderer>
 
     <div v-if="related?.length" class="c-blog">
