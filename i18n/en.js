@@ -55,6 +55,7 @@ export default {
       title: "Blog",
       goto: "Go to blog",
       button: "Read more",
+      related: "Related",
     },
     linesOfWork: {
       title: "What we do",
