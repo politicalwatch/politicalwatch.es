@@ -9,12 +9,12 @@ related:
   - pistoletazo-de-salida-de-ampliando-democracia
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
   - la-decada-para-la-accion-necesita-de-herramientas-de-monitoreo-parlamentario-novedades-en-parlamento-2030
-lineOfWork: feminismo
+lineOfWork: democracy
 ---
 
 - El 27% de las demandas de la España rural no provocaron ninguna actividad parlamentaria en las tres últimas legislaturas
 
-- En la actual, sólo se han aprobado en el Congreso 33 iniciativas legislativas relacionadas, todas de escaso peso político
+- En la actual, sólo se han aprobado 2 de las 22 iniciativas presentadas en el Congreso
 
 Con el verano, miles de personas regresan a pueblos que cuando llegue septiembre, volverán a estar vacíos. España tiene tres de los territorios más despoblados del Sur de Europa y es uno de los países con mayor pérdida de habitantes en zonas rurales, hasta el punto de que el 60% de los municipios españoles tiene menos de 1.000 habitantes. En el Día Mundial de la Población, que se celebra cada 11 de julio, Naciones Unidas alerta sobre este fenómeno de concentración urbana constante.
 
@@ -22,7 +22,9 @@ La reciente investigación [de Political Watch, financiada por COTEC, ](https://
 
 El 56% de las iniciativas aprobadas en las tres legislaturas responden a solo 3 de las 11 áreas identificadas: economía y empleo, gobernanza y financiación. Del resto, con asuntos clave como educación, identidad y cultura, inclusión, participación, movilidad, vivienda, sanidad y servicios, nada de nada.
 
-En lo que va de **la actual legislatura, la XV, solo se han aprobado 33 iniciativas legislativas** sobre este tema. De ellas, solo una está vinculada de manera directa con la España rural, mientras que la mayoría son de escaso peso político, al tratarse de medidas leves incluídas en normas de otras temáticas, como la ley de PYMES o la de universidades.
+En lo que va de la actual legislatura, la XV, **solo se han aprobado 2 de las 22 iniciativas legislativas** sobre este tema. Y de ellas, solo una está vinculada de manera directa con la España rural. Es el Real Decreto Ley 3/2024, que favorece la movilidad en territorios rurales, especialmente entre los jóvenes. La segunda es la primera Ley aprobada en esta legislatura, la [1/2024,](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-11613) que regula las enseñanzas artísticas superiores y que incluye un punto vinculado a la obligación de las administraciones educativas de garantizar el acceso a este tipo de enseñanzas a la población de zonas rurales. 
+
+El resto de iniciativas sigue en tramitación parlamentaria, con menciones más bien escuetas a la España rural, exceptuando un Proyecto de Ley del Gobierno vinculado con la prevención del desperdicio alimentario y el sector primario, y una presentada por el Grupo Popular sobre la cohabitación del lobo con la ganadería extensiva y la lucha contra el reto demográfico.
 
 ## La anterior legislatura, la más provechosa para la España despoblada
 
@@ -43,8 +45,8 @@ Celia Zafra, 630033112 / <celia.zafra@politicalwatch.es>
 ## Notas
 
 1. Durante el proyecto se realizaron entrevistas en profundidad a 15 habitantes de 11 provincias. Algunos de ellos están disponibles para atender a medios.
-
 2. Se analizaron los Telediarios de TVE por ser los únicos que publican de forma abierta los subtítulos de su programación, lo cual facilita el análisis. Además, es el informativo en el que se concentran el mayor número de noticias diarias.
+3. El análisis legislativo se ha realizado empleando la herramienta [Qué Hacen Los Diputados,](https://quehacenlosdiputados.es/) desarrollada por Political Watch.
 
 
 Imagen de portada: Municipios en riesgo de despoblación. Fuente: Ministerio de Política Territorial y Función Pública, 2019.
