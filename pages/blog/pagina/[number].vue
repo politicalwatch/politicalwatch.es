@@ -35,7 +35,7 @@ const { t, te, locale } = useI18n();
 
 const currentPage = parseInt(route.params.number as string);
 
-const { data: allCount } = await useAsyncData("allCount", () =>
+const { data: allCount } = await useAsyncData(`allCount-${locale.value}`, () =>
   queryContent("blog").locale(locale.value).count()
 );
 

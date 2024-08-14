@@ -25,7 +25,7 @@ const { postLimit, lineOfWork } = defineProps({
   },
 });
 
-const { data: latestPosts } = await useAsyncData("posts", () => {
+const { data: latestPosts } = await useAsyncData("posts-latest", () => {
   const query = queryContent("blog")
     .locale(locale.value)
     .sort({ order: -1 })

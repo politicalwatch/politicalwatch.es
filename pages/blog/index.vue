@@ -5,7 +5,7 @@
       <div class="c-blog__featured o-section">
         <div class="c-blog__main">
           <blog-list-post
-            v-for="(post, i) in featuredPosts"
+            v-for="(post, i) in posts?.featuredPosts"
             :key="i"
             :post="post"
             :author="post.author?.name"
@@ -14,7 +14,7 @@
         </div>
         <div class="c-blog__side">
           <blog-list-post
-            v-for="(post, i) in sidePosts"
+            v-for="(post, i) in posts?.sidePosts"
             :key="i"
             :post="post"
             :author="post.author?.name"
@@ -25,7 +25,7 @@
       </div>
       <div class="c-blog__wrapper">
         <blog-list-post
-          v-for="(post, i) in morePosts"
+          v-for="(post, i) in posts?.morePosts"
           :key="i"
           :post="post"
           :author="post.author?.name"
@@ -44,13 +44,18 @@
 <script setup lang="ts">
 const { t, te, locale } = useI18n();
 
-const { data: allCount } = await useAsyncData("allCount", () =>
-  queryContent("blog").locale(locale.value).count()
+const { data: allCount } = await useAsyncData(
+  `allCount-${locale.value}`,
+  async () => {
+    const count = await queryContent("blog").locale(locale.value).count();
+    return count;
+  }
 );
+
 const totalPosts = computed(() => allCount.value ?? 0);
 const hasNext = computed(() => totalPosts.value > 9);
 
-const { data: posts } = await useAsyncData("posts", async () => {
+const { data: posts } = await useAsyncData("posts-blog", async () => {
   const [posts, authors] = await Promise.all([
     queryContent("blog")
       .locale(locale.value)
@@ -64,17 +69,19 @@ const { data: posts } = await useAsyncData("posts", async () => {
       .find(),
   ]);
 
-  return posts.map((post) => ({
+  const postsWithAuthors = posts.map((post) => ({
     ...post,
     author: authors.find((author) => {
       return author.slug === post.author;
     }),
   }));
-});
 
-const featuredPosts = computed(() => posts.value?.slice(0, 1));
-const sidePosts = computed(() => posts.value?.slice(1, 3));
-const morePosts = computed(() => posts.value?.slice(3));
+  return {
+    featuredPosts: postsWithAuthors.slice(0, 1),
+    sidePosts: postsWithAuthors.slice(1, 3),
+    morePosts: postsWithAuthors.slice(3),
+  };
+});
 
 useHead({
   title: t("pages.blog.title"),
