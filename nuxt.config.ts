@@ -115,7 +115,7 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    enabled: false,
+    enabled: process.env.NODE_ENV === "production",
     initCommands: [
       // Setup up consent mode
       [
