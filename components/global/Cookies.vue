@@ -24,17 +24,20 @@ onMounted(() => {
   if (localStorage.getItem("GDPR:accepted") === null) {
     isOpen.value = true;
   }
+  if (localStorage.getItem("GDPR:accepted") === "true") {
+    accept();
+  }
 });
 
 const deny = () => {
-  if (process.browser) {
+  if (import.meta.browser) {
     isOpen.value = false;
     localStorage.setItem("GDPR:accepted", false);
   }
 };
 
 const accept = () => {
-  if (process.browser) {
+  if (import.meta.browser) {
     initialize();
     gtag("consent", "update", {
       ad_user_data: "granted",
@@ -48,7 +51,7 @@ const accept = () => {
 };
 
 const getGDPR = () => {
-  if (process.browser) {
+  if (import.meta.browser) {
     return localStorage.getItem("GDPR:accepted");
   }
 };
