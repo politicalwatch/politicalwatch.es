@@ -87,16 +87,19 @@ const getAnchorText = (link: string) => {
   return t("blocks.research.buttonLink");
 };
 
-const { data: research } = await useAsyncData("investigaciones", () => {
-  const query = queryContent("investigaciones")
-    .locale(locale.value)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 });
+const { data: research } = await useAsyncData(
+  tag ? `investigaciones-${tag}` : "investigaciones",
+  () => {
+    const query = queryContent("investigaciones")
+      .locale(locale.value)
+      .sort({ order: -1 })
+      .sort({ createdAt: -1 });
 
-  if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
-  if (tag) query.where({ tags: { $contains: tag } });
-  if (researchLimit) query.limit(researchLimit);
+    if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
+    if (tag) query.where({ tags: { $contains: tag } });
+    if (researchLimit) query.limit(researchLimit);
 
-  return query.find();
-});
+    return query.find();
+  }
+);
 </script>
