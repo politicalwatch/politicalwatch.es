@@ -72,6 +72,13 @@ export default defineNuxtConfig({
   ],
   vite: {
     plugins: [svgLoader()],
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: "modern-compiler",
+        },
+      },
+    },
   },
   image: {
     quality: 70,
@@ -94,12 +101,10 @@ export default defineNuxtConfig({
     locales: [
       {
         code: "en",
-        iso: "en",
         name: "English",
       },
       {
         code: "es",
-        iso: "es",
         name: "Español",
         isCatchallLocale: true,
       },
@@ -115,7 +120,7 @@ export default defineNuxtConfig({
     },
   },
   gtag: {
-    enabled: process.env.NODE_ENV === "production",
+    initMode: "manual",
     initCommands: [
       // Setup up consent mode
       [
