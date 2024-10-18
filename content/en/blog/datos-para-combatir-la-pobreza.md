@@ -31,6 +31,6 @@ La investigación ha cruzado la actividad parlamentaria del Congreso y del Senad
 
 La investigación ha detectado cómo temas de gran relevancia -**la erradicación de la pobreza extrema y la perspectiva de género en la reducción de la pobreza**\-, están prácticamente **ausentes de las iniciativas y no se mencionan en ningún Real Decreto Ley**. En el caso de cuestiones como la inclusión social, económica y política y la igualdad de oportunidades aparecen en las iniciativas legislativas de manera tangencial, es decir, no representan un papel central, simplemente son mencionadas.
 
-**SHHH: El ministro anunció durante el acto la aprobación de la Estrategia Nacional de Lucha contra la Pobreza “en los próximos meses”, pero pidió a la sociedad civil que no deje de empujar para conseguirlo.**
+**💡 El ministro anunció durante el acto la aprobación de la Estrategia Nacional de Lucha contra la Pobreza “en los próximos meses”, pero pidió a la sociedad civil que no deje de empujar para conseguirlo.**
 
 **¿Sabías que?** **Si se eliminasen todas las ayudas y prestaciones -incluidas las pensiones de jubilación y supervivencia-, 10,8 millones de personas en todo el país entrarían en situación de pobreza. (Lo contó Carlos Susías,** presidente de EAPN-ES y EAPN Europa, **y está documentado en el** [**XIV Informe 'El Estado de la Pobreza. Pobreza y Territorio. Comunidades autónomas y Europa'**](https://www.eapn.es/estadodepobreza/)**)**
