@@ -32,12 +32,9 @@ interface Alliance {
   title: string;
 }
 
-const { alliances } = withDefaults(
-  defineProps<{
-    alliances: Alliance[];
-  }>(),
-  { alliances: () => [] }
-);
+const { alliances = [] } = defineProps<{
+  alliances: Alliance[];
+}>();
 
 const { t } = useI18n();
 </script>
