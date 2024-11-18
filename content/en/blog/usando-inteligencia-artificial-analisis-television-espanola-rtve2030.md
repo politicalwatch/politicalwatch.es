@@ -7,7 +7,7 @@ author: belen-aguero
 createdAt: 2023-06-15
 related:
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
-  - un-año-covidwatch
+  - un-ano-covidwatch
   - comparativa-de-programas-electorales-con-tipi-ciudadano
 lineOfWork: coherencia
 ---

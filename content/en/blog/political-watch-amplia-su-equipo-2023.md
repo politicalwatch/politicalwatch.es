@@ -7,7 +7,7 @@ author: javier-perez
 createdAt: 2023-02-02
 related:
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
-  - un-año-covidwatch
+  - un-ano-covidwatch
   - political-watch-publica-primer-media-bias-chart-espana-2021
 lineOfWork:
 ---

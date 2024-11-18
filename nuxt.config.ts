@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   },
   routeRules: {
     "/covid-19": {
-      redirect: { to: "/blog/un-año-covidwatch", statusCode: 301 },
+      redirect: { to: "/blog/un-ano-covidwatch", statusCode: 301 },
     },
   },
   app: {

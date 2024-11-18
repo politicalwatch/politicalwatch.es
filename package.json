@@ -23,7 +23,7 @@
     "@nuxt/image": "^1.7.0",
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/sitemap": "^6.1.2",
-    "nuxt": "^3.13.2",
+    "nuxt": "^3.14.159",
     "nuxt-gtag": "^3.0.1",
     "vite-svg-loader": "^5.1.0"
   }

@@ -24,8 +24,8 @@ Algunos de los proyectos en los que hemos utilizado y desarrollado estas tecnolo
 
 - [Escáner 2030](https://escaner2030.es/)
 - [Qué hacen los diputados](https://quehacenlosdiputados.es)
-- [Political Watch COVID-19](https://politicalwatch.es/blog/un-a%C3%B1o-covidwatch/)
-- [Open Manifesto Project](https://openmanifestoproject.org/)
+- [Political Watch COVID-19](https://politicalwatch.es/blog/un-ano-covidwatch/)
+- [Open Manifesto Project](https://app.openmanifestoproject.org/)
 
 ### Formación
 
