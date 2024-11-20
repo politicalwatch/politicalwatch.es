@@ -66,3 +66,12 @@ const { data: team } = await useAsyncData("equipo", () => {
   return query.find();
 });
 </script>
+
+<style lang="scss" scoped>
+.c-team {
+  &__member-avatar {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+}
+</style>
