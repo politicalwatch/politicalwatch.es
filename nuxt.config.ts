@@ -76,6 +76,7 @@ export default defineNuxtConfig({
       preprocessorOptions: {
         scss: {
           api: "modern-compiler",
+          silenceDeprecations: ["import"],
         },
       },
     },
@@ -101,10 +102,12 @@ export default defineNuxtConfig({
     locales: [
       {
         code: "en",
+        language: "en",
         name: "English",
       },
       {
         code: "es",
+        language: "es",
         name: "Español",
         isCatchallLocale: true,
       },
