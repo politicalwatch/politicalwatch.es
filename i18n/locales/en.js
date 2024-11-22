@@ -40,10 +40,11 @@ export default {
   },
   blocks: {
     hero: {
-      title:
-        "Data for <span>social change</span><span>political innovation</span>",
-      subtitle:
-        "The think-and-do tank <span>of the Salvador Soler Foundation</span>",
+      title: "Data for ",
+      title1: "social change",
+      title2: "political innovation",
+      subtitle1: "The think-and-do tank ",
+      subtitle2: "of the Salvador Soler Foundation",
     },
     newsletter: {
       title: "Stay Informed",

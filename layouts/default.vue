@@ -16,8 +16,8 @@
 const route = useRoute();
 const { t } = useI18n();
 const head = useLocaleHead({
-  addDirAttribute: true,
-  identifierAttribute: "id",
-  addSeoAttributes: true,
+  dir: true,
+  seo: true,
+  key: "id",
 });
 </script>
