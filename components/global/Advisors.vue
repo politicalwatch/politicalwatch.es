@@ -100,6 +100,13 @@ const advisors = [
 </script>
 
 <style lang="scss" scoped>
+.c-team {
+  &__member-avatar {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+  }
+}
+
 .c-team__wrapper {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
