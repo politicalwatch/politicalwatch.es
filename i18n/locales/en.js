@@ -20,7 +20,7 @@ export default {
       title: "What we do",
     },
     join: {
-      title: "Join",
+      title: "Join us",
     },
     blog: {
       title: "Blog",
@@ -48,9 +48,9 @@ export default {
     },
     newsletter: {
       title: "Stay Informed",
-      subtitle: "Subscribe",
+      subtitle: "Subscribe to our newsletter",
       placeholder: "Your email",
-      send: "Send",
+      send: "Subscribe",
     },
     blog: {
       title: "Blog",

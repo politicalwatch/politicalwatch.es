@@ -51,8 +51,9 @@ alliances:
 ### We contribute by:
 
 - Providing open access to information through the development of civic technologies.
-- Promoting citizen surveillance and participation and public accountability.
+- Promoting citizen surveillance, participation and accountability.
 - Generating content and spaces to stimulate an informed public debate.
+
 
 Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvadorsoler.org), a nonprofit entity, declared of public utility and inscribed in the Foundations Registry of the Ministerio de Cultura since 2010 (registry number 962).
 
@@ -64,7 +65,7 @@ Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvado
 
 ## Transparency
 
-We don't want to demand what we don't do. For that reason we commit to be totally transparent and to make our accounts public. So you can see our financing sources, who do we work with and how do we invest or budget.
+We do not demand what we cannot do. For that reason we commit to be totally transparent and to make our accounts public. You can see our financing sources, who we work with and how we invest our budget.
 
 <a href="/en/nosotras/transparencia" class="c-button c-button--outline">Check our funds</a>
 

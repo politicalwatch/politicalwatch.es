@@ -83,10 +83,4 @@ Our software allows the extraction of information from Twitter and:
 - Categorization of followers according to the project needs.
 - Analysis of new audiences, identifying potential new allies based on the analysis of affinity and impact of their Tweets.
 
-## Strategic plan
-
-To guide our work and direct it to the achievement of our main goals, we develop since 2019 strategic bianual plans, building them in a participatory way between all the members of the team. You can access our Strategic Plan 2019-2021.
-
-<a href="/documentos/pw-plan-estrategico.pdf" target="_blank" class="c-button c-button--outline">Download our Plan (in Spanish)</a>
-
 <md-content>

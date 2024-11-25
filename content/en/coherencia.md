@@ -6,51 +6,46 @@ image: /images/coherence-big.svg
 
 <md-content with-projects-toc>
 
-The big challenges of our era are complex and multidimensional. Their variables are so interconnected that any lasting and real solution will be holistic and transversal or will not be.
+The great challenges of our age are complex and multidimensional. Their variables are so interconnected that any real and lasting solution will be holistic and cross-cutting or it will not be.
 
-Before this panorama, the coherence raises as inalienable: we need politics where the economic, social and environmental instruments feed back to the achievement of a more sustainable, democratic and fairer society.
+Against this backdrop, coherence is essential: we need policies where economic, social and environmental instruments feed back into each other to achieve a fairer, more sustainable and democratic society.
 
-At Political Watch we work so governments, companies and the civil society understand better the interactions between politics and how their decisions of today can affect the well-being and sustainable development of future generations and people living in other countries.
+At Political Watch we work to help governments, business and civil society better understand the interactions between policies and how their decisions today can affect the well-being and sustainable development of future generations and people living in other countries.
 
-We know how that designing and implementing coherent politics is an important challenge, that requires large amounts of political will and information. We work so the lack of knowledge stops being and obstacle in its achievement.
+We know that designing and implementing coherent policies is a major challenge, requiring large doses of political will and information. We are working to ensure that lack of knowledge is no longer an obstacle to its achievement.
 
 ### 2030 Agenda for the Sustainable development
 
-The 2030 Agenda is a global roadmap to give answer to poverty and the global challenges of sustainable development. With it, the international community has agreed for the first time in a set of goals and common priorities that are indivisible and are interconnected.
+The 2030 Agenda is a global roadmap for addressing poverty and the global challenges of sustainable development. With it, the international community has for the first time agreed on a set of common, indivisible and interconnected goals and priorities.
 
-In relation with the 2030 Agenda, coherence implies considering the effects of the politics in the human wellness from a triple perspective: en the current generations in our own territory, in the future generations and the people who live in other countries.
+In relation to the 2030 Agenda, coherence implies considering the effects of policies on human well-being from a threefold perspective: on the present generations in one's own territory, on future generations and on people living in other countries.
 
-In Political Watch we watch (from the analysis and citizen surveillance) so the countries and territories, in their process of achieving the SDGs, do not cause negative impacts in the sustainable development perspective of other countries, specially in countries in development. And so that, when moving forward in the achievement of the SDGs, generate positive externalities over other countries and over the global public goods.
+At Political Watch we ensure (through analysis and citizen monitoring) that countries and territories, in their process of complying with the SDGs, do not generate negative impacts on the sustainable development prospects of other countries, especially developing countries. And so that, as they make progress in meeting the SDGs, they generate positive externalities on other countries and on global public goods.
 
-### Commerce, investment and development
+### Trade, investment and development
 
-The international commerce generates and destroys economic and social oportunities in all the planet. Its size is such that for the developing countries the income for commerce is three times bigger to the sum of all development aid, the debt forgiveness and the remittances they receive.
+International trade generates and destroys economic and social opportunities across the globe. It is so large that for developing countries, trade revenues are three times greater than the sum of development aid, debt relief and remittances.
 
-The rules that govern international commerce are a key element in the design of the development policies and in the fight against poverty. They stablish the limits to the political space the countries have to govern in the defense of the common interest and their agreements stablish the balance between rights and obligations of the public powers and the private sector. For that reason, Political Watch works analyzing the trading politics and their impact in the sustainable development.
+The rules governing international trade are therefore a crucial element in the design of development and anti-poverty policies. They set the limits to the political space available to states to govern in the general interest and their agreements establish the balance between the rights and obligations of public authorities and the private sector. This is why Political Watch works to analyse trade policy and its impact on sustainable development.
 
-For decades, the trading liberalization has been promoted as an end itself and not like a tool subject to the achievement of the common good. The resulting trading system is custom-designed for the benefit of a few interests and lacks the mechanisms needed to manage their impacts over society.
+For decades, trade liberalisation has been promoted as an end in itself rather than as a tool for achieving the common good. The resulting trade system is tailored to the interests of a few and lacks the mechanisms to manage its impacts on society.
 
-A multilateral organized, balanced and fair trading system is a “global public good” we can not give up. Its achievement is one of the few big unfulfilled promises of the international community so far in the 21st century.
+An orderly, balanced and fair multilateral trading system is a global public good that we cannot do without. Its achievement is one of the great unfulfilled promises of the international community so far in the 21st century.
 
-In the international tradinv scope and the foreign investment, from Political Watch we carry projects for:
+In the field of international trade and foreign investment, Political Watch carries out projects to:
 
-* Know the implications the trading politics have over the expectations of sustainable development of third countries.
-* Analyze the inclusion and approach of sustainable development in the international trading and investiment treaties.
-* Look out the impact over the human rights of the investment of Spanish companies in countries in development.
+- Understand the implications that trade policy has on the expectations of sustainable development in third countries.
+- Analyse the inclusion of the sustainable development approach in international trade and investment treaties.
+- Monitor the impact on human rights of investments by Spanish companies in developing countries.
+
 
 </md-content>
 
 ::Projects
 ---
 title: "Projects"
-subtitle: "Consultancies, advicements and researchs focused in the analysis of the process of building and designing public politics with a focus in gender, human rights and sustainable development."
+subtitle: "Consulting, assistance and research focused on the analysis of the processes of construction and design of public policies with a gender, human rights and sustainable development approach."
 projectLimit: 10
----
-::
-
-::research
----
-researchLimit: 3
 ---
 ::
 

@@ -9,21 +9,21 @@ subtitle: Learn the different ways to colaborate with Political Watch and suppor
 
 ### Professionals: pro-bono and hiring
 
-In our projects we try to count with capable people, highly motivated and committed with social justice, the sustainable development and the democratic quality. If you match this profile and would like to be part of our team, contact us on [info@politicalwatch.es](mailto:info@politicalwatch.es)
+In our projects we count with capable people, highly motivated and committed with social justice, sustainable development and democratic quality. If you match this profile and would like to be part of our team, contact us on [info@politicalwatch.es](mailto:info@politicalwatch.es).
 
 If you want to collaborate altruistically from your professional or business scope with some of our projects, we will be delighted to know about you!
 
-### Students: collaboration scolarships and working experiences
+### Students: collaboration grants and working experiences
 
-In the last years, more than 20 students have come through Political Watch to learn of our research and public incidence work, while contributing with their academic and professional experience. If you are an undergraduate or master's student and you are looking for an organization where to learn and contribute while you realize your working experience, contact us at [info@politicalwatch.es](mailto:info@politicalwatch.es) and we will inform you about our programs of scolarships and working experiences.
+Over the past few years, more than 20 students have come through Political Watch to learn from our research and advocacy work, while contributing their academic and professional experience. If you are a Bachelor's or Master's student looking for an organisation where you can learn and contribute while doing your internship, contact us at [info@politicalwatch.es](mailto:info@politicalwatch.es) and we will inform you about our grant and internship programmes.
 
 ### Volunteering
 
-The volunteering people has made invaluable contributions to the recent work of Political Watch. If you know our work, have time and consider that your experience might be valuable for our projects and goals, don't hesitate and contact us at [info@politicalwatch.es](mailto:info@politicalwatch.es)
+Volunteers have made invaluable contributions to Political Watch's recent work. If you are familiar with our work, have the time and feel that your experience could be valuable to our projects and their objectives, please contact us at [info@politicalwatch.es](mailto:info@politicalwatch.es).
 
-## Donate and collaborate
+## Donate
 
-If you like the work we do, consider collaborating in some of our projects. Your contribution help us to keep supporting innovative projects that promote transparency, the fight against poverty and accountability from the independence and coherence. Collaborate and benefit the tax relief.
+If you like the work we do, please consider collaborating with one of our projects. Your contribution helps us to continue supporting innovative projects that promote transparency, the fight against poverty and accountability based on independence and coherence. Collaborate and benefit from tax relief.
 
 ![Image with Bizum code in Spanish](/images/bizum.png)
 
@@ -31,5 +31,5 @@ If you like the work we do, consider collaborating in some of our projects. Your
 IBAN: ES20 2100 3284 5113 0035 6362
 ```
 
-Don't forget to specify the concept **Donation** and, in case you want, specify the project of Political Watch where you would like your contribution to go. [Contact us](mailto:info@politicalwatch.es) to answer any question you have.
+Don't forget to specify the concept **Donation** and, in case you want to, specify the Political Watch project you would like your contribution to go to. [Contact us](mailto:info@politicalwatch.es) with any questions you may have.
 </md-content>

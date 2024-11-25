@@ -1,6 +1,6 @@
 ---
 title: 'Poletika'
-subtitle: 'Platform of civil society organizations focused in the surveillance and pressure of the political class to promote a more fair and less unequal society.'
+subtitle: 'Platform of civil society organisations focused on monitoring and lobbying the political class to promote a fairer and less unequal society.'
 link: 'http://poletika.org'
 image: '/images/projects/poletika.jpg'
 lineOfWork: democracy
