@@ -45,19 +45,19 @@ alliances:
 ### We believe in:
 
 - The potential of an active, conscious and demanding citizenship.
-- The need to subject power to citizen surveillance.
+- The need to subject power to citizen oversight.
 - The value of a capable and independent media.
 
 ### We contribute by:
 
 - Providing open access to information through the development of civic technologies.
-- Promoting citizen surveillance, participation and accountability.
+- Promoting citizen oversight, participation and accountability.
 - Generating content and spaces to stimulate an informed public debate.
 
 
 Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvadorsoler.org), a nonprofit entity, declared of public utility and inscribed in the Foundations Registry of the Ministerio de Cultura since 2010 (registry number 962).
 
-> "Not committing decisively to working for an equitable and sustainable development is no longer an option. We need an active, conscious and demanding citizenship and a political class which is subject to citizen surveillance."
+> "Not committing decisively to working for an equitable and sustainable development is no longer an option. We need an active, conscious and demanding citizenship and a political class which is subject to citizen oversight."
 >
 > ##### Javier Pérez
 >

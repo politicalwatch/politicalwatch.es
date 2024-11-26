@@ -63,7 +63,7 @@ export default {
       subtitle: "",
       democracy: {
         title: "Democracy",
-        subtitle: "Citizen surveillance for a better society",
+        subtitle: "Citizen oversight for a better society",
         button: "Tell me more",
         link: "/en/democracia",
       },

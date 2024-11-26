@@ -1,6 +1,6 @@
 ---
 title: "Democracy"
-subtitle: "Citizen surveillance for a better society"
+subtitle: "Citizen oversight for a better society"
 image: /images/democracy-big.svg
 ---
 
