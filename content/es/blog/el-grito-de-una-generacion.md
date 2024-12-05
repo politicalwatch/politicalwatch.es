@@ -32,6 +32,8 @@ En cuanto al contexto de **crisis democrática**, la juventud demanda mecanismos
 
 Elsa Arnaiz, presidenta de *Talento Para el Futuro* y una de las principales impulsoras del proyecto Con Voz y Voto, destacó la relevancia de estas propuestas: “*Estas 20 propuestas representan una oportunidad histórica que no debemos desaprovechar para reconectar a la juventud con la política. Estamos ante el desafío de demostrar que sus voces pueden traducirse en soluciones reales y ambiciosas. La primera Ley de Juventud no solo debe abordar los problemas actuales, sino también construir un puente de confianza entre las nuevas generaciones y las instituciones”*
 
+Podéis acceder al documento completo en abierto [aquí](https://politicalwatch.es/documentos/CON-VOZ-Y-VOTO.pdf).
+
 ## ¿Quiénes forman parte del proyecto?
 
 * [**Talento para el Futuro**](https://talentoparaelfuturo.com/): Es la primera plataforma de empoderamiento político juvenil del país. Su misión es conectar, formar y empoderar a la juventud para situarla en el centro de la participación política, para que sea un actor esencial en la construcción de un futuro justo y sostenible, dando respuesta a los retos de nuestra democracia.
