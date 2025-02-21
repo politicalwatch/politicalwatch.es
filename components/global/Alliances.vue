@@ -15,9 +15,10 @@
           <NuxtImg
             :src="alliance.image"
             :alt="alliance.title"
-            fit="cover"
+            fit="contain"
             sizes="160px xs:100px sm:160px"
             loading="lazy"
+            class="c-alliances__item-image"
           />
         </a>
       </div>
@@ -38,3 +39,11 @@ const { alliances = [] } = defineProps<{
 
 const { t } = useI18n();
 </script>
+
+<style lang="scss" scoped>
+.c-alliances {
+  &__item-image {
+    object-fit: contain;
+  }
+}
+</style>
