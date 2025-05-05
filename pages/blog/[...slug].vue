@@ -100,13 +100,11 @@ const { t, locale } = useI18n();
 
 const slug = route.params.slug.join("/");
 
-const { data: post, error } = await useAsyncData(
-  `blog-post-${route.path}`,
-  () =>
-    queryContent("blog", slug)
-      .locale(locale.value)
-      .sort({ order: -1, createdAt: -1 })
-      .findOne()
+const { data: post, error } = await useAsyncData(route.path, () =>
+  queryContent("blog", slug)
+    .locale(locale.value)
+    .sort({ order: -1, createdAt: -1 })
+    .findOne()
 );
 
 const { data: author } = await useAsyncData(
