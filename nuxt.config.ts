@@ -15,10 +15,6 @@ export default defineNuxtConfig({
       redirect: { to: "/blog/un-ano-covidwatch", statusCode: 301 },
     },
   },
-  experimental: {
-    granularCachedData: false,
-    purgeCachedData: false,
-  },
   app: {
     head: {
       charset: "utf-8",
