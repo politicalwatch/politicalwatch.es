@@ -12,7 +12,7 @@
       </h1>
     </header>
     <div class="c-post__meta">
-      <div class="c-post__author">
+      <div class="c-post__author" v-if="author">
         <NuxtImg
           :src="author.avatar"
           :alt="author.name"
