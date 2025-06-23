@@ -20,7 +20,7 @@ Se mostraron casos de éxito ya probados en Bielorrusia, Venezuela, Brasil, Nige
 
 El equipo de Political Watch fue seleccionado para presentar las novedades de nuestra herramienta de seguimiento parlamentario [Qué](http://quehacenlosdiputados.es) [Hacen](http://quehacenlosdiputados.es) [Los](http://quehacenlosdiputados.es) [Diputados](http://quehacenlosdiputados.es). No es por nada, pero nos preguntaron mucho y nos aplaudieron más ;-)
 
-Compartimos el **índice parlamentario**, una novedosa puntuación que obtiene cada representante político en función de su actividad en el Congreso y su capacidad para lograr que sus propuestas sean aprobadas, entre otros factores. También avanzamos las nuevas ideas que queremos incorporar a laplataforma herramienta, como un buscador semántico de videos de las comisiones parlamentarias.
+Compartimos el **índice parlamentario**, una novedosa puntuación que obtiene cada representante político en función de su actividad en el Congreso y su capacidad para lograr que sus propuestas sean aprobadas, entre otros factores. También avanzamos las nuevas ideas que queremos incorporar a la herramienta, como un buscador semántico de videos de las comisiones parlamentarias.
 
 ## Estrellas invitadas
 
