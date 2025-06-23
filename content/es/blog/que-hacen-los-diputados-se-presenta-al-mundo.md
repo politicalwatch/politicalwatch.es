@@ -4,7 +4,7 @@ slug: 'que-hacen-los-diputados-se-presenta-al-mundo'
 image: "/images/posts/qhld-tictec2025.jpg"
 description: "Más de cien personas nos reunimos la semana pasada en la preciosa ciudad belga de Mechelen para hablar de tecnología y democracia en el evento de este tipo más importante del mundo, el TICTeC (The Impacts of Civic Technology Conference), organizado por la asociación británica MySociety. Si le añades cerveza local y mejillones, el plan no puede ser mejor."
 author: celia-zafra
-createdAt: 2025-06-18
+createdAt: 2025-06-23
 related:
   - pistoletazo-de-salida-de-ampliando-democracia
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
