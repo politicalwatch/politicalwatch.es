@@ -34,5 +34,5 @@ Ante la ausencia de un compromiso real del gobierno por tomar decisiones en mate
 5. **Mejorar la calidad normativa y reforzar el papel del Parlamento:** alertamos sobre el uso abusivo del Real Decreto-ley, especialmente en forma de "leyes ómnibus" que agrupan medidas muy heterogéneas, eludiendo el debate parlamentario y reduciendo la transparencia legislativa. Proponemos limitar esta figura a los supuestos estrictamente definidos en la Constitución (art. 86) y reforzar el papel de las Cortes Generales como espacio clave de deliberación democrática, transparencia y control. Estas cinco reformas se consideran mínimos indispensables para frenar el deterioro institucional y reconstruir la confianza ciudadana. Las organizaciones instamos al Ejecutivo a cumplir sus compromisos en materia de transparencia e integridad pública y a impulsar estas medidas antes de que termine la legislatura actual.
 
 ## Documento de referencia:
-[Aquí se encuentra el documento](/documentos/medidas-urgentes-y-necesarias-para-la-regeneracion-democratica.pdf) que desgrana las cinco medidas urgentes y
+[Aquí se encuentra el documento](/documentos/medidas-urgentes-y-necesarias-para-la-regeneracion-democratica.pdf){target="_blank"} que desgrana las cinco medidas urgentes y
 necesarias que las cinco organizaciones firmantes consideran fundamentales.
