@@ -1,7 +1,7 @@
 ---
 title: "La sociedad civil exige al Gobierno 5 medidas urgentes para la regeneración democrática"
 slug: "la-sociedad-civil-exige-al-gobierno-5-medidas-urgentes-para-la-regeneracion-democratica"
-image: "/images/posts/congreso-interior.jpg"
+image: "/images/posts/medidas-urgentes-y-necesarias-para-la-regeneracion-democratica.jpg"
 description: "Las organizaciones Access Info Europe, Asociación de Profesionales de las Relaciones Institucionales (APRI), Civio, Hay Derecho y Political Watch muestran su enorme preocupación por la parálisis del Gobierno de España en lo que a regeneración democrática se refiere."
 author: celia-zafra
 createdAt: 2025-07-09
