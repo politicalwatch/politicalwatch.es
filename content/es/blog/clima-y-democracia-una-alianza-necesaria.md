@@ -3,7 +3,7 @@ title: "Clima y democracia: una alianza necesaria"
 slug: "clima-y-democracia-una-alianza-necesaria"
 image: "/images/posts/clima-y-democracia-una-alianza-necesaria.jpg"
 description: "En Political Watch creemos que es importante hablar del estado de la #democracia, porque su calidad afecta no sólo al sistema mismo, sino a muchas otras causas, especialmente la climática. Con el medio ambiente pasa como con la democracia: su deterioro genera desesperanza, pero también ilusión por construir alternativas mejores."
-author: celia-zafra
+author: paula-llera
 createdAt: 2025-07-30
 related:
   - pistoletazo-de-salida-de-ampliando-democracia
