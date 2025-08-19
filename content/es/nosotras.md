@@ -2,43 +2,6 @@
 title: 'Sobre nosotras'
 subtitle: 'Political Watch es una organización independiente que, a través del desarrollo de tecnologías cívicas, acciones de incidencia e investigación, lucha por una sociedad más justa, democrática y sostenible.'
 team: 20
-alliances:
-  - image: '/images/alliances/logooecd_en.png'
-    link: 'http://www.oecd.org/pcd/thepcsdpartnership.htm'
-    title: 'The PCSD Partnership - OCDE'
-  - image: '/images/alliances/gpsdd.png'
-    link: 'http://www.data4sdgs.org/'
-    title: 'Global Partnership for Sustainable Development Data'
-  - image: '/images/alliances/cfall-logo.svg'
-    link: 'http://www.codeforall.org/'
-    title: 'Code for All'
-  - image: '/images/alliances/cgd.png'
-    link: 'https://www.cgdev.org/'
-    title: 'Center for Global Development'
-  - image: '/images/alliances/opening-parliament.png'
-    link: 'https://www.openingparliament.org/'
-    title: 'OpeningParliament.org'
-  - image: '/images/alliances/poletika.jpg'
-    link: 'http://www.poletika.org/'
-    title: 'Polétika | Política + Ética'
-  - image: '/images/alliances/reedes_logo3.jpg'
-    link: 'http://reedes.org/'
-    title: 'REEDES'
-  - image: '/images/alliances/CPA_logo_small1.jpg'
-    link: 'https://www.proacceso.org/'
-    title: 'Coalición Proacceso'
-  - image: '/images/alliances/smartly.png'
-    link: 'https://www.insmartly.com/'
-    title: 'Smartly | Emprendedorismo Social en ODS'
-  - image: '/images/alliances/oda.png'
-    link: 'https://www.derechoalimentacion.org/'
-    title: 'Observatorio del Derecho a la Alimentación de España'
-  - image: '/images/alliances/upcomillas.png'
-    link: 'https://www.comillas.edu/es/'
-    title: 'Universidad Pontificia de Comillas'
-  - image: '/images/alliances/marcaUPV_home61.png'
-    link: 'http://www.upv.es/contenidos/CATGO/'
-    title: 'Cátedra Govern Obert de la Universitat Politècnica de València'
 ---
 
 <md-content>
@@ -75,5 +38,3 @@ teamLimit: 20
 ::
 
 <advisors></advisors>
-
-<alliances :alliances="alliances"></alliances>

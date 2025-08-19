@@ -11,7 +11,7 @@
       <div class="c-banner__desc">
         {{ description }}
       </div>
-      <a :href="link" class="c-button c-banner__more">{{ button }}</a>
+      <a v-if="link" :href="link" class="c-button c-banner__more">{{ button }}</a>
     </div>
   </section>
 </template>
