@@ -35,28 +35,16 @@
       </div>
       <div class="c-footer__social">
         <a
-          href="https://twitter.com/_PoliticalWatch"
+          href="https://www.linkedin.com/company/politicalwatch"
           target="_blank"
-          aria-label="Twitter"
-          ><twitter
-        /></a>
-        <a
-          href="https://www.facebook.com/PoliticalWatch.es/"
-          target="_blank"
-          aria-label="Facebook"
-          ><facebook
+          aria-label="LinkedIn"
+          ><linkedin
         /></a>
         <a
           href="https://github.com/politicalwatch/"
           target="_blank"
           aria-label="GitHub"
           ><github
-        /></a>
-        <a
-          href="https://www.linkedin.com/company/politicalwatch"
-          target="_blank"
-          aria-label="LinkedIn"
-          ><linkedin
         /></a>
       </div>
     </div>
