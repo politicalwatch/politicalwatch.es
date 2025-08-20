@@ -4,6 +4,25 @@
       <NuxtLinkLocale to="index" class="c-footer__logo" aria-label="Home">
         <logo viewBox="0 0 256 88" />
       </NuxtLinkLocale>
+      <div class="c-footer__menu">
+          <ul>
+            <li>
+              <NuxtLinkLocale to="/quienes-somos" class="c-footer__menu--item" aria-label="Quiénes somos">
+              {{ $t('pages.about.title') }}
+              </NuxtLinkLocale>
+            </li>
+            <li>
+              <NuxtLinkLocale to="/investigaciones" class="c-footer__menu--item" aria-label="Investigaciones">
+              {{ $t('pages.research.title') }}
+              </NuxtLinkLocale>
+            </li>
+            <li>
+              <NuxtLinkLocale to="/transparencia" class="c-footer__menu--item" aria-label="Transparencia">
+              {{ $t('pages.transparency.title') }}
+              </NuxtLinkLocale>
+            </li>
+          </ul>
+      </div>
       <div class="c-footer__address">
         <p>
           Avda. Cardenal Herrera Oria <br />

@@ -1,8 +1,10 @@
 <template>
   <section class="c-team o-container o-section">
+    <!--
     <h2 class="c-team__title">
       {{ t("blocks.team.title") }}
     </h2>
+    -->
     <div class="c-team__wrapper">
       <article v-for="(member, i) in team" :key="i" class="c-team__member">
         <NuxtImg

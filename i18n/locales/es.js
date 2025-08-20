@@ -14,16 +14,22 @@ export default {
         "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible",
     },
     about: {
-      title: "Sobre nosotras",
+      title: "Quiénes somos",
     },
     what: {
-      title: "Qué hacemos",
+      title: "Lo que hacemos",
+    },
+    how: {
+      title: "Cómo lo hacemos"
     },
     join: {
       title: "Participa",
     },
     blog: {
-      title: "Blog",
+      title: "Lo que decimos",
+    },
+    transparency: {
+      title: "Transparencia",
     },
     research: {
       title: "Investigaciones",
@@ -40,9 +46,9 @@ export default {
   },
   blocks: {
     hero: {
-      title: "Datos para ",
-      title1: "el cambio social",
-      title2: "la innovación política",
+      title: "Tecnología para ",
+      title1: "la vigilancia política",
+      title2: "la renovación democrática",
       subtitle1: "El think-and-do tank ",
       subtitle2: "de la Fundación Salvador Soler",
     },

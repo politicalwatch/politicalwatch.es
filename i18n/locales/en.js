@@ -19,11 +19,17 @@ export default {
     what: {
       title: "What we do",
     },
+    how: {
+      title: "How we do"
+    },
     join: {
       title: "Join us",
     },
     blog: {
       title: "Blog",
+    },
+    transparency: {
+      title: "Transparency",
     },
     research: {
       title: "Research",

@@ -4,20 +4,22 @@
       <div class="c-hero__content">
         <h1 class="c-hero__title">
           {{ t("blocks.hero.title") }}
-          <span>{{ t("blocks.hero.title1") }}</span
-          ><span>{{ t("blocks.hero.title2") }}</span>
+          <span>{{ t("blocks.hero.title1") }}</span>
+          <span>{{ t("blocks.hero.title2") }}</span>
         </h1>
+        <!--
         <h2 class="c-hero__subtitle">
           {{ t("blocks.hero.subtitle1") }}
           <span>{{ t("blocks.hero.subtitle2") }}</span>
         </h2>
+        -->
       </div>
       <img
         src="@/assets/images/hero.svg?url"
         alt="Political Watch"
         class="c-hero__image"
-        width="640"
-        height="482"
+        width="500"
+        height="auto"
         loading="lazy"
       />
     </div>

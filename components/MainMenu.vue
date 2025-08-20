@@ -2,18 +2,13 @@
   <nav class="c-menu" :class="{ 'is-active': active }">
     <ul class="c-menu__list">
       <li class="c-menu__item">
-        <NuxtLinkLocale to="/nosotras">
-          {{ t("pages.about.title") }}
-        </NuxtLinkLocale>
-      </li>
-      <li class="c-menu__item">
         <NuxtLinkLocale to="/que-hacemos">
           {{ t("pages.what.title") }}
         </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
-        <NuxtLinkLocale to="/participa">
-          {{ t("pages.join.title") }}
+        <NuxtLinkLocale to="/como-hacemos">
+          {{ t("pages.how.title") }}
         </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">

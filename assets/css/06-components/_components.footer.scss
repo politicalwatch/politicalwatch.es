@@ -30,6 +30,18 @@
     }
   }
 
+  &__menu {
+
+    margin: 0;
+
+    ul {
+
+      list-style: none;
+
+    }
+
+  }
+
   &__address {
     margin: gap(4) 0;
 

@@ -18,11 +18,11 @@ featuredItems:
 
 alliances:
   - image: '/images/alliances/logooecd_en.png'
-    link: 'http://www.oecd.org/pcd/thepcsdpartnership.htm'
-    title: 'The PCSD Partnership - OCDE'
+    link: 'http://www.oecd.org'
+    title: 'OCDE - Red de innovación sobre participación ciudadana'
   - image: '/images/alliances/gpsdd.png'
     link: 'http://www.data4sdgs.org/'
-    title: 'Global Partnership for Sustainable Development Data'
+    title: 'Alianza global de datos para el desarrollo sostenible'
   - image: '/images/alliances/cfall-logo.svg'
     link: 'http://www.codeforall.org/'
     title: 'Code for All'
@@ -45,16 +45,16 @@ alliances:
 <newsletter light></newsletter>
 
 <banner
-  title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  description="Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo."
-  button="Saber más"
+  title="Lorem ipsum dolor sit amet"
+  description="Aspiramos a un mundo más justo. Para conseguirlo, apostamos por renovar la democracia actual, que se ha desconectado de la ciudadanía a la que representa."
+  button="Posible enlace"
   link="#enlace">
 </banner>
 
 <banner
   bg="/images/bgbanner.jpg"
-  title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-  description="Political Watch es la plataforma formada por tecnólogas, economistas y periodistas que se inscribe dentro de la estrategia de CIECODE como una de sus principales líneas de trabajo.">
+  title="Lorem ipsum dolor sit amet"
+  description="Aspiramos a un mundo más justo. Para conseguirlo, apostamos por renovar la democracia actual, que se ha desconectado de la ciudadanía a la que representa.">
 </banner>
 
 <featured
