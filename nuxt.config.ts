@@ -141,6 +141,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.scss"],
   site: {
-    url: import.meta.env.NUXT_PUBLIC_BASE_URL,
+    url: import.meta.env.NUXT_PUBLIC_SITE_URL,
   },
 });

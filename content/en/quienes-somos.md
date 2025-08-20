@@ -67,7 +67,7 @@ Political Watch is part of the [Salvador Soler Foundation](http://unmundosalvado
 
 We do not demand what we cannot do. For that reason we commit to be totally transparent and to make our accounts public. You can see our financing sources, who we work with and how we invest our budget.
 
-<a href="/en/nosotras/transparencia" class="c-button c-button--outline">Check our funds</a>
+<a href="/en/transparencia" class="c-button c-button--outline">Check our funds</a>
 
 </md-content>
 
