@@ -41,6 +41,12 @@
           ><linkedin
         /></a>
         <a
+          href="https://bsky.app/profile/politicalwatch.es"
+          target="_blank"
+          aria-label="Bluesky"
+          ><bluesky
+        /></a>
+        <a
           href="https://www.instagram.com/_politicalwatch/"
           target="_blank"
           aria-label="Instagram"
@@ -72,6 +78,7 @@
 <script setup lang="ts">
 import logo from "@/assets/images/logo-footer.svg?component";
 import linkedin from "@/assets/images/icon-linkedin.svg?component";
+import bluesky from "@/assets/images/icon-bluesky.svg?component";
 import instagram from "@/assets/images/icon-instagram.svg?component";
 import github from "@/assets/images/icon-github.svg?component";
 
