@@ -1,5 +1,8 @@
 <template>
   <section id="research" class="c-research o-container o-section">
+
+    <OnlyInSpanish origin="research" class="o-section" />
+
     <SectionHeader
       :title="title || t('blocks.research.title')"
       :button="t('blocks.research.goto')"
@@ -43,6 +46,7 @@
 </template>
 
 <script setup lang="ts">
+import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 import download from "@/assets/images/icon-download.svg?component";
 
 const { title, tag, titleType, filters, researchLimit, lineOfWork } =

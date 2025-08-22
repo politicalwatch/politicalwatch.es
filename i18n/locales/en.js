@@ -27,12 +27,14 @@ export default {
     },
     blog: {
       title: "Blog",
+      contentOnlyInSpanish: "This content is only available in Spanish",
     },
     transparency: {
       title: "Transparency",
     },
     research: {
       title: "Research",
+      contentOnlyInSpanish: "Our research is only available in Spanish",
     },
     legal: {
       title: "Legal notice",

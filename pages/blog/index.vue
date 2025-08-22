@@ -1,6 +1,10 @@
 <template>
   <div>
+
     <section class="c-blog o-container o-section">
+
+      <OnlyInSpanish origin="blog" class="o-section" />
+
       <page-header :title="$t('pages.blog.title')" type="h1" />
       <div class="c-blog__featured o-section">
         <div class="c-blog__main">
@@ -42,6 +46,8 @@
 </template>
 
 <script setup lang="ts">
+import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
+
 const { t, te, locale } = useI18n();
 
 const { data: allCount } = await useAsyncData(

@@ -1,5 +1,8 @@
 <template>
   <section v-if="post" class="o-container c-post o-section">
+
+    <OnlyInSpanish origin="blog" class="o-section" />
+
     <header class="c-post__header">
       <NuxtImg
         class="c-post__image"
@@ -88,6 +91,7 @@
 <script setup>
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
+import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 import twitter from "@/assets/images/share-twitter.svg?component";
 import whatsapp from "@/assets/images/share-whatsapp.svg?component";
 import facebook from "@/assets/images/share-facebook.svg?component";
