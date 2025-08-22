@@ -41,6 +41,12 @@
           ><linkedin
         /></a>
         <a
+          href="https://www.instagram.com/_politicalwatch/"
+          target="_blank"
+          aria-label="Instagram"
+          ><instagram
+        /></a>
+        <a
           href="https://github.com/politicalwatch/"
           target="_blank"
           aria-label="GitHub"
@@ -65,10 +71,9 @@
 
 <script setup lang="ts">
 import logo from "@/assets/images/logo-footer.svg?component";
-import twitter from "@/assets/images/icon-twitter.svg?component";
-import facebook from "@/assets/images/icon-facebook.svg?component";
-import github from "@/assets/images/icon-github.svg?component";
 import linkedin from "@/assets/images/icon-linkedin.svg?component";
+import instagram from "@/assets/images/icon-instagram.svg?component";
+import github from "@/assets/images/icon-github.svg?component";
 
 const { t } = useI18n();
 </script>

@@ -30,19 +30,8 @@
     }
   }
 
-  &__menu {
+  &__menu, &__address {
 
-    margin: 0;
-
-    ul {
-
-      list-style: none;
-
-    }
-
-  }
-
-  &__address {
     margin: gap(4) 0;
 
     @media (min-width: $md) {
@@ -52,6 +41,21 @@
     p {
       margin: gap(1) 0;
     }
+
+    ul {
+
+      list-style: none;
+      padding-left: 0;
+      margin-top: 0;
+      
+      li {
+
+        margin: gap(1) 0;
+
+      }
+
+    }
+
   }
 
   &__social {
