@@ -49,6 +49,7 @@ export default {
       title: "Tecnología para ",
       title1: "la vigilancia política",
       title2: "la renovación democrática",
+      title3: "el cambio social",
       subtitle1: "El think-and-do tank ",
       subtitle2: "de la Fundación Salvador Soler",
     },

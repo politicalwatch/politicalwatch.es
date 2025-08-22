@@ -47,8 +47,9 @@ export default {
   blocks: {
     hero: {
       title: "Data for ",
+      title1: "political oversight",
+      title2: "democratic renewal",
       title1: "social change",
-      title2: "political innovation",
       subtitle1: "The think-and-do tank ",
       subtitle2: "of the Salvador Soler Foundation",
     },

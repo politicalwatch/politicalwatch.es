@@ -6,6 +6,7 @@
           {{ t("blocks.hero.title") }}
           <span>{{ t("blocks.hero.title1") }}</span>
           <span>{{ t("blocks.hero.title2") }}</span>
+          <span>{{ t("blocks.hero.title3") }}</span>
         </h1>
         <!--
         <h2 class="c-hero__subtitle">
