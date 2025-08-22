@@ -49,7 +49,7 @@ export default {
       title: "Tech for ",
       title1: "political oversight",
       title2: "democratic renewal",
-      title1: "social change",
+      title3: "social change",
       subtitle1: "The think-and-do tank ",
       subtitle2: "of the Salvador Soler Foundation",
     },
