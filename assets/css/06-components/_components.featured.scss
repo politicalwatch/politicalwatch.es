@@ -1,20 +1,22 @@
 .c-featured {
   @include container;
-
-  margin-bottom: gap(12);
+  margin-bottom: gap(18);
 
   &__title {
     @include th2;
+    margin-top: gap(8);
   }
 
   &__item {
-    margin-bottom: gap(8);
+    margin-top: gap(8);
+    margin-bottom: gap(12);
 
     @media (min-width: $sm) {
       position: relative;
       padding-left: gap(11);
       padding-top: gap(5);
-      margin-bottom: gap(12);
+      margin-top: gap(12);
+      margin-bottom: gap(16);
     }
 
     &-title {
@@ -87,35 +89,4 @@
     }
   }
 
-  &__wrapper {
-    @media (min-width: $sm) {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  &__other {
-    border-top: $border-width solid $brand;
-    padding-top: gap(4);
-    margin-bottom: gap(8);
-
-    @media (min-width: $sm) {
-      border-top: 0;
-      box-shadow: inset 5px 0 0 0 $brand;
-      padding: 0 gap(11);
-    }
-
-    &-title {
-      font-family: $font-secondary;
-      font-size: rem(24px);
-      font-weight: bold;
-      line-height: 1.33;
-      margin: 0 0 gap(4) 0;
-      color: $brand;
-    }
-
-    &-desc {
-      margin-bottom: gap(4);
-    }
-  }
 }

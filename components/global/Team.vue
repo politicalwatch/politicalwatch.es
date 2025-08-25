@@ -7,17 +7,23 @@
     -->
     <div class="c-team__wrapper">
       <article v-for="(member, i) in team" :key="i" class="c-team__member">
-        <NuxtImg
-          :src="member.avatar"
-          :alt="member.name"
-          fit="cover"
-          sizes="500px xs:256px sm:576px md:704px lg:464px xl:352px"
-          loading="lazy"
-          class="c-team__member-avatar"
-        />
+        <a :href="member._path">
+          <div class="zoom">
+            <NuxtImg
+              :src="member.avatar"
+              :alt="member.name"
+              fit="cover"
+              sizes="500px xs:256px sm:576px md:704px lg:464px xl:352px"
+              loading="lazy"
+              class="c-team__member-avatar"
+            />
+          </div>
+        </a>
         <div class="c-team__member-wrapper">
           <h3 class="c-team__member-name">
-            {{ member.name }}
+            <a :href="member._path">
+              {{ member.name }}
+            </a>
           </h3>
           <h4 class="c-team__member-position">
             {{ member.position }}
