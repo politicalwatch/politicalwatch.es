@@ -8,13 +8,13 @@ featuredItems:
     description: "Nuestra herramienta estrella de vigilancia política. Simplifica y ordena el trabajo del Congreso. Muy útil para periodistas, investigadores y ONG que buscan conseguir cambios legislativos. Incluye el seguimiento de 42 temáticas sociales y un índice de actividad parlamentaria."
     button: "Consulta la actividad"
     link: "https://qhld.es"
-    image: /images/featured-qhld.png
+    image: /images/featured-qhld.jpg
   - title: "Ampliando Democracia"
     subtitle: "Lorem ipsum is a dummy or placeholder text commonly used"
     description: "Impulsamos esta gran coalición que hace propuestas concretas para mejorar el funcionamiento de las instituciones y abrirlas a la ciudadanía. Las agrupamos en 7 áreas para cambiar las cosas."
     button: "Quiero saber más"
     link: "https://ampliandodemocracia.org"
-    image: /images/featured-ad.png
+    image: /images/featured-ad.jpg
 
 alliances:
   - image: '/images/alliances/logooecd_en.png'
