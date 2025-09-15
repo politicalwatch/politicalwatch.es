@@ -60,7 +60,7 @@ export default {
       send: "Enviar",
     },
     blog: {
-      title: "Blog",
+      title: "Lo que decimos",
       goto: "Ir al blog",
       button: "Leer más",
       related: "Relacionados",
