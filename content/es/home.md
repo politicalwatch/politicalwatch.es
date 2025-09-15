@@ -4,14 +4,14 @@ subtitle: "Political Watch es una plataforma de innovación política que promue
 
 featuredItems:
   - title: "Qué Hacen Los Diputados"
-    subtitle: "Lorem ipsum is a dummy or placeholder text commonly used"
-    description: "Nuestra herramienta estrella de vigilancia política. Simplifica y ordena el trabajo del Congreso. Muy útil para periodistas, investigadores y ONG que buscan conseguir cambios legislativos. Incluye el seguimiento de 42 temáticas sociales y un índice de actividad parlamentaria."
+    subtitle: "Nuestra herramienta estrella de vigilancia política"
+    description: "Simplifica y ordena el trabajo del Congreso. Muy útil para periodistas, investigadores y ONG que buscan conseguir cambios legislativos. Incluye el seguimiento de 41 temáticas sociales y un índice de actividad parlamentaria."
     button: "Consulta la actividad"
     link: "https://qhld.es"
     image: /images/featured-qhld.jpg
   - title: "Ampliando Democracia"
-    subtitle: "Lorem ipsum is a dummy or placeholder text commonly used"
-    description: "Impulsamos esta gran coalición que hace propuestas concretas para mejorar el funcionamiento de las instituciones y abrirlas a la ciudadanía. Las agrupamos en 7 áreas para cambiar las cosas."
+    subtitle: "Una plataforma en crecimiento de renovación democrática"
+    description: "A través de la deliberación ciudadana y la inteligencia colectiva generamos innovaciones escalables para gobernar mejor. Nuestro trabajo convierte el diálogo en propuestas de política pública y en infraestructuras democráticas de largo plazo. Invertir en esta iniciativa significa apoyar un nuevo ecosistema democrático: resiliente, participativo y preparado para afrontar los desafíos globales de hoy."
     button: "Quiero saber más"
     link: "https://ampliandodemocracia.org"
     image: /images/featured-ad.jpg
@@ -45,17 +45,11 @@ alliances:
 <newsletter light></newsletter>
 
 <banner
-  title="Lorem ipsum dolor sit amet"
-  description="Aspiramos a un mundo más justo. Para conseguirlo, apostamos por renovar la democracia actual, que se ha desconectado de la ciudadanía a la que representa."
-  button="Posible enlace"
-  link="#enlace">
-</banner>
-
-<banner
   bg="/images/bgbanner.jpg"
-  title="Lorem ipsum dolor sit amet"
+  title="La democracia que nos merecemos"
   description="Aspiramos a un mundo más justo. Para conseguirlo, apostamos por renovar la democracia actual, que se ha desconectado de la ciudadanía a la que representa.">
 </banner>
+
 
 <featured
   title="Proyectos destacados"
