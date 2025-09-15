@@ -24,6 +24,7 @@ export default {
     },
     blog: {
       title: "Blog",
+      subtitle: "",
       contentOnlyInSpanish: "This content is only available in Spanish",
     },
     transparency: {

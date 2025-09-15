@@ -1,7 +1,10 @@
 <template>
   <div>
     <section class="c-blog o-container o-section">
-      <page-header :title="t('pages.blog.title')" type="h1" />
+      <page-header
+        :title="$t('pages.blog.title')"
+        :subtitle="$t('pages.blog.subtitle')"
+        type="h1" />
       <div class="c-blog__wrapper">
         <BlogListPost
           v-for="(post, i) in posts"

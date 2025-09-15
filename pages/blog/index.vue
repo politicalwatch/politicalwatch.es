@@ -5,7 +5,10 @@
 
       <OnlyInSpanish origin="blog" class="o-section" />
 
-      <page-header :title="$t('pages.blog.title')" type="h1" />
+      <page-header
+        :title="$t('pages.blog.title')"
+        :subtitle="$t('pages.blog.subtitle')"
+        type="h1" />
       <div class="c-blog__featured o-section">
         <div class="c-blog__main">
           <blog-list-post

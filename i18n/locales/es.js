@@ -24,6 +24,7 @@ export default {
     },
     blog: {
       title: "Lo que decimos",
+      subtitle: "Analizamos la actualidad, los avances y los retrocesos en la aspiración a la mejor democracia posible y aportamos con espíritu crítico, pero constructivo.",
     },
     transparency: {
       title: "Transparencia",
