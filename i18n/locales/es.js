@@ -54,7 +54,7 @@ export default {
       subtitle2: "de la Fundación Salvador Soler",
     },
     newsletter: {
-      title: "No te pierdas nada",
+      title: "Síguenos la pista",
       subtitle: "Suscríbete",
       placeholder: "Escribe tu correo",
       send: "Enviar",
