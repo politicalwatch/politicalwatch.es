@@ -79,12 +79,11 @@
   .c-hero + & {
     margin-top: gap(-10);
     padding-top: gap(10);
-    margin-bottom: gap(10);
+    padding-bottom: gap(12);
 
     @media (min-width: $md) {
       padding-top: gap(16);
       margin-top: gap(-16);
-      margin-bottom: gap(16);
     }
   }
 }
