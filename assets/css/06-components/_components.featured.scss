@@ -3,8 +3,8 @@
   margin-bottom: gap(18);
 
   &__title {
-    @include th2;
     margin-top: gap(8);
+    @include th2;
   }
 
   &__item {
