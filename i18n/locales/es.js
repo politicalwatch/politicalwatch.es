@@ -19,9 +19,6 @@ export default {
     what: {
       title: "Lo que hacemos",
     },
-    how: {
-      title: "Cómo lo hacemos"
-    },
     join: {
       title: "Participa",
     },

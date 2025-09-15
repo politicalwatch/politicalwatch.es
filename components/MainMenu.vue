@@ -12,11 +12,6 @@
         </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
-        <NuxtLinkLocale to="/como-hacemos">
-          {{ t("pages.how.title") }}
-        </NuxtLinkLocale>
-      </li>
-      <li class="c-menu__item">
         <NuxtLinkLocale to="/blog">
           {{ t("pages.blog.title") }}
         </NuxtLinkLocale>

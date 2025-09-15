@@ -19,9 +19,6 @@ export default {
     what: {
       title: "What we do",
     },
-    how: {
-      title: "How we do"
-    },
     join: {
       title: "Join us",
     },
