@@ -1,5 +1,5 @@
 ---
-title: 'Quiénes somos'
+title: 'Lo que somos'
 subtitle: 'Political Watch es una organización independiente con sede en España. Está especializada en la investigación para el cambio social, la incidencia política y el desarrollo de tecnologías para lograr políticas públicas más  transparentes,  inclusivas  y  participativas.  Trabajamos  en  la  democracia  del  futuro,  activando alianzas para las instituciones del presente.'
 team: 20
 ---

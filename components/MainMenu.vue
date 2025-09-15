@@ -2,6 +2,11 @@
   <nav class="c-menu" :class="{ 'is-active': active }">
     <ul class="c-menu__list">
       <li class="c-menu__item">
+        <NuxtLinkLocale to="/quienes-somos" class="c-footer__menu--item" aria-label="Quiénes somos">
+        {{ $t('pages.about.title') }}
+        </NuxtLinkLocale>
+      </li>
+      <li class="c-menu__item">
         <NuxtLinkLocale to="/que-hacemos">
           {{ t("pages.what.title") }}
         </NuxtLinkLocale>

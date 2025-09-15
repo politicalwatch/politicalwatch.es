@@ -14,7 +14,7 @@ export default {
         "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible",
     },
     about: {
-      title: "Quiénes somos",
+      title: "Lo que somos",
     },
     what: {
       title: "Lo que hacemos",
