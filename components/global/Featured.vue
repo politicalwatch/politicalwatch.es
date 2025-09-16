@@ -8,9 +8,11 @@
         <h3 class="c-featured__item-title">
           {{ f.title }}
         </h3>
-        <h4 class="c-featured__item-subtitle">
-          {{ f.subtitle }}
-        </h4>
+        <div class="c-featured__item-subtitle">
+          <h4 class="c-featured__item-subtitle-text">
+            {{ f.subtitle }}
+          </h4>
+        </div>
       </div>
       <div class="c-featured__item-image">
         <NuxtImg
@@ -151,8 +153,6 @@ const { title, featured } = defineProps({
       @include th3;
 
       & {
-        background-color: $white;
-        padding: 0 gap(2) gap(2) gap(2);
         text-transform: uppercase;
         margin: 0 0 0 gap(-2);
         width: calc(100vw - #{gap(6)});
@@ -165,11 +165,21 @@ const { title, featured } = defineProps({
         width: 160%;
         margin: 0;
         padding: gap(1) gap(2) gap(1) 0;
-        background-color: $white;
       }
+    }
 
-      @media (min-width: $md) {
-        // margin: gap(3) 0;
+    &-subtitle-text {
+      line-height: 1.6;
+      background-color: $white;
+      padding: 0 gap(2) gap(2) gap(2);
+      margin: 0;
+
+      @media (min-width: $sm) {
+        display: inline;
+        box-decoration-break: clone;
+        -webkit-box-decoration-break: clone;
+        margin: 0;
+        padding: gap(1) gap(2) gap(1) 0;
       }
     }
 
