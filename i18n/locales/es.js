@@ -81,6 +81,7 @@ export default {
     },
     team: {
       title: "Equipo",
+      return: "Volver a equipo",
     },
     advisors: {
       title: "Asesoras/es",

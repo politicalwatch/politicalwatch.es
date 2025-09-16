@@ -1,8 +1,11 @@
 <template>
   <section v-if="member" class="o-container o-section">
-    <h2 class="c-team__title">
-      {{ t("pages.about.title") }}
-    </h2>
+    <SectionHeader
+      :title="t('pages.about.title')"
+      :button="t('blocks.team.return')"
+      link="/quienes-somos"
+      :type="titleType"
+    />
     <div class="c-member">
       <div class="c-member__avatar">
         <NuxtImg
