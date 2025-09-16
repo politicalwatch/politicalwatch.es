@@ -69,6 +69,7 @@ export default defineNuxtConfig({
     "@nuxtjs/sitemap",
     "nuxt-gtag",
     "@nuxt/image",
+    "@netlify/nuxt",
   ],
   vite: {
     plugins: [svgLoader()],
@@ -77,6 +78,19 @@ export default defineNuxtConfig({
         scss: {
           api: "modern-compiler",
           silenceDeprecations: ["import"],
+          additionalData: `
+            @import "~/assets/css/01-settings/_settings.animations.scss";
+            @import "~/assets/css/01-settings/_settings.breakpoints.scss";
+            @import "~/assets/css/01-settings/_settings.colors.scss";
+            @import "~/assets/css/01-settings/_settings.spacing.scss";
+            @import "~/assets/css/01-settings/_settings.typography.scss";
+            @import "~/assets/css/02-tools/_tools.animations.scss";
+            @import "~/assets/css/02-tools/_tools.hidden.scss";
+            @import "~/assets/css/02-tools/_tools.layout.scss";
+            @import "~/assets/css/02-tools/_tools.on-event.scss";
+            @import "~/assets/css/02-tools/_tools.spacing.scss";
+            @import "~/assets/css/02-tools/_tools.text.scss";
+          `,
         },
       },
     },
