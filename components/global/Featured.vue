@@ -161,8 +161,7 @@ const { title, featured } = defineProps({
       }
 
       @media (min-width: $sm) {
-        position: absolute;
-        left: 0;
+        position: relative;
         width: 160%;
         margin: 0;
         padding: gap(1) gap(2) gap(1) 0;
