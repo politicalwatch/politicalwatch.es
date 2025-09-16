@@ -2,7 +2,7 @@
 name: 'Belén Agüero'
 slug: 'belen-aguero'
 avatar: '/images/team/belen-aguero.jpg'
-position: 'Investigadora y analista de datos'
+position: 'Directora de investigación'
 bio: 'Lorem ipsum en español'
 email: 'belen.aguero@politicalwatch.es'
 web: ''
