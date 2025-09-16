@@ -1,41 +1,51 @@
 <template>
-  <section v-if="member" class="o-container c-member o-section">
-    <div class="c-member__avatar">
-      <NuxtImg
-          :src="member.avatar"
-          :alt="member.name"
-          fit="cover"
-          loading="lazy"
-          />
-        <p class="c-team__member-email">
-          <a :href="`mailto:${member.email}`">{{ member.email }}</a>
-        </p>
-        <ul class="c-team__member-social">
-          <li v-if="member.web">
-            <a :href="member.web" target="_blank"><web /></a>
-          </li>
-          <li v-if="member.twitter">
-            <a :href="member.twitter" target="_blank"><twitter /></a>
-          </li>
-          <li v-if="member.github">
-            <a :href="member.github" target="_blank"><github /></a>
-          </li>
-          <li v-if="member.linkedin">
-            <a :href="member.linkedin" target="_blank"><linkedin /></a>
-          </li>
-        </ul>
-    </div>
-    <div class="c-member__info">
-      <h1 class="c-member__info-name">
-        {{member.name}}
-      </h1>
-      <p class="c-member__info-position">
+  <section v-if="member" class="o-container o-section">
+    <h2 class="c-team__title">
+      {{ t("pages.about.title") }}
+    </h2>
+    <div class="c-member">
+      <div class="c-member__avatar">
+        <NuxtImg
+            :src="member.avatar"
+            :alt="member.name"
+            fit="cover"
+            loading="lazy"
+            />
+      </div>
+      <div class="c-member__info">
+        <h1 class="c-member__info-name">
+          {{member.name}}
+        </h1>
+        <p class="c-member__info-position">
         {{member.position}}
-      </p>
-      <p class="c-member__info-bio">
-        {{member.bio}}
-      </p>
+        </p>
+        <div class="c-member__info__contact">
+          <p class="c-member__info__contact-email">
+            <a :href="`mailto:${member.email}`">{{ member.email }}</a>
+          </p>
+          <ul class="c-member__info__contact-social">
+            <li v-if="member.web">
+              <a :href="member.web" target="_blank"><web /></a>
+            </li>
+            <li v-if="member.twitter">
+              <a :href="member.twitter" target="_blank"><twitter /></a>
+            </li>
+            <li v-if="member.github">
+              <a :href="member.github" target="_blank"><github /></a>
+            </li>
+            <li v-if="member.linkedin">
+              <a :href="member.linkedin" target="_blank"><linkedin /></a>
+            </li>
+          </ul>
+        </div>
+        <hr/>
+        <div class="c-member__info-bio">
+          <ContentRenderer :v-if="member">
+            <ContentRendererMarkdown :value="member" />
+          </ContentRenderer>
+        </div>
 
+      </div>
     </div>
   </section>
 </template>

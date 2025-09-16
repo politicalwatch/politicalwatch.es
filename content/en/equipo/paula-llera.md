@@ -1,5 +1,5 @@
 ---
-name: "Paula Llera"
+name: "Paula (Pali) Llera"
 slug: "paula-llera"
 avatar: "/images/team/paula-llera.jpg"
 position: "Researcher"

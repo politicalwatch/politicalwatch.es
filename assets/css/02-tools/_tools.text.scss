@@ -77,3 +77,36 @@
   line-height: 1.78;
   color: $medium;
 }
+
+@mixin member-email {
+  font-weight: bold;
+  font-size: rem(14px);
+  line-height: 1.71;
+  margin: 0;
+}
+
+@mixin member-social {
+  list-style: none;
+  margin: gap(2) 0 0 0;
+  padding: 0;
+  display: flex;
+
+  li {
+    margin-right: gap(2);
+
+    svg {
+      path {
+        @include basic-transition(fill);
+      }
+    }
+
+    &:hover {
+      svg {
+        path {
+          fill: $brand;
+        }
+      }
+    }
+  }
+
+}

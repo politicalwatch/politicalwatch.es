@@ -1,5 +1,5 @@
 ---
-title: 'Lo que somos'
+title: 'Quiénes somos'
 subtitle: ''
 team: 20
 ---

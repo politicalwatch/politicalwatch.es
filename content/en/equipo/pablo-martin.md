@@ -1,5 +1,5 @@
 ---
-name: 'Pablo Martín'
+name: 'Pablo (Pres) Martín'
 slug: 'pablo-martin'
 avatar: '/images/team/pablo-martin.jpg'
 position: 'Chief Technology Officer'
