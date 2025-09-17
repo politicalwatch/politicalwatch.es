@@ -1,133 +1,33 @@
-.c-team {
-  &__title {
-    @include th2;
-
-    & {
-      margin: 0 0 gap(4) 0;
-    }
-
-    @media (min-width: $md) {
-      margin-bottom: gap(8);
-    }
-  }
-
-  &__wrapper {
-    @media (min-width: $xs) {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      grid-gap: gap(8) gap(4);
-    }
-  }
-
-  &__member {
-    margin-bottom: gap(4);
-    width: 100%;
-    color: $brand;
-    position: relative;
-
-    @media (min-width: $xs) {
-      margin-bottom: 0;
-    }
-
-    .zoom {
-      width: 352px;
-      overflow: hidden;
-    }
-
-    .zoom img {
-      width: 100%;
-      transition: transform 0.5s ease;
-    }
-
-    .zoom:hover img {
-      transform: scale(1.1);
-    }
-
-    &-avatar {
-      display: block;
-      width: 100%;
-    }
-
-    &-wrapper {
-      position: absolute;
-      transform: translateY(-99%);
-      display: inline-block;
-      background: $white;
-      padding: gap(2) gap(2) 0 0;
-      width: 75%;
-    }
-
-    &-name {
-      font-size: rem(18px);
-      font-weight: bold;
-      line-height: 1.78;
-      margin: 0;
-      a {
-        color: $brand;
-        text-decoration: none;
-        &:hover, &:active, &:visited {
-          color: $brand;
-        }
-      }
-    }
-
-    &-position {
-      font-size: rem(14px);
-      line-height: 1.71;
-      font-weight: normal;
-      margin: 0;
-    }
-
-    &-email {
-      @include member-email;
-    }
-
-    &-social {
-      @include member-social;
-    }
-  }
-}
-
 .c-member {
-
   display: grid;
   grid-auto-flow: column;
   grid-gap: gap(14);
   grid-template-columns: 35% auto;
 
   &__avatar {
-
     img {
       width: 100%;
       height: auto;
-
     }
-
   }
 
   &__info {
-
     &-name {
-
       color: $brand;
       margin-top: -1rem;
       font-family: "Montserrat", sans-serif;
       font-weight: 900;
-
     }
 
     &-position {
-
       color: $brand;
       margin-top: gap(-4);
       font-size: 1.1rem;
       text-transform: uppercase;
       font-weight: 400;
-
     }
 
     &__contact {
-
       display: grid;
       grid-auto-flow: column;
       align-items: center;
@@ -149,6 +49,5 @@
       background-color: $brand;
       margin: gap(4) 0px;
     }
-
   }
 }
