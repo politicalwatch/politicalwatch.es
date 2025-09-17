@@ -37,3 +37,26 @@ const { data: latestPosts } = await useAsyncData("posts-latest", () => {
   return query.find();
 });
 </script>
+
+<style lang="scss" scoped>
+.c-blog-latest {
+  &__wrapper {
+    margin-left: gap(-4);
+    width: 100vw;
+
+    @media (min-width: $sm) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: gap(4);
+      margin-left: 0;
+      width: auto;
+    }
+  }
+
+  .c-list-post {
+    @media (min-width: $md) {
+      padding-right: gap(12);
+    }
+  }
+}
+</style>

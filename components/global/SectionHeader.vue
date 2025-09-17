@@ -66,3 +66,42 @@ const goToTag = (event: Event) => {
   router.push(`/investigaciones/${selectedTag}`);
 };
 </script>
+
+<style lang="scss" scoped>
+.c-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  &__title {
+    @include th2;
+
+    & {
+      margin: 0 0 gap(1) 0;
+    }
+
+    @media (min-width: $md) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__tag {
+    display: inline-block;
+    font-family: $font-secondary;
+    font-size: rem(16px);
+    font-weight: 800;
+    line-height: 1.33;
+    padding: gap(1) gap(2);
+    border: solid 2px $brand;
+    color: $brand;
+    margin: gap(1) 0 gap(1) 0;
+    text-transform: uppercase;
+
+    @media (min-width: $md) {
+      font-size: rem(24px);
+      margin-bottom: 0;
+    }
+  }
+}
+</style>

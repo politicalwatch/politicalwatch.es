@@ -1,14 +1,13 @@
 <template>
   <div>
-
     <section class="c-blog o-container o-section">
-
       <OnlyInSpanish origin="blog" class="o-section" />
 
       <page-header
         :title="$t('pages.blog.title')"
         :subtitle="$t('pages.blog.subtitle')"
-        type="h1" />
+        type="h1"
+      />
       <div class="c-blog__featured o-section">
         <div class="c-blog__main">
           <blog-list-post
@@ -128,3 +127,58 @@ useHead({
   ],
 });
 </script>
+
+<style lang="scss">
+.c-blog {
+  &__featured {
+    @media (min-width: $md) {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: gap(8);
+      border-bottom: $border-width solid $brand;
+    }
+  }
+
+  &__main {
+    @media (min-width: $md) {
+      flex: 0 0 55%;
+      max-width: 55%;
+    }
+
+    .c-list-post {
+      &__title {
+        @media (min-width: $md) {
+          font-size: rem(40px);
+        }
+      }
+    }
+  }
+
+  &__side {
+    @media (min-width: $md) {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+
+    .c-list-post {
+      @media (min-width: $md) {
+        padding-top: gap(4);
+        border-top: $border-width solid $brand;
+      }
+    }
+  }
+
+  &__wrapper {
+    margin-left: gap(-4);
+    width: 100vw;
+
+    @media (min-width: $sm) {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: gap(4);
+      margin-left: 0;
+      width: auto;
+    }
+  }
+}
+</style>
