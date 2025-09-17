@@ -9,18 +9,18 @@
     <div class="c-member">
       <div class="c-member__avatar">
         <NuxtImg
-            :src="member.avatar"
-            :alt="member.name"
-            fit="cover"
-            loading="lazy"
-            />
+          :src="member.avatar"
+          :alt="member.name"
+          fit="cover"
+          loading="lazy"
+        />
       </div>
       <div class="c-member__info">
         <h1 class="c-member__info-name">
-          {{member.name}}
+          {{ member.name }}
         </h1>
         <p class="c-member__info-position">
-        {{member.position}}
+          {{ member.position }}
         </p>
         <div class="c-member__info__contact">
           <p class="c-member__info__contact-email">
@@ -41,13 +41,12 @@
             </li>
           </ul>
         </div>
-        <hr/>
+        <hr />
         <div class="c-member__info-bio">
           <ContentRenderer :v-if="member">
             <ContentRendererMarkdown :value="member" />
           </ContentRenderer>
         </div>
-
       </div>
     </div>
   </section>
@@ -115,3 +114,59 @@ useHead({
   ],
 });
 </script>
+
+<style lang="scss" scoped>
+.c-member {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: gap(14);
+  grid-template-columns: 35% auto;
+
+  &__avatar {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__info {
+    &-name {
+      color: $brand;
+      margin-top: -1rem;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900;
+    }
+
+    &-position {
+      color: $brand;
+      margin-top: gap(-4);
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    &__contact {
+      display: grid;
+      grid-auto-flow: column;
+      align-items: center;
+      gap: gap(2);
+
+      &-email {
+        @include member-email;
+        justify-self: start;
+      }
+      &-social {
+        @include member-social;
+        justify-self: end;
+      }
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: $brand;
+      margin: gap(4) 0px;
+    }
+  }
+}
+</style>
