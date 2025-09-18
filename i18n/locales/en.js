@@ -83,7 +83,7 @@ export default {
     },
     team: {
       title: "Team",
-      return: "Return to team",
+      return: "Go to team",
     },
     advisors: {
       title: "Advisors",
