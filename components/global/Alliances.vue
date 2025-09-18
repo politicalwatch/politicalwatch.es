@@ -42,8 +42,47 @@ const { t } = useI18n();
 
 <style lang="scss" scoped>
 .c-alliances {
-  &__item-image {
-    object-fit: contain;
+  &__title {
+    @include th2;
+
+    & {
+      margin: 0 0 gap(4) 0;
+    }
+
+    @media (min-width: $md) {
+      margin-bottom: gap(8);
+    }
+  }
+
+  &__scroller {
+    overflow-x: auto;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin-bottom: gap(4);
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: block;
+    flex: 1 0 100px;
+    max-width: 100px;
+
+    @media (min-width: $sm) {
+      margin-bottom: gap(4);
+      flex: 1 0 160px;
+      max-width: 160px;
+    }
+
+    &-image {
+      object-fit: contain;
+      display: block;
+      width: 100%;
+    }
   }
 }
 </style>

@@ -101,13 +101,108 @@ const advisors = [
 
 <style lang="scss" scoped>
 .c-team {
-  &__member-avatar {
-    object-fit: cover;
-    aspect-ratio: 1 / 1;
-  }
-}
+  &__title {
+    @include th2;
 
-.c-team__wrapper {
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    & {
+      margin: 0 0 gap(4) 0;
+    }
+
+    @media (min-width: $md) {
+      margin-bottom: gap(8);
+    }
+  }
+
+  &__wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+    @media (min-width: $xs) {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      grid-gap: gap(8) gap(4);
+    }
+  }
+
+  &__member {
+    margin-bottom: gap(4);
+    width: 100%;
+    color: $brand;
+    position: relative;
+
+    @media (min-width: $xs) {
+      margin-bottom: 0;
+    }
+
+    &:hover {
+      .c-team__member-wrapper {
+        padding: gap(3) gap(2) 0 0;
+        width: 80%;
+      }
+    }
+
+    .zoom {
+      width: 352px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        transition: transform 0.5s ease;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &-avatar {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;
+    }
+
+    &-wrapper {
+      position: absolute;
+      transform: translateY(-99%);
+      display: inline-block;
+      background: $white;
+      padding: gap(2) gap(2) 0 0;
+      width: 75%;
+      transition: all 0.5s ease;
+    }
+
+    &-name {
+      font-size: rem(18px);
+      font-weight: bold;
+      line-height: 1.78;
+      margin: 0;
+      a {
+        color: $brand;
+        text-decoration: none;
+        &:hover,
+        &:active,
+        &:visited {
+          color: $brand;
+        }
+      }
+    }
+
+    &-position {
+      font-size: rem(14px);
+      line-height: 1.71;
+      font-weight: normal;
+      margin: 0;
+    }
+
+    &-email {
+      @include member-email;
+    }
+
+    &-social {
+      @include member-social;
+    }
+  }
 }
 </style>

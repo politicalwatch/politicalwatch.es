@@ -40,3 +40,48 @@ const { title, subtitle, sections } = defineProps({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+.c-sections {
+  @include container;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-gap: gap(4);
+  }
+
+  &__section {
+    text-align: center;
+    margin-bottom: gap(6);
+
+    &-img {
+      display: block;
+      margin: 0 auto gap(3) auto;
+
+      @media (min-width: $md) {
+        margin-bottom: gap(4);
+      }
+    }
+
+    &-title {
+      @include th3;
+
+      & {
+        margin: 0 0 gap(1) 0;
+        text-transform: uppercase;
+      }
+
+      @media (min-width: $md) {
+        font-size: rem(32px);
+      }
+    }
+
+    &-subtitle {
+      font-family: $font-secondary;
+      font-weight: normal;
+      margin: 0 0 gap(3) 0;
+    }
+  }
+}
+</style>
