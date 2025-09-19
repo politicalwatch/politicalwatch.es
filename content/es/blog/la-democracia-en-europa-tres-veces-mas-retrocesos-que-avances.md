@@ -3,7 +3,7 @@ title: "La democracia en Europa: tres veces más retrocesos que avances"
 slug: 'la-democracia-en-europa-tres-veces-mas-retrocesos-que-avances'
 image: "/images/posts/la-democracia-en-europa-tres-veces-mas-retrocesos-que-avances.jpg"
 description: "En la semana en que se celebra el Día Internacional de la Democracia y en un tiempo marcado por la incertidumbre radical, el nuevo **Informe Global sobre el Estado de la Democracia 2025, de International IDEA ofrece una de las radiografías más claras de dónde está nuestro sistema político hoy y hacia dónde se dirige."
-author: celia-zafra
+author: ismael-boughaba
 createdAt: 2025-09-18
 related:
   - pistoletazo-de-salida-de-ampliando-democracia
