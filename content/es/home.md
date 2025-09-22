@@ -35,9 +35,6 @@ alliances:
   - image: '/images/alliances/CPA_logo_small1.jpg'
     link: 'https://www.proacceso.org/'
     title: 'Coalición Proacceso'
-  - image: '/images/alliances/upcomillas.png'
-    link: 'https://www.comillas.edu/es/'
-    title: 'Universidad Pontificia de Comillas'
 ---
 
 <hero></hero>
