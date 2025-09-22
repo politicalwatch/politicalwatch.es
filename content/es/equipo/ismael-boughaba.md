@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/ismael-boughaba-a75b03150/"
-order: 9
+order: 10
 ---
 
 Se dedica a radiografiar la democracia europea y a detectar las grietas que pueden abrir paso al autoritarismo. Friki de la política sin complejos, no le importa sacrificar horas de sueño para seguir una noche electoral.
