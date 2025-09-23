@@ -43,6 +43,6 @@ Las propuestas aprovechan las posibilidades tecnológicas actuales para moderniz
 
 *"El Congreso tiene la oportunidad, pero también la responsabilidad, de garantizar el ejercicio pleno del derecho constitucional a la participación"*, ha manifestado Agüero, refiriéndose al artículo 23 de la Carta Magna. *"No podemos seguir ofreciendo derechos que luego no garantizamos. Eso genera más frustración en una ciudadanía que ya se siente poco escuchada", ha añadido.*
 
-La organización, que forma parte de la coalición ["Ampliando Democracia"](http://www.ampliandodemocracia.org) junto a numerosas entidades sociales, ve en el actual proceso de reflexión parlamentaria una ocasión única para modernizar la relación entre representantes y representados en plena era digital. En la sesión inaugural de la Comisión de Calidad Democrática ha intervenido también Carlos Parry Lafont, presidente de la Asociación de Profesionales de las Relaciones Institucionales (APRI).
+La organización, que forma parte de la coalición ["Ampliando Democracia"](http://www.ampliandodemocracia.org) junto a numerosas entidades sociales, ve en el actual proceso de reflexión parlamentaria una ocasión única para modernizar la relación entre representantes y representados en plena era digital.
 
 **Political Watch** es un centro de investigación y cambio social que desarrolla herramientas de vigilancia de los poderes públicos y promoción de la participación ciudadana, utilizando tecnología e incidencia pública desde una vocación de construcción de alianzas.
