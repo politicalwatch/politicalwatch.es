@@ -17,24 +17,24 @@ featuredItems:
     image: /images/featured-ad.jpg
 
 alliances:
-  - image: '/images/alliances/logooecd_en.png'
-    link: 'http://www.oecd.org'
-    title: 'OCDE - Red de innovación sobre participación ciudadana'
-  - image: '/images/alliances/gpsdd.png'
-    link: 'http://www.data4sdgs.org/'
-    title: 'Alianza global de datos para el desarrollo sostenible'
   - image: '/images/alliances/cfall-logo.svg'
     link: 'http://www.codeforall.org/'
     title: 'Code for All'
+  - image: '/images/alliances/gdc.png'
+    link: 'https://globaldemocracycoalition.org/'
+    title: 'Global Democracy Coalition'
+  - image: '/images/alliances/logooecd_en.png'
+    link: 'http://www.oecd.org'
+    title: 'OCDE - Red de innovación sobre participación ciudadana'
   - image: '/images/alliances/iaciudadana.png'
     link: 'https://iaciudadana.org/'
     title: 'IA Ciudadana'
-  - image: '/images/alliances/poletika.jpg'
-    link: 'http://www.poletika.org/'
-    title: 'Polétika | Política + Ética'
   - image: '/images/alliances/CPA_logo_small1.jpg'
     link: 'https://www.proacceso.org/'
     title: 'Coalición Proacceso'
+  - image: '/images/alliances/poletika.jpg'
+    link: 'http://www.poletika.org/'
+    title: 'Polétika | Política + Ética'
 ---
 
 <hero></hero>
