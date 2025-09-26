@@ -1,86 +1,58 @@
 ---
 title: "What we do"
-subtitle: "At Political Watch we work to promote a more just and sustainable society. We do so through research, the development of civic technologies, advocacy and support to companies, public administrations and organizations in their innovation and transformation processes to meet the commitments of the 2030 Agenda for Sustainable Development."
+subtitle: ""
 ---
 
-<lines-of-work hide-title></lines-of-work>
-
 <md-content>
 
-## Areas of expertise
+### Research
+We generate the expertise required to underpin the systemic changes we need, connecting democratic renewal to the greatest social and ecological challenges of our era. Beginning with data analysis, we draw up actionable proposals that work towards fair and ambitious public policies.
 
-### Software Development
+### Civic technologies
+We make innovation work for the people by designing and rolling out digital tools that reinforce transparency, civic participation and accountability. In this way innovation becomes real public value. We are committed to using emerging technology, and we specialise in extracting and analysing data using artificial intelligence.
 
-We offer:
+### Advocacy and influence
+We push for changes to public policy and institutional practice that give openness, inclusion and collaboration a central role in governance. We build bridges to fight polarisation, fostering consensus and agreements on the foundations of democracy, and we champion public participation as a key driving force behind this transformation.
 
-- Automatic data extraction techniques (web scrapping).
-- Treatment of large volumes of data (Big Data).
-- Automatic Learning (Machine Learning) and Natural Language Processing (NLP).
-- Conversational interfaces for virtual assistants such as Google Home or Alexa.
-- Instant messaging bots (for Telegram and others).
-- Modern web development (webapps and APIs)
+### Coordinating ecosystems
+We create valuable connections, and weave networks of alliance that cover a vast range of different sectors – from activists to institutions, from social and cultural movements to academia and the private sector, and across many locations. By doing this, we build collaborative infrastructures that amplify the impacts of these areas, and support long-lasting democratic ecosystems. We firmly believe that we are stronger when we work towards a common goal, and when everyone is given a chance to play to their strengths.
 
-Some of the projects in which we have used and developed these technologies are:
 
-- [Escáner 2030](https://escaner2030.es/)
-- [Qué hacen los diputados](https://quehacenlosdiputados.es)
-- [Political Watch COVID-19](https://politicalwatch.es/blog/un-ano-covidwatch/)
-- [Open Manifesto Project](https://app.openmanifestoproject.org/)
+## How we do it
 
-### Training
+### Democratic ecosystems for a just transition
+We’re breaking new ground at the intersection of democratic renewal and climate action. This is not a choice, but a necessity – the most significant challenges of our age can’t be tackled one at a time.
 
-Our training programs include our areas of greatest expertise: civic monitoring, policy coherence for sustainable development, 2030 Agenda, parliamentary monitoring, and software development with a focus on social change.
+By using processes of public deliberation, collective intelligence and inter-sector alliances, we are designing scalable models that build legitimacy and trust for a fair ecological transition.
 
-We have experience in:
+To invest in this work is to support a living project, one that is pushing for democratic infrastructures that can respond to the global crises of today, and strengthen the democratic foundations of tomorrow.
 
-- Training at the higher education level: Comillas Pontifical University.
-- Training on Policy Coherence for public entities such as the Generalitat de Catalunya, Diputació de Barcelona and City Councils.
-- Training for capacity building of social organizations.
+### Dreaming, creating and caring for a hopeful future
+We believe that social change is driven by hope and mutual support. Dreaming allows us to envisage a different future. Caring reminds us that change of any sort needs strong, nurturing bonds. Creating means unifying voices, knowledge and experience to build for the common good.
 
-### Data visualizations
+We create spaces for uncomfortable conversations, where people can engage in dialogue with others who think differently. This is where learning and a shared future is born.
 
-This is a key part of our research, projects and advocacy campaigns, as it enables effective communication of results and large volumes of information.
+One specific example of this vision is our work in support of the Youth and Intergenerational Justice Law (Ley de Juventud y Justicia Intergeneracional), which confronts the ecosocial crisis while also guaranteeing the rights of future generations.
 
-We work with dashboards and both static and dynamic visualizations for internal use or in communication campaigns through different channels.
+### Public innovation that serves the people
+We promote public innovation as a lever of transformation, working alongside institutions to make them more open, transparent and inclusive, and to bring them closer to the needs of the people.
 
-Some of the dashboards we have created:
+From processes of open government to open parliaments and innovation labs, we co-create new forms of governance that are more dynamic and participatory. By innovating in service of the people, collaboration, participation and accountability form the beating heart of the system – not an add-on or exception to it.
 
-- [Analysis of citizen proposals sent to the Commission for Social and Economic Reconstruction](https://datastudio.google.com/u/0/reporting/1EAxsZQY5BSQJn9K-jnplJbtfD9O8AERe/page/yBJUB)
-- [Analysis of the conclusions of the Commission for Social and Economic Reconstruction from an environmental perspective for ECODES](https://datastudio.google.com/u/0/reporting/1-NsNGyyBkau-5SMJ9EG7gxqYg33fnCpT/page/y18WB)
+### Civic tech for the common good
+We design and promote digital tools that strengthen the democratic values of participation, transparency and accountability. Initiatives like What MPs Do, Electoral Assistant, Scanner 2030 and RTVE 2030 demonstrate how tech can bring politics down to earth, and demand higher standards of responsibility from our institutions.
 
-### Research and specialized technical assistance
+We use open source software, and aim to build digital and public infrastructures that strengthen trust, amplify citizens’ voices and make democracy fairer, more open and more sustainable.
 
-We conduct research both internally, as an input for our advocacy actions and parliamentary monitoring projects, among others, and externally, through consulting and specialized technical assistance to civil society entities, the private sector and public administration. The topics vary depending on the project or assignment but are usually related to our areas of greatest expertise.
+### Expanding Democracy
+“Expanding Democracy” is an innovative platform that uses public participation to produce scalable democratic solutions. Through deliberation processes and collective intelligence, we connect actors from a range of sectors to nail down public policy proposals, and to create sustainable, democratic infrastructures. Our unique value proposal lies in turning civic dialogue into measurable impacts.
 
-Some recent research projects include:
+Backing this initiative means investing in stronger democracies that are better prepared for the challenges of today, such as the rise of authoritarianism. This project seeks a future where civic participation isn’t just some lofty ideal, but a real, genuinely transformative practice.
 
-- Analysis of investment in education for adaptation to the COVID-19 context in Spain.
-- Elaboration of a system of indicators for monitoring Policy Coherence for Sustainable Development in Sant Boi de Llobregat City Council.
-- Mapping and elaboration of a matrix of indicators for the monitoring and analysis of Spain's contribution to SDG 3 and Global Health.
-- Diagnosis and strategic orientations for the adoption and implementation of the Policy Coherence approach in Centelles City Council.
-- Development of a methodology to analyze the inclusion of the sustainable development approach in International Investment Agreements (IIAs) for the Center for Global Development.
+This way of working has a knock-on effect: unified communities and inclusive policies lead to governance systems that can meaningfully respond to people’s actual needs.
 
-<a href="/investigaciones" class="c-button c-button--outline">Check our research repository out</a>
+---
 
-### Organization of multi-stakeholder meetings and debates
+If you are interested, you can check our [research repository](/en/investigaciones).
 
-We organize events on different topics, some of them related to ongoing projects and others to topics we are interested in deepening. These debates are usually held in collaboration with FUNCAS and are privileged spaces with key players from different actors in civil society, the public and private sector and academia.
-
-Some of the last meetings were:
-
-- "Rethinking Spain as a brand: is there a place for foreign direct investment and international cooperation?"
-- "Trump Administration: foreign, energy and trade policy."
-- "Challenges and opportunities for Spanish financial cooperation."
-- [Presentation of ColeSeguro's final report](https://coleseguro.es)
-
-### Audience analysis
-
-Our software allows the extraction of information from Twitter and:
-
-- Its thematic tagging using knowledge bases elaborated ad hoc according to the needs of the project.
-- Impact analysis of an account based on the aggregate impact of its tweets.
-- Affinity analysis of an account's followers and the impact of their interactions with the main account.
-- Categorization of followers according to the project needs.
-- Analysis of new audiences, identifying potential new allies based on the analysis of affinity and impact of their Tweets.
-
-<md-content>
+</md-content>
