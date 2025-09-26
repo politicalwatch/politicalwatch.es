@@ -49,7 +49,7 @@ alliances:
 
 
 <featured
-  title="Proyectos destacados"
+  title="Featured projects"
   :featured="featuredItems">
 </featured>
 
