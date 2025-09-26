@@ -30,6 +30,9 @@
             <li v-if="member.web">
               <a :href="member.web" target="_blank"><web /></a>
             </li>
+            <li v-if="member.bluesky">
+              <a :href="member.bluesky" target="_blank"><bluesky /></a>
+            </li>
             <li v-if="member.twitter">
               <a :href="member.twitter" target="_blank"><twitter /></a>
             </li>
@@ -54,6 +57,7 @@
 
 <script setup>
 import web from "@/assets/images/member-web.svg?component";
+import bluesky from "@/assets/images/member-bluesky.svg?component";
 import twitter from "@/assets/images/member-twitter.svg?component";
 import github from "@/assets/images/member-github.svg?component";
 import linkedin from "@/assets/images/member-linkedin.svg?component";
