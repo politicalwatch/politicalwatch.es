@@ -65,22 +65,6 @@ export default {
       button: "Read more",
       related: "Related",
     },
-    linesOfWork: {
-      title: "What we do",
-      subtitle: "",
-      democracy: {
-        title: "Democracy",
-        subtitle: "Citizen oversight for a better society",
-        button: "Tell me more",
-        link: "/en/democracia",
-      },
-      coherence: {
-        title: "Coherence",
-        subtitle: "Policies that live up to the challenges of our era",
-        button: "Tell me more",
-        link: "/en/coherencia",
-      },
-    },
     team: {
       title: "Team",
       return: "Go to team",
