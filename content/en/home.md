@@ -1,6 +1,6 @@
 ---
-title: Inicio
-subtitle: "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible"
+title: Home
+subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
 
 featuredItems:
   - title: "Qué Hacen Los Diputados"
