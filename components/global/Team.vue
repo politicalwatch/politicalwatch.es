@@ -7,7 +7,7 @@
     -->
     <div class="c-team__wrapper">
       <article v-for="(member, i) in team" :key="i" class="c-team__member">
-        <a :href="member._path">
+        <NuxtLinkLocale :to="member._path">
           <div class="zoom">
             <NuxtImg
               :src="member.avatar"
@@ -18,7 +18,7 @@
               class="c-team__member-avatar"
             />
           </div>
-        </a>
+        </NuxtLinkLocale>
         <div class="c-team__member-wrapper">
           <h3 class="c-team__member-name">
             <a :href="member._path">
