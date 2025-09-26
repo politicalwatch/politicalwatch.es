@@ -2,7 +2,7 @@
 name: "Mike Gómez"
 slug: "mike-gomez"
 avatar: "/images/team/mike-gomez.jpg"
-position: "Ingeniero de software"
+position: "Desarrollador de software"
 email: "miguel.gomez@politicalwatch.es"
 web: ""
 twitter: ""
