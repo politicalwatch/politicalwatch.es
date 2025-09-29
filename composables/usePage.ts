@@ -8,7 +8,7 @@ export const usePage = async () => {
     queryPath = queryPath.join("/");
   }
 
-  const { data: page, error } = await useAsyncData(queryPath, () =>
+  const { data: page, error } = await useAsyncData(`${queryPath}-${locale.value}`, () =>
     queryContent(queryPath).locale(locale.value).findOne()
   );
 
