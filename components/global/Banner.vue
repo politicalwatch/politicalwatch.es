@@ -19,28 +19,19 @@
 </template>
 
 <script setup lang="ts">
-const { title, description, button, link, bg } = defineProps({
-  title: {
-    type: String,
-    default: "",
-  },
-  description: {
-    type: String,
-    default: "",
-  },
-  button: {
-    type: String,
-    default: "",
-  },
-  link: {
-    type: String,
-    default: "",
-  },
-  bg: {
-    type: String,
-    default: "",
-  },
-});
+const {
+  title = "",
+  description = "",
+  button = "",
+  link = "",
+  bg = "",
+} = defineProps<{
+  title?: string;
+  description?: string;
+  button?: string;
+  link?: string;
+  bg?: string;
+}>();
 </script>
 
 <style lang="scss" scoped>
