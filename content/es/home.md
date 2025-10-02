@@ -29,12 +29,12 @@ alliances:
   - image: '/images/alliances/iaciudadana.png'
     link: 'https://iaciudadana.org/'
     title: 'IA Ciudadana'
+  - image: '/images/alliances/dnc.png'
+    link: 'https://www.peoplepowered.org/news-content/introducing-the-democracy-narratives-campaign'
+    title: 'Democracy Narratives Campaign'
   - image: '/images/alliances/CPA_logo_small1.jpg'
     link: 'https://www.proacceso.org/'
     title: 'Coalición Proacceso'
-  - image: '/images/alliances/poletika.jpg'
-    link: 'http://www.poletika.org/'
-    title: 'Polétika | Política + Ética'
 ---
 
 <hero></hero>
