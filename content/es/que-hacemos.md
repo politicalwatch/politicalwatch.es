@@ -15,7 +15,7 @@ Este modelo de trabajo crea un efecto multiplicador: comunidades más cohesionad
 
 * Más información en la página web de [Ampliando Democracia](https://ampliandodemocracia.org/).
 
-### Tecnología cívica para el bien común
+### Tecnologías cívicas para el bien común
 
 Diseñamos y promovemos herramientas digitales que refuerzan los valores democráticos: participación, transparencia y rendición de cuentas. Iniciativas como Qué Hacen Los Diputados, Asistente Electoral, Escáner 2030 o RTVE 2030 muestran cómo la tecnología puede acercar la política a la ciudadanía y exigir a las instituciones mayores estándares de responsabilidad.
 
