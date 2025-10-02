@@ -25,14 +25,14 @@ export default {
     blog: {
       title: "What we say",
       subtitle: "We scrutinise current affairs – as well as achievements and setbacks in the efforts to pursue of the best possible version of democracy – and offer critical but constructive analysis",
-      contentOnlyInSpanish: "This content is only available in Spanish, for the time being",
+      contentOnlyInSpanish: "Only in Spanish for the time being",
     },
     transparency: {
       title: "Transparency",
     },
     research: {
       title: "Research",
-      contentOnlyInSpanish: "Our research is only available in Spanish, for the time being",
+      contentOnlyInSpanish: "Only in Spanish for the time being",
     },
     legal: {
       title: "Legal notice",
