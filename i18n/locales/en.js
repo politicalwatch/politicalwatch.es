@@ -9,7 +9,7 @@ export default {
   },
   pages: {
     home: {
-      title: "Home",
+      title: "The democracy we deserve",
       description:
         "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development.",
     },

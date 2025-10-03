@@ -9,7 +9,7 @@ export default {
   },
   pages: {
     home: {
-      title: "Inicio",
+      title: "La democracia que nos merecemos",
       description:
         "Political Watch es una plataforma de innovación política que promueve la monitorización, vigilancia y participación ciudadana a través de desarrollos basados en tecnologías cívicas para la promoción del desarrollo sostenible",
     },

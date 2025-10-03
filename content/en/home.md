@@ -1,6 +1,6 @@
 ---
 title: Home
-subtitle: "Political Watch is a plataform of politic innovation that promotes the monitoring, surveillance and citizen participation through developments based on civic technologies to promote the sustainable development."
+subtitle: "Political Watch is an independent organisation with a global outlook, based in Spain. We specialise in research for social change, political advocacy and the development of pro-democratic technology. We Promote public policies that are transparent, participatory, and more effective. Our work imagines the democracy of tomorrow while forging alliances to strengthen the institutions of today."
 
 featuredItems:
   - title: "Qué Hacen Los Diputados"
