@@ -10,7 +10,7 @@ lineOfWork: democracy
 ---
 
 * Thai Jungpanich, de Political Watch, pronuncia el discurso de apertura de la Cumbre en Vitoria en nombre de las organizaciones de la sociedad civil del Foro de Gobierno Abierto
-("* Cerca ", e 20 entidades expertas en democracia firman una carta abierta reclamando medidas ambiciosas como una Estrategia Nacional Anticorrupción, la reforma de la Ley de Transparencia, órganos fiscalizadores independientes del Ejecutivo y nuevas formas de participación de los ciudadanos en la vida pública),
+* Cerca ", e 20 entidades expertas en democracia firman una carta abierta reclamando medidas ambiciosas como una Estrategia Nacional Anticorrupción, la reforma de la Ley de Transparencia, órganos fiscalizadores independientes del Ejecutivo y nuevas formas de participación de los ciudadanos en la vida pública),
 
 Las entidades de la sociedad civil han pedido a los Gobiernos -incluido el español- que “estén a la altura” del momento histórico de crisis democrática que vivimos, marcado por la polarización extrema y el avance del autoritarismo.
 
