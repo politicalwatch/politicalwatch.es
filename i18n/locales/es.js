@@ -25,12 +25,14 @@ export default {
     blog: {
       title: "Lo que decimos",
       subtitle: "Analizamos la actualidad, los avances y los retrocesos en la aspiración a la mejor democracia posible y aportamos con espíritu crítico, pero constructivo.",
+      contentOnlyInSpanish: "Solo en español por ahora",
     },
     transparency: {
       title: "Transparencia",
     },
     research: {
       title: "Investigaciones",
+      contentOnlyInSpanish: "Solo en español por ahora",
     },
     legal: {
       title: "Aviso legal",
