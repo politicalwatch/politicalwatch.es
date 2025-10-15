@@ -5,4 +5,5 @@ link: /documentos/Perspectivas-sobre-comercio-y-desarrollo-en-el-mundo-post-2015
 tags:
     - coherencia-de-politicas
     - comercio-internacional
+createdAt: 2020-10-22
 ---

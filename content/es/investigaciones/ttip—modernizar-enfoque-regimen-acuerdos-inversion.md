@@ -4,4 +4,5 @@ description: 'Artículo parte de la monografía "Different Glances at EU Trade P
 link: /documentos/using_the_ttip_momentum.pdf
 tags:
     - comercio-internacional
+createdAt: 2020-10-22
 ---

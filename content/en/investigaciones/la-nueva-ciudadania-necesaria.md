@@ -5,4 +5,5 @@ link: /documentos/la_nueva_ciudadania_necesaria.pdf
 tags:
     - ciudadania-activa
     - democracia
+createdAt: 2025-08-22
 ---

@@ -6,4 +6,5 @@ lineOfWork: democracy
 tags:
     - democracia
     - ciudadania-activa
+createdAt: 2025-08-22
 ---

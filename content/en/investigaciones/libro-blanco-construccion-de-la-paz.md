@@ -5,4 +5,5 @@ link: /documentos/161111-Informe-CIECODE-Construccióe-la-Paz.pdf
 tags:
     - coherencia-de-politicas
     - libro-blanco-del-desarrollo
+createdAt: 2025-08-22
 ---

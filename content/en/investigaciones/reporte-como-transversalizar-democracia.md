@@ -4,4 +4,5 @@ description: 'Relatoría del evento "Cómo transversalizar la democracia" (Madri
 link: /documentos/Reporte-Como-Transversalizar-Democracia.pdf
 tags:
     - democracia
+createdAt: 2025-09-26
 ---

@@ -4,4 +4,5 @@ description: 'Report on the event "How to mainstream democracy" (Madrid, 17 July
 link: /documentos/Report-Mainstream-Democracy.pdf
 tags:
     - democracia
+createdAt: 2025-09-26
 ---

@@ -7,4 +7,5 @@ tags:
     - civictech
     - democracia
     - ciudadania-activa
+createdAt: 2025-08-22
 ---

@@ -5,4 +5,5 @@ link: /documentos/201011-Informe-FINAL-Ciecode-MdelaRocha-ERodriguez.pdf
 tags:
     - coherencia-de-politicas
     - libro-blanco-del-desarrollo
+createdAt: 2025-08-22
 ---

@@ -5,4 +5,5 @@ link: /documentos/101111-Informe-CIECODE-Fiscalidad-Justa.pdf
 tags:
     - coherencia-de-politicas
     - libro-blanco-del-desarrollo
+createdAt: 2020-10-22
 ---

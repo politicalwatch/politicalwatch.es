@@ -7,5 +7,6 @@ tags:
     - democracia
     - congreso-de-los-diputados
     - proyecto-avizor
+createdAt: 2025-08-22
 ---
 

@@ -6,4 +6,5 @@ lineOfWork: coherence
 tags:
     - coherencia-de-politicas
     - agenda-2030
+createdAt: 2025-08-22
 ---
