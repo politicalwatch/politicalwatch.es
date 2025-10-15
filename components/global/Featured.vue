@@ -23,6 +23,14 @@
           loading="lazy"
           class="c-featured__item-image-element"
         />
+        <span 
+          v-if="f.imageAuthor"
+          class="c-featured__item-image-author">
+          <b>{{$t('global.source')}}: </b>
+          <a :href="f.imageRef" target="_blank">
+            {{f.imageAuthor}}
+          </a>
+        </span>
       </div>
       <div class="c-featured__item-content">
         <p class="c-featured__item-desc">
@@ -51,6 +59,9 @@ const { title, featured } = defineProps({
     default: () => [],
   },
 });
+
+const { t } = useI18n();
+
 </script>
 
 <style lang="scss" scoped>
@@ -110,6 +121,8 @@ const { title, featured } = defineProps({
     &-image {
       margin: 0 0 gap(3) gap(-4);
       width: 100vw;
+      position: relative;
+      display: inline-block;
 
       @media (min-width: $sm) {
         grid-area: image;
@@ -120,14 +133,33 @@ const { title, featured } = defineProps({
     }
 
     &-image-element {
+      display: block;
+
       @media (min-width: $sm) {
         width: 100%;
-        height: 70%;
+        height: 100%;
         object-fit: cover;
       }
 
       @media (min-width: $md) {
         height: 100%;
+      }
+    }
+    
+    &-image-author {
+      padding: gap(1) gap(2);
+      background-color: $light;
+      position: absolute;
+      bottom: -1.5em;
+      right: 0;
+      font-size: 0.8rem;
+
+      a {
+        color: $brand;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
 

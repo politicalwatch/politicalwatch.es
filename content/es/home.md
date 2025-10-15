@@ -9,12 +9,16 @@ featuredItems:
     button: "Consulta la actividad"
     link: "https://qhld.es"
     image: /images/featured-qhld.jpg
+    imageAuthor: "Julian David Perez del Basto"
+    imageRef: "https://es.wikipedia.org/wiki/Congreso_de_los_Diputados#/media/Archivo:Congreso_de_los_diputados,_Madrid_Espa%C3%B1a.jpg"
   - title: "Ampliando Democracia"
     subtitle: "Una plataforma en crecimiento de renovación democrática"
     description: "A través de la deliberación ciudadana y la inteligencia colectiva generamos innovaciones escalables para gobernar mejor. Nuestro trabajo convierte el diálogo en propuestas de política pública y en infraestructuras democráticas de largo plazo. Invertir en esta iniciativa significa apoyar un nuevo ecosistema democrático: resiliente, participativo y preparado para afrontar los desafíos globales de hoy."
     button: "Quiero saber más"
     link: "https://ampliandodemocracia.org"
     image: /images/featured-ad.jpg
+    imageAuthor: 
+    imageRef: 
 
 alliances:
   - image: '/images/alliances/cfall-logo.svg'

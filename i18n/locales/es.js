@@ -6,6 +6,7 @@ export default {
     filtersLabel: "Filtrar",
     nextLabel: "Siguiente",
     previousLabel: "Anterior",
+    source: "Fuente",
   },
   pages: {
     home: {

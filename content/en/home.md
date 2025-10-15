@@ -9,12 +9,16 @@ featuredItems:
     button: "View activity"
     link: "https://qhld.es"
     image: /images/featured-qhld.jpg
+    imageAuthor: "Julian David Perez del Basto"
+    imageRef: "https://es.wikipedia.org/wiki/Congreso_de_los_Diputados#/media/Archivo:Congreso_de_los_diputados,_Madrid_Espa%C3%B1a.jpg"
   - title: "Expanding Democracy"
     subtitle: "A fast-growing platform dedicated to renewing how democracy works."
     description: "By drawing on processes of public deliberation and collective intelligence, we generate innovative ideas that can be upscaled to improve methods of governance. Our mission is to turn dialogue into concrete policy proposals and build lasting democratic infrastructures. Investing in this initiative means supporting a new democratic ecosystem — one that is resilient, participatory, and equipped to face today’s global challenges."
     button: "I want to know more"
     link: "https://ampliandodemocracia.org"
     image: /images/featured-ad.jpg
+    imageAuthor: 
+    imageRef: 
 
 alliances:
   - image: '/images/alliances/cfall-logo.svg'
