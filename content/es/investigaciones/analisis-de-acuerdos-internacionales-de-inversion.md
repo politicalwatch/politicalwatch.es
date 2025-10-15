@@ -6,4 +6,5 @@ lineOfWork: coherence
 tags:
     - coherencia-de-politicas
     - comercio-internacional
+createdAt: 2020-10-29
 ---

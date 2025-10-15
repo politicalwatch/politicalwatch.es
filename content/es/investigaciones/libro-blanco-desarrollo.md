@@ -6,4 +6,5 @@ lineOfWork: coherence
 tags:
     - coherencia-de-politicas
     - libro-blanco-del-desarrollo
+createdAt: 2020-11-17
 ---

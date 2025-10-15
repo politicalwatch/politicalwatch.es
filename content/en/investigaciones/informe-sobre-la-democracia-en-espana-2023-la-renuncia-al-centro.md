@@ -6,4 +6,5 @@ lineOfWork: democracy
 tags:
     - democracia
     - transparencia
+createdAt: 2025-08-22
 ---

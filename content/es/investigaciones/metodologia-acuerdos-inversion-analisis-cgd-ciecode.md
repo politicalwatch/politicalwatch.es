@@ -5,4 +5,5 @@ link: /documentos/Methodology-for-IIAs-analysis_CGD_CDI-Index_2017-by-CIECODE.pd
 tags:
     - coherencia-de-politicas
     - comercio-internacional
+createdAt: 2020-10-22
 ---

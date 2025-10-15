@@ -5,6 +5,15 @@
 <script setup lang="ts">
 const { t, te, locale } = useI18n();
 
+const { data: research } = await useAsyncData("investigaciones", () =>
+  queryContent("investigaciones").locale(locale.value).find()
+);
+
+const tags = computed(() => {
+  const tags = new Set(research.value?.map((item) => item.tags).flat());
+  return [...tags];
+});
+
 useHead({
   title: t("pages.research.title"),
   htmlAttrs: {
@@ -42,18 +51,5 @@ useHead({
       content: `${t("pages.research.title")} | Political Watch`,
     },
   ],
-});
-
-const { data: research } = await useAsyncData("investigaciones", () =>
-  queryContent("investigaciones")
-    .locale(locale.value)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 })
-    .find()
-);
-
-const tags = computed(() => {
-  const tags = new Set(research.value?.map((item) => item.tags).flat());
-  return [...tags];
 });
 </script>

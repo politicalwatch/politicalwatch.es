@@ -7,4 +7,5 @@ tags:
     - democracia
     - inteligencia-artificial
     - congreso-de-los-diputados
+createdAt: 2025-08-22
 ---
