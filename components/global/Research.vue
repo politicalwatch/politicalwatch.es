@@ -93,13 +93,15 @@ const getAnchorText = (link: string) => {
 const { data: research } = await useAsyncData(
   tag ? `investigaciones-${tag}` : "investigaciones",
   () => {
-    const query = queryContent("investigaciones").locale(locale.value);
+    let query = queryCollection('investigaciones')
+      .where('path', 'LIKE', `/${locale.value}/%`)
+      .order('createdAt', 'DESC');
 
-    if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
-    if (tag) query.where({ tags: { $contains: tag } });
-    if (researchLimit) query.limit(researchLimit);
+    if (lineOfWork) query = query.where('lineOfWork', '=', lineOfWork);
+    if (tag) query = query.where('tags', 'LIKE', `%${tag}%`);
+    if (researchLimit) query = query.limit(researchLimit);
 
-    return query.sort({ createdAt: -1 }).find();
+    return query.all();
   }
 );
 </script>

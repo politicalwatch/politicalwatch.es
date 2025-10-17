@@ -26,15 +26,14 @@ const { postLimit, lineOfWork } = defineProps({
 });
 
 const { data: latestPosts } = await useAsyncData("posts-latest", () => {
-  const query = queryContent("blog")
-    .locale(locale.value)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 });
+  let query = queryCollection('blog')
+    .where('path', 'LIKE', `/${locale.value}/%`)
+    .order('createdAt', 'DESC');
 
-  if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
-  if (postLimit) query.limit(postLimit);
+  if (lineOfWork) query = query.where('lineOfWork', '=', lineOfWork);
+  if (postLimit) query = query.limit(postLimit);
 
-  return query.find();
+  return query.all();
 });
 </script>
 

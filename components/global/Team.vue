@@ -6,8 +6,8 @@
     </h2>
     -->
     <div class="c-team__wrapper">
-      <article v-for="(member, i) in team" :key="i" class="c-team__member">
-        <NuxtLinkLocale :to="member._path">
+      <article v-for="(member, i) in teamWithLocalePaths" :key="i" class="c-team__member">
+        <NuxtLinkLocale :to="member.localePath">
           <div class="zoom">
             <NuxtImg
               :src="member.avatar"
@@ -21,9 +21,9 @@
         </NuxtLinkLocale>
         <div class="c-team__member-wrapper">
           <h3 class="c-team__member-name">
-            <a :href="member._path">
+            <NuxtLinkLocale :to="member.localePath">
               {{ member.name }}
-            </a>
+            </NuxtLinkLocale>
           </h3>
           <h4 class="c-team__member-position">
             {{ member.position }}
@@ -71,13 +71,23 @@ const { teamLimit } = defineProps({
 const { t, locale } = useI18n();
 
 const { data: team } = await useAsyncData("equipo", () => {
-  const query = queryContent("equipo")
-    .locale(locale.value)
-    .sort({ order: 1, $numeric: true });
+  let query = queryCollection("equipo")
+    .where("path", "LIKE", `/${locale.value}/%`)
+    .order("order", "ASC");
 
-  if (teamLimit) query.limit(teamLimit);
+  if (teamLimit) query = query.limit(teamLimit);
 
-  return query.find();
+  return query.all();
+});
+
+// Strip locale prefix from Content v3 paths for each team member
+// Content stores paths as /es/equipo/... or /en/equipo/...
+// NuxtLinkLocale expects paths without locale prefix
+const teamWithLocalePaths = computed(() => {
+  return team.value?.map(member => ({
+    ...member,
+    localePath: member.path?.replace(/^\/(es|en)/, '') || ''
+  })) || [];
 });
 </script>
 

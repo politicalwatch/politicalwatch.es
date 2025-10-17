@@ -6,7 +6,9 @@
 const { t, te, locale } = useI18n();
 
 const { data: research } = await useAsyncData("investigaciones", () =>
-  queryContent("investigaciones").locale(locale.value).find()
+  queryCollection('investigaciones')
+    .where('path', 'LIKE', `/${locale.value}/%`)
+    .all()
 );
 
 const tags = computed(() => {

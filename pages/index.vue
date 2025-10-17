@@ -1,8 +1,10 @@
 <template>
   <main class="c-page is-home">
-    <ContentRenderer :value="page" v-if="page">
-      <ContentRendererMarkdown :value="page" />
-    </ContentRenderer>
+    <ContentRenderer
+      :value="page"
+      :data="{ featuredItems: page?.meta?.featuredItems, alliances: page?.meta?.alliances }"
+      v-if="page"
+    />
   </main>
 </template>
 

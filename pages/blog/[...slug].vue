@@ -65,12 +65,7 @@
       </div>
     </div>
 
-    <ContentRenderer v-if="post">
-      <ContentRendererMarkdown
-        :value="post"
-        class="c-post__content o-section"
-      />
-    </ContentRenderer>
+    <ContentRenderer v-if="post" :value="post" class="c-post__content o-section" />
 
     <div v-if="related?.length" class="c-blog">
       <section-header :title="t('blocks.blog.related')" />
@@ -104,10 +99,9 @@ const { t, locale } = useI18n();
 const slug = route.params.slug.join("/");
 
 const { data: post, error } = await useAsyncData(route.path, () =>
-  queryContent("blog", slug)
-    .locale(locale.value)
-    .sort({ order: -1, createdAt: -1 })
-    .findOne()
+  queryCollection('blog')
+    .path(`/${locale.value}/blog/${slug}`)
+    .first()
 );
 
 const { data: author } = await useAsyncData(
@@ -115,11 +109,10 @@ const { data: author } = await useAsyncData(
   async () => {
     if (!post.value?.author) return null;
 
-    return queryContent("equipo", post.value?.author)
-      .locale(locale.value)
-      .sort({ order: -1, createdAt: -1 })
-      .only(["name", "avatar"])
-      .findOne();
+    return queryCollection('equipo')
+      .path(`/${locale.value}/equipo/${post.value?.author}`)
+      .select('name', 'avatar')
+      .first();
   }
 );
 
@@ -129,15 +122,15 @@ const { data: related } = await useAsyncData(
     if (!post.value?.related) return null;
 
     const [posts, authors] = await Promise.all([
-      queryContent("blog")
-        .locale(locale.value)
-        .where({ slug: { $in: post.value?.related } })
-        .find(),
-      queryContent("equipo")
-        .locale(locale.value)
-        .sort({ order: -1, createdAt: -1 })
-        .only(["name", "slug"])
-        .find(),
+      queryCollection('blog')
+        .where('path', 'LIKE', `/${locale.value}/%`)
+        .where('slug', 'IN', post.value?.related)
+        .all(),
+      queryCollection('equipo')
+        .where('path', 'LIKE', `/${locale.value}/%`)
+        .order('order', 'DESC')
+        .select('name', 'slug')
+        .all(),
     ]);
 
     return posts.map((post) => ({

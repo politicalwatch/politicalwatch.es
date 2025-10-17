@@ -63,15 +63,14 @@ const getTitle = computed(() => title || t("blocks.projects.title"));
 const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
 
 const { data: projects } = await useAsyncData("proyectos", () => {
-  const query = queryContent("proyectos")
-    .locale(locale.value)
-    .sort({ order: -1 })
-    .sort({ createdAt: -1 });
+  let query = queryCollection("proyectos")
+    .where("path", "LIKE", `/${locale.value}/%`)
+    .order("order", "DESC");
 
-  if (lineOfWork) query.where({ lineOfWork: { $eq: lineOfWork } });
-  if (projectLimit) query.limit(projectLimit);
+  if (lineOfWork) query = query.where("lineOfWork", "=", lineOfWork);
+  if (projectLimit) query = query.limit(projectLimit);
 
-  return query.find();
+  return query.all();
 });
 </script>
 

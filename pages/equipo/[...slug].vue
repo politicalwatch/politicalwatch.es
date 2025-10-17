@@ -46,9 +46,7 @@
         </div>
         <hr />
         <div class="c-member__info-bio">
-          <ContentRenderer :v-if="member">
-            <ContentRendererMarkdown :value="member" />
-          </ContentRenderer>
+          <ContentRenderer v-if="member" :value="member" />
         </div>
       </div>
     </div>
@@ -69,10 +67,9 @@ const { t, te, locale } = useI18n();
 const slug = route.params.slug.join("/");
 
 const { data: member, error } = await useAsyncData(route.path, () =>
-  queryContent("equipo", slug)
-    .locale(locale.value)
-    .sort({ order: -1, createdAt: -1 })
-    .findOne()
+  queryCollection('equipo')
+    .path(`/${locale.value}/equipo/${slug}`)
+    .first()
 );
 
 useHead({

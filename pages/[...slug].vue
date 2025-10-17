@@ -8,9 +8,7 @@
         type="h1"
       />
     </div>
-    <ContentRenderer :value="page" v-if="page">
-      <ContentRendererMarkdown :value="page" />
-    </ContentRenderer>
+    <ContentRenderer :value="page" v-if="page" />
   </main>
 </template>
 <script setup lang="ts">

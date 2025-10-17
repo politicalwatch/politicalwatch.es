@@ -1,6 +1,6 @@
 <template>
   <article class="c-list-post" :class="{ 'c-list-post--noimage': noImage }">
-    <NuxtLinkLocale v-if="!noImage" :to="post._path">
+    <NuxtLinkLocale v-if="!noImage" :to="localePath">
       <NuxtImg
         :src="post?.image"
         :alt="post?.title"
@@ -12,7 +12,7 @@
       />
     </NuxtLinkLocale>
     <h3 class="c-list-post__title">
-      <NuxtLinkLocale :to="post._path">
+      <NuxtLinkLocale :to="localePath">
         {{ post?.title }}
       </NuxtLinkLocale>
     </h3>
@@ -26,7 +26,7 @@
       </div>
       <NuxtLinkLocale
         v-if="!noButton"
-        :to="post._path"
+        :to="localePath"
         class="c-button c-button--outline"
       >
         {{ t("blocks.blog.button") }}
@@ -58,6 +58,15 @@ const { post, noButton, noImage, author } = defineProps({
     type: String,
     default: "",
   },
+});
+
+// Strip locale prefix from Content v3 paths
+// Content stores paths as /es/blog/... or /en/blog/...
+// NuxtLinkLocale expects paths without locale prefix and handles routing
+const localePath = computed(() => {
+  if (!post.path) return '';
+  // Remove locale prefix: /es/blog/... -> /blog/... or /en/blog/... -> /blog/...
+  return post.path.replace(/^\/(es|en)/, '');
 });
 </script>
 

@@ -39,24 +39,26 @@ const { t, te, locale } = useI18n();
 const currentPage = parseInt(route.params.number as string);
 
 const { data: allCount } = await useAsyncData(`allCount-${locale.value}`, () =>
-  queryContent("blog").locale(locale.value).count()
+  queryCollection('blog')
+    .where('path', 'LIKE', `/${locale.value}/%`)
+    .count()
 );
 
 const { data: posts } = await useAsyncData(
   `posts-page-${currentPage}`,
   async () => {
     const [posts, authors] = await Promise.all([
-      queryContent("blog")
-        .locale(locale.value)
-        .sort({ order: -1, createdAt: -1 })
+      queryCollection('blog')
+        .where('path', 'LIKE', `/${locale.value}/%`)
+        .order('createdAt', 'DESC')
         .limit(9)
         .skip(currentPage * 9)
-        .find(),
-      queryContent("equipo")
-        .locale(locale.value)
-        .sort({ order: -1, createdAt: -1 })
-        .only(["name", "slug"])
-        .find(),
+        .all(),
+      queryCollection('equipo')
+        .where('path', 'LIKE', `/${locale.value}/%`)
+        .order('order', 'DESC')
+        .select('name', 'slug')
+        .all(),
     ]);
 
     return posts.map((post) => ({

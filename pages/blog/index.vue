@@ -55,7 +55,9 @@ const { t, te, locale } = useI18n();
 const { data: allCount } = await useAsyncData(
   `allCount-${locale.value}`,
   async () => {
-    const count = await queryContent("blog").locale(locale.value).count();
+    const count = await queryCollection('blog')
+      .where('path', 'LIKE', `/${locale.value}/%`)
+      .count();
     return count;
   }
 );
@@ -65,16 +67,16 @@ const hasNext = computed(() => totalPosts.value > 9);
 
 const { data: posts } = await useAsyncData("posts-blog", async () => {
   const [posts, authors] = await Promise.all([
-    queryContent("blog")
-      .locale(locale.value)
-      .sort({ order: -1, createdAt: -1 })
+    queryCollection('blog')
+      .where('path', 'LIKE', `/${locale.value}/%`)
+      .order('createdAt', 'DESC')
       .limit(9)
-      .find(),
-    queryContent("equipo")
-      .locale(locale.value)
-      .sort({ order: -1, createdAt: -1 })
-      .only(["name", "slug"])
-      .find(),
+      .all(),
+    queryCollection('equipo')
+      .where('path', 'LIKE', `/${locale.value}/%`)
+      .order('order', 'DESC')
+      .select('name', 'slug')
+      .all(),
   ]);
 
   const postsWithAuthors = posts.map((post) => ({

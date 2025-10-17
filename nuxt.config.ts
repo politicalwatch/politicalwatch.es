@@ -108,10 +108,7 @@ export default defineNuxtConfig({
       "2xl": 1536,
     },
   },
-  content: {
-    locales: ["es", "en"],
-    defaultLocale: "es",
-  },
+  // Content v3 configuration is now in content.config.ts
   i18n: {
     locales: [
       {
@@ -155,6 +152,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.scss"],
   site: {
-    url: import.meta.env.NUXT_PUBLIC_SITE_URL,
+    url: import.meta.env.NUXT_PUBLIC_BASE_URL,
   },
 });

@@ -8,8 +8,12 @@ export const usePage = async () => {
     queryPath = queryPath.join("/");
   }
 
+  // Content files are always stored with locale prefix (content/es/, content/en/)
+  // So the database path always includes the locale, regardless of URL structure
+  const fullPath = `/${locale.value}/${queryPath}`;
+
   const { data: page, error } = await useAsyncData(`${queryPath}-${locale.value}`, () =>
-    queryContent(queryPath).locale(locale.value).findOne()
+    queryCollection('pages').path(fullPath).first()
   );
 
   if (!page) {
