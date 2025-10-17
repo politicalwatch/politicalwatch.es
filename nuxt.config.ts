@@ -76,7 +76,6 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          api: "modern-compiler",
           silenceDeprecations: ["import"],
           additionalData: `
             @import "~/assets/css/01-settings/_settings.animations.scss";
@@ -115,12 +114,14 @@ export default defineNuxtConfig({
         code: "en",
         language: "en",
         name: "English",
+        file: "en.js",
       },
       {
         code: "es",
         language: "es",
         name: "Español",
         isCatchallLocale: true,
+        file: "es.js",
       },
     ],
     defaultLocale: "es",
