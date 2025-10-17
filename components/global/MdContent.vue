@@ -41,9 +41,9 @@ const { withProjectsToc, projectLimit } = defineProps({
 
 const { t, locale } = useI18n();
 
-const { data: projects } = await useAsyncData("proyectos", () => {
+const { data: projects } = useAsyncData("proyectos", () => {
   let query = queryCollection("proyectos")
-    .where("locale", "=", locale.value)
+    .where("path", "LIKE", `/${locale.value}/%`)
     .order("order", "DESC");
 
   if (projectLimit) query = query.limit(projectLimit);
