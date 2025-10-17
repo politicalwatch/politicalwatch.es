@@ -21,7 +21,7 @@
         :key="locale.code"
         class="c-menu__item c-menu__item--lang"
       >
-        <NuxtLink :to="switchLocalePath(locale.code)">
+        <NuxtLink :to="switchLocalePath(locale.code)" external>
           <icon-lang /> {{ locale.code }}
         </NuxtLink>
       </li>
