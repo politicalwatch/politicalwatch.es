@@ -39,6 +39,4 @@ También es positiva la creación de una comisión de vigilancia de las contrata
 ## Mal momento para retroceder
 La preocupación ciudadana por la política, reflejada en las encuestas del Centro de Investigaciones Sociológicas (CIS), ha aumentado en los últimos años debido a la crispación, la corrupción y la percepción de ineficacia institucional. El Índice de Calidad de la Democracia 2024, publicado recientemente por la Fundación Alternativas también habla de un “estancamiento” de la calidad democrática en España, pero las y los representantes políticos no parecen reaccionar a las preocupaciones ciudadanas en este sentido.
 
-Para más detalles sobre el análisis de enmiendas concretas del reglamento, contacten con Celia Zafra (630033112).
-
 Imagen de portada: Foto de [Senado Cultural](https://senadocultural.senado.es/web/senadocultural/hemiciclo1).
