@@ -1,6 +1,6 @@
 ---
 title: "El Senado recorta la democracia en su nuevo reglamento"
-slug: 'el-senado-recorta-la-democracia-en-su-nuevo-reglamentoo'
+slug: 'el-senado-recorta-la-democracia-en-su-nuevo-reglamento'
 image: "/images/posts/hemiciclo-senado.jpg"
 description: "Tras meses de trámites, hoy se aprueba una reforma del reglamento del Senado que no viene a ampliar la democracia en la Cámara, sino más bien a restringirla. Un mal mensaje en unos momentos en los que es urgente reconectar a la ciudadanía con las instituciones que la representan y un peligroso precedente contra las minorías."
 author: celia-zafra
