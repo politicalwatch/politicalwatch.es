@@ -41,26 +41,27 @@
 
 .c-post {
   h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.55;
+    margin: 2.5rem 0 1rem;
+    padding: 0;
     a {
       color: #172844;
-      font-family: Montserrat, sans-serif;
-      font-size: 1.25rem;
       font-weight: 800;
-      line-height: 1.6;
-      margin: 3rem 0 2rem;
-      padding: 0;
       text-decoration: none;
     }
   }
   h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.35;
+    margin: 2.5rem 0 1rem;
+
     a {
       background-color: transparent;
+      font-weight: 600;
       color: #172844;
-      font-family: Montserrat, sans-serif;
-      font-size: 1.5rem;
-      font-weight: 900;
-      line-height: 1.33;
-      margin: 3rem 0 2rem;
       text-decoration: none;
     }
   }
