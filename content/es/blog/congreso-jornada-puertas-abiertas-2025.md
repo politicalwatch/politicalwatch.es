@@ -6,6 +6,9 @@ description: 'Cada diciembre, tras el Día de la Constitución, llegan las tradi
 author: celia-zafra
 createdAt: 2025-12-12
 related:
+  - el-senado-recorta-la-democracia-en-su-nuevo-reglamento
+  - political-watch-presenta-tres-propuestas-para-revitalizar-la-participacion-ciudadana-ante-la-crisis-de-confianza-democratica
+  - el-caso-nunez-y-el-sentido-comun
 lineOfWork: democracy
 ---
 

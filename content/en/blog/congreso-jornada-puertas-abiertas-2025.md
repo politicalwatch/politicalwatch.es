@@ -6,6 +6,9 @@ description: 'Cada diciembre, tras el Día de la Constitución, llegan las tradi
 author: celia-zafra
 createdAt: 2025-12-12
 related:
+  - el-senado-recorta-la-democracia-en-su-nuevo-reglamento
+  - political-watch-presenta-tres-propuestas-para-revitalizar-la-participacion-ciudadana-ante-la-crisis-de-confianza-democratica
+  - el-caso-nunez-y-el-sentido-comun
 lineOfWork: democracy
 ---
 
@@ -77,3 +80,6 @@ Es hora de que las puertas del Congreso se abran de verdad. No solo un día al a
 
 **Porque la democracia se construye con transparencia, no con secretos.**
 
+---
+
+Foto extraída de la web del Congreso de los Diputados
