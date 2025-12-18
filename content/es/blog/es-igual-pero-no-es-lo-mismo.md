@@ -1,7 +1,7 @@
 ---
-title: "Somos 3 millones de españoles viviendo fuera, y creciendo"
+title: "Es igual, pero no es lo mismo"
 slug: 'somos-3-millones-de-espanoles-viviendo-fuera-y-creciendo'
-image: "/images/posts/poblacion-de-nacionalidad-espanola-residente-en-el-extranjero-por-continente.png"
+image: "/images/posts/dmitrii-vaccinium-ItpdJY7cC7c-unsplash.jpg"
 description: "Más de 3 millones de personas ya en el extranjero. Es difícil cuando no consigues la comida que te gusta, cuando no entiendes cómo funcionan las cosas en el cole de tu hijo, cuando el médico habla demasiado rápido y asientes sin comprender del todo."
 author: celia-zafra
 createdAt: 2025-12-18
@@ -13,6 +13,8 @@ lineOfWork: democracy
 ---
 
 Más de 3 millones de personas ya en el extranjero. Es difícil cuando no consigues la comida que te gusta, cuando no entiendes cómo funcionan las cosas en el cole de tu hijo, cuando el médico habla demasiado rápido y asientes sin comprender del todo. 
+
+## Somos 3 millones de españoles viviendo fuera, y creciendo
 
 Eso mismo sienten quienes  llegan aquí. El desconcierto en el supermercado, la angustia burocrática, la extrañeza de no encontrar tu sitio. La migración es eso: sentirte extranjero, seas de donde seas, vayas donde vayas. Un ejercicio universal de valentía y vulnerabilidad.
 
@@ -33,3 +35,5 @@ Hay otra dimensión de la migración que suele olvidarse: la política. Durante 
 No se trata solo de una cuestión simbólica, el voto exterior importa y mucho. En las últimas elecciones generales, más de 233.000 españolas y españoles residentes en el extranjero votaron: un 10,04% del censo CERA, una participación claramente superior a la de 2019 tras la eliminación del voto rogado. En un contexto de resultados ajustados, [el escrutinio del voto exterior alteró el reparto de un escaño clave](https://www.google.com/url?q=https://www.inclusion.gob.es/web/cartaespana/w/el-voto-cera-altera-en-un-escano-el-recuento-electoral-de-las-elecciones-generales&sa=D&source=docs&ust=1766065326051296&usg=AOvVaw2jHmtNsiuveddr83U4vgA4) que se trasladó desde el PSOE al PP en la Comunidad de Madrid. 
 
 ![Población de nacionalidad española residente en el extranjero por continente](/images/posts/poblacion-de-nacionalidad-espanola-residente-en-el-extranjero-por-continente.png)
+
+Imagen de portada: Foto de [Dmitrii Vaccinium](https://unsplash.com/es/@vaccinium) en [Unsplash](https://unsplash.com/es/fotos/una-caja-de-la-que-sobresale-un-pedazo-de-papel-ItpdJY7cC7c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
