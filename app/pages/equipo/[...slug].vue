@@ -53,7 +53,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import web from "@/assets/images/member-web.svg?component";
 import bluesky from "@/assets/images/member-bluesky.svg?component";
 import twitter from "@/assets/images/member-twitter.svg?component";
@@ -65,9 +65,10 @@ const route = useRoute();
 const { t, te, locale } = useI18n();
 
 const slug = route.params.slug.join("/");
+const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
 
 const { data: member, error } = await useAsyncData(route.path, () =>
-  queryCollection('equipo')
+  queryCollection(teamCollection)
     .path(`/${locale.value}/equipo/${slug}`)
     .first()
 );

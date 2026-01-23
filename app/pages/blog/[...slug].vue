@@ -82,7 +82,7 @@
   </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
@@ -97,9 +97,11 @@ const route = useRoute();
 const { t, locale } = useI18n();
 
 const slug = route.params.slug.join("/");
+const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
 
 const { data: post, error } = await useAsyncData(route.path, () =>
-  queryCollection('blog')
+  queryCollection(blogCollection)
     .path(`/${locale.value}/blog/${slug}`)
     .first()
 );
@@ -109,7 +111,7 @@ const { data: author } = await useAsyncData(
   async () => {
     if (!post.value?.author) return null;
 
-    return queryCollection('equipo')
+    return queryCollection(teamCollection)
       .path(`/${locale.value}/equipo/${post.value?.author}`)
       .select('name', 'avatar')
       .first();
@@ -122,12 +124,10 @@ const { data: related } = await useAsyncData(
     if (!post.value?.related) return null;
 
     const [posts, authors] = await Promise.all([
-      queryCollection('blog')
-        .where('path', 'LIKE', `/${locale.value}/%`)
+      queryCollection(blogCollection)
         .where('slug', 'IN', post.value?.related)
         .all(),
-      queryCollection('equipo')
-        .where('path', 'LIKE', `/${locale.value}/%`)
+      queryCollection(teamCollection)
         .order('order', 'DESC')
         .select('name', 'slug')
         .all(),

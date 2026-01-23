@@ -69,10 +69,10 @@ const { teamLimit } = defineProps({
 });
 
 const { t, locale } = useI18n();
+const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
 
-const { data: team } = await useAsyncData("equipo", () => {
-  let query = queryCollection("equipo")
-    .where("path", "LIKE", `/${locale.value}/%`)
+const { data: team } = await useAsyncData("team", () => {
+  let query = queryCollection(teamCollection)
     .order("order", "ASC");
 
   if (teamLimit) query = query.limit(teamLimit);

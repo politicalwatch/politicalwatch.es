@@ -62,9 +62,10 @@ const { title, subtitle, projectLimit, lineOfWork } = defineProps({
 const getTitle = computed(() => title || t("blocks.projects.title"));
 const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
 
-const { data: projects } = await useAsyncData("proyectos", () => {
-  let query = queryCollection("proyectos")
-    .where("path", "LIKE", `/${locale.value}/%`)
+const projectsCollection = `projects_${locale.value}` as 'projects_es' | 'projects_en';
+
+const { data: projects } = await useAsyncData("projects", () => {
+  let query = queryCollection(projectsCollection)
     .order("order", "DESC");
 
   if (lineOfWork) query = query.where("lineOfWork", "=", lineOfWork);

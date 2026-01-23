@@ -4,11 +4,10 @@
 
 <script setup lang="ts">
 const { t, te, locale } = useI18n();
+const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
 
-const { data: research } = await useAsyncData("investigaciones", () =>
-  queryCollection('investigaciones')
-    .where('path', 'LIKE', `/${locale.value}/%`)
-    .all()
+const { data: research } = await useAsyncData("research", () =>
+  queryCollection(researchCollection).all()
 );
 
 const tags = computed(() => {

@@ -90,11 +90,12 @@ const getAnchorText = (link: string) => {
   return t("blocks.research.buttonLink");
 };
 
+const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
+
 const { data: research } = await useAsyncData(
-  tag ? `investigaciones-${tag}` : "investigaciones",
+  tag ? `research-${tag}` : "research",
   () => {
-    let query = queryCollection('investigaciones')
-      .where('path', 'LIKE', `/${locale.value}/%`)
+    let query = queryCollection(researchCollection)
       .order('createdAt', 'DESC');
 
     if (lineOfWork) query = query.where('lineOfWork', '=', lineOfWork);

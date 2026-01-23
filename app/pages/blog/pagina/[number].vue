@@ -37,25 +37,23 @@ const route = useRoute();
 const { t, te, locale } = useI18n();
 
 const currentPage = parseInt(route.params.number as string);
+const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
 
 const { data: allCount } = await useAsyncData(`allCount-${locale.value}`, () =>
-  queryCollection('blog')
-    .where('path', 'LIKE', `/${locale.value}/%`)
-    .count()
+  queryCollection(blogCollection).count()
 );
 
 const { data: posts } = await useAsyncData(
   `posts-page-${currentPage}`,
   async () => {
     const [posts, authors] = await Promise.all([
-      queryCollection('blog')
-        .where('path', 'LIKE', `/${locale.value}/%`)
+      queryCollection(blogCollection)
         .order('createdAt', 'DESC')
         .limit(9)
         .skip(currentPage * 9)
         .all(),
-      queryCollection('equipo')
-        .where('path', 'LIKE', `/${locale.value}/%`)
+      queryCollection(teamCollection)
         .order('order', 'DESC')
         .select('name', 'slug')
         .all(),

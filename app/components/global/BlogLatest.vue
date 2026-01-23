@@ -6,7 +6,7 @@
       link="/blog"
     />
     <div class="c-blog-latest__wrapper">
-      <BlogListPost v-for="post in latestPosts" :key="post._id" :post="post" />
+      <BlogListPost v-for="post in latestPosts" :key="post.id" :post="post" />
     </div>
   </section>
 </template>
@@ -26,8 +26,8 @@ const { postLimit, lineOfWork } = defineProps({
 });
 
 const { data: latestPosts } = await useAsyncData("posts-latest", () => {
-  let query = queryCollection('blog')
-    .where('path', 'LIKE', `/${locale.value}/%`)
+  const collectionName = `blog_${locale.value}` as 'blog_es' | 'blog_en';
+  let query = queryCollection(collectionName)
     .order('createdAt', 'DESC');
 
   if (lineOfWork) query = query.where('lineOfWork', '=', lineOfWork);

@@ -119,6 +119,7 @@ export default defineNuxtConfig({
         file: "es.js",
       },
     ],
+    strategy: 'prefix_and_default',
     defaultLocale: "es",
     detectBrowserLanguage: false,
     baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,

@@ -52,12 +52,13 @@ import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 
 const { t, te, locale } = useI18n();
 
+const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+
 const { data: allCount } = await useAsyncData(
   `allCount-${locale.value}`,
   async () => {
-    const count = await queryCollection('blog')
-      .where('path', 'LIKE', `/${locale.value}/%`)
-      .count();
+    const count = await queryCollection(blogCollection as any).count();
     return count;
   }
 );
@@ -67,13 +68,11 @@ const hasNext = computed(() => totalPosts.value > 9);
 
 const { data: posts } = await useAsyncData("posts-blog", async () => {
   const [posts, authors] = await Promise.all([
-    queryCollection('blog')
-      .where('path', 'LIKE', `/${locale.value}/%`)
+    queryCollection(blogCollection as any)
       .order('createdAt', 'DESC')
       .limit(9)
       .all(),
-    queryCollection('equipo')
-      .where('path', 'LIKE', `/${locale.value}/%`)
+    queryCollection(teamCollection as any)
       .order('order', 'DESC')
       .select('name', 'slug')
       .all(),
