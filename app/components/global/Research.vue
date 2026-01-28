@@ -31,15 +31,6 @@
           <div class="c-research__item-desc">
             {{ item.description }}
           </div>
-          <a
-            :href="item.link"
-            target="_blank"
-            class="c-button c-button--outline c-research__item-link"
-          >
-            {{ getAnchorText(item.link) }}
-
-            <download v-if="!item.link.includes('http')" />
-          </a>
         </div>
       </article>
     </div>
