@@ -85,6 +85,7 @@ export default {
       title: "Research",
       goto: "Find all",
       button: "Download",
+      buttonLink: "Visit",
     },
     cookies: {
       message:

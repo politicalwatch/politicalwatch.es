@@ -17,14 +17,16 @@
             <NuxtLinkLocale
               v-for="itemTag in item.tags"
               :key="itemTag"
-              :to="`/investigaciones/${itemTag}`"
+              :to="`/investigaciones/tag/${itemTag}`"
               class="c-research__item-tag"
             >
               {{ decodeURIComponent(itemTag).replace(/-/g, " ") }}
             </NuxtLinkLocale>
           </p>
           <h3 class="c-research__item-title">
-            {{ item.title }}
+            <NuxtLinkLocale :to="getDetailPath(item.path)">
+              {{ item.title }}
+            </NuxtLinkLocale>
           </h3>
           <div class="c-research__item-desc">
             {{ item.description }}
@@ -90,6 +92,11 @@ const getAnchorText = (link: string) => {
   return t("blocks.research.buttonLink");
 };
 
+const getDetailPath = (path: string) => {
+  const slug = path.split("/").pop();
+  return `/investigaciones/${slug}`;
+};
+
 const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
 
 const { data: research } = await useAsyncData(
@@ -131,6 +138,15 @@ const { data: research } = await useAsyncData(
       line-height: 1.33;
       margin: 0 0 gap(1) 0;
       color: $brand;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
 
     &-desc {

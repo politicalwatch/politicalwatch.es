@@ -63,7 +63,7 @@ const { title, tag, button, link, type, filters } = defineProps({
 const goToTag = (event: Event) => {
   const selectElement = event.target as HTMLSelectElement;
   const selectedTag = selectElement.value;
-  router.push(`/investigaciones/${selectedTag}`);
+  router.push(`/investigaciones/tag/${selectedTag}`);
 };
 </script>
 
