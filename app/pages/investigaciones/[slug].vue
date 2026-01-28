@@ -2,11 +2,16 @@
   <section v-if="research" class="o-container c-research-detail o-section">
     <OnlyInSpanish origin="research" class="o-section" />
 
-    <header class="c-research-detail__header">
-      <h1 class="c-research-detail__title">
+    <SectionHeader
+      :title="title || t('blocks.research.title')"
+      :button="t('blocks.research.goto')"
+      link="/investigaciones"
+      :type="titleType"
+    />
+
+    <h1 class="c-research-detail__title">
         {{ research?.title }}
-      </h1>
-    </header>
+    </h1>
 
     <div class="c-research-detail__layout">
       <main class="c-research-detail__main">
@@ -25,10 +30,6 @@
 
       <aside class="c-research-detail__sidebar">
         <div class="c-research-detail__meta">
-          <p class="c-research-detail__date">
-            <calendar />
-            {{ format(research?.createdAt, "d 'de' MMMM yyyy", { locale: es }) }}
-          </p>
 
           <div v-if="research?.tags?.length" class="c-research-detail__tags">
             <NuxtLinkLocale
@@ -61,7 +62,6 @@ import { format } from "date-fns";
 import { es } from "date-fns/locale";
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 import download from "@/assets/images/icon-download.svg?component";
-import calendar from "@/assets/images/icon-calendar.svg?component";
 
 const config = useRuntimeConfig();
 const route = useRoute();
@@ -125,9 +125,6 @@ useHead({
 
 <style lang="scss" scoped>
 .c-research-detail {
-  &__header {
-    margin-bottom: gap(6);
-  }
 
   &__title {
     font-family: $font-secondary;
@@ -135,7 +132,7 @@ useHead({
     font-weight: bold;
     line-height: 1.33;
     color: $brand;
-    margin: 0;
+    margin-bottom: gap(6);
 
     @media (min-width: $md) {
       font-size: rem(40px);
