@@ -15,6 +15,16 @@
 
     <div class="c-research-detail__layout">
       <main class="c-research-detail__main">
+        <div v-if="research?.tags?.length" class="c-research-detail__tags">
+          <NuxtLinkLocale
+              v-for="tag in research.tags"
+              :key="tag"
+              :to="`/investigaciones/tag/${tag}`"
+              class="c-research-detail__tag"
+              >
+              {{ decodeURIComponent(tag).replace(/-/g, " ") }}
+          </NuxtLinkLocale>
+        </div>
         <ContentRenderer
           v-if="research"
           :value="research"
@@ -31,16 +41,6 @@
       <aside class="c-research-detail__sidebar">
         <div class="c-research-detail__meta">
 
-          <div v-if="research?.tags?.length" class="c-research-detail__tags">
-            <NuxtLinkLocale
-              v-for="tag in research.tags"
-              :key="tag"
-              :to="`/investigaciones/tag/${tag}`"
-              class="c-research-detail__tag"
-            >
-              {{ decodeURIComponent(tag).replace(/-/g, " ") }}
-            </NuxtLinkLocale>
-          </div>
 
           <a
             v-if="research?.link"
@@ -132,7 +132,7 @@ useHead({
     font-weight: bold;
     line-height: 1.33;
     color: $brand;
-    margin-bottom: gap(6);
+    margin-bottom: gap(4);
 
     @media (min-width: $md) {
       font-size: rem(40px);
@@ -143,8 +143,8 @@ useHead({
   &__layout {
     @media (min-width: $md) {
       display: grid;
-      grid-template-columns: 1fr 280px;
-      gap: gap(8);
+      grid-template-columns: 1fr 200px;
+      gap: gap(14);
     }
   }
 
@@ -153,29 +153,6 @@ useHead({
 
     @media (min-width: $md) {
       margin-bottom: 0;
-    }
-  }
-
-  &__meta {
-    @media (min-width: $md) {
-      position: sticky;
-      top: gap(4);
-    }
-  }
-
-  &__date {
-    display: flex;
-    align-items: center;
-    gap: gap(1);
-    font-size: rem(14px);
-    line-height: 1.71;
-    color: $brand;
-    margin: 0 0 gap(3) 0;
-
-    svg {
-      width: 16px;
-      height: 16px;
-      flex-shrink: 0;
     }
   }
 
@@ -201,6 +178,14 @@ useHead({
     &:hover {
       box-shadow: 0 0 0 2px $primary;
       color: $white;
+    }
+  }
+
+  &__meta {
+    @media (min-width: $md) {
+      position: sticky;
+      top: gap(4);
+      text-align: right;
     }
   }
 
