@@ -11,7 +11,7 @@ const { data: research } = await useAsyncData("research", () =>
 );
 
 const tags = computed(() => {
-  const tags = new Set(research.value?.map((item) => item.tags).flat());
+  const tags = new Set(research.value?.map((item) => item.tags).flat().sort());
   return [...tags];
 });
 
