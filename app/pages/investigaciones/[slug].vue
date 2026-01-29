@@ -224,7 +224,6 @@ useHead({
     line-height: 1.6;
     color: $brand;
     margin: 0 0 gap(6) 0;
-    font-style: italic;
   }
 
   &__content {
