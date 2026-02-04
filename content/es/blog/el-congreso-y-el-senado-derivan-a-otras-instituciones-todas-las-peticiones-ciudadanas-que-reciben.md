@@ -2,7 +2,7 @@
 title: "El Congreso y el Senado derivan a otras instituciones todas las peticiones ciudadanas que reciben"
 slug: 'el-congreso-y-el-senado-derivan-a-otras-instituciones-todas-las-peticiones-ciudadanas-que-reciben'
 image: "/images/posts/webinar-derecho-de-peticion.jpg"
-description: "Se acerca el 8 de marzo y cada año tenemos el mismo debate en Political Watch. Que mejor calladas que decir tonterías. Que qué vamos a aportar nosotras (y nosotros) a un día siempre lleno de contenidos necesarios y también de oportunistas del #PinkWashing. Y siempre elegíamos el silencio, que es también una manera de hablar."
+description: "Un nuevo informe de Political Watch revela la inoperancia del derecho de petición en España. Mientras en países como Alemania, Reino Unido o Estonia con un número razonable de firmas \-recibidas por vía electrónica- una petición debe debatirse en el Parlamento, las Cortes españolas actúan solo como una ventanilla de trámite. Es decir, no han hecho efectivo el mandato que les hizo la Constitución en sus artículo 29 y 77, de atender las peticiones de las ciudadanas y ciudadanos a quienes representan."
 author: celia-zafra
 createdAt: 2026-02-03
 related:
@@ -17,7 +17,7 @@ lineOfWork: democracy
 * A nivel autonómico, Asturias cuenta con el único modelo que garantiza consecuencias prácticas a las peticiones de los ciudadanos. Cataluña, Murcia y Canarias también han desarrollado regulaciones propias, aunque limitada.
 
 
-Un nuevo informe de Political Watch revela la inoperancia del derecho de petición en España. Mientras en países como Alemania, Reino Unido o Estonia con un número razonable de firmas \-recibidas por vía electrónica- una petición debe debatirse en el Parlamento, las Cortes españolas actúan solo como una ventanilla de trámite. Es decir, incumplen *de facto* el mandato que les hizo la Constitución en sus artículo 29 y 77, de atender las peticiones de las ciudadanas y ciudadanos a quienes representan.
+Un nuevo informe de Political Watch revela la inoperancia del derecho de petición en España. Mientras en países como Alemania, Reino Unido o Estonia con un número razonable de firmas \-recibidas por vía electrónica- una petición debe debatirse en el Parlamento, las Cortes españolas actúan solo como una ventanilla de trámite. Es decir, no han hecho efectivo el mandato que les hizo la Constitución en sus artículo 29 y 77, de atender las peticiones de las ciudadanas y ciudadanos a quienes representan.
 
 Prueba de la poca importancia que se les concede a estas demandas ciudadanas y del rol autoasignado de meros intermediarios es que **la Comisión de Peticiones del Congreso apenas se reúne entre 45 minutos y 3 horas anuales desde 2011 (una hora y media durante los 3 años y medio de la legislatura anterior)**. Como contraste, la Comisión de Presupuestos se reúne unas 150 horas por legislatura.
 
