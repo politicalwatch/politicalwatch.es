@@ -68,8 +68,10 @@ We push for changes to public policy and institutional practice that give openne
 
 We act as a connector and catalyst, weaving together diverse actors across sectors and geographies, enabling ecosystems to flourish and building collaborative infrastructures that amplify impact, foster resilience, and sustain democratic ecosystems over time.
 
----
-
-If you are interested, you can check our [research repository](/en/investigaciones).
-
 </md-content>
+
+::research
+---
+researchLimit: 3
+---
+::

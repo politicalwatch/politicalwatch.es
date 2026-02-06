@@ -68,8 +68,10 @@ Impulsamos cambios en las políticas públicas y en las prácticas institucional
 
 Creamos conexiones con valor, tejiendo alianzas entre actores diversos -de activistas a instituciones, pasando por movimientos sociales, culturales, academia y sector privado- y geografías. Lo hacemos, para construir infraestructuras colaborativas que amplifiquen el impacto y sostengan ecosistemas democráticos a largo plazo. Defendemos que somos más eficaces si trabajamos por un objetivo común, sumando cada una lo que mejor sabe hacer.
 
----
-
-Si estás interesado puedes consultar nuestro <a href="/investigaciones">repositorio de investigaciones</a>.
-
 </md-content>
+
+::research
+---
+researchLimit: 3
+---
+::

@@ -1,6 +1,6 @@
 <template>
   <div 
-    v-show="$i18n.locale != 'es'"
+    v-show="$i18n.locale != 'es' && shouldShow"
     class="c-disclaimer"
     role="alert"
   >
@@ -13,6 +13,11 @@
 
 <script setup lang="ts">
 import SpainFlag from "@/assets/images/spain.svg?component";
+const route = useRoute();
+
+// only shows in research pages
+const includesRoutes = ['/en/investigaciones'];
+const shouldShow = computed(() => route.path.includes(includesRoutes));
 
 const { origin } = defineProps({
   origin: {

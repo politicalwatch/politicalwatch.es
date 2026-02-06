@@ -51,16 +51,21 @@ alliances:
   description="Aspiramos a un mundo más justo. Para conseguirlo, apostamos por renovar la democracia actual, que se ha desconectado de la ciudadanía a la que representa.">
 </banner>
 
-
 <featured
   title="Proyectos destacados"
   :featured="featuredItems">
 </featured>
 
-<alliances :alliances="alliances"></alliances>
+::research
+---
+researchLimit: 3
+---
+::
 
 ::BlogLatest
 ---
 postLimit: 2
 ---
 ::
+
+<alliances :alliances="alliances"></alliances>

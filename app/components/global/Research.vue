@@ -39,7 +39,6 @@
 
 <script setup lang="ts">
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
-import download from "@/assets/images/icon-download.svg?component";
 
 const { title, tag, titleType, filters, researchLimit, lineOfWork } =
   defineProps({
@@ -72,17 +71,6 @@ const { title, tag, titleType, filters, researchLimit, lineOfWork } =
 
 const { t, locale } = useI18n();
 
-const getAnchorText = (link: string) => {
-  if (
-    link.includes(".pdf") ||
-    link.includes(".xls") ||
-    link.includes(".xlsx")
-  ) {
-    return `${t("blocks.research.button")}`;
-  }
-  return t("blocks.research.buttonLink");
-};
-
 const getDetailPath = (path: string) => {
   const slug = path.split("/").pop();
   return `/investigaciones/${slug}`;
@@ -91,7 +79,7 @@ const getDetailPath = (path: string) => {
 const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
 
 const { data: research } = await useAsyncData(
-  tag ? `research-${tag}` : "research",
+  tag ? `research-${tag}` : `research-${researchLimit || 'no-limit'}`,
   () => {
     let query = queryCollection(researchCollection)
       .order('createdAt', 'DESC');

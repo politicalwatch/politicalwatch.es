@@ -51,16 +51,21 @@ alliances:
   description="We fight for a fairer world, and we know the only way to get there is by reclaiming and renewing our democracy — a democracy that’s drifted too far from the people it exists to serve.">
 </banner>
 
-
 <featured
   title="Featured projects"
   :featured="featuredItems">
 </featured>
 
-<alliances :alliances="alliances"></alliances>
+::research
+---
+researchLimit: 3
+---
+::
 
 ::BlogLatest
 ---
 postLimit: 2
 ---
 ::
+
+<alliances :alliances="alliances"></alliances>
