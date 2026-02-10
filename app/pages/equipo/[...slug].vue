@@ -84,32 +84,30 @@ useHead({
       content: member.value?.position,
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: member.value?.position,
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${member.value?.name} | Political Watch`,
     },
     {
-      hid: "og:image",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "og:image",
       content: `${config.public.baseURL}${member.value?.avatar}`,
     },
     {
-      hid: "twitter:description",
       property: "twitter:description",
       content: member.value?.position,
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${member.value?.name} | Political Watch`,
     },
     {
-      hid: "twitter:image",
       property: "twitter:image",
       content: `${config.public.baseURL}${member.value?.avatar}`,
     },

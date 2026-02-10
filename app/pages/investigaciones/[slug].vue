@@ -100,23 +100,23 @@ useHead({
       content: research.value?.description || research.value?.title,
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: research.value?.description || research.value?.title,
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${research.value?.title} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "twitter:description",
       content: research.value?.description || research.value?.title,
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${research.value?.title} | Political Watch`,
     },
   ],

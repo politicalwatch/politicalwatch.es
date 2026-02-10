@@ -17,6 +17,8 @@ definePageMeta({
 });
 
 const { t } = useI18n();
+const config = useRuntimeConfig();
+const route = useRoute();
 const { page } = await usePage();
 
 useHead({
@@ -27,24 +29,24 @@ useHead({
       content: page?.value?.subtitle,
     },
     {
-      hid: "og:description",
       property: "og:description",
-      content: t("pages.home.description"),
+      content: page?.value?.subtitle,
     },
     {
       property: "og:title",
-      hid: "og:title",
-      content: `${t("pages.home.title")} | Political Watch`,
+      content: `${page?.value?.title} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "twitter:description",
-      content: t("pages.home.description"),
+      content: page?.value?.subtitle,
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
-      content: `${t("pages.home.title")} | Political Watch`,
+      content: `${page?.value?.title} | Political Watch`,
     },
   ],
 });

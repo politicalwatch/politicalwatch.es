@@ -153,32 +153,34 @@ useHead({
       content: post.value?.description || post.value?.title,
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: post.value?.description || post.value?.title,
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${post.value?.title} | Political Watch`,
     },
     {
-      hid: "og:image",
+      property: "og:type",
+      content: "article",
+    },
+    {
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "og:image",
       content: `${config.public.baseURL}${post.value?.image}`,
     },
     {
-      hid: "twitter:description",
       property: "twitter:description",
       content: post.value?.description || post.value?.title,
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${post.value?.title} | Political Watch`,
     },
     {
-      hid: "twitter:image",
       property: "twitter:image",
       content: `${config.public.baseURL}${post.value?.image}`,
     },

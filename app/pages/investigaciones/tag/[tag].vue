@@ -4,6 +4,7 @@
 
 <script setup lang="ts">
 const route = useRoute();
+const config = useRuntimeConfig();
 const { t, te, locale } = useI18n();
 
 const tag = route.params.tag;
@@ -21,7 +22,6 @@ useHead({
         : t("pages.research.title"),
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: te("pages.research.description")
         ? t("pages.research.description")
@@ -29,11 +29,13 @@ useHead({
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${t("pages.research.title")} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "twitter:description",
       content: te("pages.research.description")
         ? t("pages.research.description")
@@ -41,7 +43,6 @@ useHead({
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${t("pages.research.title")} | Political Watch`,
     },
   ],

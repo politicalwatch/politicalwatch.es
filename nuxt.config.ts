@@ -28,6 +28,14 @@ export default defineNuxtConfig({
             "transparencia, rendición de cuentas, desarrollo sostenible, innovación social, política, coherencia de políticas, agenda 2030, ods, empresa y derechos humanos",
         },
         {
+          property: "og:site_name",
+          content: "Political Watch",
+        },
+        {
+          property: "og:type",
+          content: "website",
+        },
+        {
           property: "og:title",
           content: "Political Watch",
         },

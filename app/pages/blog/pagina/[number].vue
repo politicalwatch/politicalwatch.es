@@ -34,6 +34,7 @@
 import BlogListPost from "@/components/global/BlogListPost.vue";
 
 const route = useRoute();
+const config = useRuntimeConfig();
 const { t, te, locale } = useI18n();
 
 const currentPage = parseInt(route.params.number as string);
@@ -90,7 +91,6 @@ useHead({
         : t("pages.blog.title"),
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: te("pages.blog.description")
         ? t("pages.blog.description")
@@ -98,13 +98,15 @@ useHead({
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${t(
         "pages.blog.title"
       )}: página ${currentPage} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "twitter:description",
       content: te("pages.blog.description")
         ? t("pages.blog.description")
@@ -112,7 +114,6 @@ useHead({
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${t(
         "pages.blog.title"
       )}: página ${currentPage} | Political Watch`,

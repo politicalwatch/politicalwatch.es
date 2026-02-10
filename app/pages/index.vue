@@ -14,6 +14,7 @@ definePageMeta({
 });
 
 const { t } = useI18n();
+const config = useRuntimeConfig();
 const { page } = await usePage();
 
 useHead({
@@ -24,23 +25,23 @@ useHead({
       content: t("pages.home.description"),
     },
     {
-      hid: "og:description",
       property: "og:description",
       content: t("pages.home.description"),
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${t("pages.home.title")} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}`,
+    },
+    {
       property: "twitter:description",
       content: t("pages.home.description"),
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${t("pages.home.title")} | Political Watch`,
     },
   ],

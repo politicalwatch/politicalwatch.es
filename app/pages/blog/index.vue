@@ -51,6 +51,8 @@
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 
 const { t, te, locale } = useI18n();
+const config = useRuntimeConfig();
+const route = useRoute();
 
 const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
 const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
@@ -102,7 +104,6 @@ useHead({
   },
   meta: [
     {
-      hid: "og:description",
       property: "og:description",
       content: te("pages.blog.description")
         ? t("pages.blog.description")
@@ -110,11 +111,13 @@ useHead({
     },
     {
       property: "og:title",
-      hid: "og:title",
       content: `${t("pages.blog.title")} | Political Watch`,
     },
     {
-      hid: "twitter:description",
+      property: "og:url",
+      content: `${config.public.baseURL}${route.path}`,
+    },
+    {
       property: "twitter:description",
       content: te("pages.blog.description")
         ? t("pages.blog.description")
@@ -122,7 +125,6 @@ useHead({
     },
     {
       property: "twitter:title",
-      hid: "twitter:title",
       content: `${t("pages.blog.title")} | Political Watch`,
     },
   ],
