@@ -118,9 +118,14 @@ useHead({
 <style lang="scss" scoped>
 .c-member {
   display: grid;
-  grid-auto-flow: column;
-  grid-gap: gap(14);
-  grid-template-columns: 35% auto;
+  grid-gap: gap(6);
+  grid-template-columns: 1fr;
+
+  @media (min-width: $md) {
+    grid-auto-flow: column;
+    grid-gap: gap(14);
+    grid-template-columns: 35% auto;
+  }
 
   &__avatar {
     img {
@@ -147,17 +152,25 @@ useHead({
 
     &__contact {
       display: grid;
-      grid-auto-flow: column;
       align-items: center;
       gap: gap(2);
+
+      @media (min-width: $sm) {
+        grid-auto-flow: column;
+      }
 
       &-email {
         @include member-email;
         justify-self: start;
+        word-break: break-all;
       }
       &-social {
         @include member-social;
-        justify-self: end;
+        justify-self: start;
+
+        @media (min-width: $sm) {
+          justify-self: end;
+        }
       }
     }
 
