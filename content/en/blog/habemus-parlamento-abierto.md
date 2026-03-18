@@ -22,4 +22,4 @@ También nos preocupa que el Plan carezca de cualquier intento por fomentar una 
 
 Así que hemos ido al Congreso con estos dos objetivos: para celebrar que existen avances que se materializan, pero también para recordar que una institución es verdaderamente abierta cuando rinde cuentas, escucha activamente a la ciudadanía y se deja transformar para servir mejor a la democracia.
 
-*  En [este enlace](/documentos/intervencion-de-pw-en-presentacion-i-plan-de-parlamento-abierto12062025.pdf) encontrarás el discurso completo de nuestro director en el acto institucional 
+*  En [este enlace](https://politicalwatch.es/documentos/intervencion-de-pw-en-presentacion-i-plan-de-parlamento-abierto12062025.pdf) encontrarás el discurso completo de nuestro director en el acto institucional 
