@@ -21,12 +21,12 @@
     "vue-router": "^5.0.0"
   },
   "devDependencies": {
-    "@netlify/nuxt": "^0.2.2",
+    "@netlify/nuxt": "^0.3.6",
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/image": "^2.0.0",
     "@nuxtjs/google-fonts": "^3.2.0",
-    "@nuxtjs/sitemap": "^7.0.0",
-    "nuxt": "^4.4.2",
+    "@nuxtjs/sitemap": "^8.0.0",
+    "nuxt": "^4.4.6",
     "nuxt-gtag": "^4.1.0",
     "nuxt-studio": "^1.0.0",
     "vite-svg-loader": "^5.1.0"
