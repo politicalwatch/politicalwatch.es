@@ -1,6 +1,25 @@
 import { defineContentConfig, defineCollection, z } from "@nuxt/content";
 
 // Shared schemas
+const ddThemesSchema = z.object({
+  title: z.string().optional(),
+  order: z.number().optional(),
+  iconFill: z.string().optional(),
+  iconOutline: z.string().optional(),
+  summary: z.string().optional(),
+  hallazgo: z.string().optional(),
+  propuesta: z.string().optional(),
+  relatedReports: z
+    .array(
+      z.object({
+        title: z.string(),
+        description: z.string().optional(),
+        conclusion: z.string().optional(),
+      })
+    )
+    .optional(),
+});
+
 const pageSchema = z.object({
   title: z.string().optional(),
   subtitle: z.string().optional(),
@@ -60,6 +79,7 @@ export default defineContentConfig({
           "es/equipo/**",
           "es/proyectos/**",
           "es/investigaciones/**",
+          "es/derechos-digitales/themes/**",
         ],
       },
       schema: pageSchema,
@@ -85,7 +105,18 @@ export default defineContentConfig({
       schema: researchSchema,
     }),
 
-    // English collections
+    // Derechos Digitales theme collections
+    dd_themes_es: defineCollection({
+      type: "page",
+      source: "es/derechos-digitales/themes/**",
+      schema: ddThemesSchema,
+    }),
+    dd_themes_en: defineCollection({
+      type: "page",
+      source: "en/derechos-digitales/themes/**",
+      schema: ddThemesSchema,
+    }),
+
     pages_en: defineCollection({
       type: "page",
       source: {
@@ -95,6 +126,7 @@ export default defineContentConfig({
           "en/equipo/**",
           "en/proyectos/**",
           "en/investigaciones/**",
+          "en/derechos-digitales/themes/**",
         ],
       },
       schema: pageSchema,
