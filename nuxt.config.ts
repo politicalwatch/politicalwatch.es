@@ -136,7 +136,7 @@ export default defineNuxtConfig({
     families: {
       Roboto: true,
       Montserrat: [300, 800, 900],
-      'DM Serif Display': true,
+      'DM Serif Display': { wght: [400], ital: true },
     },
   },
   gtag: {

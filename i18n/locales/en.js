@@ -47,6 +47,10 @@ export default {
     derechosDigitales: {
       title: "La democracia que merecemos — Derechos Digitales",
       description: "Cinco ejes para construir una democracia más transparente, participativa y responsable. Un proyecto de Political Watch y Derechos Digitales.",
+      introBody: "Para que la democracia sirva de verdad, no basta con invocarla. Hay que diseñarla para que funcione en la práctica. En algunas ocasiones, eso exige revisar mecanismos que ya existen pero no están dando resultado. Otras veces, abrir soluciones nuevas allí donde las instituciones siguen llegando tarde.",
+      introCta: "Ver los cinco ejes",
+      pathsTitle: "¿Qué caminos merece la pena abrir?",
+      pathsBody: "Cada eje identifica un recorrido que hoy encuentra bloqueos, las causas de esos bloqueos y las condiciones necesarias para superarlos. No es un mapa del deterioro. Es un mapa de caminos útiles para construir una democracia más útil, más abierta y apoyándose en la tecnología.",
       bannerText1: "Una investigación cívica para una democracia más transparente, participativa y responsable.",
       bannerText2: "Un proyecto de Political Watch y Derechos Digitales.",
     },
