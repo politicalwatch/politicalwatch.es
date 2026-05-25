@@ -44,6 +44,12 @@ export default {
     cookies: {
       title: "Cookies policy",
     },
+    derechosDigitales: {
+      title: "La democracia que merecemos — Derechos Digitales",
+      description: "Cinco ejes para construir una democracia más transparente, participativa y responsable. Un proyecto de Political Watch y Derechos Digitales.",
+      bannerText1: "Una investigación cívica para una democracia más transparente, participativa y responsable.",
+      bannerText2: "Un proyecto de Political Watch y Derechos Digitales.",
+    },
   },
   blocks: {
     hero: {
