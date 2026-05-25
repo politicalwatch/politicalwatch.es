@@ -1,5 +1,6 @@
 <template>
   <main class="c-page is-dd">
+    <DerechosDigitalesHero />
     <DerechosDigitalesIntro />
     <section class="c-dd-banner">
       <div class="c-dd-banner__wrapper o-container">
