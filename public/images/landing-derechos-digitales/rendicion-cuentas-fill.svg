@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45 44.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Nueva_muestra_de_degradado_2);
+      }
+    </style>
+    <linearGradient id="Nueva_muestra_de_degradado_2" data-name="Nueva muestra de degradado 2" x1="1.41" y1="43.4" x2="43.59" y2="1.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b2745"/>
+      <stop offset=".38" stop-color="#70237c"/>
+      <stop offset=".68" stop-color="#ed2949"/>
+      <stop offset="1" stop-color="#ef7923"/>
+      <stop offset="1" stop-color="#ed1652"/>
+    </linearGradient>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <path class="cls-1" d="M32.71,22.31c23.97,18.72,8.67,33.9-10.21,10.12C3.62,56.2-11.69,41.03,12.29,22.31-11.69,3.59,3.62-11.59,22.5,12.18c18.88-23.77,34.19-8.6,10.21,10.12Z"/>
+  </g>
+</svg>
