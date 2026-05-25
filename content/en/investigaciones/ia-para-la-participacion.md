@@ -4,9 +4,10 @@ description: 'El uso de técnicas de IA para resolver problemáticas comunes en 
 link: "/documentos/IA-para-la-participacion_Libro.pdf"
 lineOfWork: democracy
 tags:
-    - civictech
+    - civic-tech
     - democracia
-    - inteligencia-artifial
+    - derechos-digitales
+    - inteligencia-artificial
 
 createdAt: 2026-05-20
 ---

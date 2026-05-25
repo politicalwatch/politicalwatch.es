@@ -4,7 +4,7 @@ description: 'Informe realizado para la Generalitat de Catalunya con un enfoque 
 link: /documentos/Masde10aniosdeCivicTech.pdf
 lineOfWork: democracy
 tags:
-    - civictech
+    - civic-tech
     - democracia
     - ciudadania-activa
 createdAt: 2025-08-22
