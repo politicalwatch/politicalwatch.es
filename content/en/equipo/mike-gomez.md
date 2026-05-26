@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/miguel-%C3%A1ngel-g%C3%B3mez-p%C3%A9rez-a997971a2/"
-order: 11
+order: 9
 ---
 
 Miguel knows all the cheesy pop songs on Kiss FM, but don’t expect him to audition for The Voice any time soon. A lover of nature, a vegan and an animal rights activist, Miguel dreams of a more sustainable world. He loves watching international films at home (no dubbing, only subtitles please) with a bowl of popcorn in his lap.

@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/paula-mar%C3%ADa-llera-colunga/"
-order: 8
+order: 7
 ---
 
 Asturian by birth, Madrid is now Paula's adoptive home. She gets FOMO if she goes a day without listening to the radio and can talk endlessly about Eurovision and its political ramifications. In her free time, she volunteers at an anti-poverty organisation.

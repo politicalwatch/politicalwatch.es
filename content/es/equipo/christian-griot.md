@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/christian-griot-8092411b6"
-order: 9
+order: 8
 ---
 
 Globalista total, imita acentos con puntería y reconoce todas las banderas del mundo.

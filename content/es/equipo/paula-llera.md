@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/paula-mar%C3%ADa-llera-colunga/"
-order: 8
+order: 7
 ---
 
 Asturiana de nacimiento y madrileña de adopción, si no escucha la radio un día le entra FOMO y podría hablar durante horas sobre Eurovisión y sus repercusiones políticas. En sus ratos libres, colabora como voluntaria en una organización de lucha contra la pobreza.

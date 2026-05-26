@@ -8,7 +8,7 @@ web: ""
 twitter: ""
 github: ""
 linkedin: "https://www.linkedin.com/in/miguel-%C3%A1ngel-g%C3%B3mez-p%C3%A9rez-a997971a2/"
-order: 11
+order: 9
 ---
 
 Conoce todas las canciones que suenan en Kiss FM, aunque no pasaría ninguna audición de Operación Triunfo. Amante de la naturaleza, lleva un estilo de vida vegano y es activista por los derechos de los animales. Sueña con un mundo más sostenible. Ama ver películas en V.O. en casa mientras come palomitas.
