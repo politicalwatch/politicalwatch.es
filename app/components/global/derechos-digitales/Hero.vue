@@ -70,7 +70,7 @@ const { data: themes } = await useDdThemes();
 
   position: relative;
   overflow: hidden;
-  margin-top: gap(-8);
+  margin-top: gap(-10);
   background: linear-gradient(135deg, $dd-gradient-from 0%, $dd-gradient-via 33%, $dd-gradient-via-2 66%, $dd-gradient-to 100%);
 
   @media (prefers-reduced-motion: no-preference) {
@@ -175,7 +175,7 @@ const { data: themes } = await useDdThemes();
   &__description {
     font-family: $font-primary;
     font-size: rem(16px);
-    line-height: 1.75;
+    line-height: 1.55;
     white-space: pre-line;
     color: rgba(255, 255, 255, 0.9);
     margin: 0 0 gap(6) 0;
@@ -201,7 +201,7 @@ const { data: themes } = await useDdThemes();
     font-size: rem(15px);
     font-weight: 800;
     text-decoration: none;
-    padding: gap(2.5) gap(6);
+    padding: gap(2) gap(4);
     border-radius: 999px;
     transition: background 0.3s, color 0.3s, border-color 0.3s;
 
@@ -220,7 +220,7 @@ const { data: themes } = await useDdThemes();
     font-size: rem(15px);
     font-weight: 800;
     text-decoration: none;
-    padding: gap(2.5) gap(6);
+    padding: gap(2) gap(4);
     border-radius: 999px;
     transition: background 0.3s, color 0.3s, border-color 0.3s;
 
@@ -250,7 +250,7 @@ const { data: themes } = await useDdThemes();
     display: flex;
     align-items: center;
     gap: gap(2);
-    padding: gap(1.5) gap(2);
+    padding: gap(1) gap(1.2);
     border-radius: 999px;
     background: $dd-gradient-from;
     color: $white;

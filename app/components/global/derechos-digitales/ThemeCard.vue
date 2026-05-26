@@ -99,9 +99,9 @@ const emit = defineEmits<{
 
   &__icon {
     position: absolute;
-    top: gap(2);
-    right: gap(2);
-    transform: translate(50%, -50%);
+    top: 0;
+    right: 0;
+    transform: translate(18%, -16%);
     width: 80px;
     height: 80px;
     object-fit: contain;
@@ -110,19 +110,13 @@ const emit = defineEmits<{
     @media (min-width: $md) {
       width: 100px;
       height: 100px;
-      top: gap(4);
-      right: gap(4);
     }
   }
 
   &--reverse &__icon {
     right: auto;
-    left: gap(2);
-    transform: translate(-50%, -50%);
-
-    @media (min-width: $md) {
-      left: gap(4);
-    }
+    left: 0;
+    transform: translate(-18%, -16%);
   }
 
   &__content {

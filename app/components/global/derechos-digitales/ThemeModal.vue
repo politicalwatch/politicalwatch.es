@@ -134,6 +134,41 @@ function onBackdropClick(e: MouseEvent) {
   overflow-y: auto;
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
 
+  opacity: 0;
+  transform: translateY(24px) scale(0.94);
+  transition:
+    opacity 320ms ease,
+    transform 350ms cubic-bezier(0.22, 1, 0.36, 1),
+    overlay 350ms allow-discrete,
+    display 350ms allow-discrete;
+
+  &[open] {
+    opacity: 1;
+    transform: none;
+  }
+
+  @starting-style {
+    &[open] {
+      opacity: 0;
+      transform: translateY(24px) scale(0.94);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    transform: none;
+    transition:
+      opacity 150ms ease,
+      overlay 150ms allow-discrete,
+      display 150ms allow-discrete;
+
+    @starting-style {
+      &[open] {
+        opacity: 0;
+        transform: none;
+      }
+    }
+  }
+
   &__header {
     position: relative;
     display: flex;
