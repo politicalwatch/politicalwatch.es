@@ -2,11 +2,11 @@
   <dialog
     ref="dlg"
     class="c-dd-theme-modal"
-    :aria-labelledby="eje ? `dd-modal-title-${eje.order}` : undefined"
+    :aria-labelledby="theme ? `dd-modal-title-${theme.order}` : undefined"
     @close="onClose"
     @click="onBackdropClick"
   >
-    <div class="c-dd-theme-modal__inner" v-if="eje">
+    <div class="c-dd-theme-modal__inner" v-if="theme">
       <header class="c-dd-theme-modal__header">
         <img
           src="/images/landing-derechos-digitales/abstract-lines.svg"
@@ -16,13 +16,13 @@
         />
 
         <h2
-          :id="`dd-modal-title-${eje.order}`"
+          :id="`dd-modal-title-${theme.order}`"
           class="c-dd-theme-modal__title"
-        >{{ eje.title }}</h2>
+        >{{ theme.title }}</h2>
 
         <img
-          v-if="eje.iconOutline"
-          :src="eje.iconOutline"
+          v-if="theme.iconOutline"
+          :src="theme.iconOutline"
           alt=""
           aria-hidden="true"
           class="c-dd-theme-modal__icon"
@@ -37,17 +37,17 @@
 
       <div class="c-dd-theme-modal__body">
         <div class="c-dd-theme-modal__main">
-          <ContentRenderer :value="eje" class="c-dd-theme-modal__prose" />
+          <ContentRenderer :value="theme" class="c-dd-theme-modal__prose" />
 
           <blockquote class="c-dd-hallazgo">
             <strong class="c-dd-hallazgo__label">{{ t('pages.derechosDigitales.hallazgo') }}</strong>
-            <p class="c-dd-hallazgo__text">{{ eje.hallazgo }}</p>
+            <p class="c-dd-hallazgo__text">{{ theme.hallazgo }}</p>
           </blockquote>
 
           <h3 class="c-dd-theme-modal__propuesta-title">
             {{ t('pages.derechosDigitales.queProponeTitle') }}
           </h3>
-          <p class="c-dd-theme-modal__propuesta-text">{{ eje.propuesta }}</p>
+          <p class="c-dd-theme-modal__propuesta-text">{{ theme.propuesta }}</p>
 
           <img
             src="/images/landing-derechos-digitales/abstract-lines.svg"
@@ -57,12 +57,12 @@
           />
         </div>
 
-        <aside v-if="eje.relatedReports?.length" class="c-dd-theme-modal__sidebar">
+        <aside v-if="theme.relatedReports?.length" class="c-dd-theme-modal__sidebar">
           <h4 class="c-dd-theme-modal__sidebar-title">
             <span>{{ t('pages.derechosDigitales.informesRelacionados') }}</span>
           </h4>
           <DerechosDigitalesRelatedReportCard
-            v-for="(report, i) in eje.relatedReports"
+            v-for="(report, i) in theme.relatedReports"
             :key="i"
             :title="report.title"
             :description="report.description"
@@ -79,7 +79,7 @@ const { t } = useI18n();
 
 const props = defineProps<{
   modelValue: boolean;
-  eje: Record<string, any> | null;
+  theme: Record<string, any> | null;
 }>();
 
 const emit = defineEmits<{

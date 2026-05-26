@@ -1,6 +1,6 @@
 <template>
   <article
-    :id="`eje-${eje.order}`"
+    :id="`theme-${theme.order}`"
     class="c-dd-theme-card"
     :class="{
       'c-dd-theme-card--alt': index % 2 === 0,
@@ -9,24 +9,24 @@
   >
     <div class="o-container c-dd-theme-card__inner">
       <div class="c-dd-theme-card__content">
-        <h2 class="c-dd-theme-card__title">{{ eje.title }}</h2>
+        <h2 class="c-dd-theme-card__title">{{ theme.title }}</h2>
         <div class="c-dd-theme-card__divider" />
-        <p class="c-dd-theme-card__summary">{{ eje.summary }}</p>
-        <button class="c-dd-theme-card__link" @click="emit('open', eje)">
+        <p class="c-dd-theme-card__summary">{{ theme.summary }}</p>
+        <button class="c-dd-theme-card__link" @click="emit('open', theme)">
           {{ t('pages.derechosDigitales.readMore') }} →
         </button>
       </div>
 
       <div class="c-dd-theme-card__image-wrap">
         <img
-          :src="eje.image || '/images/landing-derechos-digitales/congreso.jpg'"
-          :alt="eje.title"
+          :src="theme.image || '/images/landing-derechos-digitales/congreso.jpg'"
+          :alt="theme.title"
           class="c-dd-theme-card__image"
           loading="lazy"
         />
         <img
-          v-if="eje.iconOutline"
-          :src="eje.iconOutline"
+          v-if="theme.iconOutline"
+          :src="theme.iconOutline"
           alt=""
           aria-hidden="true"
           class="c-dd-theme-card__icon"
@@ -40,12 +40,12 @@
 const { t } = useI18n();
 
 const props = defineProps<{
-  eje: Record<string, any>;
+  theme: Record<string, any>;
   index: number;
 }>();
 
 const emit = defineEmits<{
-  open: [eje: Record<string, any>];
+  open: [theme: Record<string, any>];
 }>();
 </script>
 

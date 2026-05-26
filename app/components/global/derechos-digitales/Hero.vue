@@ -27,7 +27,7 @@
       <p class="c-dd-hero__subtitle">
         {{ t('pages.derechosDigitales.heroSubtitle') }}
         <span
-          v-for="(chip, i) in chips"
+          v-for="(chip, i) in themes"
           :key="i"
           class="c-dd-hero__subtitle-icon"
           :style="`mask-image: url(${chip.iconFill}); -webkit-mask-image: url(${chip.iconFill})`"
@@ -36,19 +36,19 @@
       </p>
 
       <p class="c-dd-hero__description">{{ t('pages.derechosDigitales.heroBody') }}</p>
-      <a href="#ejes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
+      <a href="#themes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
     </div>
 
-    <div class="c-dd-hero__chips-band">
-      <nav class="c-dd-hero__chips" :aria-label="t('pages.derechosDigitales.heroNav')">
+    <div class="c-dd-hero__themes-band">
+      <nav class="c-dd-hero__themes" :aria-label="t('pages.derechosDigitales.heroNav')">
         <a
-          v-for="(chip, i) in chips"
+          v-for="(chip, i) in themes"
           :key="i"
-          :href="`#eje-${i + 1}`"
+          :href="`#theme-${i + 1}`"
           class="c-dd-hero__chip"
         >
           <span class="c-dd-hero__chip-num" aria-hidden="true">{{ i + 1 }}</span>
-          {{ chip.label }}
+          {{ chip.title }}
         </a>
       </nav>
     </div>
@@ -57,14 +57,7 @@
 
 <script setup lang="ts">
 const { t } = useI18n();
-
-const chips = [
-  { iconFill: '/images/landing-derechos-digitales/reclamar-algoritmo-fill.svg',    label: t('pages.derechosDigitales.ejeAlgoritmo') },
-  { iconFill: '/images/landing-derechos-digitales/participacion-ciudadana-fill.svg', label: t('pages.derechosDigitales.ejeParticipacion') },
-  { iconFill: '/images/landing-derechos-digitales/rendicion-cuentas-fill.svg',      label: t('pages.derechosDigitales.ejeRendicion') },
-  { iconFill: '/images/landing-derechos-digitales/cohesion-democratica-fill.svg',   label: t('pages.derechosDigitales.ejeCohesion') },
-  { iconFill: '/images/landing-derechos-digitales/votar-certeza-fill.svg',          label: t('pages.derechosDigitales.ejeVoto') },
-];
+const { data: themes } = await useDdThemes();
 </script>
 
 <style lang="scss" scoped>
@@ -206,14 +199,14 @@ const chips = [
     }
   }
 
-  &__chips-band {
+  &__themes-band {
     position: relative;
     z-index: 1;
     background: $dd-gradient-from;
     padding: gap(3) gap(2);
   }
 
-  &__chips {
+  &__themes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

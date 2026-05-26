@@ -3,13 +3,13 @@
     <div class="c-dd-intro__wrapper o-container">
       <div class="c-dd-intro__col-text">
         <p class="c-dd-intro__body">{{ t('pages.derechosDigitales.introBody') }}</p>
-        <a href="#ejes" class="c-dd-intro__cta">{{ t('pages.derechosDigitales.introCta') }}</a>
+        <a href="#themes" class="c-dd-intro__cta">{{ t('pages.derechosDigitales.introCta') }}</a>
       </div>
 
       <ul class="c-dd-intro__list">
-        <li v-for="(item, i) in ejesList" :key="i" class="c-dd-intro__list-item">
-          <img :src="item.icon" alt="" aria-hidden="true" width="32" height="32" />
-          <span>{{ item.label }}</span>
+        <li v-for="theme in themes" :key="theme.path" class="c-dd-intro__list-item">
+          <img :src="theme.iconFill" alt="" aria-hidden="true" width="32" height="32" />
+          <span>{{ theme.title }}</span>
         </li>
       </ul>
     </div>
@@ -26,13 +26,7 @@
 <script setup lang="ts">
 const { t } = useI18n();
 
-const ejesList = [
-  { icon: '/images/landing-derechos-digitales/reclamar-algoritmo-fill.svg',   label: t('pages.derechosDigitales.ejeAlgoritmo') },
-  { icon: '/images/landing-derechos-digitales/participacion-ciudadana-fill.svg', label: t('pages.derechosDigitales.ejeParticipacion') },
-  { icon: '/images/landing-derechos-digitales/rendicion-cuentas-fill.svg',    label: t('pages.derechosDigitales.ejeRendicion') },
-  { icon: '/images/landing-derechos-digitales/cohesion-democratica-fill.svg', label: t('pages.derechosDigitales.ejeCohesion') },
-  { icon: '/images/landing-derechos-digitales/votar-certeza-fill.svg',        label: t('pages.derechosDigitales.ejeVoto') },
-];
+const { data: themes } = await useDdThemes();
 </script>
 
 <style lang="scss" scoped>
