@@ -1,6 +1,6 @@
 <template>
   <article
-    :id="`theme-${theme.order}`"
+    :id="`eje-${theme.order}`"
     class="c-dd-theme-card"
     :class="{
       'c-dd-theme-card--alt': index % 2 === 0,

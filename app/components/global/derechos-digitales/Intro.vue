@@ -3,7 +3,6 @@
     <div class="c-dd-intro__wrapper o-container">
       <div class="c-dd-intro__col-text">
         <p class="c-dd-intro__body">{{ t('pages.derechosDigitales.introBody') }}</p>
-        <a href="#themes" class="c-dd-intro__cta">{{ t('pages.derechosDigitales.introCta') }}</a>
       </div>
 
       <ul class="c-dd-intro__list">

@@ -1,5 +1,5 @@
 <template>
-  <section id="themes" class="c-dd-themes">
+  <section id="ejes" class="c-dd-themes">
     <DerechosDigitalesThemeCard
       v-for="(theme, i) in themes"
       :key="theme.path"

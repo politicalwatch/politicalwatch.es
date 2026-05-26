@@ -37,7 +37,7 @@
 
       <p class="c-dd-hero__description">{{ t('pages.derechosDigitales.heroBody') }}</p>
       <div class="c-dd-hero__ctas">
-        <a href="#themes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
+        <a href="#ejes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
         <NuxtLinkLocale to="/publicaciones/tag/derechos-digitales" class="c-dd-hero__cta-secondary">
           {{ t('pages.derechosDigitales.heroCtaSecondary') }}
         </NuxtLinkLocale>
@@ -49,7 +49,7 @@
         <a
           v-for="(chip, i) in themes"
           :key="i"
-          :href="`#theme-${i + 1}`"
+          :href="`#eje-${i + 1}`"
           class="c-dd-hero__chip"
         >
           <span class="c-dd-hero__chip-num" aria-hidden="true">{{ i + 1 }}</span>
