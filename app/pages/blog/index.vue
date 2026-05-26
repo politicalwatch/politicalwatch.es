@@ -68,7 +68,7 @@ const { data: allCount } = await useAsyncData(
 const totalPosts = computed(() => allCount.value ?? 0);
 const hasNext = computed(() => totalPosts.value > 9);
 
-const { data: posts } = await useAsyncData("posts-blog", async () => {
+const { data: posts } = await useAsyncData(`posts-blog-${locale.value}`, async () => {
   const [posts, authors] = await Promise.all([
     queryCollection(blogCollection as any)
       .order('createdAt', 'DESC')

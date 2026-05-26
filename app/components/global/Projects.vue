@@ -64,7 +64,7 @@ const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
 
 const projectsCollection = `projects_${locale.value}` as 'projects_es' | 'projects_en';
 
-const { data: projects } = await useAsyncData("projects", () => {
+const { data: projects } = await useAsyncData(`projects-${locale.value}-${projectLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
   let query = queryCollection(projectsCollection)
     .order("order", "DESC");
 

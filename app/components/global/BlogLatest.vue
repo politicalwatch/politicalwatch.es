@@ -25,7 +25,7 @@ const { postLimit, lineOfWork } = defineProps({
   },
 });
 
-const { data: latestPosts } = await useAsyncData("posts-latest", () => {
+const { data: latestPosts } = await useAsyncData(`posts-latest-${locale.value}-${postLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
   const collectionName = `blog_${locale.value}` as 'blog_es' | 'blog_en';
   let query = queryCollection(collectionName)
     .order('createdAt', 'DESC');

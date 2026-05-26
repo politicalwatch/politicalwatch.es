@@ -79,7 +79,7 @@ const getDetailPath = (path: string) => {
 const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
 
 const { data: research } = await useAsyncData(
-  tag ? `research-${tag}` : `research-${researchLimit || 'no-limit'}`,
+  `research-${locale.value}-${tag || 'no-tag'}-${researchLimit ?? 'all'}-${lineOfWork ?? 'all'}`,
   () => {
     let query = queryCollection(researchCollection)
       .order('createdAt', 'DESC');
