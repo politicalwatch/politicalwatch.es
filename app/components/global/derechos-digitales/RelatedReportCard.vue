@@ -1,5 +1,15 @@
 <template>
-  <div class="c-dd-related-report">
+  <NuxtLinkLocale
+    v-if="slug"
+    :to="`/publicaciones/${slug}`"
+    class="c-dd-related-report c-dd-related-report--linked"
+  >
+    <h5 class="c-dd-related-report__title">{{ title }}</h5>
+    <p v-if="description" class="c-dd-related-report__desc">{{ description }}</p>
+    <hr class="c-dd-related-report__divider" />
+    <p v-if="conclusion" class="c-dd-related-report__conclusion">{{ conclusion }}</p>
+  </NuxtLinkLocale>
+  <div v-else class="c-dd-related-report">
     <h5 class="c-dd-related-report__title">{{ title }}</h5>
     <p v-if="description" class="c-dd-related-report__desc">{{ description }}</p>
     <hr class="c-dd-related-report__divider" />
@@ -12,16 +22,29 @@ defineProps<{
   title: string;
   description?: string;
   conclusion?: string;
+  slug?: string;
 }>();
 </script>
 
 <style lang="scss" scoped>
 .c-dd-related-report {
+  @include basic-transition(transform);
+
   position: relative;
   isolation: isolate;
   border-radius: 8px;
   padding: gap(4);
   margin-bottom: calc(#{gap(4)} + 5px);
+  text-decoration: none;
+  display: block;
+
+  &--linked:hover {
+    transform: scale(1.02);
+
+    &::after {
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    }
+  }
 
   &:last-child {
     margin-bottom: 0;
@@ -43,6 +66,7 @@ defineProps<{
     background: $white;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.2s ease;
     z-index: -1;
   }
 

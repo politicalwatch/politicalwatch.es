@@ -16,6 +16,7 @@ const ddThemesSchema = z.object({
         title: z.string(),
         description: z.string().optional(),
         conclusion: z.string().optional(),
+        slug: z.string().optional(),
       })
     )
     .optional(),

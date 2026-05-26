@@ -67,6 +67,7 @@
             :title="report.title"
             :description="report.description"
             :conclusion="report.conclusion"
+            :slug="report.slug"
           />
         </aside>
       </div>
