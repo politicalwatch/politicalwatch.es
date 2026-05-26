@@ -36,7 +36,12 @@
       </p>
 
       <p class="c-dd-hero__description">{{ t('pages.derechosDigitales.heroBody') }}</p>
-      <a href="#themes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
+      <div class="c-dd-hero__ctas">
+        <a href="#themes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
+        <NuxtLinkLocale to="/investigaciones/tag/derechos-digitales" class="c-dd-hero__cta-secondary">
+          {{ t('pages.derechosDigitales.heroCtaSecondary') }}
+        </NuxtLinkLocale>
+      </div>
     </div>
 
     <div class="c-dd-hero__themes-band">
@@ -181,21 +186,48 @@ const { data: themes } = await useDdThemes();
     }
   }
 
-  &__cta {
-    @include basic-transition(background, color);
+  &__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: gap(3);
+  }
 
+  &__cta {
     display: inline-block;
     background: $white;
     color: $brand;
+    border: 2px solid $white;
     font-family: $font-secondary;
     font-size: rem(15px);
     font-weight: 800;
     text-decoration: none;
     padding: gap(2.5) gap(6);
     border-radius: 999px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
 
     &:hover {
-      background: $light;
+      background: transparent;
+      color: $white;
+    }
+  }
+
+  &__cta-secondary {
+    display: inline-block;
+    background: transparent;
+    color: $white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    font-family: $font-secondary;
+    font-size: rem(15px);
+    font-weight: 800;
+    text-decoration: none;
+    padding: gap(2.5) gap(6);
+    border-radius: 999px;
+    transition: background 0.3s, color 0.3s, border-color 0.3s;
+
+    &:hover {
+      background: $white;
+      color: $brand;
+      border-color: $white;
     }
   }
 
@@ -215,8 +247,6 @@ const { data: themes } = await useDdThemes();
   }
 
   &__chip {
-    @include basic-transition(background, color);
-
     display: flex;
     align-items: center;
     gap: gap(2);
