@@ -18,11 +18,13 @@
       </div>
 
       <div class="c-dd-theme-card__image-wrap">
-        <img
+        <NuxtImg
           :src="theme.image || '/images/landing-derechos-digitales/congreso.jpg'"
           :alt="theme.title"
           class="c-dd-theme-card__image"
+          sizes="100vw md:50vw"
           loading="lazy"
+          fit="cover"
         />
         <img
           v-if="theme.iconOutline"
