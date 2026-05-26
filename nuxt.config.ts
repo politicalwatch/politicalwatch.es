@@ -81,6 +81,7 @@ export default defineNuxtConfig({
         scss: {
           silenceDeprecations: ["import"],
           additionalData: `
+            @use "sass:color";
             @import "~/assets/css/01-settings/_settings.animations.scss";
             @import "~/assets/css/01-settings/_settings.breakpoints.scss";
             @import "~/assets/css/01-settings/_settings.colors.scss";

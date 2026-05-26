@@ -4,6 +4,7 @@ import { defineContentConfig, defineCollection, z } from "@nuxt/content";
 const ddThemesSchema = z.object({
   title: z.string().optional(),
   order: z.number().optional(),
+  image: z.string().optional(),
   iconFill: z.string().optional(),
   iconOutline: z.string().optional(),
   summary: z.string().optional(),

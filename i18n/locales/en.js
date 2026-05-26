@@ -57,6 +57,7 @@ export default {
       introCta: "Ver los cinco ejes",
       pathsTitle: "¿Qué caminos merece la pena abrir?",
       pathsBody: "Cada eje identifica un recorrido que hoy encuentra bloqueos, las causas de esos bloqueos y las condiciones necesarias para superarlos. No es un mapa del deterioro. Es un mapa de caminos útiles para construir una democracia más útil, más abierta y apoyándose en la tecnología.",
+      readMore: "Leer más sobre este eje",
       hallazgo: "Hallazgo",
       queProponeTitle: "Qué propone la investigación",
       informesRelacionados: "Informes relacionados",

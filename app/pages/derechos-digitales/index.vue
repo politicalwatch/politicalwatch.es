@@ -2,6 +2,8 @@
   <main class="c-page is-dd">
     <DerechosDigitalesHero />
     <DerechosDigitalesIntro />
+    <DerechosDigitalesThemesList />
+
     <DerechosDigitalesBanner />
 
   </main>
