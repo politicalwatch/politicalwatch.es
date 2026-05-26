@@ -16,7 +16,7 @@ import SpainFlag from "@/assets/images/spain.svg?component";
 const route = useRoute();
 
 // only shows in research pages
-const includesRoutes = ['/en/investigaciones'];
+const includesRoutes = ['/en/publicaciones'];
 const shouldShow = computed(() => route.path.includes(includesRoutes));
 
 const { origin } = defineProps({

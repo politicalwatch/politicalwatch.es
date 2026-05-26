@@ -5,7 +5,7 @@
     <SectionHeader
       :title="title || t('blocks.research.title')"
       :button="t('blocks.research.goto')"
-      link="/investigaciones"
+      link="/publicaciones"
       :type="titleType"
     />
 
@@ -19,7 +19,7 @@
           <NuxtLinkLocale
               v-for="tag in research.tags"
               :key="tag"
-              :to="`/investigaciones/tag/${tag}`"
+              :to="`/publicaciones/tag/${tag}`"
               class="c-research-detail__tag"
               >
               {{ decodeURIComponent(tag).replace(/-/g, " ") }}
@@ -74,7 +74,7 @@ const researchCollection = `research_${locale.value}` as
 
 const { data: research, error } = await useAsyncData(route.path, () =>
   queryCollection(researchCollection)
-    .path(`/${locale.value}/investigaciones/${slug}`)
+    .path(`/${locale.value}/publicaciones/${slug}`)
     .first()
 );
 

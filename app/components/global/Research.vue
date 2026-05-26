@@ -5,7 +5,7 @@
     <SectionHeader
       :title="title || t('blocks.research.title')"
       :button="t('blocks.research.goto')"
-      link="/investigaciones"
+      link="/publicaciones"
       :filters="filters"
       :type="titleType"
       :tag="decodeURIComponent(tag).replace(/-/g, ' ')"
@@ -17,7 +17,7 @@
             <NuxtLinkLocale
               v-for="itemTag in item.tags"
               :key="itemTag"
-              :to="`/investigaciones/tag/${itemTag}`"
+              :to="`/publicaciones/tag/${itemTag}`"
               class="c-research__item-tag"
             >
               {{ decodeURIComponent(itemTag).replace(/-/g, " ") }}
@@ -73,7 +73,7 @@ const { t, locale } = useI18n();
 
 const getDetailPath = (path: string) => {
   const slug = path.split("/").pop();
-  return `/investigaciones/${slug}`;
+  return `/publicaciones/${slug}`;
 };
 
 const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';

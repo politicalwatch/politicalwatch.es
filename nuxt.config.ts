@@ -14,6 +14,12 @@ export default defineNuxtConfig({
     "/covid-19": {
       redirect: { to: "/blog/un-ano-covidwatch", statusCode: 301 },
     },
+    "/investigaciones": { redirect: { to: "/publicaciones", statusCode: 301 } },
+    "/investigaciones/**": { redirect: { to: "/publicaciones/**", statusCode: 301 } },
+    "/es/investigaciones": { redirect: { to: "/es/publicaciones", statusCode: 301 } },
+    "/es/investigaciones/**": { redirect: { to: "/es/publicaciones/**", statusCode: 301 } },
+    "/en/investigaciones": { redirect: { to: "/en/publicaciones", statusCode: 301 } },
+    "/en/investigaciones/**": { redirect: { to: "/en/publicaciones/**", statusCode: 301 } },
   },
   app: {
     head: {

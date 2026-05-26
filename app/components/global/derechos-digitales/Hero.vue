@@ -38,7 +38,7 @@
       <p class="c-dd-hero__description">{{ t('pages.derechosDigitales.heroBody') }}</p>
       <div class="c-dd-hero__ctas">
         <a href="#themes" class="c-dd-hero__cta">{{ t('pages.derechosDigitales.heroCta') }}</a>
-        <NuxtLinkLocale to="/investigaciones/tag/derechos-digitales" class="c-dd-hero__cta-secondary">
+        <NuxtLinkLocale to="/publicaciones/tag/derechos-digitales" class="c-dd-hero__cta-secondary">
           {{ t('pages.derechosDigitales.heroCtaSecondary') }}
         </NuxtLinkLocale>
       </div>

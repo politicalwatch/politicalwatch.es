@@ -79,7 +79,7 @@ export default defineContentConfig({
           "es/blog/**",
           "es/equipo/**",
           "es/proyectos/**",
-          "es/investigaciones/**",
+          "es/publicaciones/**",
           "es/derechos-digitales/themes/**",
         ],
       },
@@ -102,7 +102,7 @@ export default defineContentConfig({
     }),
     research_es: defineCollection({
       type: "page",
-      source: "es/investigaciones/**",
+      source: "es/publicaciones/**",
       schema: researchSchema,
     }),
 
@@ -126,7 +126,7 @@ export default defineContentConfig({
           "en/blog/**",
           "en/equipo/**",
           "en/proyectos/**",
-          "en/investigaciones/**",
+          "en/publicaciones/**",
           "en/derechos-digitales/themes/**",
         ],
       },
@@ -149,7 +149,7 @@ export default defineContentConfig({
     }),
     research_en: defineCollection({
       type: "page",
-      source: "en/investigaciones/**",
+      source: "en/publicaciones/**",
       schema: researchSchema,
     }),
   },
