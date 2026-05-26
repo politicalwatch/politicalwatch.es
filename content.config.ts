@@ -8,8 +8,8 @@ const ddThemesSchema = z.object({
   iconFill: z.string().optional(),
   iconOutline: z.string().optional(),
   summary: z.string().optional(),
-  hallazgo: z.string().optional(),
-  propuesta: z.string().optional(),
+  discovery: z.string().optional(),
+  proposal: z.string().optional(),
   relatedReports: z
     .array(
       z.object({

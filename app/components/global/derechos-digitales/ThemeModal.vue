@@ -30,7 +30,7 @@
 
         <button
           class="c-dd-theme-modal__close"
-          :aria-label="t('pages.derechosDigitales.cerrar')"
+          :aria-label="t('pages.derechosDigitales.close')"
           @click="close"
         >✕</button>
       </header>
@@ -39,15 +39,15 @@
         <div class="c-dd-theme-modal__main">
           <ContentRenderer :value="theme" class="c-dd-theme-modal__prose" />
 
-          <blockquote class="c-dd-hallazgo">
-            <strong class="c-dd-hallazgo__label">{{ t('pages.derechosDigitales.hallazgo') }}</strong>
-            <p class="c-dd-hallazgo__text">{{ theme.hallazgo }}</p>
+          <blockquote class="c-dd-discovery">
+            <strong class="c-dd-discovery__label">{{ t('pages.derechosDigitales.discovery') }}</strong>
+            <p class="c-dd-discovery__text">{{ theme.discovery }}</p>
           </blockquote>
 
-          <h3 class="c-dd-theme-modal__propuesta-title">
-            {{ t('pages.derechosDigitales.queProponeTitle') }}
+          <h3 class="c-dd-theme-modal__proposal-title">
+            {{ t('pages.derechosDigitales.proposalTitle') }}
           </h3>
-          <p class="c-dd-theme-modal__propuesta-text">{{ theme.propuesta }}</p>
+          <p class="c-dd-theme-modal__proposal-text">{{ theme.proposal }}</p>
 
           <img
             src="/images/landing-derechos-digitales/abstract-lines.svg"
@@ -59,7 +59,7 @@
 
         <aside v-if="theme.relatedReports?.length" class="c-dd-theme-modal__sidebar">
           <h4 class="c-dd-theme-modal__sidebar-title">
-            <span>{{ t('pages.derechosDigitales.informesRelacionados') }}</span>
+            <span>{{ t('pages.derechosDigitales.relatedReports') }}</span>
           </h4>
           <DerechosDigitalesRelatedReportCard
             v-for="(report, i) in theme.relatedReports"
@@ -260,7 +260,7 @@ function onBackdropClick(e: MouseEvent) {
     }
   }
 
-  &__propuesta-title {
+  &__proposal-title {
     font-family: $font-secondary;
     font-size: rem(18px);
     font-weight: 900;
@@ -268,7 +268,7 @@ function onBackdropClick(e: MouseEvent) {
     margin: gap(6) 0 gap(3) 0;
   }
 
-  &__propuesta-text {
+  &__proposal-text {
     font-family: $font-primary;
     font-size: rem(15px);
     line-height: 1.78;
@@ -324,7 +324,7 @@ function onBackdropClick(e: MouseEvent) {
   }
 }
 
-.c-dd-hallazgo {
+.c-dd-discovery {
   position: relative;
   margin: 0 0 gap(6) gap(-4);
   padding: 0 gap(4);
