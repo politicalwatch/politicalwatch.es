@@ -32,7 +32,7 @@ export default {
       title: "Transparencia",
     },
     research: {
-      title: "Investigaciones",
+      title: "Publicaciones",
       contentOnlyInSpanish: "Solo en español por ahora",
     },
     legal: {
@@ -103,7 +103,7 @@ export default {
       button: "Ver proyecto",
     },
     research: {
-      title: "Investigaciones",
+      title: "Publicaciones",
       goto: "Consultar todas",
       button: "Descargar",
       buttonLink: "Visitar",
