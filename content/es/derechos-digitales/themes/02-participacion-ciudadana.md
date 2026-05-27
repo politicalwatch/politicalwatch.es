@@ -14,6 +14,7 @@ relatedReports:
   - title: "El derecho de petición en el contexto digital"
     description: "Revisa un mecanismo históricamente infrautilizado en España y plantea cómo convertirlo en una herramienta de interlocución democrática con recorrido real."
     conclusion: "Los modelos más eficaces incorporan seguimiento público, respuestas razonadas y activación automática de audiencias a partir de umbrales de apoyo."
+    slug: "el-derecho-de-peticion-en-el-contexto-digital"
   - title: "El papel de los medios y plataformas digitales en las consultas ciudadanas"
     description: "Estudia cómo se participa hoy en los procesos de consulta pública en España y quién se queda fuera."
     conclusion: "Las consultas siguen mostrando baja participación, sesgo hacia actores organizados y poca evidencia de incidencia tangible en la norma final."

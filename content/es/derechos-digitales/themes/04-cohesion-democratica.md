@@ -17,6 +17,7 @@ relatedReports:
   - title: "El impacto de las plataformas digitales de participación ciudadana: Consul y Decidim"
     description: "Analiza hasta qué punto estas plataformas mejoran la participación o simplemente la ordenan."
     conclusion: "Lo decisivo no es la plataforma elegida, sino la combinación entre trazabilidad, participación híbrida e impacto reconocible."
+    slug: "el-impacto-de-las-plataformas-digitales-de-participacion-ciudadana-los-casos-de-consul-y-decidim"
 ---
 
 Los procesos legislativos y participativos siguen diseñados para el presente y para quienes ya parten con ventaja para ser tenidos en cuenta. El problema es que buena parte de las decisiones que se toman hoy -sobre clima, vivienda, tecnología o deuda- recaerán con más fuerza sobre quienes menos capacidad tienen para influir en ellas.

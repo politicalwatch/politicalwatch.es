@@ -11,12 +11,15 @@ relatedReports:
   - title: "Mecanismos de participación para la promoción de la transparencia y la rendición de cuentas en comunidades autónomas"
     description: "Analiza cómo distintas administraciones autonómicas están usando -o desaprovechando- la digitalización para fortalecer la relación entre ciudadanía e instituciones."
     conclusion: "El valor no está en tener una plataforma, sino en combinar metodologías híbridas, apertura, enfoque interseccional y estándares éticos de respuesta."
+    slug: "mecanismos-de-participacion-para-la-promocion-de-la-transparencia-y-la-rendicion-de-cuentas-en-comunidades-autonomas"
   - title: "El derecho de petición en el contexto digital"
     description: "Recupera una herramienta clásica de interlocución y plantea cómo el entorno digital puede convertirla en un mecanismo útil y no meramente ornamental."
     conclusion: "Cuando hay seguimiento público y respuesta razonada, la petición deja de ser un buzón y empieza a ser una palanca."
+    slug: "el-derecho-de-peticion-en-el-contexto-digital"
   - title: "Brújula para navegar la Agenda Digital y de Gobierno Abierto (V Plan)"
     description: "Lee el V Plan desde la exigencia de trazabilidad, transparencia y garantías en la implantación tecnológica."
     conclusion: "La innovación institucional sólo genera confianza cuando puede explicarse, seguirse y evaluarse."
+    slug: "brujula-para-navegar-en-la-agenda-digital-y-de-gobierno-abierto"
 ---
 
 Hay una pregunta que debería estar en el centro de cualquier proceso político: ¿cómo sabe la ciudadanía que su aportación -ya sea a través del voto o de una consulta- sirvió para algo? No es una cuestión retórica. Es la frontera entre un sistema político abierto a la crítica y otro que alimenta la desconfianza.

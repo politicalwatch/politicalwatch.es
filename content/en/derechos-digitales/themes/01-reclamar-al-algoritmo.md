@@ -14,6 +14,7 @@ relatedReports:
   - title: "El impacto de las plataformas digitales de participación ciudadana: Consul y Decidim"
     description: "Analiza qué hace que una plataforma de participación sirva de verdad a la ciudadanía, más allá del software o del entusiasmo tecnológico."
     conclusion: "La participación híbrida, la trazabilidad y la percepción de impacto real importan más que la herramienta en sí."
+    slug: "el-impacto-de-las-plataformas-digitales-de-participacion-ciudadana-los-casos-de-consul-y-decidim"
   - title: "Del clic a la política pública: participación digital en la infancia y la juventud"
     description: "Examina cómo participan jóvenes e infancia en entornos digitales y qué condiciones hacen que esa participación sea segura, ética y eficaz."
     conclusion: "Sin accesibilidad, privacidad, retorno institucional y métricas abiertas, la participación juvenil se queda en gesto."
