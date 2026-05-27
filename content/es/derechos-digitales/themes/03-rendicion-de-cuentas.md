@@ -19,7 +19,7 @@ relatedReports:
   - title: "Brújula para navegar la Agenda Digital y de Gobierno Abierto (V Plan)"
     description: "Lee el V Plan desde la exigencia de trazabilidad, transparencia y garantías en la implantación tecnológica."
     conclusion: "La innovación institucional sólo genera confianza cuando puede explicarse, seguirse y evaluarse."
-    slug: "brujula-para-navegar-en-la-agenda-digital-y-de-gobierno-abierto"
+    slug: "brujula-para-navegar-la-agenda-digital-y-de-gobierno-abierto-segundo-informe-tecnico"
 ---
 
 Hay una pregunta que debería estar en el centro de cualquier proceso político: ¿cómo sabe la ciudadanía que su aportación -ya sea a través del voto o de una consulta- sirvió para algo? No es una cuestión retórica. Es la frontera entre un sistema político abierto a la crítica y otro que alimenta la desconfianza.
