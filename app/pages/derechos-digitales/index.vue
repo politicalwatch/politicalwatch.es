@@ -4,6 +4,7 @@
     <DerechosDigitalesIntro />
     <DerechosDigitalesThemesList />
     <DerechosDigitalesBanner />
+    <DerechosDigitalesLogos />
   </main>
 </template>
 

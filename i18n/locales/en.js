@@ -64,6 +64,7 @@ export default {
       close: "Cerrar",
       bannerText1: "Una investigación cívica para una democracia más transparente, participativa y responsable.",
       bannerText2: "Un proyecto de Political Watch y Derechos Digitales.",
+      logosText: "Esta web se ha realizado en el marco del Convenio suscrito entre {redLink} del Ministerio para la Transformación Digital y de la Función Pública y Political Watch para el impulso a la implementación de la Carta de Derechos Digitales, en el ámbito de los derechos de participación. Las actuaciones están financiadas por el Plan de Recuperación, Transformación y Resiliencia a través de los fondos NextGenerationEU.",
     },
   },
   blocks: {
