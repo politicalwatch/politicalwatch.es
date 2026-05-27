@@ -70,8 +70,12 @@ const { data: themes } = await useDdThemes();
 
   position: relative;
   overflow: hidden;
-  margin-top: gap(-10);
+  margin-top: gap(-4);
   background: linear-gradient(135deg, $dd-gradient-from 0%, $dd-gradient-via 33%, $dd-gradient-via-2 66%, $dd-gradient-to 100%);
+
+  @media (min-width: $md) {
+    margin-top: gap(-10);
+  }
 
   @media (prefers-reduced-motion: no-preference) {
     min-height: 560px;
@@ -160,8 +164,8 @@ const { data: themes } = await useDdThemes();
 
   &__subtitle-icon {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 0.75em;
+    height: 0.75em;
     background-color: $white;
     mask-size: contain;
     mask-repeat: no-repeat;
@@ -170,6 +174,11 @@ const { data: themes } = await useDdThemes();
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
     flex-shrink: 0;
+
+    @media (min-width: $md) {
+      width: 1em;
+      height: 1em;
+    }
   }
 
   &__description {
@@ -241,25 +250,34 @@ const { data: themes } = await useDdThemes();
   &__themes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: gap(2);
+    
+    @media (min-width: $md) {
+      justify-content: center;
+    }
   }
 
   &__chip {
     display: flex;
     align-items: center;
-    gap: gap(2);
-    padding: gap(1) gap(1.2);
+    gap: gap(1.5);
+    padding: gap(1) gap(1.8) gap(1) gap(1.2);
     border-radius: 999px;
     background: $dd-gradient-from;
     color: $white;
     border: 1px solid rgba(255, 255, 255, 0.8);
     font-family: $font-primary;
-    font-size: rem(14px);
+    font-size: rem(12px);
     font-weight: 700;
     text-decoration: none;
     transition: background 0.3s, color 0.3s, border-color 0.3s;
+    
+    @media (min-width: $md) {
+      gap: gap(2);
+      font-size: rem(14px);
+    }
 
     &:hover {
       background: $white;
@@ -279,14 +297,19 @@ const { data: themes } = await useDdThemes();
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2rem;
-    height: 2rem;
+    width: 1.75rem;
+    height: 1.75rem;
     border-radius: 50%;
     background: linear-gradient(135deg, $dd-gradient-from 0%, $dd-gradient-via 33%, $dd-gradient-via-2 66%, $dd-gradient-to 100%);
     color: $white;
     font-weight: 700;
     font-size: rem(12px);
     flex-shrink: 0;
+
+    @media (min-width: $md) {
+      width: 2rem;
+      height: 2rem;
+    }
   }
 }
 </style>

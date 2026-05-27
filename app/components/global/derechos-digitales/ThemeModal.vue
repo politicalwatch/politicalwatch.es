@@ -128,7 +128,7 @@ function onBackdropClick(e: MouseEvent) {
   border: none;
   padding: 0;
   background: $white;
-  border-radius: 24px 0 0 24px;
+  border-radius: 24px;
   width: min(92vw, 1140px);
   max-height: 90vh;
   overflow-y: auto;
@@ -141,6 +141,10 @@ function onBackdropClick(e: MouseEvent) {
     transform 350ms cubic-bezier(0.22, 1, 0.36, 1),
     overlay 350ms allow-discrete,
     display 350ms allow-discrete;
+
+  @media (min-width: $sm) {
+    border-radius: 24px 0 0 24px;
+  }
 
   &[open] {
     opacity: 1;
@@ -200,17 +204,18 @@ function onBackdropClick(e: MouseEvent) {
 
   &__title {
     font-family: $font-primary;
-    font-size: rem(28px);
+    font-size: rem(24px);
     font-weight: 700;
     line-height: 1.2;
     color: $white;
     margin: 0;
-    max-width: 60%;
+    max-width: 100%;
     position: relative;
     z-index: 1;
-
+    
     @media (min-width: $md) {
       font-size: rem(48px);
+      max-width: 60%;
     }
   }
 
@@ -261,7 +266,7 @@ function onBackdropClick(e: MouseEvent) {
 
   &__body {
     position: relative;
-    padding: gap(6);
+    padding: gap(4) gap(4) 0;
 
     @media (min-width: $sm) {
       display: grid;
@@ -331,9 +336,15 @@ function onBackdropClick(e: MouseEvent) {
   &__sidebar {
     background: #f2f2f2;
     border-radius: 8px;
+    margin-top: gap(6);
+    margin-left: gap(-4);
+    margin-right: gap(-4);
     padding: gap(5) gap(4);
-
+    
     @media (min-width: $sm) {
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
       border-radius: 0 0 8px 0;
       padding: gap(4) calc(#{gap(4)} + 5px) gap(8) gap(4);
     }
