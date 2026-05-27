@@ -18,6 +18,7 @@ relatedReports:
   - title: "Del clic a la política pública: participación digital en la infancia y la juventud"
     description: "Examina cómo participan jóvenes e infancia en entornos digitales y qué condiciones hacen que esa participación sea segura, ética y eficaz."
     conclusion: "Sin accesibilidad, privacidad, retorno institucional y métricas abiertas, la participación juvenil se queda en gesto."
+    slug: "del-clic-a-la-politica-publica-participacion-digital-en-la-infancia-y-la-juventud"
 ---
 
 Los algoritmos ya deciden quién accede a una ayuda pública, quién pasa un control biométrico o cómo se evalúa el rendimiento en el trabajo. No son decisiones del futuro. Son decisiones que ya se están tomando, aquí y ahora, con sistemas que muchas veces la ciudadanía ni sabe que existen, ni entiende cómo cuestionar cuando se equivocan.

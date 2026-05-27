@@ -11,6 +11,7 @@ relatedReports:
   - title: "Informe sobre voto electrónico"
     description: "Analiza si el voto electrónico y remoto puede implantarse sin deteriorar la confianza pública en el resultado y bajo qué condiciones sería defendible hacerlo."
     conclusion: "Sin previsión legal expresa, consenso político amplio, verificabilidad integral, fiscalización independiente e implementación gradual, el riesgo supera al beneficio."
+    slug: "informe-sobre-voto-electronico"
 ---
 
 El debate sobre el voto electrónico en España no es, en el fondo, un debate sobre una tecnología nueva. Es un debate sobre confianza. La pregunta importante es, por tanto, si existen las condiciones legales, políticas e institucionales para que su uso no erosione la credibilidad del resultado.

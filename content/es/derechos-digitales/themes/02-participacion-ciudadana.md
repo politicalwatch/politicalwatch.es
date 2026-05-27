@@ -18,6 +18,7 @@ relatedReports:
   - title: "El papel de los medios y plataformas digitales en las consultas ciudadanas"
     description: "Estudia cómo se participa hoy en los procesos de consulta pública en España y quién se queda fuera."
     conclusion: "Las consultas siguen mostrando baja participación, sesgo hacia actores organizados y poca evidencia de incidencia tangible en la norma final."
+    slug: "el-papel-de-los-medios-y-plataformas-digitales-en-las-consultas-ciudadanas-en-los-procesos-de-elaboracion-normativa"
   - title: "La participación ciudadana digital en la elaboración de normas: avances y asignaturas pendientes"
     description: "Ofrece una radiografía del uso real de las consultas públicas estatales y del tipo de participación que están generando."
     conclusion: "El mapa es desigual, pero el patrón general es claro: la participación sigue concentrada en actores organizados y no en ciudadanía general."
