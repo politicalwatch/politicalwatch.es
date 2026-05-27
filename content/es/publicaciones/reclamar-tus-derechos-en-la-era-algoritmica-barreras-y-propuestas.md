@@ -6,8 +6,6 @@ lineOfWork: democracy
 tags:
     - derechos-digitales
     - inteligencia-artificial
-    - privacidad
-    - proteccion-de-datos
     - sistemas-algoritmicos
 
 createdAt: 2026-05-27

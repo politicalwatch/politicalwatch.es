@@ -4,10 +4,7 @@ description: 'Este informe analiza cómo la infancia y la juventud ejercen su de
 link: "/documentos/informe-10.6-v2.pdf"
 lineOfWork: democracy
 tags:
-    - acoso-digital
-    - alfabetizacion-digital
     - derechos-digitales
-    - desinformacion
     - infancia
     - juventud
     - participacion

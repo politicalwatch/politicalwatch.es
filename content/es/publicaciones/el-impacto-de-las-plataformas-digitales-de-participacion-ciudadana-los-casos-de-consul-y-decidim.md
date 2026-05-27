@@ -4,12 +4,10 @@ description: 'El informe analiza las plataformas de participación ciudadana, co
 link: "/documentos/E.16.1_C038-23-OT_Political Watch.pdf"
 lineOfWork: democracy
 tags:
-    - acceso-a-la-informacion
     - derechos-digitales
     - gobernanza-abierta
     - participacion
     - plataformas-digitales
-    - transparencia
 
 createdAt: 2026-05-27
 ---

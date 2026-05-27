@@ -4,14 +4,9 @@ description: 'Este documento analiza la convergencia entre la Agenda Digital y l
 link: "/documentos/informe-E.20.2-v2.pdf"
 lineOfWork: democracy
 tags:
-    - agenda-digital
     - derechos-digitales
-    - foro-de-gobierno-abierto
     - gobierno-abierto
-    - inteligencia-artificial
     - participacion
-    - rendicion-de-cuentas
-    - transparencia
 
 createdAt: 2026-05-27
 ---

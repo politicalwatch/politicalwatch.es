@@ -4,13 +4,9 @@ description: 'La presente investigación explora los mecanismos de participació
 link: "/documentos/E.10.1_C038-23-OT_Political Watch.pdf"
 lineOfWork: democracy
 tags:
-    - blockchain
-    - brecha-digital
     - comunidades-autonomas
-    - democracia-digital
     - derechos-digitales
     - participacion
-    - rendicion-de-cuentas
     - transparencia
 
 createdAt: 2026-05-27

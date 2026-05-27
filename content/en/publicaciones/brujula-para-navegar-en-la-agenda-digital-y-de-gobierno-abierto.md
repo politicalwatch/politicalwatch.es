@@ -4,13 +4,10 @@ description: 'El informe presenta el vínculo entre la Agenda España Digital, l
 link: "/documentos/informe-A.20.1-v1.pdf"
 lineOfWork: democracy
 tags:
-    - administracion-publica
     - derechos-digitales
     - gobierno-abierto
-    - inteligencia-artificial
     - participacion
     - transformacion-digital
-    - transparencia
 
 createdAt: 2026-05-27
 ---

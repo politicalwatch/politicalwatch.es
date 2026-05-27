@@ -6,11 +6,9 @@ lineOfWork: democracy
 tags:
     - consulta-publica
     - derechos-digitales
-    - gobernanza-abierta
     - gobierno-abierto
     - modernizacion-administrativa
     - participacion
-    - transparencia
 
 createdAt: 2026-05-27
 ---

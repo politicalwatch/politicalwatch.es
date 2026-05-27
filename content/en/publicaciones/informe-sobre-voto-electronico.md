@@ -4,7 +4,6 @@ description: 'El informe analiza el potencial del voto electrónico (VE), el vot
 link: "/documentos/informe-E.10.4-informe-sobre-voto-electronico-v2.pdf"
 lineOfWork: democracy
 tags:
-    - confianza-ciudadana
     - derechos-digitales
     - innovacion-democratica
     - participacion

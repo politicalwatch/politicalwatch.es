@@ -8,10 +8,6 @@ tags:
     - derecho-de-peticion
     - participacion
     - parlamentos-abiertos
-    - transparencia
-    - rendicion-de-cuentas
-    - iniciativa-legislativa-popular
-    - gobernanza-abierta
 
 createdAt: 2026-05-27
 ---
