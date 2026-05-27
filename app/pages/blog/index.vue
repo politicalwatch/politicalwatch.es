@@ -4,8 +4,8 @@
       <OnlyInSpanish origin="blog" class="o-section" />
 
       <page-header
-        :title="$t('pages.blog.title')"
-        :subtitle="$t('pages.blog.subtitle')"
+        :title="t('pages.blog.title')"
+        :subtitle="t('pages.blog.subtitle')"
         type="h1"
       />
       <div class="c-blog__featured o-section">
@@ -50,15 +50,16 @@
 <script setup lang="ts">
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 
-const { t, te, locale } = useI18n();
+const { t, te } = useI18n();
 const config = useRuntimeConfig();
 const route = useRoute();
+const routeLocale = useRouteLocale();
 
-const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
-const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+const blogCollection = `blog_${routeLocale}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${routeLocale}` as 'team_es' | 'team_en';
 
 const { data: allCount } = await useAsyncData(
-  `allCount-${locale.value}`,
+  `allCount-${routeLocale}`,
   async () => {
     const count = await queryCollection(blogCollection as any).count();
     return count;
@@ -68,7 +69,7 @@ const { data: allCount } = await useAsyncData(
 const totalPosts = computed(() => allCount.value ?? 0);
 const hasNext = computed(() => totalPosts.value > 9);
 
-const { data: posts } = await useAsyncData(`posts-blog-${locale.value}`, async () => {
+const { data: posts } = await useAsyncData(`posts-blog-${routeLocale}`, async () => {
   const [posts, authors] = await Promise.all([
     queryCollection(blogCollection as any)
       .order('createdAt', 'DESC')

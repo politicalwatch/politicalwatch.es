@@ -2,7 +2,7 @@ type LocalizedCollection = 'pages_es' | 'pages_en' | 'blog_es' | 'blog_en' | 'te
 
 export const usePage = async () => {
   const route = useRoute();
-  const { locale } = useI18n();
+  const routeLocale = useRouteLocale();
 
   let queryPath: string | string[] = route.params.slug ?? "home";
 
@@ -12,12 +12,12 @@ export const usePage = async () => {
 
   // Content files are always stored with locale prefix (content/es/, content/en/)
   // So the database path always includes the locale, regardless of URL structure
-  const fullPath = `/${locale.value}/${queryPath}`;
+  const fullPath = `/${routeLocale}/${queryPath}`;
 
   // Use locale-specific collection
-  const collectionName = `pages_${locale.value}` as LocalizedCollection;
+  const collectionName = `pages_${routeLocale}` as LocalizedCollection;
 
-  const { data: page, error } = await useAsyncData(`${queryPath}-${locale.value}`, () =>
+  const { data: page, error } = await useAsyncData(`${queryPath}-${routeLocale}`, () =>
     queryCollection(collectionName).path(fullPath).first()
   );
 

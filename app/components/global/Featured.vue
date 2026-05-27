@@ -26,7 +26,7 @@
         <span 
           v-if="f.imageAuthor"
           class="c-featured__item-image-author">
-          <b>{{$t('global.source')}}: </b>
+          <b>{{t('global.source')}}: </b>
           <a :href="f.imageRef" target="_blank">
             {{f.imageAuthor}}
           </a>

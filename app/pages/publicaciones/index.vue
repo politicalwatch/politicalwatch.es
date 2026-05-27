@@ -6,9 +6,10 @@
 const { t, te, locale } = useI18n();
 const config = useRuntimeConfig();
 const route = useRoute();
-const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
+const routeLocale = useRouteLocale();
+const researchCollection = `research_${routeLocale}` as 'research_es' | 'research_en';
 
-const { data: research } = await useAsyncData(`research-${locale.value}`, () =>
+const { data: research } = await useAsyncData(`research-${routeLocale}`, () =>
   queryCollection(researchCollection).all()
 );
 

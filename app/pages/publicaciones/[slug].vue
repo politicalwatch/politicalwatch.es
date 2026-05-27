@@ -66,15 +66,16 @@ import download from "@/assets/images/icon-download.svg?component";
 const config = useRuntimeConfig();
 const route = useRoute();
 const { t, locale } = useI18n();
+const routeLocale = useRouteLocale();
 
 const slug = route.params.slug as string;
-const researchCollection = `research_${locale.value}` as
+const researchCollection = `research_${routeLocale}` as
   | "research_es"
   | "research_en";
 
 const { data: research, error } = await useAsyncData(route.path, () =>
   queryCollection(researchCollection)
-    .path(`/${locale.value}/publicaciones/${slug}`)
+    .path(`/${routeLocale}/publicaciones/${slug}`)
     .first()
 );
 

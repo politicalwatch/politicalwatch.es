@@ -1,8 +1,8 @@
 export function useDdThemes() {
-  const { locale } = useI18n();
-  const collection = `dd_themes_${locale.value}` as 'dd_themes_es' | 'dd_themes_en';
+  const routeLocale = useRouteLocale();
+  const collection = `dd_themes_${routeLocale}` as 'dd_themes_es' | 'dd_themes_en';
 
-  return useAsyncData(`dd-themes-${locale.value}`, () =>
+  return useAsyncData(`dd-themes-${routeLocale}`, () =>
     queryCollection(collection).order('order', 'ASC').all()
   );
 }

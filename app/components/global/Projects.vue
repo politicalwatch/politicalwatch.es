@@ -38,7 +38,8 @@
 </template>
 
 <script setup lang="ts">
-const { t, locale } = useI18n();
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
 
 const { title, subtitle, projectLimit, lineOfWork } = defineProps({
   title: {
@@ -62,9 +63,9 @@ const { title, subtitle, projectLimit, lineOfWork } = defineProps({
 const getTitle = computed(() => title || t("blocks.projects.title"));
 const getSubtitle = computed(() => subtitle || t("blocks.projects.subtitle"));
 
-const projectsCollection = `projects_${locale.value}` as 'projects_es' | 'projects_en';
+const projectsCollection = `projects_${routeLocale}` as 'projects_es' | 'projects_en';
 
-const { data: projects } = await useAsyncData(`projects-${locale.value}-${projectLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
+const { data: projects } = await useAsyncData(`projects-${routeLocale}-${projectLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
   let query = queryCollection(projectsCollection)
     .order("order", "DESC");
 

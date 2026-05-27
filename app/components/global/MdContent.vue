@@ -39,10 +39,11 @@ const { withProjectsToc, projectLimit } = defineProps({
   },
 });
 
-const { t, locale } = useI18n();
-const projectsCollection = `projects_${locale.value}` as 'projects_es' | 'projects_en';
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
+const projectsCollection = `projects_${routeLocale}` as 'projects_es' | 'projects_en';
 
-const { data: projects } = useAsyncData(`mdcontent-${locale.value}`, () => {
+const { data: projects } = useAsyncData(`mdcontent-${routeLocale}`, () => {
   let query = queryCollection(projectsCollection)
     .order("order", "DESC");
 

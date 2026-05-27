@@ -68,10 +68,11 @@ const { teamLimit } = defineProps({
   },
 });
 
-const { t, locale } = useI18n();
-const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
+const teamCollection = `team_${routeLocale}` as 'team_es' | 'team_en';
 
-const { data: team } = await useAsyncData(`team-${locale.value}-${teamLimit ?? 'all'}`, () => {
+const { data: team } = await useAsyncData(`team-${routeLocale}-${teamLimit ?? 'all'}`, () => {
   let query = queryCollection(teamCollection)
     .order("order", "ASC");
 

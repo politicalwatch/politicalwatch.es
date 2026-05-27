@@ -69,17 +69,18 @@ const { title, tag, titleType, filters, researchLimit, lineOfWork } =
     },
   });
 
-const { t, locale } = useI18n();
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
 
 const getDetailPath = (path: string) => {
   const slug = path.split("/").pop();
   return `/publicaciones/${slug}`;
 };
 
-const researchCollection = `research_${locale.value}` as 'research_es' | 'research_en';
+const researchCollection = `research_${routeLocale}` as 'research_es' | 'research_en';
 
 const { data: research } = await useAsyncData(
-  `research-${locale.value}-${tag || 'no-tag'}-${researchLimit ?? 'all'}-${lineOfWork ?? 'all'}`,
+  `research-${routeLocale}-${tag || 'no-tag'}-${researchLimit ?? 'all'}-${lineOfWork ?? 'all'}`,
   () => {
     let query = queryCollection(researchCollection)
       .order('createdAt', 'DESC');

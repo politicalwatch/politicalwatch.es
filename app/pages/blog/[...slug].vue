@@ -94,15 +94,16 @@ import linkedin from "@/assets/images/share-linkedin.svg?component";
 
 const config = useRuntimeConfig();
 const route = useRoute();
-const { t, locale } = useI18n();
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
 
 const slug = route.params.slug.join("/");
-const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
-const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+const blogCollection = `blog_${routeLocale}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${routeLocale}` as 'team_es' | 'team_en';
 
 const { data: post, error } = await useAsyncData(route.path, () =>
   queryCollection(blogCollection)
-    .path(`/${locale.value}/blog/${slug}`)
+    .path(`/${routeLocale}/blog/${slug}`)
     .first()
 );
 
@@ -112,7 +113,7 @@ const { data: author } = await useAsyncData(
     if (!post.value?.author) return null;
 
     return queryCollection(teamCollection)
-      .path(`/${locale.value}/equipo/${post.value?.author}`)
+      .path(`/${routeLocale}/equipo/${post.value?.author}`)
       .select('name', 'avatar')
       .first();
   }

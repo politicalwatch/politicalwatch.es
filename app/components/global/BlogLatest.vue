@@ -12,7 +12,8 @@
 </template>
 
 <script setup lang="ts">
-const { t, locale } = useI18n();
+const { t } = useI18n();
+const routeLocale = useRouteLocale();
 
 const { postLimit, lineOfWork } = defineProps({
   postLimit: {
@@ -25,8 +26,8 @@ const { postLimit, lineOfWork } = defineProps({
   },
 });
 
-const { data: latestPosts } = await useAsyncData(`posts-latest-${locale.value}-${postLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
-  const collectionName = `blog_${locale.value}` as 'blog_es' | 'blog_en';
+const { data: latestPosts } = await useAsyncData(`posts-latest-${routeLocale}-${postLimit ?? 'all'}-${lineOfWork ?? 'all'}`, () => {
+  const collectionName = `blog_${routeLocale}` as 'blog_es' | 'blog_en';
   let query = queryCollection(collectionName)
     .order('createdAt', 'DESC');
 

@@ -2,8 +2,8 @@
   <div>
     <section class="c-blog o-container o-section">
       <page-header
-        :title="$t('pages.blog.title')"
-        :subtitle="$t('pages.blog.subtitle')"
+        :title="t('pages.blog.title')"
+        :subtitle="t('pages.blog.subtitle')"
         type="h1" />
       <div class="c-blog__wrapper">
         <BlogListPost
@@ -35,18 +35,19 @@ import BlogListPost from "@/components/global/BlogListPost.vue";
 
 const route = useRoute();
 const config = useRuntimeConfig();
-const { t, te, locale } = useI18n();
+const { t, te } = useI18n();
+const routeLocale = useRouteLocale();
 
 const currentPage = parseInt(route.params.number as string);
-const blogCollection = `blog_${locale.value}` as 'blog_es' | 'blog_en';
-const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+const blogCollection = `blog_${routeLocale}` as 'blog_es' | 'blog_en';
+const teamCollection = `team_${routeLocale}` as 'team_es' | 'team_en';
 
-const { data: allCount } = await useAsyncData(`allCount-${locale.value}`, () =>
+const { data: allCount } = await useAsyncData(`allCount-${routeLocale}`, () =>
   queryCollection(blogCollection).count()
 );
 
 const { data: posts } = await useAsyncData(
-  `posts-page-${currentPage}`,
+  `posts-page-${routeLocale}-${currentPage}`,
   async () => {
     const [posts, authors] = await Promise.all([
       queryCollection(blogCollection)

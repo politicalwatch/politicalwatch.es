@@ -66,10 +66,6 @@ export default defineNuxtConfig({
         },
       ],
     },
-    pageTransition: {
-      name: "page",
-      mode: "out-in", // default
-    },
   },
   modules: [
     "@nuxt/content",
@@ -138,6 +134,7 @@ export default defineNuxtConfig({
     defaultLocale: "es",
     detectBrowserLanguage: false,
     baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,
+    skipSettingLocaleOnNavigate: true,
   },
   googleFonts: {
     families: {

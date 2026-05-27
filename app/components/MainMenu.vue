@@ -3,7 +3,7 @@
     <ul class="c-menu__list">
       <li class="c-menu__item">
         <NuxtLinkLocale to="/quienes-somos" class="c-footer__menu--item" aria-label="Quiénes somos">
-        {{ $t('pages.about.title') }}
+        {{ t('pages.about.title') }}
         </NuxtLinkLocale>
       </li>
       <li class="c-menu__item">
@@ -17,12 +17,12 @@
         </NuxtLinkLocale>
       </li>
       <li
-        v-for="locale in availableLocales"
-        :key="locale.code"
+        v-for="l in availableLocales"
+        :key="l.code"
         class="c-menu__item c-menu__item--lang"
       >
-        <NuxtLink :to="switchLocalePath(locale.code)" external>
-          <icon-lang /> {{ locale.code }}
+        <NuxtLink :to="switchLocalePath(l.code)">
+          <icon-lang /> {{ l.code }}
         </NuxtLink>
       </li>
     </ul>
@@ -31,7 +31,6 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-
 import iconLang from "@/assets/images/icon-lang.svg?component";
 
 const { active } = defineProps({
@@ -41,7 +40,7 @@ const { active } = defineProps({
 const { t, locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
 
-const availableLocales = computed(() => {
-  return locales.value.filter((l) => l.code !== locale.value);
-});
+const availableLocales = computed(() =>
+  locales.value.filter((l) => l.code !== locale.value)
+);
 </script>

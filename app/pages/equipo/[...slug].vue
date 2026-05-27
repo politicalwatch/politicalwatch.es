@@ -63,13 +63,14 @@ import linkedin from "@/assets/images/member-linkedin.svg?component";
 const config = useRuntimeConfig();
 const route = useRoute();
 const { t, te, locale } = useI18n();
+const routeLocale = useRouteLocale();
 
 const slug = route.params.slug.join("/");
-const teamCollection = `team_${locale.value}` as 'team_es' | 'team_en';
+const teamCollection = `team_${routeLocale}` as 'team_es' | 'team_en';
 
 const { data: member, error } = await useAsyncData(route.path, () =>
   queryCollection(teamCollection)
-    .path(`/${locale.value}/equipo/${slug}`)
+    .path(`/${routeLocale}/equipo/${slug}`)
     .first()
 );
 
