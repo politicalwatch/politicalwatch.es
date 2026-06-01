@@ -1,7 +1,7 @@
 ---
 title: 'Reclamar tus Derechos en la Era Algorítmica: Barreras y Propuestas'
 description: 'Este informe analiza los riesgos que los sistemas algorítmicos y de inteligencia artificial pueden generar para los derechos humanos y digitales, especialmente cuando no existen mecanismos adecuados de protección, reclamación y rendición de cuentas.'
-link: "/documentos/informe-E.16.2-Informe-cocreacion-mecanismos-reclamacion.pdf"
+link: "/documentos/informe-E.16.2-Reclamar-tus-derechos-en-la-era-algoritmica-barreras-y-propuestas.pdf"
 lineOfWork: democracy
 tags:
     - derechos-digitales

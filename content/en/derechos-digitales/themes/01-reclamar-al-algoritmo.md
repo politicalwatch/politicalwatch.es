@@ -8,9 +8,10 @@ summary: "Los algoritmos ya intervienen en decisiones sobre prestaciones, acceso
 discovery: "Hasta 18 meses para resolver una infracción grave sobre algoritmos es una eternidad cuando el daño afecta hoy al empleo, al derecho a una prestación o a la libertad de movimiento."
 proposal: "La cuestión no es frenar la innovación, sino construir la arquitectura que permita exigir lo que todavía falta. Eso implica menos fragmentación institucional, más transparencia algorítmica y mecanismos de reclamación que sean comprensibles, accesibles y compatibles con la urgencia de los daños que producen estos sistemas. Sin eso, los derechos existen, pero no terminan de defender a nadie. Un derecho en papel no es nada sin garantías."
 relatedReports:
-  - title: "La tutela de los derechos frente a los sistemas algorítmicos y de inteligencia artificial"
+  - title: "Reclamar tus derechos en la era algorítmica: barreras y propuestas"
     description: "Cuando un algoritmo causa un daño, hoy no existe un camino claro, comprensible y eficaz para reclamar. Este informe cartografía ese laberinto y propone cómo convertir derechos reconocidos en derechos realmente defendibles."
     conclusion: "Si no hay datos personales identificables de por medio, la vía del RGPD puede quedarse corta o directamente no servir."
+    slug: "reclamar-tus-derechos-en-la-era-algoritmica-barreras-y-propuestas"
   - title: "El impacto de las plataformas digitales de participación ciudadana: Consul y Decidim"
     description: "Analiza qué hace que una plataforma de participación sirva de verdad a la ciudadanía, más allá del software o del entusiasmo tecnológico."
     conclusion: "La participación híbrida, la trazabilidad y la percepción de impacto real importan más que la herramienta en sí."
