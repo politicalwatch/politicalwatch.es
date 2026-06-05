@@ -5,6 +5,16 @@
         <logo viewBox="0 0 256 88" />
       </NuxtLinkLocale>
       <div class="c-footer__address">
+        <ul>
+          <li>
+            <NuxtLinkLocale to="/publicaciones" :aria-label="t(`pages.research.title`)">{{ t('pages.research.title') }}</NuxtLinkLocale>
+          </li>
+          <li>
+            <NuxtLinkLocale to="/transparencia" :aria-label="t(`pages.transparency.title`)">{{ t("pages.transparency.title") }}</NuxtLinkLocale>
+          </li>
+        </ul>
+      </div>
+      <div class="c-footer__address">
         <p>
           Avda. Cardenal Herrera Oria <br />
           63, 3º Izda - 28034, Madrid
