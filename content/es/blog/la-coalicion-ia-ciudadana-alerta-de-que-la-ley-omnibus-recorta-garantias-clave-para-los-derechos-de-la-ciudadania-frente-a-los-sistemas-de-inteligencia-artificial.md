@@ -2,7 +2,7 @@
 title: "La coalición IA ciudadana alerta de que la Ley Ómnibus recorta garantías clave para los derechos de la ciudadanía frente a los sistemas de inteligencia artificial"
 slug: 'la-coalicion-ia-ciudadana-alerta-de-que-la-ley-omnibus-recorta-garantias-clave-para-los-derechos-de-la-ciudadania-frente-a-los-sistemas-de-inteligencia-artificial'
 image: "/images/posts/igor-omilaev-FHgWFzDDAOs-unsplash.jpg"
-description: "Se acerca el 8 de marzo y cada año tenemos el mismo debate en Political Watch. Que mejor calladas que decir tonterías. Que qué vamos a aportar nosotras (y nosotros) a un día siempre lleno de contenidos necesarios y también de oportunistas del #PinkWashing. Y siempre elegíamos el silencio, que es también una manera de hablar."
+description: "El Reglamento de IA de la UE, aprobada tras años de negociación, establecía un conjunto de obligaciones para los sistemas de IA de alto riesgo: que estuvieran registrados públicamente, que fueran auditables, que las personas afectadas pudieran impugnarlos y que organismos independientes pudieran supervisarlos. El AI Omnibus debilita varios de estos mecanismos antes de que hayan tenido oportunidad de aplicarse."
 author: celia-zafra
 createdAt: 2026-06-17
 related:
