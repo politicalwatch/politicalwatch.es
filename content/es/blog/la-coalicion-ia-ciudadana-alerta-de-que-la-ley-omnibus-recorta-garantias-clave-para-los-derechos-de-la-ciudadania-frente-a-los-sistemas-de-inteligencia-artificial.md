@@ -12,7 +12,7 @@ related:
 lineOfWork: democracy
 ---
 
-El Parlamento Europeo aprobó ayer el denominado AI Omnibus, un paquete legislativo presentado como una simplificación del Reglamento  de Inteligencia Artificial (AI Act). Según “IA ciudadana” \-coalición de la que Political Watch forma parte-, el resultado es un retroceso real: se reducen obligaciones de transparencia, se retrasan las garantías hasta 2027, 2028 y en algunos casos hasta 2030, y se complica la supervisión independiente de los sistemas de IA que más pueden afectar a los derechos de las personas. 
+El Parlamento Europeo aprobó ayer el denominado AI Omnibus, un paquete legislativo presentado como una simplificación del Reglamento  de Inteligencia Artificial (AI Act). Según [“IA ciudadana”](https://iaciudadana.org/) \-coalición de la que Political Watch forma parte-, el resultado es un retroceso real: se reducen obligaciones de transparencia, se retrasan las garantías hasta 2027, 2028 y en algunos casos hasta 2030, y se complica la supervisión independiente de los sistemas de IA que más pueden afectar a los derechos de las personas. 
 
 La postura de España, cuyo ministro de Transformación Digital, Óscar López, afirmó: ["Me niego a admitir que haya que desregular la IA para ser competitivo"](https://www.elperiodico.com/es/tecnologia/20250724/oscar-lopez-psoe-ministro-transformacion-digital-espana-gobierno-inteligencia-artificial-administracion-tramites-huawei-119596239), ha perdido, pues, la batalla.
 
