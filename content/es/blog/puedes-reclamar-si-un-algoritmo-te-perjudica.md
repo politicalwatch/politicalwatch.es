@@ -76,8 +76,6 @@ Como concluye el propio informe: «requerirá voluntad política, recursos sufic
 
 **Accede al informe completo y al resumen ejecutivo**
 
-Puedes descargar el [informe y otras investigaciones realizadas](/derechos-digitales) en el marco del convenio entre Political Watch y Red.es. El convenio tiene por objetivo impulsar la implementación de la Carta de Derechos Digitales en el ámbito de los derechos de participación.
-
-Descarga el resumen ejecutivo del informe [aquí](/documentos/informe-A.16.3-resumen-ejecutivo.pdf){target="_blank"}.
+Puedes descargar el [informe](/publicaciones/reclamar-tus-derechos-en-la-era-algoritmica-barreras-y-propuestas), el [resumen ejecutivo](/documentos/informe-A.16.3-resumen-ejecutivo.pdf){target="_blank"} y [otras investigaciones realizadas](/derechos-digitales) en el marco del convenio entre Political Watch y Red.es. El convenio tiene por objetivo impulsar la implementación de la Carta de Derechos Digitales en el ámbito de los derechos de participación.
 
 *Este proyecto está financiado por la Unión Europea (NextGenerationEU) y cuenta con el apoyo de Red.es, el Ministerio para la Transformación Digital y de la Función Pública, la Fundación Hay Derecho y la Fundación Haz.*
