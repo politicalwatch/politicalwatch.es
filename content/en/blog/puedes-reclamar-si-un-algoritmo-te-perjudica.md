@@ -9,7 +9,7 @@ related:
   - pistoletazo-de-salida-de-ampliando-democracia
   - que-hacen-los-diputados-acercando-el-control-parlamentario-a-la-ciudadania
   - la-decada-para-la-accion-necesita-de-herramientas-de-monitoreo-parlamentario-novedades-en-parlamento-2030
-lineOfWork: feminismo
+lineOfWork: democracy
 ---
 
 Imagina que solicitas una ayuda social, un préstamo o un puesto de trabajo. Un sistema automático analiza tu perfil y te descarta. No sabes exactamente por qué. Nadie te explica qué datos usó, qué lógica aplicó ni si cometiste alguna equivocación. ¿A quién llamas? ¿Cómo lo impugnas? Pues en la mayoría de los casos la respuesta es: a nadie, y de ninguna manera, según el nuevo informe de Political Watch.
