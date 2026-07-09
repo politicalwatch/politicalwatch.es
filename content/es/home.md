@@ -11,12 +11,12 @@ featuredItems:
     image: /images/featured-qhld.jpg
     imageAuthor: "Julian David Perez del Basto"
     imageRef: "https://es.wikipedia.org/wiki/Congreso_de_los_Diputados#/media/Archivo:Congreso_de_los_diputados,_Madrid_Espa%C3%B1a.jpg"
-  - title: "Ampliando Democracia"
-    subtitle: "Una plataforma en crecimiento de renovación democrática"
-    description: "A través de la deliberación ciudadana y la inteligencia colectiva generamos innovaciones escalables para gobernar mejor. Nuestro trabajo convierte el diálogo en propuestas de política pública y en infraestructuras democráticas de largo plazo. Invertir en esta iniciativa significa apoyar un nuevo ecosistema democrático: resiliente, participativo y preparado para afrontar los desafíos globales de hoy."
+  - title: "Derechos digitales & participación"
+    subtitle: "Investigamos sobre el potencial de la tecnología para la participación ciudadana"
+    description: "Los derechos digitales también son derechos humanos, incluido el de participar en la vida pública. El acceso a la información, la transparencia, la rendición de cuentas o la no discriminación se exigen también en esta esfera, que tiene además un enorme potencial para mejorar la calidad de nuestra democracia."
     button: "Quiero saber más"
-    link: "https://ampliandodemocracia.org"
-    image: /images/featured-ad.jpg
+    link: "/derechos-digitales"
+    image: /images/featured-dd.png
     imageAuthor: 
     imageRef: 
 
