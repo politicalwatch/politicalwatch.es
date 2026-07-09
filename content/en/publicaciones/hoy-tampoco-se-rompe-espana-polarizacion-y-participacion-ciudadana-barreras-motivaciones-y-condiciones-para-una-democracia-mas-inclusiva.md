@@ -5,7 +5,9 @@ link: "/documentos/Polarizacion-y-participacion-ciudadana_JUL2026.pdf"
 lineOfWork: democracy
 tags:
     - democracia
+    - participacion
     - polarizacion
+    - convivencia
 
 createdAt: 2026-07-09
 ---
