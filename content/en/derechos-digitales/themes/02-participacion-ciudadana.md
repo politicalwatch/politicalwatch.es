@@ -8,6 +8,10 @@ summary: "España no tiene un déficit de canales de participación ciudadana. T
 discovery: "La mitad de las consultas públicas estatales no recibe aportaciones. En las consultas previas, ese porcentaje asciende al 70%."
 proposal: "Los procesos que construyen confianza comparten tres rasgos: están diseñados desde la perspectiva de quien participa, incorporan mecanismos de retorno verificables y combinan formatos para no dejar fuera a quien un modelo puramente online expulsaría desde el primer clic. Participar de verdad no consiste en abrir un formulario. Consiste en demostrar que lo que la ciudadanía aporta puede mover algo."
 relatedReports:
+  - title: "Hoy tampoco se rompe España: «Polarización y participación ciudadana: barreras, motivaciones y condiciones para una democracia más inclusiva»"
+    description: "Analiza por primera vez la relación entre la polarización social y la movilización de la ciudadanía en nuestro país."
+    conclusion: "Los datos son esperanzadores: más del 70% de los encuestados no rompe vínculos cercanos por diferencias ideológicas y 9 de cada 10 personas están dispuestas a participar en la vida pública. Son las administraciones las que tienen el reto de procesos institucionales que consigan atraerlas."
+    slug: "hoy-tampoco-se-rompe-espana-polarizacion-y-participacion-ciudadana-barreras-motivaciones-y-condiciones-para-una-democracia-mas-inclusiva"
   - title: "Metodologías de futuros y participación ciudadana"
     description: "Explora cómo los enfoques de escenarios, backcasting y foresight pueden mejorar la calidad deliberativa y ampliar quién participa y con qué horizonte temporal."
     conclusion: "La anticipación solo sirve si hay facilitación imparcial, materiales accesibles y una trazabilidad clara entre aportaciones y decisiones."
