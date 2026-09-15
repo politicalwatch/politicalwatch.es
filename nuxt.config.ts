@@ -67,15 +67,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: [
-    "@nuxt/content",
-    "@nuxtjs/i18n",
-    "@nuxtjs/google-fonts",
-    "@nuxtjs/sitemap",
-    "nuxt-gtag",
-    "@nuxt/image",
-    "@netlify/nuxt",
-  ],
+  modules: ["@nuxt/content", "@nuxtjs/i18n", "@nuxtjs/google-fonts", "@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/image"],
   vite: {
     plugins: [svgLoader()],
     css: {
