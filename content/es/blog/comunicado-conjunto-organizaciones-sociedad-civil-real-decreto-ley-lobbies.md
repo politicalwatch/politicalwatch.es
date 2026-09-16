@@ -1,5 +1,5 @@
 ---
-title: "La sociedad civil pide al Congreso que apruebe mañana una asignatura pendiente: regular el lobby"
+title: "La sociedad civil pide al Congreso que apruebe una asignatura pendiente: regular el lobby"
 slug: 'comunicado-conjunto-organizaciones-sociedad-civil-real-decreto-ley-lobbies'
 image: "/images/posts/comunicado-conjunto-organizaciones-sociedad-civil-real-decreto-ley-lobbies-logos.jpg"
 description: "Las organizaciones firmantes reclaman la convalidación del Real Decreto-ley para regular los grupos de interés y su posterior tramitación como Proyecto de Ley para mejorar el texto, incorporar nuevas aportaciones y reforzar el consenso parlamentario."
