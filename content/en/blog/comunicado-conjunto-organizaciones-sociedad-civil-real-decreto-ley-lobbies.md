@@ -1,7 +1,7 @@
 ---
 title: "La sociedad civil pide al Congreso que apruebe una asignatura pendiente: regular el lobby"
 slug: 'comunicado-conjunto-organizaciones-sociedad-civil-real-decreto-ley-lobbies'
-image: "/images/posts/comunicado-conjunto-organizaciones-sociedad-civil-real-decreto-ley-lobbies-logos.jpg"
+image: "/images/posts/congreso-interior.jpg"
 description: "Las organizaciones firmantes reclaman la convalidación del Real Decreto-ley para regular los grupos de interés y su posterior tramitación como Proyecto de Ley para mejorar el texto, incorporar nuevas aportaciones y reforzar el consenso parlamentario."
 author: celia-zafra
 createdAt: 2026-09-15
@@ -13,9 +13,11 @@ lineOfWork:
 
 - ***El texto incorpora numerosas enmiendas planteadas por los distintos grupos parlamentarios***
 
-****Madrid, 15 de septiembre de 2026.**** Coincidiendo con la celebración del ****Día Internacional de la Democracia****, 13 organizaciones firmantes hacemos un llamamiento a los <span class="mark">grupos parlamentarios del Congreso de los Diputados para que apoyen este miércoles 16, la convalidación del Real Decreto-ley de transparencia e integridad de las actividades de los grupos de interés, conocida como el Real Decreto Ley de Lobbies, y acuerden, al mismo tiempo, su posterior tramitación como Proyecto de Ley.</span>
+Coincidiendo con la celebración del ****Día Internacional de la Democracia****, 13 organizaciones firmantes hacemos un llamamiento a los <span class="mark">grupos parlamentarios del Congreso de los Diputados para que apoyen este miércoles 16, la convalidación del Real Decreto-ley de transparencia e integridad de las actividades de los grupos de interés, conocida como el Real Decreto Ley de Lobbies, y acuerden, al mismo tiempo, su posterior tramitación como Proyecto de Ley.</span>
 
-***La democracia no consiste únicamente en votar: también exige saber cómo se toman las decisiones públicas y quién participa e influye en ellas. En el Día Internacional de la Democracia, España tiene ante sí la oportunidad de cerrar una asignatura pendiente y dotarse, por fin, de reglas que hagan esa interlocución más transparente, íntegra y sometida a rendición de cuentas.***
+![Logos de las organizaciones de la sociedad civil firmantes](images/posts/comunicado-conjunto-organizaciones-sociedad-civil-real-decreto-ley-lobbies-logos.jpg)
+
+> La democracia no consiste únicamente en votar: también exige saber cómo se toman las decisiones públicas y quién participa e influye en ellas. En el Día Internacional de la Democracia, España tiene ante sí la oportunidad de cerrar una asignatura pendiente y dotarse, por fin, de reglas que hagan esa interlocución más transparente, íntegra y sometida a rendición de cuentas.
 
 Esta regulación supone un avance largamente esperado para reforzar la transparencia, la integridad institucional y la calidad democrática en España. Ello no impide reconocer que tanto el procedimiento seguido para su aprobación como determinados aspectos de su contenido son susceptibles de mejora. Precisamente por este motivo, entendemos que la opción más adecuada es **convalidar la norma para preservar sus avances y abrir posteriormente su tramitación parlamentaria para perfeccionarla y ampliar el consenso**.
 
