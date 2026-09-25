@@ -3,6 +3,12 @@ title: Home
 subtitle: "Political Watch is an independent organisation with a global outlook, based in Spain. We specialise in research for social change, political advocacy and the development of pro-democratic technology. We promote public policies that are transparent, participatory, and more effective. Our work imagines the democracy of tomorrow while forging alliances to strengthen the institutions of today."
 
 featuredItems:
+  - title: "Vinculante"
+    subtitle: "La participación que deja huella"
+    description: "Vinculante.ai analiza las aportaciones de un proceso participativo para identificar de manera automática de qué forma han quedado recogidas, con qué grado y explicando el por qué. Trazabilidad verificable entre lo que se propuso y el texto que finalmente vio la luz."
+    button: "Quiero saber más"
+    link: "https://vinculante.ai"
+    image: /images/featured-vinculante.png
   - title: "Qué Hacen Los Diputados"
     subtitle: "Our flagship tool for keeping track of what your political representatives get up to."
     description: "It simplifies and clearly lays out the work done in Congress, and is invaluable for journalists, researchers and NGOs pursuing legislative change. It includes trackers for 41 social issues, as well as an index of parliamentary activity."
@@ -17,8 +23,6 @@ featuredItems:
     button: "Quiero saber más"
     link: "/derechos-digitales"
     image: /images/featured-dd.png
-    imageAuthor: 
-    imageRef: 
 
 alliances:
   - image: '/images/alliances/cfall-logo.svg'
