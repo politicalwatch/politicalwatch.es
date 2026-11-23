@@ -124,7 +124,12 @@ export default defineNuxtConfig({
     ],
     strategy: 'prefix_and_default',
     defaultLocale: "es",
-    detectBrowserLanguage: false,
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+      fallbackLocale: "es",
+    },
     baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,
     skipSettingLocaleOnNavigate: true,
   },
