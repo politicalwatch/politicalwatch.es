@@ -4,9 +4,9 @@ subtitle: "Political Watch is an independent organisation with a global outlook,
 
 featuredItems:
   - title: "Vinculante"
-    subtitle: "La participación que deja huella"
-    description: "Vinculante.ai analiza las aportaciones de un proceso participativo para identificar de manera automática de qué forma han quedado recogidas, con qué grado y explicando el por qué. Trazabilidad verificable entre lo que se propuso y el texto que finalmente vio la luz."
-    button: "Quiero saber más"
+    subtitle: "Participation that leaves a footprint"
+    description: "Vinculante.ai analyzes the contributions made during a participatory process to automatically identify how they were incorporated, to what extent, and why. Verifiable traceability between what was proposed and the final text that was published."
+    button: "I want to learn more"
     link: "https://vinculante.ai"
     image: /images/featured-vinculante.png
   - title: "Qué Hacen Los Diputados"
