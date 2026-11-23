@@ -67,7 +67,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxt/content", "@nuxtjs/i18n", "@nuxtjs/google-fonts", "@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/image"],
+  modules: ["@nuxt/content", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/image"],
   vite: {
     plugins: [svgLoader()],
     css: {
@@ -128,12 +128,12 @@ export default defineNuxtConfig({
     baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,
     skipSettingLocaleOnNavigate: true,
   },
-  googleFonts: {
-    families: {
-      Roboto: true,
-      Montserrat: [300, 800, 900],
-      'DM Serif Display': { wght: [400], ital: true },
-    },
+  fonts: {
+    families: [
+      { name: "Roboto", provider: "google", weights: ["300 900"], styles: ["normal", "italic"] },
+      { name: "Montserrat", provider: "google", weights: ["300 900"], styles: ["normal", "italic"] },
+      { name: "DM Serif Display", provider: "google", weights: [400], styles: ["normal", "italic"] },
+    ],
   },
   gtag: {
     initMode: "manual",

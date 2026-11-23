@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "@nuxt/a11y": "^1.0.0-alpha.1",
+    "@nuxt/fonts": "^1.2.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/sitemap": "^8.0.0",
-    "nuxt": "^4.5.2",
+    "nuxt": "^4.6.4",
     "nuxt-gtag": "^5.0.0",
     "nuxt-studio": "^1.0.0",
     "vite-svg-loader": "^5.1.0"
@@ -35,8 +35,10 @@
   },
   "allowScripts": {
     "better-sqlite3@12.11.1": true,
-    "esbuild@0.28.0": true,
-    "sharp@0.34.5": true,
-    "@parcel/watcher@2.5.6": true
+    "esbuild@0.28.2": true,
+    "@parcel/watcher@2.6.0": true,
+    "fsevents": false,
+    "sharp@0.35.5": true,
+    "sharp@0.34.5": true
   }
 }
