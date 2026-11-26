@@ -1,5 +1,8 @@
 import svgLoader from "vite-svg-loader";
 
+// Public site URL (no trailing slash).
+const siteUrl = (process.env.NUXT_PUBLIC_BASE_URL || "https://politicalwatch.es").replace(/\/$/, "");
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: true,
@@ -7,7 +10,7 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-07-05",
   runtimeConfig: {
     public: {
-      baseURL: "https://politicalwatch.es/",
+      baseURL: siteUrl,
     },
   },
   routeRules: {
@@ -47,7 +50,7 @@ export default defineNuxtConfig({
         },
         {
           property: "og:image",
-          content: `${import.meta.env.NUXT_PUBLIC_BASE_URL}/politicalwatch.jpg`,
+          content: `${siteUrl}/politicalwatch.jpg`,
         },
         {
           property: "twitter:title",
@@ -55,7 +58,7 @@ export default defineNuxtConfig({
         },
         {
           property: "twitter:image",
-          content: `${import.meta.env.NUXT_PUBLIC_BASE_URL}/politicalwatch.jpg`,
+          content: `${siteUrl}/politicalwatch.jpg`,
         },
       ],
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
@@ -159,6 +162,6 @@ export default defineNuxtConfig({
   },
   css: ["~/assets/css/main.scss"],
   site: {
-    url: import.meta.env.NUXT_PUBLIC_BASE_URL,
+    url: siteUrl,
   },
 });
