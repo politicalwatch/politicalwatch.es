@@ -28,39 +28,22 @@ export default defineNuxtConfig({
     head: {
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "Political Watch",
-      titleTemplate: "%s | Political Watch",
+      // Title template, canonical, og:url, og:site_name, og:locale and og/twitter
+      // title+description come from @nuxtjs/seo (site config below).
       meta: [
         {
           name: "keywords",
           content:
             "transparencia, rendición de cuentas, desarrollo sostenible, innovación social, política, coherencia de políticas, agenda 2030, ods, empresa y derechos humanos",
         },
-        {
-          property: "og:site_name",
-          content: "Political Watch",
-        },
-        {
-          property: "og:type",
-          content: "website",
-        },
-        {
-          property: "og:title",
-          content: "Political Watch",
-        },
-        {
-          property: "og:image",
-          content: `${siteUrl}/politicalwatch.jpg`,
-        },
-        {
-          property: "twitter:title",
-          content: "Political Watch",
-        },
-        {
-          property: "twitter:image",
-          content: `${siteUrl}/politicalwatch.jpg`,
-        },
+        // Default social card; pages with their own image override og:image.
+        { property: "og:image", content: `${siteUrl}/politicalwatch.jpg` },
+        { property: "og:image:width", content: "1200" },
+        { property: "og:image:height", content: "630" },
+        { property: "og:image:alt", content: "Political Watch" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
+      // apple-touch-icon.png in public/ is picked up by @nuxtjs/seo
       link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }],
       script: [
         {
@@ -70,7 +53,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-  modules: ["@nuxt/content", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxtjs/sitemap", "nuxt-gtag", "@nuxt/image"],
+  modules: ["@nuxt/content", "@nuxtjs/i18n", "@nuxt/fonts", "@nuxtjs/seo", "nuxt-gtag", "@nuxt/image"],
   vite: {
     plugins: [svgLoader()],
     css: {
@@ -133,7 +116,7 @@ export default defineNuxtConfig({
       redirectOn: "root",
       fallbackLocale: "es",
     },
-    baseUrl: import.meta.env.NUXT_PUBLIC_BASE_URL,
+    baseUrl: siteUrl,
     skipSettingLocaleOnNavigate: true,
   },
   fonts: {
@@ -161,7 +144,21 @@ export default defineNuxtConfig({
     ],
   },
   css: ["~/assets/css/main.scss"],
+  // @nuxtjs/seo: shared site identity for sitemap, robots, schema.org and meta defaults
   site: {
     url: siteUrl,
+    name: "Political Watch",
+  },
+  ogImage: {
+    // Static social card: public/politicalwatch.jpg
+    enabled: false,
+  },
+  schemaOrg: {
+    identity: {
+      type: "Organization",
+      name: "Political Watch",
+      url: siteUrl,
+      logo: `${siteUrl}/apple-touch-icon.png`,
+    },
   },
 });

@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxt/content": "^3.7.1",
     "@nuxtjs/i18n": "^10.1.1",
+    "@nuxtjs/seo": "^6.1.0",
     "better-sqlite3": "^12.2.0",
     "date-fns": "^4.0.0",
     "normalize.css": "^8.0.1",
@@ -24,7 +25,6 @@
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/fonts": "^1.2.0",
     "@nuxt/image": "^2.0.0",
-    "@nuxtjs/sitemap": "^8.0.0",
     "nuxt": "^4.6.4",
     "nuxt-gtag": "^5.0.0",
     "nuxt-studio": "^1.0.0",

@@ -51,8 +51,6 @@
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 
 const { t, te } = useI18n();
-const config = useRuntimeConfig();
-const route = useRoute();
 const routeLocale = useRouteLocale();
 
 const blogCollection = `blog_${routeLocale}` as 'blog_es' | 'blog_en';
@@ -95,40 +93,10 @@ const { data: posts } = await useAsyncData(`posts-blog-${routeLocale}`, async ()
   };
 });
 
-useHead({
+useHead({ htmlAttrs: { lang: "es" } });
+useSeoMeta({
   title: t("pages.blog.title"),
-  description: te("pages.blog.description")
-    ? t("pages.blog.description")
-    : t("pages.blog.title"),
-  htmlAttrs: {
-    lang: "es",
-  },
-  meta: [
-    {
-      property: "og:description",
-      content: te("pages.blog.description")
-        ? t("pages.blog.description")
-        : t("pages.blog.title"),
-    },
-    {
-      property: "og:title",
-      content: `${t("pages.blog.title")} | Political Watch`,
-    },
-    {
-      property: "og:url",
-      content: `${config.public.baseURL}${route.path}`,
-    },
-    {
-      property: "twitter:description",
-      content: te("pages.blog.description")
-        ? t("pages.blog.description")
-        : t("pages.blog.title"),
-    },
-    {
-      property: "twitter:title",
-      content: `${t("pages.blog.title")} | Political Watch`,
-    },
-  ],
+  description: te("pages.blog.description") ? t("pages.blog.description") : t("pages.blog.title"),
 });
 </script>
 

@@ -143,49 +143,12 @@ const { data: related } = await useAsyncData(
   }
 );
 
-useHead({
-  title: `${post.value?.title} | Political Watch`,
-  htmlAttrs: {
-    lang: "es",
-  },
-  meta: [
-    {
-      name: "description",
-      content: post.value?.description || post.value?.title,
-    },
-    {
-      property: "og:description",
-      content: post.value?.description || post.value?.title,
-    },
-    {
-      property: "og:title",
-      content: `${post.value?.title} | Political Watch`,
-    },
-    {
-      property: "og:type",
-      content: "article",
-    },
-    {
-      property: "og:url",
-      content: `${config.public.baseURL}${route.path}`,
-    },
-    {
-      property: "og:image",
-      content: `${config.public.baseURL}${post.value?.image}`,
-    },
-    {
-      property: "twitter:description",
-      content: post.value?.description || post.value?.title,
-    },
-    {
-      property: "twitter:title",
-      content: `${post.value?.title} | Political Watch`,
-    },
-    {
-      property: "twitter:image",
-      content: `${config.public.baseURL}${post.value?.image}`,
-    },
-  ],
+useHead({ htmlAttrs: { lang: "es" } });
+useSeoMeta({
+  title: post.value?.title,
+  description: post.value?.description || post.value?.title,
+  ogType: "article",
+  ogImage: post.value?.image,
 });
 </script>
 

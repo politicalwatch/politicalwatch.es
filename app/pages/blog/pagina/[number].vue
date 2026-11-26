@@ -34,7 +34,6 @@
 import BlogListPost from "@/components/global/BlogListPost.vue";
 
 const route = useRoute();
-const config = useRuntimeConfig();
 const { t, te } = useI18n();
 const routeLocale = useRouteLocale();
 
@@ -79,46 +78,9 @@ const linkPrev = computed(() => {
   return prevPage > 0 ? `/blog/pagina/${prevPage}` : "/blog";
 });
 
-useHead({
+useHead({ htmlAttrs: { lang: "es" } });
+useSeoMeta({
   title: `${t("pages.blog.title")}: página ${currentPage}`,
-  htmlAttrs: {
-    lang: "es",
-  },
-  meta: [
-    {
-      name: "description",
-      content: te("pages.blog.description")
-        ? t("pages.blog.description")
-        : t("pages.blog.title"),
-    },
-    {
-      property: "og:description",
-      content: te("pages.blog.description")
-        ? t("pages.blog.description")
-        : t("pages.blog.title"),
-    },
-    {
-      property: "og:title",
-      content: `${t(
-        "pages.blog.title"
-      )}: página ${currentPage} | Political Watch`,
-    },
-    {
-      property: "og:url",
-      content: `${config.public.baseURL}${route.path}`,
-    },
-    {
-      property: "twitter:description",
-      content: te("pages.blog.description")
-        ? t("pages.blog.description")
-        : t("pages.blog.title"),
-    },
-    {
-      property: "twitter:title",
-      content: `${t(
-        "pages.blog.title"
-      )}: página ${currentPage} | Political Watch`,
-    },
-  ],
+  description: te("pages.blog.description") ? t("pages.blog.description") : t("pages.blog.title"),
 });
 </script>

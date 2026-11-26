@@ -60,9 +60,8 @@ import twitter from "@/assets/images/member-twitter.svg?component";
 import github from "@/assets/images/member-github.svg?component";
 import linkedin from "@/assets/images/member-linkedin.svg?component";
 
-const config = useRuntimeConfig();
 const route = useRoute();
-const { t, te, locale } = useI18n();
+const { t, te } = useI18n();
 const routeLocale = useRouteLocale();
 
 const slug = route.params.slug.join("/");
@@ -74,45 +73,10 @@ const { data: member, error } = await useAsyncData(route.path, () =>
     .first()
 );
 
-useHead({
-  title: `${member.value?.name} | Political Watch`,
-  htmlAttrs: {
-    lang: locale.value,
-  },
-  meta: [
-    {
-      name: "description",
-      content: member.value?.position,
-    },
-    {
-      property: "og:description",
-      content: member.value?.position,
-    },
-    {
-      property: "og:title",
-      content: `${member.value?.name} | Political Watch`,
-    },
-    {
-      property: "og:url",
-      content: `${config.public.baseURL}${route.path}`,
-    },
-    {
-      property: "og:image",
-      content: `${config.public.baseURL}${member.value?.avatar}`,
-    },
-    {
-      property: "twitter:description",
-      content: member.value?.position,
-    },
-    {
-      property: "twitter:title",
-      content: `${member.value?.name} | Political Watch`,
-    },
-    {
-      property: "twitter:image",
-      content: `${config.public.baseURL}${member.value?.avatar}`,
-    },
-  ],
+useSeoMeta({
+  title: member.value?.name,
+  description: member.value?.position,
+  ogImage: member.value?.avatar,
 });
 </script>
 

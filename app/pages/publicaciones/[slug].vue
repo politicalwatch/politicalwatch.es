@@ -63,7 +63,6 @@ import { es } from "date-fns/locale";
 import OnlyInSpanish from "@/components/global/OnlyInSpanish.vue";
 import download from "@/assets/images/icon-download.svg?component";
 
-const config = useRuntimeConfig();
 const route = useRoute();
 const { t, locale } = useI18n();
 const routeLocale = useRouteLocale();
@@ -90,37 +89,9 @@ const getAnchorText = (link: string) => {
   return t("blocks.research.buttonLink");
 };
 
-useHead({
-  title: `${research.value?.title} | Political Watch`,
-  htmlAttrs: {
-    lang: locale.value,
-  },
-  meta: [
-    {
-      name: "description",
-      content: research.value?.description || research.value?.title,
-    },
-    {
-      property: "og:description",
-      content: research.value?.description || research.value?.title,
-    },
-    {
-      property: "og:title",
-      content: `${research.value?.title} | Political Watch`,
-    },
-    {
-      property: "og:url",
-      content: `${config.public.baseURL}${route.path}`,
-    },
-    {
-      property: "twitter:description",
-      content: research.value?.description || research.value?.title,
-    },
-    {
-      property: "twitter:title",
-      content: `${research.value?.title} | Political Watch`,
-    },
-  ],
+useSeoMeta({
+  title: research.value?.title,
+  description: research.value?.description || research.value?.title,
 });
 </script>
 

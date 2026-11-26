@@ -12,17 +12,10 @@
 definePageMeta({ layout: 'default' });
 
 const { t } = useI18n();
-const config = useRuntimeConfig();
-const route = useRoute();
 
-useHead({
+useSeoMeta({
   title: t('pages.derechosDigitales.title'),
-  meta: [
-    { name: 'description', content: t('pages.derechosDigitales.description') },
-    { property: 'og:description', content: t('pages.derechosDigitales.description') },
-    { property: 'og:title', content: t('pages.derechosDigitales.title') },
-    { property: 'og:url', content: `${config.public.baseURL}${route.path}` },
-  ],
+  description: t('pages.derechosDigitales.description'),
 });
 </script>
 
